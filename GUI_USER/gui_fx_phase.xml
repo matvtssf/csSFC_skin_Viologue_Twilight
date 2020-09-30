@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUI w="1024" h="560" backgroundColor="#44444401">
+	<CS01ViewContainer1 x="687" y="289" w="290" h="160" backgroundColor="#707372FF">
+<!--		<CS01TextButton controlTag="12312313" x="12" y="5" w="50" style="SettingsViewButtons" text="Close"/> -->
+
+		<StaticText text="Filter" x="5" y="21" w="32" h="12" alignment="center" font="SFCHEADING_12" />
+		<CS01OnOffButton          param="009" x="50" y="14" style="onOffButtonPhase_24" on_value="1" off_value="0" roundedRatio="0.3" offColor="#54585aFF" />
+		<StaticText text="0k"  x="50" y="41" w="24" h="15" font="SFC_11" style="StaticTextColor" alignment="center"/>
+
+		<CS03Knob style="SPCFXKnob3"  param="010" x="081" y="9" knob_x="16" w="54" label_w="54" labelText="4k" valueText_format="%1.2f" factor="1" vmin="0" vdefault="0" vmax="1" stepped="0"/>
+		<CS03Knob style="SPCFXKnob3"  param="011" x="132" y="9" knob_x="16" w="54" label_w="54" labelText="8k" valueText_format="%1.2f" factor="1" vmin="0" vdefault="0" vmax="1" stepped="0"/>
+		<CS03Knob style="SPCFXKnob3"  param="012" x="183" y="9" knob_x="16" w="54" label_w="54" labelText="12k" valueText_format="%1.2f" factor="1" stepped="0"/>
+		<CS01OnOffButton          param="013" x="244" y="14" style="onOffButtonPhase_24" on_value="1" off_value="0" roundedRatio="0.3" offColor="#54585aFF" />		
+		<StaticText text="16k"  x="244" y="41" w="24" h="15" font="SFC_11" style="StaticTextColor" alignment="center"/>
+
+		<!--Dry invert-->
+		<StaticText text="Dry" font="SFC_11"  x="66" y="80" w="20" h="14"  style="StaticTextColor" alignment="left"/>
+		<CS01OnOffButton style="onOffButtonPhase" param="016" x="116" y="80"/>
+
+		<!--Wet invert-->
+		<StaticText text="Wet" font="SFC_11"               x="66" y="105" w="20" h="14"  style="StaticTextColor" alignment="left"/>
+		<CS01OnOffButton style="onOffButtonPhase" param="017" x="116" y="105"/>
+
+		<!--FBk invert-->
+		<StaticText text="Feedback" font="SFC_11"          x="66"  y="130" w="50" h="14" style="StaticTextColor" alignment="left"/>
+		<CS01OnOffButton style="onOffButtonPhase" param="018" x="116" y="130"/>
+	
+		<!--DryL invert-->
+		<StaticText text="Left Dry" font="SFC_11"          x="160" y="80" w="45" h="14"  style="StaticTextColor" alignment="left"/>
+		<CS01OnOffButton style="onOffButtonPhase" param="019" x="211" y="80"/>
+
+		<!--WetL invert-->
+		<StaticText text="Left Wet" font="SFC_11"          x="160" y="105" w="45" h="14" style="StaticTextColor" alignment="left"/>
+		<CS01OnOffButton style="onOffButtonPhase" param="020" x="211" y="105"/>
+
+		<!--Explode-->
+		<StaticText text="Explode" font="SFC_11"           x="160" y="130" w="45" h="14" style="StaticTextColor" alignment="left"/>
+		<CS01OnOffButton style="onOffButtonPhaseExplode" param="021" x="211" y="130" />
+
+	</CS01ViewContainer1>
+</GUI>

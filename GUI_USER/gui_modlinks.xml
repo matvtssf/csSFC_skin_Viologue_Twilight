@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUI w="1024" h="471" backgroundColor="#44444401">
+	<CS01ViewContainer1 x="62" y="5" w="900" h="435" style="ModLinksViewContainer1">
+
+		<CS01ModulationLinksContainer param="DID_CUSTOM_DATA" x="30" y="0" w="900" h="430" backgroundColor="#00000000" links_x="0" links_y="20" links_w="845" links_h="346" 
+			font="SFC_11" color_text="#FFFFFFBB" frameWidth="1" frameColor="#00000000" drawFill="1" style="ModulationLinksContainer" fill_roundedRatio="0.2" drawFrame="0" minRows="2" maxRows="100" 
+			scrollbarWidth="6" token0=";" token1="=" deleteIconType="1" dataTarget="com.Plogue.Emulator.SFC|0|30D3|0"
+			addIcon_x="645" addIcon_y="0" addIcon_w="20" addIcon_h="20" addIconType="1" addIconRoundedRect="0.2" addIconLineWidth="2" addIconLineColor="#FFFFFFBB" 			tabSelectionViewName="main" tabSelectionIndex="2" skipScroll="1"
+			rangeSliderMargin_x="0" rangeSliderMargin_y="0" rangeSliderDisplay_w="40" rangeSliderDisplay_h="20" rangeSliderSpacing="3" rangeSlider_w="114" rangeSlider_h="12" rangeSlider_y="4"
+			rangeSliderKnob_y="2" rangeSliderKnob_w="2" rangeSliderKnob_h="16" checkBox_x="10" checkBox_y="5" checkBox_w="10" checkBox_h="10" >
+			
+			<CS01TextButton role="addRow"    x="285" y="396" w="100" style="ModLinksViewButtons" text="Add Modulation" font="SFC_11"/>
+			<CS01TextButton role="deleteAll" x="400" y="396" w="100" style="ModLinksViewButtons" text="Delete All" font="SFC_11"/>
+
+			<CS01ModulationLinksColumn x="5"   y="0" w="80"  h="20" controltype="dynamicMenu"     entryType="string"    alignment="center" textMargin="4" name="Source" colChanged="1;4;5;6" keyword="SOURCE" dataSourceType="source"/>
+			<CS01ModulationLinksColumn x="90"  y="0" w="80"  h="20" controltype="dynamicMenu"     entryType="string"    alignment="center" textMargin="4" name="Function" keyword="SOURCE_FUNC" dataSourceType="func" colAvail="0" colAvailExFlag="8"/>
+			<CS01ModulationLinksColumn x="175" y="0" w="80"  h="20" controltype="dynamicMenu"     entryType="string"    alignment="center" textMargin="4" name="Control" keyword="CONTROL" dataSourceType="source2" dataSourceFilterFlag="1"/>
+			<CS01ModulationLinksColumn x="260" y="0" w="80"  h="20" controltype="dynamicMenu"     entryType="string"    alignment="center" textMargin="4" name="Function" keyword="CONTROL_FUNC" dataSourceType="func"/>
+			<CS01ModulationLinksColumn x="345" y="0" w="200" h="20" controltype="dynamicMenu"     entryType="string"    alignment="center" textMargin="4" name="Destination" dataSourceType="destination" colChanged="0;7" keyword="DESTINATION"/>
+<!-- colChanged="0;5;7" -->			<CS01ModulationLinksColumn x="550" y="0" w="200" h="20" controltype="rangeSliderEdit" entryType="double"    alignment="center" textMargin="4" name="Range" keywords="OFFSET;AMOUNT" entryDefault="1.0" entryDefaultD1="0.0" entryDefaultD2="1.0" entryDisplayScale="100" entryDisplayString="%.2f %%" entryMin="-1.0" entryMax="1.0" colAvail="0" colAvailExFlag="2" ex1ExFlag="16"/>
+			<CS01ModulationLinksColumn x="755" y="0" w="30"  h="20" controltype="checkBox"        entryType="int"       alignment="center" textMargin="4" name="Inv" keyword="INV" entryDefault="0" entryMin="0" entryMax="1" colAvail="0" colAvailExFlag="2"/>
+			<CS01ModulationLinksColumn x="790" y="0" w="60"  h="20" controltype="dynamicMenu"     entryType="string"    alignment="center" textMargin="4" name="Math" colChanged="4" keyword="MATH" dataSourceType="math"/>
+			<CS01ModulationLinksColumn x="770" y="0" w="20"  h="20" controltype="deleteRow"       entryType="deleteRow" alignment="center"/>
+		</CS01ModulationLinksContainer>
+	</CS01ViewContainer1>
+</GUI>
