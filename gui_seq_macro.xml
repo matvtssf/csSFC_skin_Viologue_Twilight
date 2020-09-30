@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUI w="1024" h="471">
+
+	<CS01ScrollViewPageController x="905" y="35" w="100" h="20" type="0" style="ScrollViewPageController" frameColor="#FFFFFF00" 
+			frameDraw="1" scrollViewName="modulatorsScrollView" image_1="SVLeft.svg" image_2="SVRight.svg" image_1HL="SVLeftHL.svg" image_2HL="SVRightHL.svg" disabledLuminanceChange="-0.2" 
+			name="modulatorsScrollViewPageController" showPageName="1" showPageNameType="2" font="SFC_12" 
+			circleEdit="0" circleEditColor="#808080CC" showPageNameCheckCurrentValue="1">
+		<PageName idx="0" name="Step 1, 2"/>
+		<PageName idx="1" name="Step 3, 4"/>
+		<PageName idx="2" name="Step 5, 6"/>
+		<PageName idx="3" name="Step 7, 8"/>
+		<PageName idx="4" name="Step 9, 10"/>
+		<PageName idx="5" name="Step 11, 12"/>
+		<PageName idx="6" name="Step 13, 14"/>
+		<PageName idx="7" name="Step 15"/>
+	</CS01ScrollViewPageController>
+
+	<RoundedRect              x="5"   y="0" w="1014" h="364" roundedRectRatio="0.07" style="SPCLayer"/>
+	<RoundedRect              x="5"   y="84" w="1014" h="359" roundedRectRatio="0.07" style="SPCLayer"/>
+	<Rect					  x="979" y="0" w="40" h="40" style="SPCLayer"/>
+
+	<ScrollView x="0" y="5" w="900" h="438" scrollbarwidth="0" internalwidth="7200" internalheight="451" backgroundColor="#333333FF" showScrollbars="0" name="modulatorsScrollView">
+
+		<CS01ViewContainerManager param="DID_CUSTOM_DATA" dataTarget="com.Plogue.Emulator.SFC|0|30D3|0"/>
+
+		<CS01ViewConfigurationSet name="STEP0" parentGroupName="modulators" createCopies="1" copiesPrefix="STEPEDIT0_">
+
+			<CSViewConfiguration name="none">
+				<CS01ViewAssoc container="STEP0" containee="none"/>
+			</CSViewConfiguration>
+
+			<CSViewConfiguration name="L01 Sample">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L01 Sample" defines="VMIN=0;VMAX=16;STEPMODES=0;VDEFAULT=16"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L01 Noise">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L01 Noise" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L01 Pan">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L01 Pan" defines="VMIN=-128;VMAX=128;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L01 Echo">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L01 Echo" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=1"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L01 Invert L">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L01 Invert L" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L01 Invert R">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L01 Invert R" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+
+			<CSViewConfiguration name="L02 Sample">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L02 Sample" defines="VMIN=0;VMAX=16;STEPMODES=0;VDEFAULT=16"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L02 FM">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L02 FM" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L02 Noise">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L02 Noise" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L02 Pan">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L02 Pan" defines="VMIN=-128;VMAX=128;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L02 Echo">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L02 Echo" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=1"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L02 Invert L">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L02 Invert L" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L02 Invert R">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L02 Invert R" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+
+			<CSViewConfiguration name="L03 Sample">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L03 Sample" defines="VMIN=0;VMAX=16;STEPMODES=0;VDEFAULT=16"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L03 FM">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L03 FM" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L03 Noise">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L03 Noise" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L03 Pan">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L03 Pan" defines="VMIN=-128;VMAX=128;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L03 Echo">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L03 Echo" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=1"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L03 Invert L">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L03 Invert L" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L03 Invert R">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L03 Invert R" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+
+
+			<CSViewConfiguration name="L04 Sample">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L04 Sample" defines="VMIN=0;VMAX=16;STEPMODES=0;VDEFAULT=16"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L04 FM">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L04 FM" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L04 Noise">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L04 Noise" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L04 Pan">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L04 Pan" defines="VMIN=-128;VMAX=128;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L04 Echo">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L04 Echo" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=1"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L04 Invert L">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L04 Invert L" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L04 Invert R">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L04 Invert R" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+
+
+			<CSViewConfiguration name="L05 Sample">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L05 Sample" defines="VMIN=0;VMAX=16;STEPMODES=0;VDEFAULT=16"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L05 FM">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L05 FM" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L05 Noise">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L05 Noise" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L05 Pan">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L05 Pan" defines="VMIN=-128;VMAX=128;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L05 Echo">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L05 Echo" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=1"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L05 Invert L">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L05 Invert L" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L05 Invert R">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L05 Invert R" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+
+			<CSViewConfiguration name="L06 Sample">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L06 Sample" defines="VMIN=0;VMAX=16;STEPMODES=0;VDEFAULT=16"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L06 FM">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L06 FM" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L06 Noise">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L06 Noise" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L06 Pan">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L06 Pan" defines="VMIN=-128;VMAX=128;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L06 Echo">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L06 Echo" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=1"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L06 Invert L">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L06 Invert L" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L06 Invert R">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L06 Invert R" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+
+			<CSViewConfiguration name="L07 Sample">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L07 Sample" defines="VMIN=0;VMAX=16;STEPMODES=0;VDEFAULT=16"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L07 FM">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L07 FM" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L07 Noise">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L07 Noise" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L07 Pan">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L07 Pan" defines="VMIN=-128;VMAX=128;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L07 Echo">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L07 Echo" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=1"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L07 Invert L">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L07 Invert L" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L07 Invert R">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L07 Invert R" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+
+	
+			<CSViewConfiguration name="L08 Sample">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L08 Sample" defines="VMIN=0;VMAX=16;STEPMODES=0;VDEFAULT=16"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L08 FM">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L08 FM" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L08 Noise">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L08 Noise" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L08 Pan">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L08 Pan" defines="VMIN=-128;VMAX=128;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L08 Echo">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L08 Echo" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=1"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L08 Invert L">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L08 Invert L" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L08 Invert R">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L08 Invert R" defines="VMIN=0;VMAX=1;STEPMODES=1;VDEFAULT=0"/>
+			</CSViewConfiguration>
+
+			<CSViewConfiguration name="Voice Detune">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_Voice Detune" defines="VMIN=-100;VMAX=100;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="Voice Transpose">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_Voice Transpose" defines="VMIN=-120;VMAX=120;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="Voice Amplitude">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_Voice Amplitude" defines="VMIN=0;VMAX=127;STEPMODES=0;VDEFAULT=127"/>
+			</CSViewConfiguration>
+			
+			<CSViewConfiguration name="L01 Transpose">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L01 Transpose" defines="VMIN=-120;VMAX=120;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L02 Transpose">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L02 Transpose" defines="VMIN=-120;VMAX=120;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L03 Transpose">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L03 Transpose" defines="VMIN=-120;VMAX=120;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L04 Transpose">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L04 Transpose" defines="VMIN=-120;VMAX=120;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L05 Transpose">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L05 Transpose" defines="VMIN=-120;VMAX=120;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L06 Transpose">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L06 Transpose" defines="VMIN=-120;VMAX=120;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L07 Transpose">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L07 Transpose" defines="VMIN=-120;VMAX=120;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L08 Transpose">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L08 Transpose" defines="VMIN=-120;VMAX=120;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+
+			<CSViewConfiguration name="L01 Detune">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L01 Detune" defines="VMIN=-100;VMAX=100;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L02 Detune">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L02 Detune" defines="VMIN=-100;VMAX=100;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L03 Detune">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L03 Detune" defines="VMIN=-100;VMAX=100;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L04 Detune">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L04 Detune" defines="VMIN=-100;VMAX=100;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L05 Detune">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L05 Detune" defines="VMIN=-100;VMAX=100;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L06 Detune">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L06 Detune" defines="VMIN=-100;VMAX=100;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L07 Detune">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L07 Detune" defines="VMIN=-100;VMAX=100;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L08 Detune">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L08 Detune" defines="VMIN=-100;VMAX=100;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+
+			<CSViewConfiguration name="L01 Amp (steps)">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L01 Amp (steps)" defines="VMIN=0;VMAX=127;STEPMODES=0;VDEFAULT=127"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L02 Amp (steps)">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L02 Amp (steps)" defines="VMIN=0;VMAX=127;STEPMODES=0;VDEFAULT=127"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L03 Amp (steps)">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L03 Amp (steps)" defines="VMIN=0;VMAX=127;STEPMODES=0;VDEFAULT=127"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L04 Amp (steps)">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L04 Amp (steps)" defines="VMIN=0;VMAX=127;STEPMODES=0;VDEFAULT=127"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L05 Amp (steps)">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L05 Amp (steps)" defines="VMIN=0;VMAX=127;STEPMODES=0;VDEFAULT=127"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L06 Amp (steps)">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L06 Amp (steps)" defines="VMIN=0;VMAX=127;STEPMODES=0;VDEFAULT=127"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L07 Amp (steps)">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L07 Amp (steps)" defines="VMIN=0;VMAX=127;STEPMODES=0;VDEFAULT=127"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="L08 Amp (steps)">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_L08 Amp (steps)" defines="VMIN=0;VMAX=127;STEPMODES=0;VDEFAULT=127"/>
+			</CSViewConfiguration>
+
+			<CSViewConfiguration name="Delay Dry Mix">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_Delay Dry Mix"  defines="VMIN=0;VMAX=127;STEPMODES=0;VDEFAULT=127"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="Delay Wet Mix">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_Delay Wet Mix"  defines="VMIN=0;VMAX=127;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="Delay Time">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_Delay Time"     defines="VMIN=0;VMAX=15;STEPMODES=0;VDEFAULT=5"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="Delay Feedback">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_Delay Feedback" defines="VMIN=0;VMAX=127;STEPMODES=0;VDEFAULT=0"/>
+			</CSViewConfiguration>	
+			<CSViewConfiguration name="Delay Dry Pan">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_Delay Dry Pan"  defines="VMIN=0;VMAX=127;STEPMODES=0;VDEFAULT=64"/>
+			</CSViewConfiguration>
+			<CSViewConfiguration name="Delay Wet Pan">
+				<CS01ViewAssoc container="STEP0" containee="STEPEDIT0_Delay Wet Pan"  defines="VMIN=0;VMAX=127;STEPMODES=0;VDEFAULT=64"/>
+			</CSViewConfiguration>
+						
+
+			<CSViewConfiguration name="default"> <!-- needed to put them into orphaned list and not leak! NOT FOR DISPLAY!-->
+				<CS01ViewAssoc container="none" containee="STEPEDIT0"/>
+				<CS01ViewAssoc container="none" containee="STEPEDIT1"/>
+				<CS01ViewAssoc container="none" containee="STEPEDIT2"/>
+				<CS01ViewAssoc container="none" containee="STEPEDIT3"/>
+				<CS01ViewAssoc container="none" containee="STEPEDIT4"/>
+				<CS01ViewAssoc container="none" containee="STEPEDIT5"/>
+				<CS01ViewAssoc container="none" containee="STEPEDIT6"/>
+				<CS01ViewAssoc container="none" containee="STEPEDIT7"/>
+				<CS01ViewAssoc container="none" containee="STEPEDIT8"/>
+				<CS01ViewAssoc container="none" containee="STEPEDIT9"/>
+				<CS01ViewAssoc container="none" containee="STEPEDIT10"/>
+				<CS01ViewAssoc container="none" containee="STEPEDIT11"/>
+				<CS01ViewAssoc container="none" containee="STEPEDIT12"/>
+				<CS01ViewAssoc container="none" containee="STEPEDIT13"/>
+				<CS01ViewAssoc container="none" containee="STEPEDIT14"/>
+			</CSViewConfiguration>
+		</CS01ViewConfigurationSet>
+
+		<CS01ViewConfigurationSet name="STEP1" copyOf="STEP0" containerName="STEP1" parentGroupName="modulators" containeeFind="STEPEDIT0_" containeeReplace="STEPEDIT1_" nameFind="STEPEDIT0_" nameReplace="STEPEDIT1_" copySkip="default"/> 
+		<CS01ViewConfigurationSet name="STEP2" copyOf="STEP0" containerName="STEP2" parentGroupName="modulators" containeeFind="STEPEDIT0_" containeeReplace="STEPEDIT2_" nameFind="STEPEDIT0_" nameReplace="STEPEDIT2_" copySkip="default"/>
+		<CS01ViewConfigurationSet name="STEP3" copyOf="STEP0" containerName="STEP3" parentGroupName="modulators" containeeFind="STEPEDIT0_" containeeReplace="STEPEDIT3_" nameFind="STEPEDIT0_" nameReplace="STEPEDIT3_" copySkip="default"/>
+		<CS01ViewConfigurationSet name="STEP4" copyOf="STEP0" containerName="STEP4" parentGroupName="modulators" containeeFind="STEPEDIT0_" containeeReplace="STEPEDIT4_" nameFind="STEPEDIT0_" nameReplace="STEPEDIT4_" copySkip="default"/>
+		<CS01ViewConfigurationSet name="STEP5" copyOf="STEP0" containerName="STEP5" parentGroupName="modulators" containeeFind="STEPEDIT0_" containeeReplace="STEPEDIT5_" nameFind="STEPEDIT0_" nameReplace="STEPEDIT5_" copySkip="default"/>
+		<CS01ViewConfigurationSet name="STEP6" copyOf="STEP0" containerName="STEP6" parentGroupName="modulators" containeeFind="STEPEDIT0_" containeeReplace="STEPEDIT6_" nameFind="STEPEDIT0_" nameReplace="STEPEDIT6_" copySkip="default"/>
+		<CS01ViewConfigurationSet name="STEP7" copyOf="STEP0" containerName="STEP7" parentGroupName="modulators" containeeFind="STEPEDIT0_" containeeReplace="STEPEDIT7_" nameFind="STEPEDIT0_" nameReplace="STEPEDIT7_" copySkip="default"/>
+		<CS01ViewConfigurationSet name="STEP8" copyOf="STEP0" containerName="STEP8" parentGroupName="modulators" containeeFind="STEPEDIT0_" containeeReplace="STEPEDIT8_" nameFind="STEPEDIT0_" nameReplace="STEPEDIT8_" copySkip="default"/>
+		<CS01ViewConfigurationSet name="STEP9" copyOf="STEP0" containerName="STEP9" parentGroupName="modulators" containeeFind="STEPEDIT0_" containeeReplace="STEPEDIT9_" nameFind="STEPEDIT0_" nameReplace="STEPEDIT9_" copySkip="default"/>
+		<CS01ViewConfigurationSet name="STEP10" copyOf="STEP0" containerName="STEP10" parentGroupName="modulators" containeeFind="STEPEDIT0_" containeeReplace="STEPEDIT10_" nameFind="STEPEDIT0_" nameReplace="STEPEDIT10_" copySkip="default"/>
+		<CS01ViewConfigurationSet name="STEP11" copyOf="STEP0" containerName="STEP11" parentGroupName="modulators" containeeFind="STEPEDIT0_" containeeReplace="STEPEDIT11_" nameFind="STEPEDIT0_" nameReplace="STEPEDIT11_" copySkip="default"/>
+		<CS01ViewConfigurationSet name="STEP12" copyOf="STEP0" containerName="STEP12" parentGroupName="modulators" containeeFind="STEPEDIT0_" containeeReplace="STEPEDIT12_" nameFind="STEPEDIT0_" nameReplace="STEPEDIT12_" copySkip="default"/>
+		<CS01ViewConfigurationSet name="STEP13" copyOf="STEP0" containerName="STEP13" parentGroupName="modulators" containeeFind="STEPEDIT0_" containeeReplace="STEPEDIT13_" nameFind="STEPEDIT0_" nameReplace="STEPEDIT13_" copySkip="default"/>
+		<CS01ViewConfigurationSet name="STEP14" copyOf="STEP0" containerName="STEP14" parentGroupName="modulators" containeeFind="STEPEDIT0_" containeeReplace="STEPEDIT14_" nameFind="STEPEDIT0_" nameReplace="STEPEDIT14_" copySkip="default"/>
+
+		<Style name="STEPEDITAliases" path="gui_seq.xml" visible="0" aliases="
+L01 Sample;L01 Noise;L01 Pan;L01 Echo;L01 Invert L;L01 Invert R;
+L02 Sample;L02 Noise;L02 Pan;L02 Echo;L02 Invert L;L02 Invert R;L02 FM;
+L03 Sample;L03 Noise;L03 Pan;L03 Echo;L03 Invert L;L03 Invert R;L03 FM;
+L04 Sample;L04 Noise;L04 Pan;L04 Echo;L04 Invert L;L04 Invert R;L04 FM;
+L05 Sample;L05 Noise;L05 Pan;L05 Echo;L05 Invert L;L05 Invert R;L05 FM;
+L06 Sample;L06 Noise;L06 Pan;L06 Echo;L06 Invert L;L06 Invert R;L06 FM;
+L07 Sample;L07 Noise;L07 Pan;L07 Echo;L07 Invert L;L07 Invert R;L07 FM;
+L08 Sample;L08 Noise;L08 Pan;L08 Echo;L08 Invert L;L08 Invert R;L08 FM;
+L01 Transpose;L01 Detune;L01 Amp (steps);
+L02 Transpose;L02 Detune;L02 Amp (steps);
+L03 Transpose;L03 Detune;L03 Amp (steps);
+L04 Transpose;L04 Detune;L04 Amp (steps);
+L05 Transpose;L05 Detune;L05 Amp (steps);
+L06 Transpose;L06 Detune;L06 Amp (steps);
+L07 Transpose;L07 Detune;L07 Amp (steps);
+L08 Transpose;L08 Detune;L08 Amp (steps);
+Voice Detune;Voice Transpose;Voice Amplitude;
+Delay Dry Mix;Delay Wet Mix;Delay Time;Delay Feedback;
+Delay Dry Pan;Delay Wet Pan"/>
+
+		<CS01ViewContainer identifier="STEPEDIT0" param_offset="1280" style="STEPEDITAliases">
+			<Define name="$TARGET" value="com.Plogue.Emulator.SFC|0|575A|0"/>
+			<Define name="$NAME" value="Step Editor 1"/>
+			<Define name="$STEPNUM" value="1"/>
+		</CS01ViewContainer>
+
+		<CS01ViewContainer identifier="STEPEDIT1" param_offset="1296" style="STEPEDITAliases">
+			<Define name="$TARGET" value="com.Plogue.Emulator.SFC|0|575A|1"/>
+			<Define name="$NAME" value="Step Editor 2"/>
+			<Define name="$STEPNUM" value="2"/>
+		</CS01ViewContainer>
+
+		<CS01ViewContainer identifier="STEPEDIT2" param_offset="1312" style="STEPEDITAliases">
+			<Define name="$TARGET" value="com.Plogue.Emulator.SFC|0|575A|2"/>
+			<Define name="$NAME" value="Step Editor 3"/>
+			<Define name="$STEPNUM" value="3"/>
+		</CS01ViewContainer>
+
+		<CS01ViewContainer identifier="STEPEDIT3" param_offset="1328" style="STEPEDITAliases">
+			<Define name="$TARGET" value="com.Plogue.Emulator.SFC|0|575A|3"/>
+			<Define name="$NAME" value="Step Editor 4"/>
+			<Define name="$STEPNUM" value="4"/>
+		</CS01ViewContainer>
+
+		<CS01ViewContainer identifier="STEPEDIT4" param_offset="1344" style="STEPEDITAliases">
+			<Define name="$TARGET" value="com.Plogue.Emulator.SFC|0|575A|4"/>
+			<Define name="$NAME" value="Step Editor 5"/>
+			<Define name="$STEPNUM" value="5"/>
+		</CS01ViewContainer>
+
+		<CS01ViewContainer identifier="STEPEDIT5" param_offset="1360" style="STEPEDITAliases">
+			<Define name="$TARGET" value="com.Plogue.Emulator.SFC|0|575A|5"/>
+			<Define name="$NAME" value="Step Editor 6"/>
+			<Define name="$STEPNUM" value="6"/>
+		</CS01ViewContainer>
+
+		<CS01ViewContainer identifier="STEPEDIT6" param_offset="1376" style="STEPEDITAliases">
+			<Define name="$TARGET" value="com.Plogue.Emulator.SFC|0|575A|6"/>
+			<Define name="$NAME" value="Step Editor 7"/>
+			<Define name="$STEPNUM" value="7"/>
+		</CS01ViewContainer>
+
+		<CS01ViewContainer identifier="STEPEDIT7" param_offset="1392" style="STEPEDITAliases">
+			<Define name="$TARGET" value="com.Plogue.Emulator.SFC|0|575A|7"/>
+			<Define name="$NAME" value="Step Editor 8"/>
+			<Define name="$STEPNUM" value="8"/>
+		</CS01ViewContainer>
+
+		<CS01ViewContainer identifier="STEPEDIT8" param_offset="1408" style="STEPEDITAliases">
+			<Define name="$TARGET" value="com.Plogue.Emulator.SFC|0|575A|8"/>
+			<Define name="$NAME" value="Step Editor 9"/>
+			<Define name="$STEPNUM" value="9"/>
+		</CS01ViewContainer>
+
+		<CS01ViewContainer identifier="STEPEDIT9" param_offset="1424" style="STEPEDITAliases">
+			<Define name="$TARGET" value="com.Plogue.Emulator.SFC|0|575A|9"/>
+			<Define name="$NAME" value="Step Editor 10"/>
+			<Define name="$STEPNUM" value="10"/>
+		</CS01ViewContainer>
+
+		<CS01ViewContainer identifier="STEPEDIT10" param_offset="1440" style="STEPEDITAliases">
+			<Define name="$TARGET" value="com.Plogue.Emulator.SFC|0|575A|10"/>
+			<Define name="$NAME" value="Step Editor 11"/>
+			<Define name="$STEPNUM" value="11"/>
+		</CS01ViewContainer>
+
+		<CS01ViewContainer identifier="STEPEDIT11" param_offset="1456" style="STEPEDITAliases">
+			<Define name="$TARGET" value="com.Plogue.Emulator.SFC|0|575A|11"/>
+			<Define name="$NAME" value="Step Editor 12"/>
+			<Define name="$STEPNUM" value="12"/>
+		</CS01ViewContainer>
+
+		<CS01ViewContainer identifier="STEPEDIT12" param_offset="1472" style="STEPEDITAliases">
+			<Define name="$TARGET" value="com.Plogue.Emulator.SFC|0|575A|12"/>
+			<Define name="$NAME" value="Step Editor 13"/>
+			<Define name="$STEPNUM" value="13"/>
+		</CS01ViewContainer>
+
+		<CS01ViewContainer identifier="STEPEDIT13" param_offset="1488" style="STEPEDITAliases">
+			<Define name="$TARGET" value="com.Plogue.Emulator.SFC|0|575A|13"/>
+			<Define name="$NAME" value="Step Editor 14"/>
+			<Define name="$STEPNUM" value="14"/>
+		</CS01ViewContainer>
+
+		<CS01ViewContainer identifier="STEPEDIT14" param_offset="1504" style="STEPEDITAliases">
+			<Define name="$TARGET" value="com.Plogue.Emulator.SFC|0|575A|14"/>
+			<Define name="$NAME" value="Step Editor 15"/>
+			<Define name="$STEPNUM" value="15"/>
+		</CS01ViewContainer>
+
+
+
+		<Style name="ViewContainerStep" y="02" w="404" h="436"/>
+		<Style name="VisibilityContainerStep" y="5" w="366" h="16"/>
+		<Style name="VisibilityContainerTextButtonAdd" text="+" x="314"/>
+		<Style name="VisibilityContainerTextButtonRemove" rule="diff" rule_s1="empty" command="modulationLinksViewMessage" data0="removeLink" text="del"/>
+
+		<CS01ViewContainer   x="25" style="ViewContainerStep" identifier="STEP0"/>
+		<VisibilityContainer x="75" style="VisibilityContainerStep">
+			<StaticText style="VisibilityContainerStaticText" data0="STEP0"/>
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP0"/>
+			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP0"/>
+		</VisibilityContainer>
+
+		<CS01ViewContainer   x="467" style="ViewContainerStep" identifier="STEP1"/>
+		<VisibilityContainer x="512" style="VisibilityContainerStep">
+			<StaticText style="VisibilityContainerStaticText" data0="STEP1"/>
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP1"/>
+			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP1"/>
+		</VisibilityContainer>
+
+
+		<CS01ViewContainer   x="925" style="ViewContainerStep" identifier="STEP2"/>
+		<VisibilityContainer x="975" style="VisibilityContainerStep">
+			<StaticText style="VisibilityContainerStaticText" data0="STEP2"/>
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP2"/>
+			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP2"/>
+		</VisibilityContainer>
+
+		<CS01ViewContainer   x="1367" style="ViewContainerStep" identifier="STEP3"/>
+		<VisibilityContainer x="1417" style="VisibilityContainerStep">
+			<StaticText style="VisibilityContainerStaticText" data0="STEP3"/>
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP3"/>
+			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP3"/>
+		</VisibilityContainer>
+
+
+		<CS01ViewContainer   x="1825" style="ViewContainerStep" identifier="STEP4"/>
+		<VisibilityContainer x="1875" style="VisibilityContainerStep">
+			<StaticText style="VisibilityContainerStaticText" data0="STEP4"/>
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP4"/>
+			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP4"/>
+		</VisibilityContainer>
+
+		<CS01ViewContainer   x="2267" style="ViewContainerStep" identifier="STEP5"/>
+		<VisibilityContainer x="2317" style="VisibilityContainerStep">
+			<StaticText style="VisibilityContainerStaticText" data0="STEP5"/>
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP5"/>
+			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP5"/>
+		</VisibilityContainer>
+
+
+		<CS01ViewContainer   x="2725" style="ViewContainerStep" identifier="STEP6"/>
+		<VisibilityContainer x="2775" style="VisibilityContainerStep">
+			<StaticText style="VisibilityContainerStaticText" data0="STEP6"/>
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP6"/>
+			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP6"/>
+		</VisibilityContainer>
+
+		<CS01ViewContainer   x="3167" style="ViewContainerStep" identifier="STEP7"/>
+		<VisibilityContainer x="3217" style="VisibilityContainerStep">
+			<StaticText style="VisibilityContainerStaticText" data0="STEP7"/>
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP7"/>
+			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP7"/>
+		</VisibilityContainer>
+
+
+		<CS01ViewContainer   x="3625" style="ViewContainerStep" identifier="STEP8"/>
+		<VisibilityContainer x="3675" style="VisibilityContainerStep">
+			<StaticText style="VisibilityContainerStaticText" data0="STEP8"/>
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP8"/>
+			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP8"/>
+		</VisibilityContainer>
+
+		<CS01ViewContainer   x="4067" style="ViewContainerStep" identifier="STEP9"/>
+		<VisibilityContainer x="4117" style="VisibilityContainerStep">
+			<StaticText style="VisibilityContainerStaticText" data0="STEP9"/>
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP9"/>
+			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP9"/>
+		</VisibilityContainer>
+
+
+		<CS01ViewContainer   x="4525" style="ViewContainerStep" identifier="STEP10"/>
+		<VisibilityContainer x="4575" style="VisibilityContainerStep">
+			<StaticText style="VisibilityContainerStaticText" data0="STEP10"/>
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP10"/>
+			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP10"/>
+		</VisibilityContainer>
+
+		<CS01ViewContainer   x="4967" style="ViewContainerStep" identifier="STEP11"/>
+		<VisibilityContainer x="5017" style="VisibilityContainerStep">
+			<StaticText style="VisibilityContainerStaticText" data0="STEP11"/>
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP11"/>
+			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP11"/>
+		</VisibilityContainer>
+
+
+		<CS01ViewContainer   x="5425" style="ViewContainerStep" identifier="STEP12"/>
+		<VisibilityContainer x="5475" style="VisibilityContainerStep">
+			<StaticText style="VisibilityContainerStaticText" data0="STEP12"/>
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP12"/>
+			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP12"/>
+		</VisibilityContainer>
+
+		<CS01ViewContainer   x="5867" style="ViewContainerStep" identifier="STEP13"/>
+		<VisibilityContainer x="5917" style="VisibilityContainerStep">
+			<StaticText style="VisibilityContainerStaticText" data0="STEP13"/>
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP13"/>
+			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP13"/>
+		</VisibilityContainer>
+
+
+		<CS01ViewContainer   x="6325" style="ViewContainerStep" identifier="STEP14"/>
+		<VisibilityContainer x="6375" style="VisibilityContainerStep">
+			<StaticText style="VisibilityContainerStaticText" data0="STEP14"/>
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP14"/>
+			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP14"/>
+		</VisibilityContainer>
+
+	</ScrollView>
+
+</GUI>
