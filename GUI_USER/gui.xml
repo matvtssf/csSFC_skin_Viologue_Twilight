@@ -118,12 +118,12 @@
 		</OptionMenu>
 	</VisibilityContainer>
 
-	<CS03Knob param="1812" x="981" y="01" w="26" h="45" vmin="0" vmax="2" vdefault="0.5" stepped="0" knob_x="3" knob_y="22" knob_w="20" knob_h="20" style="VolKnob" valueTrackWidth="2" valueTrackOrder="0" 
+	<CS03Knob param="1812" x="981" y="1" w="26" h="45" vmin="0" vmax="2" vdefault="0.5" stepped="0" knob_x="3" knob_y="22" knob_w="20" knob_h="20" style="VolKnob" valueTrackWidth="2" valueTrackOrder="0" 
 		   valueIndicatorType="3" valueIndicatorMargin="1" valueIndicator_x="4" valueIndicator_y="4" valueIndicator_w="3" valueIndicator_h="3" 		   showValueTextOnHL="1" value_font="SFC_11" label_font="SFC_11" label_w="26" label_h="15" label_x="0" label_y="2" labelText="Vol"/>
 
-	<TabView id="patch" x="0" y="61" w="1024" h="471" image="btn_tab.svg" imageHL="btn_tab_hl.svg" position="top" alignment="right" font="SFCHEADING_16" style="TabViewColor" margin_x="5">
+	<TabView id="patch" x="0" y="61" w="1024" h="471" image="btn_tab.svg" position="top" alignment="right" font="SFCHEADING_16" style="TabViewColor" margin_x="35">
 
-	<Pane name="SAMPLE" imageb="btn_tab_first.svg" imagebHL="btn_tab_first_hl.svg">
+	<Pane name="SAMPLE" >
 			<CS01ViewContainer x="0" y="0" w="1024" h="471">
 				<GUIMacro path="gui_sample.xml"/>
 			</CS01ViewContainer>
@@ -147,7 +147,7 @@
 			</CS01ViewContainer>
 		</Pane>
 
-		<Pane name="PLAYER" imageb="btn_tab_last.svg" imagebHL="btn_tab_last_hl.svg">
+		<Pane name="PLAYER">
 			<CS01ViewContainer x="0" y="0" w="1024" h="471">
 				<GUIMacro path="gui_vgm.xml"/>
 			</CS01ViewContainer>
