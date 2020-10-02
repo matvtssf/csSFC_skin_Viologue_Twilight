@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GUI w="1024" h="471" backgroundColor="#00000000">
 
- 	<Rect x="0" y="0" w="1024" h="471" style="SPCBetweenLayer"/>
-
 <RoundedRect 			  x="635" y="-12" w="374" h="427" roundedRectRatio="0.015" style="SampleListBackground" /> 	
-
 <RoundedRect 			  x="635" y="25" w="145" h="390" roundedRectRatio="0.04" fill_color="#FFFFFF10" drawMode="filled"/>
 
 	<!-- Sample List Rows -->
@@ -24,74 +21,79 @@
 			<RoundedRect 			  y="323" style="SampleListHighlight2" />
 			<RoundedRect 			  y="346" style="SampleListHighlight2" />
 			<RoundedRect 			  y="369" style="SampleListHighlight2" />
-	<StaticText x="705" y="391" w="70" h="16" text="Auto-Assign to" style="SmallTextHeaderSampleTab" font="SFC_9" alignment="center"/>
+	<StaticText x="705" y="390" w="70" h="16" text="Auto-Assign to" style="SmallTextHeaderSampleTab" font="SFC_9" alignment="center"/>
 
 
 
 	<CS01WaveEditorContainer target="com.Plogue.Emulator.SFC|0|7E87|2" targets_multi="com.Plogue.Emulator.SFC|0|BA73|;0;15"
 		param="DID_CUSTOM_DATA" x="15" y="0" w="619" h="440" tab_x="0" tab_y="0" tab_w="620" tab_h="24" tabType="1" style="WaveEditorContainer" disabled_x="0" disabled_y="0" disabled_w="620" disabled_h="356" editorMode="0" browserTargetItemLoad="audioAssets" assignmentMapTarget="audioAssetsPool" 
-		waveEditorPoolName="audioAssetsPoolWaveEditor" instanceLabelFormat="%c" instanceLabelStartIndexDisplay="65" sizeLabelFormat="%d bytes" loopIn_x="562" loopIn_y="233" loopIn_w="59" loopIn_h="16" loopOut_x="562" loopOut_y="256" loopOut_w="59" loopOut_h="16" alignment="left" font="SFC_10">
+		waveEditorPoolName="audioAssetsPoolWaveEditor" instanceLabelFormat="%c" instanceLabelStartIndexDisplay="65" sizeLabelFormat="%d bytes" loopIn_x="562" loopIn_y="243" loopIn_w="59" loopIn_h="16" loopOut_x="562" loopOut_y="266" loopOut_w="59" loopOut_h="16" alignment="left" font="SFC_10">
 
 	<CS01WaveEditor x="0" y="0" w="541" h="335" style="WaveEditor" waveArea_x="0" waveArea_y="0" waveArea_w="630" waveArea_h="346" 		leftMargin="0" loopingEnabled="1" xAxisLineStyle="0" curveWidth="1" handle_y="0" defaultZoomFactor="32" verticalLineStyle="1"   scrollbarHeight="10" zoomOperation="0" zoomTimeFactor="2" adjustZoomFactorOnWaveChange="1" useLoopIndicators="1"  loopIndicatorHandleLeft="LILeftTri.svg" loopIndicatorHandleLeft_alignment="right" loopIndicatorHandleRight="LIRightTri.svg" loopIndicatorHandleRight_alignment="left" supportsDrop="1" defaultLoopStart="0" defaultLoopLength="4096" fixedLoopSection="0"   activeIndicatorLineWidth="2" activeIndicator_x="0" activeIndicator_y="0" activeIndicator_w="10" activeIndicator_h="10"    activeIndicatorShape="2"	drawFades="1" fadesType="1101" fadesAlpha="0.5"/>
 				
-		<!--ADSD2R-->
-		<CS03Knob style="SPCSampleKnob03_24" x="10"  y="351" role="userparam_0" vmin="0" vmax="15" vdefault="0"  stepped="1" mouseIncrement="0.08" labelText="A"/>
-		<CS03Knob style="SPCSampleKnob03_24" x="50"  y="351" role="userparam_1" vmin="0" vmax="7"  vdefault="7"  stepped="1" mouseIncrement="0.04" labelText="D"/>
-		<CS03Knob style="SPCSampleKnob03_24" x="90"  y="351" role="userparam_2" vmin="0" vmax="7"  vdefault="7"  stepped="1" mouseIncrement="0.04" labelText="S"/>
-		<CS03Knob style="SPCSampleKnob03_24" x="130" y="351" role="userparam_3" vmin="0" vmax="31" vdefault="31" stepped="1" mouseIncrement="0.16" labelText="D2"/>
-		<CS03Knob style="SPCSampleKnob03_24" x="170" y="351" role="userparam_4" vmin="0" vmax="32" vdefault="0"  stepped="1" mouseIncrement="0.16" labelText="R"/>
-
-
-
-
 		<!-- prehemph -->
-		<CS01OnOffButton x="229" y="353" role="userparam_5" style="SPCOnOff" addControl="0"/>
-		<StaticText      x="219" y="380" w="40" h="15" text="Pre-e" style="StaticTextColor" alignment="center" font="SFC_11"/>
+		<CS01OnOffButton x="490" y="353" role="userparam_5" style="SPCOnOffSquared" w="40" addControl="0"/>
+		<StaticText      x="485" y="362" w="50" h="16" text="Pre-Emphasis" style="SmallTextHeaderSampleTab" alignment="center" font="SFC_7"/>
 		
 		<!-- normalize -->
-		<CS01OnOffButton x="309" y="353" role="userparam_9" style="SPCOnOff" addControl="0"/>
-		<StaticText      x="299" y="380" w="40" h="15" text="Norm" style="StaticTextColor" alignment="center" font="SFC_11"/>
+		<CS01OnOffButton x="490" y="383" role="userparam_9" style="SPCOnOffSquared" w="40" addControl="0"/>
+		<StaticText      x="490" y="392" w="40" h="16" text="Normalize" style="SmallTextHeaderSampleTab" alignment="center" font="SFC_7"/>
+
+		<!--ADSD2R-->
+		<CS03Knob style="SPCSampleKnob03_24" x="160"  y="348" role="userparam_0" vmin="0" vmax="15" vdefault="0"  stepped="1" mouseIncrement="0.08" labelText="A"/>
+		<CS03Knob style="SPCSampleKnob03_24" x="220"  y="348" role="userparam_1" vmin="0" vmax="7"  vdefault="7"  stepped="1" mouseIncrement="0.04" labelText="D"/>
+		<CS03Knob style="SPCSampleKnob03_24" x="280"  y="348" role="userparam_2" vmin="0" vmax="7"  vdefault="7"  stepped="1" mouseIncrement="0.04" labelText="S"/>
+		<CS03Knob style="SPCSampleKnob03_24" x="340" y="348" role="userparam_3" vmin="0" vmax="31" vdefault="31" stepped="1" mouseIncrement="0.16" labelText="D2"/>
+		<CS03Knob style="SPCSampleKnob03_24" x="400" y="348" role="userparam_4" vmin="0" vmax="32" vdefault="0"  stepped="1" mouseIncrement="0.16" labelText="R"/>
+	
 
 		<!-- gain -->
-		<CS03Knob        x="346" y="351" style="SPCSampleKnob03_24" roles="userparam_7;gain" vmin="0" vmax="400" vdefault="100" stepped="1" labelText="Gain"/>
+		<CS03Knob        x="550" y="348" style="SPCSampleKnob03_24" roles="userparam_7;gain" vmin="0" vmax="400" vdefault="100" stepped="1" labelText="Waveform Gain"/>
 
 
-	<!-- Wave Panel -->
+	<!--Wave/ADSR Panels -->
 		
+		<!-- Dark Panel behind Waveform and Tuning/Looping -->
 		<RoundedRect              x="-10" y="-10" w="624" h="346" roundedRectRatio="0.02" style="SampleTabPanes" />
-		<RoundedRect              x="-10" y="350" w="624" h="65" roundedRectRatio="0.2" style="ADSRGainPane" />
 
+		<!--ADSR Panels ..don't know how to make a container to make a header layer so I have to go SVG unfortunately -->
+		
+		<RoundedRect              x="10" y="342" w="604" h="75" roundedRectRatio="0.2" style="SampleListBackground" />
+				<StaticText 			  x="20" y="343" w="60" h="20" text="Envelope" style="StaticTextColor" font="SFCHEADING_16" alignment="left"/>
+		
 		<!-- Dividers -->
-		<RoundedRect              x="543" y="175" w="68" h="1" style="Divider" />	
+		<RoundedRect              x="550" y="167" w="54" h="1" style="DividerInverted" />
+		<RoundedRect              x="20" y="365" w="130" h="1" style="DividerInverted" />
+		<RoundedRect              x="465" y="351" w="1" h="55" style="DividerInverted" />
 		
 			<!-- autotune -->
-			<OptionMenu x="545" y="8" w="65" h="16" roles="userparam_10;controller" controller_name="SR" vdefault="1" font="SFC_12" drawFrame="0" addControl="0" style="AssignmentOptionMenu">
+			<OptionMenu x="545" y="6" w="65" h="16" roles="userparam_10;controller" controller_name="SR" vdefault="1" font="SFC_12" drawFrame="0" addControl="0" style="AssignmentOptionMenu" alignment="center">
 				<OptionItem name="File"  value="0"/>
 				<OptionItem name="Auto"  value="1"/>
 				<OptionItem name="Manual"  value="2"/>
 			</OptionMenu>
 			<StaticText x="545" y="18" w="65" h="16" text="Tuning Type" style="SmallTextHeaderSampleTab" font="SFC_7" alignment="center"/>
 
-			<CS01TextDisplay controller="SR" rule="availability_eq" rule_d1="2" role="userparam_12" x="545" y="38" w="65" h="16" font="SFC_12" vmin="1024" vmax="999999" vdefault="16744" stepped="1" style="WaveEditorTextDisplay" format="%d Hz" addControl="0"/>
+			<CS01TextDisplay controller="SR" rule="availability_eq" rule_d1="2" role="userparam_12" x="545" y="36" w="65" h="16" font="SFC_12" vmin="1024" vmax="999999" vdefault="16744" stepped="1" style="WaveEditorTextDisplay" format="%d Hz" addControl="0" alignment="center" />
 			<StaticText x="545" y="48" w="65" h="16" text="C4 Sample Rate" style="SmallTextHeaderSampleTab" alignment="center" font="SFC_7"/>
 
 			<!-- Detune -->
-			<CS03Knob style="SPCSampleKnob03_34" x="559" y="69" role="userparam_8" vmin="-1200" vmax="1200" vdefault="0" unipolar="0" stepped="1" labelText="SR Adjust"/>
+			<CS03Knob style="SPCSampleKnob03_34" x="560" y="67" role="userparam_8" vmin="-1200" vmax="1200" vdefault="0" unipolar="0" stepped="1" labelText="SR Adjust"/>
 
 			<!-- decim/squeeze -->
-			<CS03Knob        x="559" y="122" style="SPCSampleKnob03_34" role="userparam_6" vmin="0" vmax="100" vdefault="100" stepped="1" mouseIncrement="0.5" labelText="Decim"/>
+			<CS03Knob        x="560" y="118" style="SPCSampleKnob03_34" role="userparam_6" vmin="0" vmax="100" vdefault="100" stepped="1" mouseIncrement="0.5" labelText="Decim"/>
 
 			<!-- Loop Crossfade -->
-			<CS03Knob style="SPCSampleKnob03_34" x="560" y="181" roles="userparam_11;xfade" vmin="0" vmax="100" vdefault="0" mouseIncrement="0.5" stepped="1" labelText="XFade"/>
+			<CS03Knob style="SPCSampleKnob03_34" x="560" y="181" roles="userparam_11;xfade" vmin="0" vmax="100" vdefault="0" mouseIncrement="0.5" stepped="1" labelText="XFade" />
 
 			<!-- Loop In/Out Text and BG Bars -->
-			<RoundedRect 			 x="545" y="231" w="63" style="LoopInOutField" />
-			<RoundedRect 			 x="545" y="254" w="63" style="LoopInOutField" />
-			<StaticText x="545" y="273" w="65" h="16" text="Loop Points" style="SmallTextHeaderSampleTab" alignment="center" font="SFC_7"/>
+			<RoundedRect 			 x="545" y="241" w="65" style="LoopInOutField" />
+			<RoundedRect 			 x="545" y="264" w="65" style="LoopInOutField" />
+			<StaticText x="545" y="283" w="65" h="16" text="Loop Points" style="SmallTextHeaderSampleTab" alignment="center" font="SFC_7"/>
 
 			<!-- Loop -->
-			<StaticText x="545" y="304" w="65" h="16" text="Loop" style="SmallTextHeaderSampleTab"  alignment="center" font="SFC_10"/>
-			<CS01OnOffButton style="SPCOnOffSquared" role="loopModeEnabler" x="552" y="302" w="50" addControl="0"/> 
+			<StaticText x="545" y="320" w="65" h="16" text="Loop Enable" style="SmallTextHeaderSampleTab"  alignment="center" font="SFC_7"/>
+			<CS01OnOffButton style="SPCOnOffSquared" role="loopModeEnabler" x="547" y="312" w="60" addControl="0"/> 
 			
 	</CS01WaveEditorContainer>
 
@@ -113,7 +115,7 @@
 
 	
 	
-	<OptionMenu x="705" y="401" w="70" h="15" param="921" vdefault="-2" color_back="#00000000" font="SFC_9" drawFrame="0">
+	<OptionMenu x="705" y="400" w="70" h="15" param="921" vdefault="-2" color_back="#00000000" font="SFC_9" drawFrame="0">
 		<OptionItem name="None"       value="-2"/>
 		<OptionItem name="All Active" value="-1"/>
 		<OptionItem name="Channel 1"  value="0"/>

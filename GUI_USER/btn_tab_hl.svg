@@ -9,7 +9,7 @@
    </cc:Work>
   </rdf:RDF>
  </metadata>
- <rect width="90" height="24.353" fill="#fff" fill-opacity=".62745" stroke-width=".98698"/>
- <rect y="25" width="90" height="25" fill="#fff" fill-opacity=".25098"/>
- <rect y="25" width="90" height="5" fill="#6c78c4" fill-opacity=".66667" stroke-width=".44721"/>
+ <rect width="90" height="23.491" ry="1.8793" fill="#fff" fill-opacity=".25098" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="0" stroke-width=".57614" style="paint-order:markers stroke fill"/>
+ <rect y="25" width="90" height="23.491" ry="1.8793" fill="#fff" fill-opacity=".062745" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="0" stroke-width=".57614" style="paint-order:markers stroke fill"/>
+ <rect y="25" width="90" height="1.9824" fill="#6c78c4" stroke-width=".28159"/>
 </svg>

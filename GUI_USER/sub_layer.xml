@@ -1,63 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GUI w="990" h="38" backgroundColor="#00000000">
-<!-- if we do this, then hikey rect end MUST lte start of circle for 1 and 8   -->
-	<CS01ViewContainer1 x="0" y="0" w="990" h="38" disabled_x="55" disabled_y="0" disabled_w="925" disabled_h="38" style="ChannelsViewContainer1" >
-		<StaticText text="$OP_NUM" x="10" y="10" w="10" h="16" font="SFCHEADING_16"/>
+<GUI w="1024" h="471" backgroundColor="#00000000">
+	<CS01ViewContainer1 x="0" y="0" w="111" h="446" disabled_x="0" disabled_y="0" disabled_w="108" disabled_h="446" style="ChannelsViewContainer1" >
+	<!-- Channel Strip Background -->
+	<RoundedRect x="2" y="2" style="ChannelStripBackground" />
 
-		<CS01OnOffButton style="SPCOnOff" param="512" x="28" y="9" role="onOff"/>
-		<!--Rect               x="55" y="0" w="105" h="40" drawMode="filled" fill_color="#54585aFF" -->
+	<!-- Key Range Header -->
 
-		<CS01OptionMenuPool x="55" y="0" w="115" h="40" font="SFC_11" text_x="5" text_y="3" text_w="105" text_h="30"
-							style="OptionMenuPool" 						    param="773" target="com.Plogue.Emulator.SFC|0|7E87|2" vmin="0" vmax="16" vdefault="0" enabledByOnOff="1"
-							mod_font="SFC_8" modText_x="10" modText_y="25" modText_w="95" modText_h="9"
-						    >
-			<CS01OptionItem type="added" name="None" value="16"/>
-			<CS01OptionItem type="pool"  valueStart="0" valueEnd="15" nameEmpty="Nothing loaded" valueDisplayFormat="%c" valueDisplayOffset="65"/>
-		</CS01OptionMenuPool> 
-
-		<CS03Knob style="SPCKnob3" param="768" x="180" y="3" vmin="0" vmax="15" vdefault="0"  stepped="1" mouseIncrement="0.08" enabledByOnOff="1"/>
-		<CS03Knob style="SPCKnob3" param="769" x="222" y="3" vmin="0" vmax="7"  vdefault="7"  stepped="1" mouseIncrement="0.04" enabledByOnOff="1"/>
-		<CS03Knob style="SPCKnob3" param="770" x="264" y="3" vmin="0" vmax="7"  vdefault="7"  stepped="1" mouseIncrement="0.04" enabledByOnOff="1"/>
-		<CS03Knob style="SPCKnob3" param="771" x="306" y="3" vmin="0" vmax="31" vdefault="31" stepped="1" mouseIncrement="0.16" enabledByOnOff="1"/>
-		<CS03Knob style="SPCKnob3" param="772" x="348" y="3" vmin="0" vmax="32" vdefault="0"  stepped="1" mouseIncrement="0.16" enabledByOnOff="1"/>
-
-		<!-- Noise FM Echo Inv Surnd -->
-		<CS01OnOffButton style="SPCOnOff" param="774" x="403" y="9" enabledByOnOff="1"/>
-		<CS01OnOffButton style="SPCOnOff" param="775" x="433" y="$FM_BTN_POS" enabledByOnOff="1"/>
-		<CS01OnOffButton style="SPCOnOff" param="777" x="463" y="9" enabledByOnOff="1"/>
-		<CS01OnOffButton style="SPCOnOff" param="778" x="493" y="9" enabledByOnOff="1"/>
-		<CS01OnOffButton style="SPCOnOff" param="779" x="523" y="9" enabledByOnOff="1"/>
-
-		<!-- Retrig -->
-		<VisibilityContainer x="558" y="0" w="20" h="38" enabledByOnOff="1">
-			<CS03Knob param="DID_SLOTPOLY" x="0" y="0" w="0" h="0" role="controller" controller_name="POLY_COUNT"/>
-			<CS01OnOffButton style="SPCOnOff" param="513" x="0" y="9" rule="eq" controller="POLY_COUNT" rule_d1="1"/>
-		</VisibilityContainer>
-
-		<!-- delay -->
-		<CS03Knob style="SPCKnob3" param="516" x="600" y="3" vmin="0" vmax="99" vdefault="0" stepped="1" mouseIncrement="0.5" enabledByOnOff="1"/>
-
-		<!-- Fixed -->
-		<CS01OnOffButton style="SPCOnOff" param="520" x="653" y="9" enabledByOnOff="1"/>
-
-		<!-- Coarse, Fine, Vol, Pan Glide-->
-		<CS03Knob style="SPCKnob3" param="517" x="692" y="3" vmin="-128" vmax="128" vdefault="0" stepped="1" unipolar="0" mouseIncrement="0.25" enabledByOnOff="1"/>
-		<CS03Knob style="SPCKnob3" param="518" x="734" y="3" vmin="-100" vmax="100" vdefault="0" stepped="1" unipolar="0"                       enabledByOnOff="1"/>
-		<CS03Knob style="SPCKnob3" param="519" x="776" y="3" vmin="0"    vmax="1"   vdefault="1"                                                enabledByOnOff="1"/>
-		<CS03Knob style="SPCKnob3" param="776" x="818" y="3" vmin="-128" vmax="128" vdefault="0" stepped="1" unipolar="0"                       enabledByOnOff="1"/>
-		<CS03Knob style="SPCKnob3" param="523" x="860" y="3" vmin="0"    vmax="100" vdefault="0" stepped="1"              mouseIncrement="0.5"  enabledByOnOff="1"/>
+	<RoundedRect x="8" y="215" w="96" h="1" style="DividerInverted" />
+	<StaticText text="Key Range" x="61" y="215" w="43" style="SmallTextHeaderChannelsTab" />
 
 		<!--lokey-->
-<!--		<Rect     x="902" y="07" w="30" h="23" border_color="#000000FF" drawMode="stroked" frameWidth="1"/> -->
-		<CS01Knob x="902" style="SPClohi" param="514" vdefault="0" mouseIncrement="0.5" enabledByOnOff="1">
+
+		<CS01Knob x="10" style="SPClohi" param="514" vdefault="0" mouseIncrement="0.5" enabledByOnOff="1">
 			<XMLMacroTextUse name="optionMenuKnoblohi"/>
 		</CS01Knob>
-
+		<StaticText text="Low" x="10" y="240" w="30" style="SmallTextHeaderChannelsTab" />
 		<!--hikey-->
-<!--		<Rect     x="944" y="007" w="30" h="23" border_color="#000000FF" drawMode="stroked" frameWidth="1"/> -->
-		<CS01Knob x="944" style="SPClohi" param="515" vdefault="127" mouseIncrement="0.5" enabledByOnOff="1">
+
+		<CS01Knob x="45" style="SPClohi" param="515" vdefault="127" mouseIncrement="0.5" enabledByOnOff="1">
 			<XMLMacroTextUse name="optionMenuKnoblohi"/>
 		</CS01Knob>
+		<StaticText text="High" x="45" y="240" w="30" style="SmallTextHeaderChannelsTab" />
 
-	</CS01ViewContainer1>
+	<!-- SPC Effects Header-->
+
+		<RoundedRect x="8" y="255" w="96" h="1" style="DividerInverted" />
+		<StaticText text="SPC Effects" x="61" y="255" w="43" style="SmallTextHeaderChannelsTab" />
+
+		<!-- Noise -->
+
+		<CS01OnOffButton style="SPCOnOffSquared" param="774" x="10" y="273" w="26" h="7" enabledByOnOff="1"/>
+		<StaticText text="Noise" x="10" y="278" w="26" style="SmallTextHeaderChannelsTab" />
+		
+		<!-- FM -->
+		
+		<CS01OnOffButton style="SPCOnOffSquared" param="775" x="10" y="$FM_BTN_POS" w="26" h="7" enabledByOnOff="1"/>
+		<StaticText text="PMod" x="10" y="$FM_TXT_POS" w="26" style="SmallTextHeaderChannelsTab" />
+
+		<!-- Echo -->
+
+		<CS01OnOffButton style="SPCOnOffSquared" param="777" x="44" y="273" w="29" h="29" enabledByOnOff="1"/>
+		<StaticText text="Echo" x="44" y="300" w="29" roundedRatio="0.1" style="SmallTextHeaderChannelsTab" />
+
+
+	<!-- Mix Header -->
+
+		<RoundedRect x="8" y="320" w="69" h="1" style="DividerInverted" />
+		<StaticText text="Mix" x="8" y="320" w="16" style="SmallTextHeaderChannelsTab" />
+		
+		<!-- Panpot -->
+
+		<CS03Knob style="SPCKnob3" param="776" x="10" y="330" vmin="-128" vmax="128" vdefault="0" stepped="1" unipolar="0" enabledByOnOff="1" labelText="Pan"/>
+
+		<!-- Inversion/Surround -->
+
+				<CS01OnOffButton style="SPCOnOffSquared" param="778" x="56" y="325" w="16" h="12" enabledByOnOff="1"/>
+				<StaticText text="Left" x="56" y="335" w="16" style="SmallTextChannelsTab" />
+
+			<RoundedRect x="52" y="332" w="4" h="1" style="DividerInverted" />
+			<RoundedRect x="52" y="332" w="1" h="10" style="DividerInverted" />
+
+		<StaticText text="Ø" x="44" y="338" w="16" style="SmallTextChannelsTab" />
+
+			<RoundedRect x="52" y="351" w="1" h="10" style="DividerInverted" />
+			<RoundedRect x="52" y="360" w="4" h="1" style="DividerInverted" />
+
+				<CS01OnOffButton style="SPCOnOffSquared" param="779" x="56" y="355" w="16" h="12" enabledByOnOff="1"/>
+				<StaticText text="Right" x="56" y="365" w="16" style="SmallTextChannelsTab" />
+
+		<!-- Volume Fader -->
+		
+		<VisibilityContainer x="78" y="274" w="16" h="100" enabledByOnOff="1">
+			<RoundedRect x="4" y="4" w="8" h="96" style="MIDIRect" />
+			<CS01Slider param="519" x="0" y="0" style="VolumeFader" vmin="0" vmax="1" vdefault="1" spring_mode="0" enable_keys="0" enable_mousewheel="1" enabledByOnOff="1" />
+		</VisibilityContainer>
+
+		<StaticText text="100" x="96" y="275" w="12" style="SmallTextChannelsTab" />
+		<StaticText text="50" x="96" y="317" w="12" style="SmallTextChannelsTab" />
+		<StaticText text="0" x="96" y="355" w="12" style="SmallTextChannelsTab" />
+
+		<!-- Sample Selector -->
+
+		<RoundedRect        x="10" y="380" style="ChannelsFilenameBackground" />
+		<CS01OptionMenuPool x="10" y="380" w="93" h="16" font="SFC_11" text_x="0" text_y="0" text_w="93" text_h="16"
+							style="OptionMenuPool" param="773" target="com.Plogue.Emulator.SFC|0|7E87|2" vmin="0" vmax="16" vdefault="0" enabledByOnOff="1"	mod_font="SFC_8" modText_x="10" modText_y="25" modText_w="95" modText_h="9"
+						    >
+			<CS01OptionItem type="added" name="None" value="16"/>
+			<CS01OptionItem type="pool"  valueStart="0" valueEnd="15" nameEmpty="Empty" valueDisplayFormat="%c" valueDisplayOffset="65"/>
+		</CS01OptionMenuPool>
+
+		<!-- Channel Number -->
+		<StaticText text="$OP_NUM" x="10" y="397" w="10" h="16" font="SFCHEADING_16"/>
+
+		<!-- Enabler -->
+		<CS01OnOffButton style="SPCOnOffSquared" param="512" x="30" y="403" w="73" role="onOff"/>
 </GUI>

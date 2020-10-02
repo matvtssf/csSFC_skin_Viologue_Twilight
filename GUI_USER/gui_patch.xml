@@ -145,7 +145,7 @@
 	</XMLMacroText>
 
 
-    <StaticText text="Sample" x=" 72"  y="5"  w="115"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
+<!--    <StaticText text="Sample" x=" 72"  y="5"  w="115"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
 	<StaticText text="A"      x="197"  y="5"  w="32"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
 	<StaticText text="D"      x="239"  y="5"  w="32"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
 	<StaticText text="S"      x="281"  y="5"  w="32"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
@@ -169,9 +169,6 @@
 	<StaticText text="LoKey"  x="918"  y="5"  w="32"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
 	<StaticText text="HiKey"  x="960"  y="5"  w="32"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
 
-	<Rect x="5" y="20" w="1014" h="5" style="SPCBetweenLayer"/>
-
-<!--
 	<RoundedRect              x="17"   y="25" w="990" h="339" roundedRectRatio="0.07" style="SPCLayer"/>
 -->	
 <!--
@@ -182,81 +179,107 @@
 	<Ellipse x="957" y="25" w="38" h="38" style="SPCLayer"/>
 	<Rect x="957" y="44" w="38" h="19" style="SPCLayer"/>
 -->
-	<GUIMacro path="sub_layer.xml" xoffset="17"  yoffset="25" param_offset="0">
+<GUIMacro path="sub_layer.xml" xoffset="18" yoffset="2" param_offset="0">
+		<Define name="$OP_NUM" value="1"/>
+		<Define name="$FM_BTN_POS" value="-999"/>
+		<Define name="$FM_TXT_POS" value="-999"/>
+</GUIMacro>
+
+<GUIMacro path="sub_layer.xml" xoffset="130" yoffset="2" param_offset="16">
+		<Define name="$OP_NUM" value="2"/>
+		<Define name="$FM_BTN_POS" value="296"/>
+		<Define name="$FM_TXT_POS" value="300"/>
+</GUIMacro>
+
+<GUIMacro path="sub_layer.xml" xoffset="242" yoffset="2" param_offset="32">
+		<Define name="$OP_NUM" value="3"/>
+		<Define name="$FM_BTN_POS" value="296"/>
+		<Define name="$FM_TXT_POS" value="300"/>
+</GUIMacro>
+
+<GUIMacro path="sub_layer.xml" xoffset="354" yoffset="2" param_offset="48">
+		<Define name="$OP_NUM" value="4"/>
+		<Define name="$FM_BTN_POS" value="296"/>
+		<Define name="$FM_TXT_POS" value="300"/>
+</GUIMacro>
+
+<GUIMacro path="sub_layer.xml" xoffset="466" yoffset="2" param_offset="64">
+		<Define name="$OP_NUM" value="5"/>
+		<Define name="$FM_BTN_POS" value="296"/>
+		<Define name="$FM_TXT_POS" value="300"/>
+</GUIMacro>
+
+<GUIMacro path="sub_layer.xml" xoffset="578" yoffset="2" param_offset="80">
+		<Define name="$OP_NUM" value="6"/>
+		<Define name="$FM_BTN_POS" value="296"/>
+		<Define name="$FM_TXT_POS" value="300"/>
+</GUIMacro>
+
+<GUIMacro path="sub_layer.xml" xoffset="690" yoffset="2" param_offset="96">
+		<Define name="$OP_NUM" value="7"/>
+		<Define name="$FM_BTN_POS" value="296"/>
+		<Define name="$FM_TXT_POS" value="300"/>
+</GUIMacro>
+
+<GUIMacro path="sub_layer.xml" xoffset="802" yoffset="2" param_offset="112">
+		<Define name="$OP_NUM" value="8"/>
+		<Define name="$FM_BTN_POS" value="296"/>
+		<Define name="$FM_TXT_POS" value="300"/>
+</GUIMacro>
+
+
+
+<!--	<GUIMacro path="sub_layer.xml" xoffset="17"  yoffset="25" param_offset="0">
 		<Define name="$OP_NUM" value="1"/>
 		<Define name="$FM_BTN_POS" value="-999"/>
 	</GUIMacro>
 	<Rect x="5" y="63" w="1014" h="5" style="SPCBetweenLayer"/>
-<!-- 
-<Rect x="17" y="68" w="990" h="38" style="SPCLayer"/> 
--->
+
 	<GUIMacro path="sub_layer.xml" xoffset="17"  yoffset="68" param_offset="16">
 		<Define name="$OP_NUM" value="2"/>
 		<Define name="$FM_BTN_POS" value="9"/>
 	</GUIMacro>
 	<Rect x="5" y="106" w="1014" h="5" style="SPCBetweenLayer"/>
 
-<!-- 
-<Rect x="17" y="111" w="990" h="38" style="SPCLayer"/> 
--->
 	<GUIMacro path="sub_layer.xml" xoffset="17"  yoffset="111" param_offset="32">
 		<Define name="$OP_NUM" value="3" />
 		<Define name="$FM_BTN_POS" value="9"/>
 	</GUIMacro>
 	<Rect x="5" y="149" w="1014" h="5" style="SPCBetweenLayer"/>
 
-<!--
-<Rect x="17" y="154" w="990" h="38" style="SPCLayer"/> 
--->
 	<GUIMacro path="sub_layer.xml" xoffset="17"  yoffset="154" param_offset="48">
 		<Define name="$OP_NUM" value="4"/>
 		<Define name="$FM_BTN_POS" value="9"/>
 	</GUIMacro>
 	<Rect x="5" y="192" w="1014" h="5" style="SPCBetweenLayer"/>
 	
-<!--
-<Rect x="17" y="197" w="990" h="38" style="SPCLayer"/> 
--->
 	<GUIMacro path="sub_layer.xml" xoffset="17"  yoffset="197" param_offset="64">
 		<Define name="$OP_NUM" value="5"/>
 		<Define name="$FM_BTN_POS" value="9"/>
 	</GUIMacro>
 	<Rect x="5" y="235" w="1014" h="5" style="SPCBetweenLayer"/>
 	
-<!--
-<Rect x="17" y="240" w="990" h="38" style="SPCLayer"/> 
--->
 	<GUIMacro path="sub_layer.xml" xoffset="17"  yoffset="240" param_offset="80">
 		<Define name="$OP_NUM" value="6"/>
 		<Define name="$FM_BTN_POS" value="9"/>
 	</GUIMacro>
 	<Rect x="5" y="278" w="1014" h="5" style="SPCBetweenLayer"/>
 	
-<!--
-<Rect x="17" y="283" w="990" h="38" style="SPCLayer"/> 
--->
 	<GUIMacro path="sub_layer.xml" xoffset="17"  yoffset="283" param_offset="96">
 		<Define name="$OP_NUM" value="7"/>
 		<Define name="$FM_BTN_POS" value="9"/>
 	</GUIMacro>
 	<Rect x="5" y="321" w="1014" h="5" style="SPCBetweenLayer"/>
 
-<!--
-	<Ellipse x="17"  y="326" w="38"  h="38" style="SPCLayer"/>
-	<Rect    x="17"  y="326" w="38"  h="19" style="SPCLayer"/>
-	<Rect    x="24"  y="326" w="952" h="38" style="SPCLayer"/>
-	<Ellipse x="957" y="326" w="38"  h="38" style="SPCLayer"/>
-	<Rect    x="957" y="326" w="38"  h="19" style="SPCLayer"/> 
--->
 	<GUIMacro path="sub_layer.xml" xoffset="17"  yoffset="326" param_offset="112">
 		<Define name="$OP_NUM" value="8"/>
-		<Define name="$FM_BTN_POS" value="9"/>
-	</GUIMacro>
+		<Define name="$FM_BTN_POS" value="9"/> 
+	</GUIMacro>  -->
 
-	<GUIMacro path="gui_fx.xml" xoffset="17" yoffset="381" param_offset="896" />			
+	<!-- <GUIMacro path="gui_fx.xml" xoffset="17" yoffset="381" param_offset="896" />			
 				
 	<CS01ExpandViewButton x="937" y="395" w="80" style="ExpandViewButtons" close_button_tag="12312313" text="Ø   Phase" expandedViewCloser="1">
 		<CS01ViewContainer path="gui_fx_phase.xml" backgroundColor="#44444401" xoffset="0" yoffset="0" param_offset="896"/>
-	</CS01ExpandViewButton>
+	</CS01ExpandViewButton> -->
 
 </GUI>
