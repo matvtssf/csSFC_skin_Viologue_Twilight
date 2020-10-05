@@ -37,17 +37,17 @@
  <!-- Background SVG -->
 	<StaticImage image="tssf_background.svg"        x="0"  y="0"/>
 	
-<!-- Rounded backdrop Header -->
-	<VisibilityContainer x="15" y="62" w="994" h="24">
-		<RoundedRect              x="0"   y="0" w="994" h="448" roundedRectRatio="0.02" style="SPCLayerHeader"/>
-	<!-- Divider -->
-			<RoundedRect              x="0" y="22" w="994" h="1" style="Divider" />
-	</VisibilityContainer>
-
 <!-- Rounded backdrop -->
 
 	<VisibilityContainer x="14" y="62" w="995" h="450">
 		<RoundedRect              x="1"   y="0" w="994" h="448" roundedRectRatio="0.02" style="SPCLayer"/>
+	</VisibilityContainer>
+
+<!-- Rounded backdrop Header -->
+	<VisibilityContainer x="15" y="62" w="994" h="24">
+		<RoundedRect              x="0"   y="0" w="994" h="448" roundedRectRatio="0.02" style="SPCLayerHeader"/>
+	<!-- Divider -->
+		<RoundedRect              x="0" y="22" w="994" h="1" style="Divider" />
 	</VisibilityContainer>
 
 <TextEditor param="DID_CUSTOM_DATA" x="20" y="58" w="233" h="25"
@@ -166,14 +166,27 @@
 		<!-- Mod wheel-->
 		<RoundedRect x="50" y="1" w="21" h="88" style="MIDIRect" />
 		<CS01Slider param="001" x="52" y="02" style="MIDISlider" vmin="0" vmax="1" vdefault="0" spring_mode="0" enable_keys="1" enable_mousewheel="1"/>
-		
+
 
 		<CS01Keyboard param="DID_KEYBOARDGUI" x="81" y="01" w="878" h="88" start_key="24" end_key="96"
 			offset0="13" offset1="53" offset2="73" offset3="113" offset4="133" offset5="153"
 			white_key_on="keyboard/white_key_on.svg" white_key_off="keyboard/white_key_off.svg" black_key_on="keyboard/black_key_on.svg" black_key_off="keyboard/black_key_off.svg"
 			inactiveColor="#11111199" ksActiveColor="#0000AADD" ksInactiveColor="#000044DD"/>
 
-		<StaticImage image="plogo_vect_30.svg" x="970" y="20" />
+		<!-- <StaticImage image="plogo_vect_30.svg" x="970" y="20" /> -->
+		<CS01Knob x="970" y="20" style="SPClohi" command="ui_zoomRatio" vdefault="1" mouseIncrement="0.5" enabledByOnOff="1">
+			<XMLMacroTextUse name="optionMenuKnoblohi"/>
+		</CS01Knob>
+		<OptionMenu command="ui_zoomRatio" x="970" y="20" w="40" style="SettingsOptionMenu" vdefault="1.00">
+			<OptionItem name="25%"  value="0.25"/>
+			<OptionItem name="50%"	value="0.50"/>
+			<OptionItem name="75%"	value="0.75"/>
+			<OptionItem name="100%"	value="1.00"/>
+			<OptionItem name="125%"	value="1.25"/>
+			<OptionItem name="150%" value="1.50"/>
+			<OptionItem name="175%" value="1.75"/>
+			<OptionItem name="200%" value="2.00"/>
+		</OptionMenu>
 
 	</CS01ViewContainer>
 

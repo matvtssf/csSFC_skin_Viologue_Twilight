@@ -184,102 +184,60 @@
 		<Define name="$FM_BTN_POS" value="-999"/>
 		<Define name="$FM_TXT_POS" value="-999"/>
 </GUIMacro>
+<CS03Slider param="519" x="95" y="276" style="VolumeFader2" />
+
 
 <GUIMacro path="sub_layer.xml" xoffset="130" yoffset="2" param_offset="16">
 		<Define name="$OP_NUM" value="2"/>
 		<Define name="$FM_BTN_POS" value="296"/>
-		<Define name="$FM_TXT_POS" value="300"/>
+		<Define name="$FM_TXT_POS" value="302"/>
 </GUIMacro>
+<CS03Slider param="535" x="207" y="276" style="VolumeFader2" />
+
 
 <GUIMacro path="sub_layer.xml" xoffset="242" yoffset="2" param_offset="32">
 		<Define name="$OP_NUM" value="3"/>
 		<Define name="$FM_BTN_POS" value="296"/>
-		<Define name="$FM_TXT_POS" value="300"/>
+		<Define name="$FM_TXT_POS" value="302"/>
 </GUIMacro>
+<CS03Slider param="551" x="319" y="276" style="VolumeFader2" />
 
 <GUIMacro path="sub_layer.xml" xoffset="354" yoffset="2" param_offset="48">
 		<Define name="$OP_NUM" value="4"/>
 		<Define name="$FM_BTN_POS" value="296"/>
-		<Define name="$FM_TXT_POS" value="300"/>
+		<Define name="$FM_TXT_POS" value="302"/>
 </GUIMacro>
+<CS03Slider param="567" x="431" y="276" style="VolumeFader2" />
 
 <GUIMacro path="sub_layer.xml" xoffset="466" yoffset="2" param_offset="64">
 		<Define name="$OP_NUM" value="5"/>
 		<Define name="$FM_BTN_POS" value="296"/>
-		<Define name="$FM_TXT_POS" value="300"/>
+		<Define name="$FM_TXT_POS" value="302"/>
 </GUIMacro>
+<CS03Slider param="583" x="543" y="276" style="VolumeFader2" />
 
 <GUIMacro path="sub_layer.xml" xoffset="578" yoffset="2" param_offset="80">
 		<Define name="$OP_NUM" value="6"/>
 		<Define name="$FM_BTN_POS" value="296"/>
-		<Define name="$FM_TXT_POS" value="300"/>
+		<Define name="$FM_TXT_POS" value="302"/>
 </GUIMacro>
+<CS03Slider param="599" x="655" y="276" style="VolumeFader2" />
 
 <GUIMacro path="sub_layer.xml" xoffset="690" yoffset="2" param_offset="96">
 		<Define name="$OP_NUM" value="7"/>
 		<Define name="$FM_BTN_POS" value="296"/>
-		<Define name="$FM_TXT_POS" value="300"/>
+		<Define name="$FM_TXT_POS" value="302"/>
 </GUIMacro>
+<CS03Slider param="615" x="767" y="276" style="VolumeFader2" />
 
 <GUIMacro path="sub_layer.xml" xoffset="802" yoffset="2" param_offset="112">
 		<Define name="$OP_NUM" value="8"/>
 		<Define name="$FM_BTN_POS" value="296"/>
-		<Define name="$FM_TXT_POS" value="300"/>
+		<Define name="$FM_TXT_POS" value="302"/>
 </GUIMacro>
 
+<CS03Slider param="631" x="879" y="276" style="VolumeFader2" />
 
-
-<!--	<GUIMacro path="sub_layer.xml" xoffset="17"  yoffset="25" param_offset="0">
-		<Define name="$OP_NUM" value="1"/>
-		<Define name="$FM_BTN_POS" value="-999"/>
-	</GUIMacro>
-	<Rect x="5" y="63" w="1014" h="5" style="SPCBetweenLayer"/>
-
-	<GUIMacro path="sub_layer.xml" xoffset="17"  yoffset="68" param_offset="16">
-		<Define name="$OP_NUM" value="2"/>
-		<Define name="$FM_BTN_POS" value="9"/>
-	</GUIMacro>
-	<Rect x="5" y="106" w="1014" h="5" style="SPCBetweenLayer"/>
-
-	<GUIMacro path="sub_layer.xml" xoffset="17"  yoffset="111" param_offset="32">
-		<Define name="$OP_NUM" value="3" />
-		<Define name="$FM_BTN_POS" value="9"/>
-	</GUIMacro>
-	<Rect x="5" y="149" w="1014" h="5" style="SPCBetweenLayer"/>
-
-	<GUIMacro path="sub_layer.xml" xoffset="17"  yoffset="154" param_offset="48">
-		<Define name="$OP_NUM" value="4"/>
-		<Define name="$FM_BTN_POS" value="9"/>
-	</GUIMacro>
-	<Rect x="5" y="192" w="1014" h="5" style="SPCBetweenLayer"/>
-	
-	<GUIMacro path="sub_layer.xml" xoffset="17"  yoffset="197" param_offset="64">
-		<Define name="$OP_NUM" value="5"/>
-		<Define name="$FM_BTN_POS" value="9"/>
-	</GUIMacro>
-	<Rect x="5" y="235" w="1014" h="5" style="SPCBetweenLayer"/>
-	
-	<GUIMacro path="sub_layer.xml" xoffset="17"  yoffset="240" param_offset="80">
-		<Define name="$OP_NUM" value="6"/>
-		<Define name="$FM_BTN_POS" value="9"/>
-	</GUIMacro>
-	<Rect x="5" y="278" w="1014" h="5" style="SPCBetweenLayer"/>
-	
-	<GUIMacro path="sub_layer.xml" xoffset="17"  yoffset="283" param_offset="96">
-		<Define name="$OP_NUM" value="7"/>
-		<Define name="$FM_BTN_POS" value="9"/>
-	</GUIMacro>
-	<Rect x="5" y="321" w="1014" h="5" style="SPCBetweenLayer"/>
-
-	<GUIMacro path="sub_layer.xml" xoffset="17"  yoffset="326" param_offset="112">
-		<Define name="$OP_NUM" value="8"/>
-		<Define name="$FM_BTN_POS" value="9"/> 
-	</GUIMacro>  -->
-
-	<!-- <GUIMacro path="gui_fx.xml" xoffset="17" yoffset="381" param_offset="896" />			
-				
-	<CS01ExpandViewButton x="937" y="395" w="80" style="ExpandViewButtons" close_button_tag="12312313" text="Ø   Phase" expandedViewCloser="1">
-		<CS01ViewContainer path="gui_fx_phase.xml" backgroundColor="#44444401" xoffset="0" yoffset="0" param_offset="896"/>
-	</CS01ExpandViewButton> -->
+<GUIMacro path="sub_fx.xml" />
 
 </GUI>
