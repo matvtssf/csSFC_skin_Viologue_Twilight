@@ -119,17 +119,7 @@
 		<VisibilityContainer x="78" y="274" w="16" h="100" enabledByOnOff="1">
 			<RoundedRect x="4" y="4" w="8" h="96" style="MIDIRect" />
 		</VisibilityContainer>
-		<!--<CS03Slider param="519" x="0" y="0" style="VolumeFader" /> -->
-<CS01Slider x="2" y="5" w="30" h="127" style="OpSlider" track_x="5" track_y="0" track_w="7" track_h="100" trackColor="#2E2E2EFF" knob="sliderHandle10.svg" 
-		knob_x="3" knob_y="0" knob_w="11" knob_h="15" fontColor="#000000FF" stepped="1" clickOnTrack="1" param="00" vmin="0" 
-		mod_fillColor="#2592929B" vmax="127" vdefault="0" label_x="0" label_y="99" label_w="30" label_h="25" label_fontColor="#FFFFFFAA" label_font="RawThin_12" 
-		labelText="Lvl" showValueTextOnHL="1" showValueTextMod="1" value_fontColor="#FFFFFFAA" value_font="RawThin_8" textEdit_backColor="#333333FF" textEdit_font="verysmall" 
-		modTrack_x="16" modTrack_y="0" modTrack_w="2" modTrack_h="100" modTrackColor="#22222280" />
-
-		<StaticText text="100" x="96" y="275" w="12" style="SmallTextChannelsTab" />
-		<StaticText text="50" x="96" y="315" w="12" style="SmallTextChannelsTab" />
-		<StaticText text="0" x="96" y="355" w="12" style="SmallTextChannelsTab" />
-
+				
 		<!-- Sample Selector -->
 
 		<RoundedRect        x="10" y="380" style="ChannelsFilenameBackground" />

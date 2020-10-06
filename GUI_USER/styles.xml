@@ -17,7 +17,7 @@
 	<Style name="OptionMenuPerf"
 		h="22"
 		font="SFC_9"
-		transparent="0"
+		transparent="1"
 		alignment="center"
 		color_text="#FFFFFFBB"
 		color_back="#00000000"
@@ -119,8 +119,8 @@
 		label_y="34"/>
 
 	<Style name="MIDISlider"
-		w="17"
-		h="86"
+		w="13"
+		h="76"
 		knob_x="0"
 		knob_y="0"
 		knob_w="23"
@@ -304,6 +304,13 @@
 		h="21"
 		roundedRectRatio="0.2"
 		drawMode="filled"/>
+
+	<Style name="UnderKeyboard"
+		fill_color="#00000060"
+		drawMode="strokedFilled"
+		frameWidth="1"
+		roundedRectRatio="0.025"
+		border_color="#00000010" />
 
 	<Style name="Divider"
 		fill_color="#000000d0"
@@ -532,8 +539,8 @@
 	<Style name="ModLinksViewButtons"
 		h="20"
 		roundedRatio="0.2"
-		offColor="#54585aFF"
-		color_text="#FFFFFFBB"/>
+		offColor="#FFFFFF50"
+		color_text="#FFFFFFDD"/>
 
 	<Style name="ModulationLinksContainer"
 		fillColor="#54585aFF"
@@ -546,6 +553,12 @@
 		rangeSliderFillColor="#F7BA0BEE"
 		checkBoxOffColor="#F7BA0B40"
 		checkBoxOnColor="#F7BA0BEE"/>
+
+	<Style name="ModulaionRightPanel"
+		fill_color="#656A84FF"
+		drawMode="strokedFilled"
+		frameWidth="1"
+		border_color="#00000010" />
 
 	<Style name="ScrollViewPageController"
 		backgroundColor="#54585aFF"
@@ -775,9 +788,9 @@
 	<Style name="SettingsViewButtons"
 		h="18"
 		roundedRatio="0.2"
-		offColor="#707372FF"
-		color_pushed="#707372AA"
-		color_text="#FFFFFFBB"
+		offColor="#4d5055ff"
+		color_pushed="#4d505540"
+		color_text="#cbcbd8ff"
 		font="SFC_11"/>
 	
 	<Style name="SettingsStaticText"
@@ -785,26 +798,37 @@
 		alignment="left"
 		color_back="#FFFFFF00"
 		color_border="#FFFFFF00"
-		color_text="#444444FF"
+		color_text="#cbcbd8AA"
 		font="SFC_11"/>
 	
 	<Style name="SettingsStaticTextHeaders"
 		h="16"
 		alignment="left"
-		color_text="#00387bFF"
+		color_text="#cbcbd8ff"
 		transparent="1"
 		font="SFC_12"/>
 	
+	<Style name="GUIOptionMenuBottomRight"
+		h="22"
+		font="SFC_9"
+		transparent="1"
+		alignment="center"
+		color_text="#FFFFFFBB"
+		color_back="#00000000"
+		color_border="#FFFFFF00"
+		checkCurrentValue="1"/>
+
 	<Style name="SettingsOptionMenu"
-		h="18"
+		h="16"
 		font_size="Small"
 		color_border="#FFFFFF00"
-		color_back="#707372FF"
-		color_text="#FFFFFFBB"
+		color_back="#4d5055ff"
+		color_text="#cbcbd8ff"
 		transparent="0"
 		alignment="center"
 		checkCurrentValue="1"
 		font="SFC_11"/>
+	o
 	
 	<Style name="SettingsLabel"
 		h="18"
@@ -819,18 +843,18 @@
 		font="SFC_10"/>
 	
 	<Style name="SettingsBackgroundColor"
-		backgroundColor="#B2B4B2FF"/>
+		backgroundColor="#00000000"/>
 	
 	<Style name="SettingsKnob"
-		trackColor="#54585aFF"
-		fillColor="#00387bFF"
-		fontColor="#00387bFF"/>
+		trackColor="#00000050"
+		fillColor="#828bdeD0"
+		fontColor="#FFFFFFAA" />
 	
 	<Style name="SettingsOnOffButton"
-		offColor="#111111FF"
-		onColor="#00387bFF"/>
+		offColor="#0000005F"
+		onColor="#828bdeD0"/>
 	
 	<Style name="SettingsDisplayStringOption"
-		color_text="#00387bFF"/>
+		color_text="#FFFFFFAA"/>
 
 </Styles>
