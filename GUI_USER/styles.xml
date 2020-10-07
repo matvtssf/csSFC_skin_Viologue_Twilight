@@ -120,7 +120,7 @@
 
 	<Style name="MIDISlider"
 		w="13"
-		h="76"
+		h="86"
 		knob_x="0"
 		knob_y="0"
 		knob_w="23"
@@ -538,27 +538,93 @@
 
 	<Style name="ModLinksViewButtons"
 		h="20"
-		roundedRatio="0.2"
-		offColor="#FFFFFF50"
-		color_text="#FFFFFFDD"/>
+		roundedRatio="0.15"
+		offColor="#6c78c4c0"
+		color_pushed="#283480FF"
+		color_text="#FFFFFFBB"
+		color_disabled="#999999c0"
+		font="SFC_11"
+		style_windows="normal"
+		style_osx="normal"
+		/>
 
 	<Style name="ModulationLinksContainer"
-		fillColor="#54585aFF"
+		backgroundColor="#00000000"
+		links_x="0"
+		links_y="0"
+		links_w="845"
+		links_h="400"
+		font="SFC_12"
+		color_text="#FFFFFFDD"
+		frameWidth="0"
+		frameColor="#00000020"
+		drawFill="1"
+		style="ModulationLinksContainer"
+		fill_roundedRatio="0"
+		drawFrame="0"
+		minRows="2"
+		maxRows="100"
+		scrollbarWidth="10"
+		addIcon_x="645"
+		addIcon_y="0"
+		addIcon_w="20"
+		addIcon_h="20"
+		addIconType="2"
+		addIconLineWidth="1"
+		addIconLineColor="#FFFFFFDD"
+		rangeSliderMargin_x="0"
+		rangeSliderMargin_y="0"
+		rangeSliderDisplay_w="40"
+		rangeSliderDisplay_h="20"
+		rangeSliderSpacing="3"
+		rangeSlider_w="114"
+		rangeSlider_h="12"
+		rangeSlider_y="4"
+		rangeSliderKnob_y="2"
+		rangeSliderKnob_w="2"
+		rangeSliderKnob_h="16"
+		checkBox_x="10"
+		checkBox_y="5"
+		checkBox_w="10"
+		checkBox_h="10"
+		fillColor="#00000020"
 		scrollbarColor="#B2B4B2FF"
-		textEdit_backColor="#000000AA"
-		deleteIconColor="#FFFFFFBB"
-		addIconBackgroundColor="#54585aFF"
+		textEdit_backColor="#000000DD"
+		deleteIconColor="#FFFFFFDD"
+		addIconBackgroundColor="#00000000"
 		rangeSliderKnobColor="#AA99BBEE"
 		rangeSliderTrackColor="#F7BA0B40"
 		rangeSliderFillColor="#F7BA0BEE"
-		checkBoxOffColor="#F7BA0B40"
-		checkBoxOnColor="#F7BA0BEE"/>
+		checkBoxOffColor="#FFFFFFDD"
+		checkBoxOnColor="#FFFFFFDD"/>
+
+
+	<Style name="ModLinksTextHeader"
+	color_text="#FFFFFFA0"
+	h="16"
+	alignment="center"
+	font="SFCHEADING_12" />
+
+	<Style name="ModLinksColumnDarkened"
+		fill_color="#00000018"
+		drawMode="filled" />
+
+	<Style name="ModLinksTopBar"
+		roundedRectRatio="0.015"
+		fill_color="#353c70FF"
+		drawMode="filled" />
 
 	<Style name="ModulaionRightPanel"
-		fill_color="#656A84FF"
+		fill_color="#454e87FF"
 		drawMode="strokedFilled"
 		frameWidth="1"
-		border_color="#00000010" />
+		border_color="#00000010"
+		roundedRectRatio="0.07" />
+
+	<Style name="ModLinksDataBackground"
+		roundedRectRatio="0.015"
+		fill_color="#00000010"
+		drawMode="filled" />
 
 	<Style name="ScrollViewPageController"
 		backgroundColor="#54585aFF"

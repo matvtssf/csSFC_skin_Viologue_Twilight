@@ -69,8 +69,13 @@
 	<RoundedRect x="26" y="100" w="10" h="1" style="Divider" /> 
 	<RoundedRect x="35" y="35" w="1" h="66" style="Divider" />
 	<RoundedRect x="35" y="35" w="8" h="1" style="Divider" /> 
-	
+
+	<!--Time-->	
 	<CS03Knob style="SPCKnob3" param="898" x="42" y="15" xvmin="0" vdefault="5" vmax="15" stepped="1" labelText="ms" factor="16" mouseIncrement="0.08" showValueTextOnHL="0" label_fontColor="#000000d0" />
+
+	<!--Feedback-->
+	
+	<CS03Knob style="SPCKnob3" param="899" x="42" y="62" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="0.33" vmax="1" stepped="0" labelText="Feedback" showValueTextOnHL="1" label_fontColor="#000000d0" />
 
 <!-- Feedback -->
 

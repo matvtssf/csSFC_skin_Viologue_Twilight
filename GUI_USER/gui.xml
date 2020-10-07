@@ -7,7 +7,7 @@
 	color_border="#000000FF"
 	font_size="Small"
 	modulatedParamSource="com.Plogue.Emulator.SFC|0|30D1|0"
-	highlight_Luminance="0.2">
+	highlight_Luminance="-0.1">
 
 	<Property name="modulationDestinationsAlphaOrder" value="0"/>
 	<Property name="modulationDestinationsPrefixOrder" value="L1 ;L01 ;L2 ;L02 ;L3 ;L03 ;L3 ;L03 ;L4 ;L04 ;L5 ;L05 ;L6 ;L06 ;L7 ;L07 ;L8 ;L08 ;Voice ;Delay ;Step0 ;Step1 ;Step2 ;Step3 ;Step4 ;Step5 ;Step6 ;Step7 ;Step8 ;Step9 ;Step10 ;Step11 ;Step12 ;Step13 ;Step14 "/>
@@ -181,7 +181,7 @@
 
 		<CS01Keyboard param="DID_KEYBOARDGUI" x="50" y="2" w="878" h="88" start_key="24" end_key="96"
 			offset0="13" offset1="53" offset2="73" offset3="113" offset4="133" offset5="153"
-			white_key_on="keyboard/white_key_on.svg" white_key_off="keyboard/white_key_off.svg" black_key_on="keyboard/black_key_on.svg" black_key_off="keyboard/black_key_off.svg"
+			white_key_on="keyboard/white_key_on.svg" white_key_off="keyboard/white_key_off.svg" black_key_on="keyboard/black_key_on_3D.svg" black_key_off="keyboard/black_key_off_3D.svg"
 			inactiveColor="#11111199" ksActiveColor="#0000AADD" ksInactiveColor="#000044DD"/>
 
 <!--Zoom-->

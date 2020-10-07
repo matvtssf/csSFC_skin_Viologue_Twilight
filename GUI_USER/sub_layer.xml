@@ -6,11 +6,11 @@
 	<RoundedRect x="2" y="2" style="ChannelStripBackground" />
 		
 	<!-- ADSD2R Envelope -->
-		<CS03Knob style="SPCKnobADSR" param="768" x="19" y="3" vmin="0" vmax="15" vdefault="0"  stepped="1" mouseIncrement="0.08" enabledByOnOff="1" labelText="A" />
-		<CS03Knob style="SPCKnobADSR" param="769" x="61" y="3" vmin="0" vmax="7"  vdefault="7"  stepped="1" mouseIncrement="0.04" enabledByOnOff="1" labelText="D" />
-		<CS03Knob style="SPCKnobADSR" param="770" x="19" y="36" vmin="0" vmax="7"  vdefault="7"  stepped="1" mouseIncrement="0.04" enabledByOnOff="1" labelText="S" />
-		<CS03Knob style="SPCKnobADSR" param="771" x="61" y="36" vmin="0" vmax="31" vdefault="31" stepped="1" mouseIncrement="0.16" enabledByOnOff="1" labelText="D2" />
-		<CS03Knob style="SPCKnobADSR" param="772" x="19" y="69" vmin="0" vmax="32" vdefault="0"  stepped="1" mouseIncrement="0.16" enabledByOnOff="1" labelText="R" />
+		<CS03Knob style="SPCKnobADSR" param="768" x="9" y="3" vmin="0" vmax="15" vdefault="0"  stepped="1" mouseIncrement="0.08" enabledByOnOff="1" labelText="A" />
+		<CS03Knob style="SPCKnobADSR" param="769" x="51" y="3" vmin="0" vmax="7"  vdefault="7"  stepped="1" mouseIncrement="0.04" enabledByOnOff="1" labelText="D" />
+		<CS03Knob style="SPCKnobADSR" param="770" x="29" y="36" vmin="0" vmax="7"  vdefault="7"  stepped="1" mouseIncrement="0.04" enabledByOnOff="1" labelText="S" />
+		<CS03Knob style="SPCKnobADSR" param="771" x="71" y="36" vmin="0" vmax="31" vdefault="31" stepped="1" mouseIncrement="0.16" enabledByOnOff="1" labelText="D2" />
+		<CS03Knob style="SPCKnobADSR" param="772" x="9" y="69" vmin="0" vmax="32" vdefault="0"  stepped="1" mouseIncrement="0.16" enabledByOnOff="1" labelText="R" />
 
 	<!-- Pitch / Envelope Diagonal Divider -->
 
@@ -119,6 +119,9 @@
 		<VisibilityContainer x="78" y="274" w="16" h="100" enabledByOnOff="1">
 			<RoundedRect x="4" y="4" w="8" h="96" style="MIDIRect" />
 		</VisibilityContainer>
+		<StaticText text="100" x="96" y="275" w="12" style="SmallTextChannelsTab" />
+		<StaticText text="50" x="96" y="317" w="12" style="SmallTextChannelsTab" />
+		<StaticText text="0" x="96" y="355" w="12" style="SmallTextChannelsTab" />
 				
 		<!-- Sample Selector -->
 
