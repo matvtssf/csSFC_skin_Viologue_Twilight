@@ -119,9 +119,9 @@
 		<VisibilityContainer x="78" y="274" w="16" h="100" enabledByOnOff="1">
 			<RoundedRect x="4" y="4" w="8" h="96" style="MIDIRect" />
 		</VisibilityContainer>
-		<StaticText text="100" x="96" y="275" w="12" style="SmallTextChannelsTab" />
-		<StaticText text="50" x="96" y="317" w="12" style="SmallTextChannelsTab" />
-		<StaticText text="0" x="96" y="355" w="12" style="SmallTextChannelsTab" />
+		<StaticText text="100" x="96" y="280" w="12" style="SmallTextChannelsTab" />
+		<StaticText text="50" x="96" y="315" w="12" style="SmallTextChannelsTab" />
+		<StaticText text="0" x="96" y="350" w="12" style="SmallTextChannelsTab" />
 				
 		<!-- Sample Selector -->
 
@@ -134,7 +134,7 @@
 		</CS01OptionMenuPool>
 
 		<!-- Channel Number -->
-		<StaticText text="$OP_NUM" x="10" y="397" w="10" h="16" font="SFCHEADING_16"/>
+		<StaticText text="$OP_NUM" x="6" y="397" w="15" h="16" font="SFCHEADING_16"/>
 
 		<!-- Enabler -->
 		<CS01OnOffButton style="SPCOnOffSquared" offColor="#000000FF" param="512" x="29" y="403" w="74" role="onOff"/>

@@ -141,6 +141,9 @@
 	<Style name="StaticTextColorMain"
 		color_text="#FFFFFFDD"/>
 
+	<Style name="ARAMText"
+		color_text="#FFFFFF80"/>
+
 	<Style name="PresetMenuColor"
 		color_text="#FFFFFFBB"
 		color_back="#00000000"/>
@@ -193,9 +196,9 @@
 		activeIndicatorFrameColor="#cbcbd8ff"/>
 
 	<Style name="SPCSampleKnob03_24"
-		w="80"
+		w="90"
 		h="66"
-		knob_x="13"
+		knob_x="18"
 		knob_y="13"
 		knob_w="25"
 		knob_h="25"
@@ -209,23 +212,23 @@
 		valueIndicator_y="3"
 		valueIndicator_w="3"
 		valueIndicator_h="3"
-		knobFillColor="#00000000"
-		valueIndicatorFillColor="#00000000"
+		knobFillColor="#FFFFFFa0"
+		valueIndicatorFillColor="#000000a0"
 		showValueTextOnHL="1"
 		value_fontColor="#FFFFFFAA"
 		value_font="SFC_11"
 		addControl="0"
 		label_fontColor="#cbcbd8d0"
-		label_font="SFC_7"
-		label_w="50"
+		label_font="SFC_9"
+		label_w="60"
 		label_h="16"
 		label_x="0"
 		label_y="42" />
 
 	<Style name="SPCSampleKnob03_34"
-		w="70"
+		w="75"
 		h="55"
-		knob_x="8"
+		knob_x="10"
 		knob_y="8"
 		knob_w="20"
 		knob_h="20"
@@ -239,15 +242,15 @@
 		valueIndicator_y="3"
 		valueIndicator_w="3"
 		valueIndicator_h="3"
-		knobFillColor="#00000000"
-		valueIndicatorFillColor="00000000"
+		knobFillColor="#FFFFFFa0"
+		valueIndicatorFillColor="000000a0"
 		showValueTextOnHL="1"
 		value_fontColor="#FFFFFFAA"
 		value_font="SFC_11"
 		addControl="0"
 		label_fontColor="#cbcbd8d0"
-		label_font="SFC_7"
-		label_w="35"
+		label_font="SFC_9"
+		label_w="40"
 		label_h="16"
 		label_x="0"
 		label_y="30" />
@@ -432,7 +435,7 @@
 		knob_x="1"
 		knob_y="0"
 		knob_w="20"
-		knob_h="20"
+		knob_h="30"
 		fontColor="#000000FF"
 		clickOnTrack="1"
 		vmin="0" 
@@ -481,7 +484,7 @@
 		border_color="#00000008"/>
 
 	<Style name="SPCLayer"
-		fill_color="#6b75A6c0"
+		fill_color="#FFFFFF18"
 		drawMode="strokedFilled"
 		framewidth="2"
 		border_color="#00000010"/>
@@ -553,14 +556,13 @@
 		links_x="0"
 		links_y="0"
 		links_w="845"
-		links_h="400"
+		links_h="360"
 		font="SFC_12"
 		color_text="#FFFFFFDD"
 		frameWidth="0"
 		frameColor="#00000020"
 		drawFill="1"
-		style="ModulationLinksContainer"
-		fill_roundedRatio="0"
+		fill_roundedRatio="0.25"
 		drawFrame="0"
 		minRows="2"
 		maxRows="100"
@@ -569,9 +571,9 @@
 		addIcon_y="0"
 		addIcon_w="20"
 		addIcon_h="20"
-		addIconType="2"
+		addIconType="1"
 		addIconLineWidth="1"
-		addIconLineColor="#FFFFFFDD"
+		addIconLineColor="#00000000"
 		rangeSliderMargin_x="0"
 		rangeSliderMargin_y="0"
 		rangeSliderDisplay_w="40"
@@ -587,16 +589,16 @@
 		checkBox_y="5"
 		checkBox_w="10"
 		checkBox_h="10"
-		fillColor="#00000020"
+		fillColor="#ffffff18"
 		scrollbarColor="#B2B4B2FF"
 		textEdit_backColor="#000000DD"
 		deleteIconColor="#FFFFFFDD"
 		addIconBackgroundColor="#00000000"
-		rangeSliderKnobColor="#AA99BBEE"
-		rangeSliderTrackColor="#F7BA0B40"
-		rangeSliderFillColor="#F7BA0BEE"
-		checkBoxOffColor="#FFFFFFDD"
-		checkBoxOnColor="#FFFFFFDD"/>
+		rangeSliderKnobColor="#FFFFFF50"
+		rangeSliderTrackColor="#00000080"
+		rangeSliderFillColor="#828bdeD0"
+		checkBoxOffColor="#00000080"
+		checkBoxOnColor="#828bdeD0"/>
 
 
 	<Style name="ModLinksTextHeader"
@@ -615,16 +617,18 @@
 		drawMode="filled" />
 
 	<Style name="ModulaionRightPanel"
-		fill_color="#454e87FF"
+		fill_color="#343b6f80"
 		drawMode="strokedFilled"
 		frameWidth="1"
 		border_color="#00000010"
-		roundedRectRatio="0.07" />
+		roundedRectRatio="0.02" />
 
 	<Style name="ModLinksDataBackground"
-		roundedRectRatio="0.015"
-		fill_color="#00000010"
-		drawMode="filled" />
+		roundedRectRatio="0.01"
+		fill_color="#00000040"
+		frameWidth="1"
+		border_color="#00000010"
+		drawMode="strokedFilled" />
 
 	<Style name="ScrollViewPageController"
 		backgroundColor="#54585aFF"

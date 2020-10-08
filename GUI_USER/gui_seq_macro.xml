@@ -15,10 +15,6 @@
 		<PageName idx="7" name="Step 15"/>
 	</CS01ScrollViewPageController>
 
-	<RoundedRect              x="5"   y="0" w="1014" h="364" roundedRectRatio="0.07" style="SPCLayer"/>
-	<RoundedRect              x="5"   y="84" w="1014" h="359" roundedRectRatio="0.07" style="SPCLayer"/>
-	<Rect					  x="979" y="0" w="40" h="40" style="SPCLayer"/>
-
 	<ScrollView x="0" y="5" w="900" h="438" scrollbarwidth="0" internalwidth="7200" internalheight="451" backgroundColor="#333333FF" showScrollbars="0" name="modulatorsScrollView">
 
 		<CS01ViewContainerManager param="DID_CUSTOM_DATA" dataTarget="com.Plogue.Emulator.SFC|0|30D3|0"/>

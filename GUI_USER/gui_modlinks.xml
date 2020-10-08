@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GUI w="1024" h="449" backgroundColor="#00000000">
 <!--Background -->
-<RoundedRect 			  x="15" y="-35" w="994" h="459" style="ModLinksDataBackground"/>
-<Rect 			  x="15" y="0" w="994" h="25" style="ModLinksTopBar" />
-<RoundedRect 			  x="866" y="-12" w="143" h="437" style="ModulaionRightPanel"/>
+<RoundedRect 			  x="20" y="15" w="984" h="397" style="ModulaionRightPanel"/>
+<RoundedRect 			  x="23" y="40" w="833" h="360" style="ModLinksDataBackground"/>
+<!-- <Rect 			  x="23" y="20" w="833" h="25" style="ModLinksTopBar" />-->
+
 
 <!-- Column Grids -->
-<Rect 			  x="195" y="25" w="160" h="450" style="ModLinksColumnDarkened" />
-<Rect 			  x="554" y="25" w="200" h="450" style="ModLinksColumnDarkened" />
-<Rect 			  x="785" y="25" w="60" h="450" style="ModLinksColumnDarkened" />
+<Rect 			  x="185" y="40" w="160" h="360" style="ModLinksColumnDarkened" />
+<Rect 			  x="544" y="40" w="200" h="360" style="ModLinksColumnDarkened" />
+<Rect 			  x="775" y="40" w="60" h="360" style="ModLinksColumnDarkened" />
 
 <!-- Text Header -->
-<StaticText text="Source" x="37" y="3" w="76" style="ModLinksTextHeader" />
-<StaticText text="Function" x="117" y="3" w="76" style="ModLinksTextHeader" />
-<StaticText text="Control" x="197" y="3" w="76" style="ModLinksTextHeader" />
-<StaticText text="Function" x="277" y="3" w="78" style="ModLinksTextHeader" />
-<StaticText text="Destination" x="357" y="3" w="196" style="ModLinksTextHeader" />
-<StaticText text="Range" x="557" y="3" w="196" style="ModLinksTextHeader" />
-<StaticText text="Inv" x="757" y="3" w="26" style="ModLinksTextHeader" />
-<StaticText text="Math" x="787" y="3" w="56" style="ModLinksTextHeader" />
+<StaticText text="Source" x="27" y="23" w="76" style="ModLinksTextHeader" />
+<StaticText text="Function" x="107" y="23" w="76" style="ModLinksTextHeader" />
+<StaticText text="Control" x="187" y="23" w="76" style="ModLinksTextHeader" />
+<StaticText text="Function" x="267" y="23" w="78" style="ModLinksTextHeader" />
+<StaticText text="Destination" x="347" y="23" w="196" style="ModLinksTextHeader" />
+<StaticText text="Range" x="547" y="23" w="196" style="ModLinksTextHeader" />
+<StaticText text="Inv" x="747" y="23" w="26" style="ModLinksTextHeader" />
+<StaticText text="Math" x="777" y="23" w="56" style="ModLinksTextHeader" />
 
 <!-- Table -->
-	<CS01ViewContainer1 x="0" y="0" w="1010" h="435" style="ModLinksViewContainer1">
+	<CS01ViewContainer1 x="-10" y="15" w="1020" h="435" style="ModLinksViewContainer1">
 
-		<CS01ModulationLinksContainer param="DID_CUSTOM_DATA" x="30" y="25" w="1010" h="410" style="ModulationLinksContainer" token0=";" token1="=" deleteIconType="1" dataTarget="com.Plogue.Emulator.SFC|0|30D3|0"	tabSelectionViewName="main" tabSelectionIndex="2" skipScroll="1" >
+		<CS01ModulationLinksContainer param="DID_CUSTOM_DATA" x="30" y="25" w="1020" h="410" style="ModulationLinksContainer" token0=";" token1="=" deleteIconType="1" dataTarget="com.Plogue.Emulator.SFC|0|30D3|0"	tabSelectionViewName="main" tabSelectionIndex="2" skipScroll="1" >
 			
-			<CS01TextButton role="addRow"    x="844" y="365" w="60" style="ModLinksViewButtons" text="＋   Add" />
-			<CS01TextButton role="deleteAll" x="912" y="365" w="60" style="ModLinksViewButtons" text="✘   Clear" offColor="#9c4844c0" />
+			<CS01TextButton role="addRow"    x="846" y="340" w="60" style="ModLinksViewButtons" text="＋   Add" />
+			<CS01TextButton role="deleteAll" x="917" y="340" w="60" style="ModLinksViewButtons" text="✘   Clear" offColor="#9c4844c0" />
 
 			<CS01ModulationLinksColumn x="5"   y="0" w="80"  h="20" controltype="dynamicMenu"     entryType="string"    alignment="center" textMargin="4" name="Source" colChanged="1;4;5;6" keyword="SOURCE" dataSourceType="source"/>
 			<CS01ModulationLinksColumn x="90"  y="0" w="80"  h="20" controltype="dynamicMenu"     entryType="string"    alignment="center" textMargin="4" name="Function" keyword="SOURCE_FUNC" dataSourceType="func" colAvail="0" colAvailExFlag="8"/>

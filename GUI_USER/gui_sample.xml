@@ -33,22 +33,22 @@
 				
 		<!-- prehemph -->
 		<CS01OnOffButton x="490" y="353" role="userparam_5" style="SPCOnOffSquared" w="40" addControl="0"/>
-		<StaticText      x="485" y="362" w="50" h="16" text="Pre-Emphasis" style="SmallTextHeaderSampleTab" alignment="center" font="SFC_7"/>
+		<StaticText      x="480" y="362" w="60" h="16" text="Pre-Emphasis" style="SmallTextHeaderSampleTab" alignment="center" font="SFC_9"/>
 		
 		<!-- normalize -->
 		<CS01OnOffButton x="490" y="383" role="userparam_9" style="SPCOnOffSquared" w="40" addControl="0"/>
-		<StaticText      x="490" y="392" w="40" h="16" text="Normalize" style="SmallTextHeaderSampleTab" alignment="center" font="SFC_7"/>
+		<StaticText      x="490" y="392" w="42" h="16" text="Normalize" style="SmallTextHeaderSampleTab" alignment="center" font="SFC_9"/>
 
 		<!--ADSD2R-->
-		<CS03Knob style="SPCSampleKnob03_24" x="160"  y="348" role="userparam_0" vmin="0" vmax="15" vdefault="0"  stepped="1" mouseIncrement="0.08" labelText="A"/>
-		<CS03Knob style="SPCSampleKnob03_24" x="220"  y="348" role="userparam_1" vmin="0" vmax="7"  vdefault="7"  stepped="1" mouseIncrement="0.04" labelText="D"/>
-		<CS03Knob style="SPCSampleKnob03_24" x="280"  y="348" role="userparam_2" vmin="0" vmax="7"  vdefault="7"  stepped="1" mouseIncrement="0.04" labelText="S"/>
-		<CS03Knob style="SPCSampleKnob03_24" x="340" y="348" role="userparam_3" vmin="0" vmax="31" vdefault="31" stepped="1" mouseIncrement="0.16" labelText="D2"/>
-		<CS03Knob style="SPCSampleKnob03_24" x="400" y="348" role="userparam_4" vmin="0" vmax="32" vdefault="0"  stepped="1" mouseIncrement="0.16" labelText="R"/>
+		<CS03Knob style="SPCSampleKnob03_24" x="155"  y="348" role="userparam_0" vmin="0" vmax="15" vdefault="0"  stepped="1" mouseIncrement="0.08" labelText="A"/>
+		<CS03Knob style="SPCSampleKnob03_24" x="215"  y="348" role="userparam_1" vmin="0" vmax="7"  vdefault="7"  stepped="1" mouseIncrement="0.04" labelText="D"/>
+		<CS03Knob style="SPCSampleKnob03_24" x="275"  y="348" role="userparam_2" vmin="0" vmax="7"  vdefault="7"  stepped="1" mouseIncrement="0.04" labelText="S"/>
+		<CS03Knob style="SPCSampleKnob03_24" x="335" y="348" role="userparam_3" vmin="0" vmax="31" vdefault="31" stepped="1" mouseIncrement="0.16" labelText="D2"/>
+		<CS03Knob style="SPCSampleKnob03_24" x="395" y="348" role="userparam_4" vmin="0" vmax="32" vdefault="0"  stepped="1" mouseIncrement="0.16" labelText="R"/>
 	
 
 		<!-- gain -->
-		<CS03Knob        x="550" y="348" style="SPCSampleKnob03_24" roles="userparam_7;gain" vmin="0" vmax="400" vdefault="100" stepped="1" labelText="Waveform Gain"/>
+		<CS03Knob        x="545" y="348" style="SPCSampleKnob03_24" roles="userparam_7;gain" vmin="0" vmax="400" vdefault="100" stepped="1" labelText="Waveform Gain"/>
 
 
 	<!--Wave/ADSR Panels -->
@@ -72,27 +72,27 @@
 				<OptionItem name="Auto"  value="1"/>
 				<OptionItem name="Manual"  value="2"/>
 			</OptionMenu>
-			<StaticText x="545" y="18" w="65" h="16" text="Tuning Type" style="SmallTextHeaderSampleTab" font="SFC_7" alignment="center"/>
+			<StaticText x="545" y="18" w="65" h="16" text="Tuning Type" style="SmallTextHeaderSampleTab" font="SFC_9" alignment="center"/>
 
 			<CS01TextDisplay controller="SR" rule="availability_eq" rule_d1="2" role="userparam_12" x="545" y="36" w="65" h="16" font="SFC_12" vmin="1024" vmax="999999" vdefault="16744" stepped="1" style="WaveEditorTextDisplay" format="%d Hz" addControl="0" alignment="center" />
-			<StaticText x="545" y="48" w="65" h="16" text="C4 Sample Rate" style="SmallTextHeaderSampleTab" alignment="center" font="SFC_7"/>
+			<StaticText x="545" y="48" w="65" h="16" text="C4 Sample Rate" style="SmallTextHeaderSampleTab" alignment="center" font="SFC_9"/>
 
 			<!-- Detune -->
-			<CS03Knob style="SPCSampleKnob03_34" x="560" y="67" role="userparam_8" vmin="-1200" vmax="1200" vdefault="0" unipolar="0" stepped="1" labelText="SR Adjust"/>
+			<CS03Knob style="SPCSampleKnob03_34" x="558" y="67" role="userparam_8" vmin="-1200" vmax="1200" vdefault="0" unipolar="0" stepped="1" labelText="SR Adjust"/>
 
 			<!-- decim/squeeze -->
-			<CS03Knob        x="560" y="118" style="SPCSampleKnob03_34" role="userparam_6" vmin="0" vmax="100" vdefault="100" stepped="1" mouseIncrement="0.5" labelText="Decim"/>
+			<CS03Knob        x="558" y="118" style="SPCSampleKnob03_34" role="userparam_6" vmin="0" vmax="100" vdefault="100" stepped="1" mouseIncrement="0.5" labelText="Decim"/>
 
 			<!-- Loop Crossfade -->
-			<CS03Knob style="SPCSampleKnob03_34" x="560" y="181" roles="userparam_11;xfade" vmin="0" vmax="100" vdefault="0" mouseIncrement="0.5" stepped="1" labelText="XFade" />
+			<CS03Knob style="SPCSampleKnob03_34" x="558" y="181" roles="userparam_11;xfade" vmin="0" vmax="100" vdefault="0" mouseIncrement="0.5" stepped="1" labelText="XFade" />
 
 			<!-- Loop In/Out Text and BG Bars -->
 			<RoundedRect 			 x="545" y="241" w="65" style="LoopInOutField" />
 			<RoundedRect 			 x="545" y="264" w="65" style="LoopInOutField" />
-			<StaticText x="545" y="283" w="65" h="16" text="Loop Points" style="SmallTextHeaderSampleTab" alignment="center" font="SFC_7"/>
+			<StaticText x="545" y="283" w="65" h="16" text="Loop Points" style="SmallTextHeaderSampleTab" alignment="center" font="SFC_9"/>
 
 			<!-- Loop -->
-			<StaticText x="545" y="320" w="65" h="16" text="Loop Enable" style="SmallTextHeaderSampleTab"  alignment="center" font="SFC_7"/>
+			<StaticText x="545" y="320" w="65" h="16" text="Loop Enable" style="SmallTextHeaderSampleTab"  alignment="center" font="SFC_9"/>
 			<CS01OnOffButton style="SPCOnOffSquared" role="loopModeEnabler" x="547" y="312" w="60" addControl="0"/> 
 			
 	</CS01WaveEditorContainer>
