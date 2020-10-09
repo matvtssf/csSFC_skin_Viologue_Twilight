@@ -59,7 +59,7 @@
 		<!--ADSR Panels -->
 		
 		<RoundedRect              x="10" y="342" w="604" h="75" roundedRectRatio="0.2" style="SampleListBackground" />
-		<StaticText 			  x="20" y="343" w="60" h="20" text="Envelope" style="StaticTextColor" font="SFCHEADING_16" alignment="left"/>
+		<StaticText 			  x="20" y="343" w="70" h="20" text="Envelope" style="StaticTextColor" font="SFCHEADING_16" alignment="left"/>
 		
 		<!-- Dividers -->
 		<RoundedRect              x="550" y="167" w="54" h="1" style="DividerInverted" />

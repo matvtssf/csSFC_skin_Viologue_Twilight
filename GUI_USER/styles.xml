@@ -10,7 +10,7 @@
 		color_pushed="#283480FF"
 		color_text="#FFFFFFBB"
 		color_disabled="#999999c0"
-		font="SFC_11"
+		font="SFC_9"
 		style_windows="normal"
 		style_osx="normal"/>
 
@@ -142,7 +142,7 @@
 		color_text="#FFFFFFDD"/>
 
 	<Style name="ARAMText"
-		color_text="#FFFFFF80"/>
+		color_text="#FFFFFF80" />
 
 	<Style name="PresetMenuColor"
 		color_text="#FFFFFFBB"
@@ -206,7 +206,7 @@
 		valueFillColor="#828bdeD0"
 		valueTrackWidth="4"
 		valueTrackOrder="0"
-		valueIndicatorType="1"
+		valueIndicatorType="2"
 		valueIndicatorMargin="1"
 		valueIndicator_x="3"
 		valueIndicator_y="3"
@@ -236,14 +236,14 @@
 		valueFillColor="#828bdeD0"
 		valueTrackWidth="4"
 		valueTrackOrder="0"
-		valueIndicatorType="1"
+		valueIndicatorType="5"
 		valueIndicatorMargin="1"
 		valueIndicator_x="3"
 		valueIndicator_y="3"
 		valueIndicator_w="3"
 		valueIndicator_h="3"
 		knobFillColor="#FFFFFFa0"
-		valueIndicatorFillColor="000000a0"
+		valueIndicatorFillColor="#000000a0"
 		showValueTextOnHL="1"
 		value_fontColor="#FFFFFFAA"
 		value_font="SFC_11"
@@ -413,11 +413,14 @@
 	color_text="#000000D0"
 	font="SFC_7"
 	alignment="center"
+	w="17"
+	h="16"
+	x="5"
 	/>
 
 	<Style name="EchoLEDs"
 	w="5"
-	h="10"
+	h="5"
 	label_on="•"
 	label_off="•"
 	label_off_Color="#0000FFFF"
@@ -478,23 +481,23 @@
 
 	<Style name="SPCLayerHeader"
 		roundedRectRatio="1"
-		fill_color="#282c69FF"
+		fill_color="#262b55FF"
 		drawMode="strokedFilled"
 		frameWidth="1"
-		border_color="#00000008"/>
+		border_color="#00000080"/>
 
 	<Style name="SPCLayer"
-		fill_color="#FFFFFF18"
+		fill_color="#5863b540"
 		drawMode="strokedFilled"
-		framewidth="2"
-		border_color="#00000010"/>
+		framewidth="3"
+		border_color="#00000080"/>
 
 	<Style name="SPCBetweenLayer"
 		fill_color="#00000000"
 		drawMode="filled"/>
 
 	<Style name="ChannelsViewContainer1"
-		disabledColor="#6b75A680"/>
+		disabledColor="#323A6880"/>
 			
 	<Style name="onOffButtonPhase"
 		w="14"
@@ -542,13 +545,12 @@
 	<Style name="ModLinksViewButtons"
 		h="20"
 		roundedRatio="0.15"
-		offColor="#6c78c4c0"
+		offColor="#6c78c4D0"
 		color_pushed="#283480FF"
 		color_text="#FFFFFFBB"
 		color_disabled="#999999c0"
-		font="SFC_11"
-		style_windows="normal"
-		style_osx="normal"
+		font="SFC_9"
+	
 		/>
 
 	<Style name="ModulationLinksContainer"
@@ -556,7 +558,7 @@
 		links_x="0"
 		links_y="0"
 		links_w="845"
-		links_h="360"
+		links_h="371"
 		font="SFC_12"
 		color_text="#FFFFFFDD"
 		frameWidth="0"
@@ -612,12 +614,12 @@
 		drawMode="filled" />
 
 	<Style name="ModLinksTopBar"
-		roundedRectRatio="0.015"
-		fill_color="#353c70FF"
+		roundedRectRatio="0.01"
+		fill_color="#FFFFFF18"
 		drawMode="filled" />
 
 	<Style name="ModulaionRightPanel"
-		fill_color="#343b6f80"
+		fill_color="#FFFFFF20"
 		drawMode="strokedFilled"
 		frameWidth="1"
 		border_color="#00000010"
@@ -625,7 +627,7 @@
 
 	<Style name="ModLinksDataBackground"
 		roundedRectRatio="0.01"
-		fill_color="#00000040"
+		fill_color="#00000060"
 		frameWidth="1"
 		border_color="#00000010"
 		drawMode="strokedFilled" />
@@ -861,7 +863,7 @@
 		offColor="#4d5055ff"
 		color_pushed="#4d505540"
 		color_text="#cbcbd8ff"
-		font="SFC_11"/>
+		font="SFC_9"/>
 	
 	<Style name="SettingsStaticText"
 		h="18"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1024" height="630" version="1.1" viewBox="0 0 270.93 166.69" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<svg width="1024px" height="630px" version="1.1" viewBox="0 0 1024 630" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
  <metadata>
   <rdf:RDF>
    <cc:Work rdf:about="">
@@ -9,38 +9,12 @@
    </cc:Work>
   </rdf:RDF>
  </metadata>
- <rect x=".061946" y=".061946" width="270.81" height="166.56" fill="#5963a0" stop-color="#000000" stroke-miterlimit="0" stroke-opacity="0" style="paint-order:markers stroke fill"/>
- <rect x="-.0034128" y="161.37" width="271.02" height="5.2917" fill-opacity=".60784" opacity=".9" stop-color="#000000" stroke-width="1.0002" style="paint-order:markers stroke fill"/>
- <g stroke-width="1.0002">
-  <rect x=".00028665" y="156.1" width="271.01" height="5.2917" fill-opacity=".58824" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="150.81" width="271.01" height="5.2917" fill-opacity=".56863" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="145.52" width="271.01" height="5.2917" fill-opacity=".54902" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="140.23" width="271.01" height="5.2917" fill-opacity=".52941" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="134.94" width="271.01" height="5.2917" fill-opacity=".5098" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="129.65" width="271.01" height="5.2917" fill-opacity=".4902" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="124.35" width="271.01" height="5.2917" fill-opacity=".47059" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="119.06" width="271.01" height="5.2917" fill-opacity=".45098" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="113.77" width="271.01" height="5.2917" fill-opacity=".43137" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="108.48" width="271.01" height="5.2917" fill-opacity=".41176" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="103.19" width="271.01" height="5.2917" fill-opacity=".39216" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="97.896" width="271.01" height="5.2917" fill-opacity=".37255" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="92.604" width="271.01" height="5.2917" fill-opacity=".35294" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="87.313" width="271.01" height="5.2917" fill-opacity=".33333" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="82.021" width="271.01" height="5.2917" fill-opacity=".31373" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="76.729" width="271.01" height="5.2917" fill-opacity=".29412" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="71.438" width="271.01" height="5.2917" fill-opacity=".27451" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="66.146" width="271.01" height="5.2917" fill-opacity=".2549" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="60.854" width="271.01" height="5.2917" fill-opacity=".23529" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="55.562" width="271.01" height="5.2917" fill-opacity=".21569" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="50.271" width="271.01" height="5.2917" fill-opacity=".19608" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="44.979" width="271.01" height="5.2917" fill-opacity=".17647" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="39.688" width="271.01" height="5.2917" fill-opacity=".15686" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="34.396" width="271.01" height="5.2917" fill-opacity=".13726" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="29.104" width="271.01" height="5.2917" fill-opacity=".11765" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="23.812" width="271.01" height="5.2917" fill-opacity=".098039" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="18.521" width="271.01" height="5.2917" fill-opacity=".078431" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x=".00028665" y="13.229" width="271.01" height="5.2917" fill-opacity=".058824" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
-  <rect x="-.98272" y="7.9375" width="271.01" height="5.2917" fill-opacity=".039216" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
- </g>
- <rect y="2.6458" width="270.93" height="5.2917" fill-opacity=".019608" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
+ <rect id="svgEditorBackground" width="1024" height="630" fill="none"/>
+ <defs id="svgEditorDefs">
+  <radialGradient id="radialGradient3483" cx="417.92" cy="5.5644" r="645.77" gradientTransform="scale(1.2749 .78437)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#424b7f" offset="0"/>
+   <stop stop-color="rgb(26, 32, 61)" offset="1"/>
+  </radialGradient>
+ </defs>
+ <rect id="e2_rectangle" width="1024" height="630" fill="url(#radialGradient3483)"/>
 </svg>

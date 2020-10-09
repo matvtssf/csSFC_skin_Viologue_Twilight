@@ -8,70 +8,72 @@
 	<StaticImage image="echostrip.svg" x="2"  y="2"/>
 	
 <!-- Fancy Delay -->
-
-	<CS01RadioButtons x="20" y="20" w="5" h="160" param="898" vmin="0" vmax="15" vdefault="5" enable_keys="0" enable_mouse="0" >
-		<OptionItem x="0"   y="0"  value="0" style="EchoLEDs" />
-		<OptionItem x="0"  y="10"  value="1" style="EchoLEDs" />
-		<OptionItem x="0" y="20"  value="2" style="EchoLEDs" />
-		<OptionItem x="0" y="30"  value="3" style="EchoLEDs" />
-		<OptionItem x="0" y="40"  value="4" style="EchoLEDs" />
-		<OptionItem x="0" y="50"  value="5" style="EchoLEDs" />
-		<OptionItem x="0" y="60"  value="6" style="EchoLEDs" />
-		<OptionItem x="0" y="70"  value="7" style="EchoLEDs" />
-		<OptionItem x="0" y="80"  value="8" style="EchoLEDs" />
-		<OptionItem x="0" y="90"  value="9" style="EchoLEDs" />
-		<OptionItem x="0" y="100"  value="10" style="EchoLEDs" />
-		<OptionItem x="0" y="110"  value="11" style="EchoLEDs" />
-		<OptionItem x="0" y="120"  value="12" style="EchoLEDs" />
-		<OptionItem x="0" y="130"  value="13" style="EchoLEDs" />
-		<OptionItem x="0" y="140"  value="14" style="EchoLEDs" />
-		<OptionItem x="0" y="150"  value="15" style="EchoLEDs" />
-	</CS01RadioButtons>
-
-	<StaticImage image="lampglass.svg" x="20"  y="23"/> 
-	<StaticImage image="lampglass.svg" x="20"  y="33"/>
-	<StaticImage image="lampglass.svg" x="20"  y="43"/>
-	<StaticImage image="lampglass.svg" x="20"  y="53"/>
-	<StaticImage image="lampglass.svg" x="20"  y="63"/>
-	<StaticImage image="lampglass.svg" x="20"  y="73"/>
-	<StaticImage image="lampglass.svg" x="20"  y="83"/>
-	<StaticImage image="lampglass.svg" x="20"  y="93"/>
-	<StaticImage image="lampglass.svg" x="20"  y="103"/>
-	<StaticImage image="lampglass.svg" x="20"  y="113"/>
-	<StaticImage image="lampglass.svg" x="20"  y="123"/>
-	<StaticImage image="lampglass.svg" x="20"  y="133"/>
-	<StaticImage image="lampglass.svg" x="20"  y="143"/>
-	<StaticImage image="lampglass.svg" x="20"  y="153"/>
-	<StaticImage image="lampglass.svg" x="20"  y="163"/>
-	<StaticImage image="lampglass.svg" x="20"  y="173"/>
-
-	<StaticText text="0" x="5" y="17" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="16" x="5" y="27" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="32" x="5" y="37" w="15" h="16"  style="EchoStripText" /> 
-	<StaticText text="48" x="5" y="47" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="64" x="5" y="57" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="80" x="5" y="67" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="96" x="5" y="77" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="112" x="5" y="87" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="128" x="5" y="97" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="144" x="5" y="107" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="160" x="5" y="117" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="176" x="5" y="127" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="192" x="5" y="137" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="208" x="5" y="147" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="224" x="5" y="157" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="240" x="5" y="167" w="15" h="16"  style="EchoStripText" />
-
+	<VisibilityContainer x="20" y="20" w="70" h="170">
+		<CS01RadioButtons x="0" y="0" w="5" h="160" param="898" vmin="0" vmax="15" vdefault="5" enable_keys="0" enable_mouse="0" >
+			<OptionItem x="0" y="0"  value="0" style="EchoLEDs" />
+			<OptionItem x="0" y="10"  value="1" style="EchoLEDs" />
+			<OptionItem x="0" y="20"  value="2" style="EchoLEDs" />
+			<OptionItem x="0" y="30"  value="3" style="EchoLEDs" />
+			<OptionItem x="0" y="40"  value="4" style="EchoLEDs" />
+			<OptionItem x="0" y="50"  value="5" style="EchoLEDs" />
+			<OptionItem x="0" y="60"  value="6" style="EchoLEDs" />
+			<OptionItem x="0" y="70"  value="7" style="EchoLEDs" />
+			<OptionItem x="0" y="80"  value="8" style="EchoLEDs" />
+			<OptionItem x="0" y="90"  value="9" style="EchoLEDs" />
+			<OptionItem x="0" y="100"  value="10" style="EchoLEDs" />
+			<OptionItem x="0" y="110"  value="11" style="EchoLEDs" />
+			<OptionItem x="0" y="120"  value="12" style="EchoLEDs" />
+			<OptionItem x="0" y="130"  value="13" style="EchoLEDs" />
+			<OptionItem x="0" y="140"  value="14" style="EchoLEDs" />
+			<OptionItem x="0" y="150"  value="15" style="EchoLEDs" />
+		</CS01RadioButtons>
+	
+	<StaticImage image="lampglass.svg" x="0"  y="2"  /> 
+	<StaticImage image="lampglass.svg" x="0"  y="12" />
+	<StaticImage image="lampglass.svg" x="0"  y="22" />
+	<StaticImage image="lampglass.svg" x="0"  y="32" />
+	<StaticImage image="lampglass.svg" x="0"  y="42" />
+	<StaticImage image="lampglass.svg" x="0"  y="52" />
+	<StaticImage image="lampglass.svg" x="0"  y="62" />
+	<StaticImage image="lampglass.svg" x="0"  y="72" />
+	<StaticImage image="lampglass.svg" x="0"  y="82" />
+	<StaticImage image="lampglass.svg" x="0"  y="92" />
+	<StaticImage image="lampglass.svg" x="0"  y="102" />
+	<StaticImage image="lampglass.svg" x="0"  y="112" />
+	<StaticImage image="lampglass.svg" x="0"  y="122" />
+	<StaticImage image="lampglass.svg" x="0"  y="132" />
+	<StaticImage image="lampglass.svg" x="0"  y="142" />
+	<StaticImage image="lampglass.svg" x="0"  y="152" />
+	
 	<!-- Divider -->
-	<RoundedRect x="22" y="20" w="5" h="1" style="Divider" />
-	<RoundedRect x="22" y="180" w="5" h="1" style="Divider" />
-	<RoundedRect x="26" y="20" w="1" h="161" style="Divider" />
-	<RoundedRect x="26" y="100" w="10" h="1" style="Divider" /> 
-	<RoundedRect x="35" y="35" w="1" h="66" style="Divider" />
-	<RoundedRect x="35" y="35" w="8" h="1" style="Divider" /> 
-
+	<RoundedRect x="2" y="00" w="5" h="1" style="Divider" />
+	<RoundedRect x="2" y="160" w="5" h="1" style="Divider" />
+	<RoundedRect x="6" y="0" w="1" h="161" style="Divider" />
+	<RoundedRect x="6" y="80" w="10" h="1" style="Divider" /> 
+	<RoundedRect x="15" y="15" w="1" h="66" style="Divider" />
+	<RoundedRect x="15" y="15" w="8" h="1" style="Divider" /> 
+</VisibilityContainer>
 	<!--Time-->	
 	<CS03Knob style="SPCKnob3" param="898" x="42" y="15" xvmin="0" vdefault="5" vmax="15" stepped="1" labelText="ms" factor="16" mouseIncrement="0.08" showValueTextOnHL="0" label_fontColor="#000000d0" />
+
+
+	<StaticText text="0" y="15" style="EchoStripText" />
+	<StaticText text="16" y="25" style="EchoStripText" />
+	<StaticText text="32" y="35" style="EchoStripText" /> 
+	<StaticText text="48" y="45" style="EchoStripText" />
+	<StaticText text="64" y="55" style="EchoStripText" />
+	<StaticText text="80" y="65" style="EchoStripText" />
+	<StaticText text="96" y="75" style="EchoStripText" />
+	<StaticText text="112" y="85" style="EchoStripText" />
+	<StaticText text="128" y="95" style="EchoStripText" />
+	<StaticText text="144" y="105"  style="EchoStripText" />
+	<StaticText text="160" y="115"  style="EchoStripText" />
+	<StaticText text="176" y="125"  style="EchoStripText" />
+	<StaticText text="192" y="135"  style="EchoStripText" />
+	<StaticText text="208" y="145"  style="EchoStripText" />
+	<StaticText text="224" y="155"  style="EchoStripText" />
+	<StaticText text="240" y="165"  style="EchoStripText" />
+
 
 	<!--Feedback-->
 	

@@ -58,7 +58,7 @@
 
 		<StaticText     x="408" y="60" w="150" text="Scala File" style="SettingsStaticText"/>
 		<Label          x="635" y="60" w="154" h="18" param="DID_SCALANAME"  alignment="center" color_back="#FFFFFF00" color_border="#FFFFFF00"/>
-		<CS01TextButton x="496" y="60" w="50"  style="SettingsViewButtons" command="load:scl" data0="scl" data1="Please select Scala file" text="Set"/>
+		<CS01TextButton x="496" y="60" w="50"  style="SettingsViewButtons" command="load:scl" data0="scl" data1="Please select Scala file" text="📁   Set"/>
     
 		<StaticText x="408" y="93" w="80" text="Scala Center"     style="SettingsStaticText"/>
 		<OptionMenu x="496" y="93" w="35" param="DID_SCALACENTER" style="SettingsOptionMenu">
@@ -143,15 +143,15 @@
 		<StaticText     x="389" y="223" w="85" text="Info" style="SettingsStaticTextHeaders"/>
 
 		<Label          x="408" y="256" w="150" param="DID_PRODUCTVERSION" text="temp" style="SettingsLabel10"/>
-		<CS01TextButton x="635" y="256" w="100" style="SettingsViewButtons" command="versioncheck_product" data1="Checking SFC Version" text="Version check"/>
+		<CS01TextButton x="635" y="256" w="100" style="SettingsViewButtons" command="versioncheck_product" data1="Checking SFC Version" text="ⓘ   Version check"/>
 
 		<Label          x="408" y="289" w="200" param="DID_VERSION" text="temp" style="SettingsLabel10"/>
-		<CS01TextButton x="635" y="289" w="100" style="SettingsViewButtons" command="versioncheck_fermata" data1="Checking Fermata Engine Version" text="Version check"/>
+		<CS01TextButton x="635" y="289" w="100" style="SettingsViewButtons" command="versioncheck_fermata" data1="Checking Fermata Engine Version" text="ⓘ   Version check"/>
 
 		<Label          x="408" y="322" w="200" param="DID_WRAPPERVERSION" style="SettingsLabel10" text="temp" />
 
 		<StaticText     x="408" y="355" w="400" text="(c) 2005-2020 Plogue Art et Technologie, Inc." style="SettingsLabel10"  />
-		<CS01TextButton x="635" y="355" w="100" command="license" style="SettingsViewButtons" text="Show License"/>
+		<CS01TextButton x="635" y="355" w="100" command="license" style="SettingsViewButtons" text="ⓘ   Show License"/>
 
 
 	</CS01ViewContainer1>

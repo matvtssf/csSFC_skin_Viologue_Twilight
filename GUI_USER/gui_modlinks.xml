@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GUI w="1024" h="449" backgroundColor="#00000000">
 <!--Background -->
-<RoundedRect 			  x="20" y="15" w="984" h="397" style="ModulaionRightPanel"/>
-<RoundedRect 			  x="23" y="40" w="833" h="360" style="ModLinksDataBackground"/>
-<!-- <Rect 			  x="23" y="20" w="833" h="25" style="ModLinksTopBar" />-->
+<RoundedRect 			  x="23" y="20" w="980" h="380" style="ModulaionRightPanel"/>
+<RoundedRect 			  x="23" y="20" w="833" h="380" style="ModLinksTopBar" />
+<RoundedRect 			  x="23" y="38" w="833" h="362" style="ModLinksDataBackground"/>
 
+<!--Header Text -->
+		
+		<RoundedRect              x="865" y="43" w="130" h="1" style="DividerInverted" />
+		<StaticText 			  x="913" y="23" w="80" h="20" text="Mod Matrix" style="StaticTextColor" font="SFCHEADING_16" alignment="center"/>
 
 <!-- Column Grids -->
 <Rect 			  x="185" y="40" w="160" h="360" style="ModLinksColumnDarkened" />
@@ -22,12 +26,12 @@
 <StaticText text="Math" x="777" y="23" w="56" style="ModLinksTextHeader" />
 
 <!-- Table -->
-	<CS01ViewContainer1 x="-10" y="15" w="1020" h="435" style="ModLinksViewContainer1">
+	<CS01ViewContainer1 x="-10" y="14" w="1020" h="435" style="ModLinksViewContainer1">
 
 		<CS01ModulationLinksContainer param="DID_CUSTOM_DATA" x="30" y="25" w="1020" h="410" style="ModulationLinksContainer" token0=";" token1="=" deleteIconType="1" dataTarget="com.Plogue.Emulator.SFC|0|30D3|0"	tabSelectionViewName="main" tabSelectionIndex="2" skipScroll="1" >
 			
-			<CS01TextButton role="addRow"    x="846" y="340" w="60" style="ModLinksViewButtons" text="＋   Add" />
-			<CS01TextButton role="deleteAll" x="917" y="340" w="60" style="ModLinksViewButtons" text="✘   Clear" offColor="#9c4844c0" />
+			<CS01TextButton role="addRow"    x="846" y="331" w="60" style="ModLinksViewButtons" text="＋   Add" />
+			<CS01TextButton role="deleteAll" x="914" y="331" w="60" style="ModLinksViewButtons" text="✘   Clear" offColor="#9c4844d0" />
 
 			<CS01ModulationLinksColumn x="5"   y="0" w="80"  h="20" controltype="dynamicMenu"     entryType="string"    alignment="center" textMargin="4" name="Source" colChanged="1;4;5;6" keyword="SOURCE" dataSourceType="source"/>
 			<CS01ModulationLinksColumn x="90"  y="0" w="80"  h="20" controltype="dynamicMenu"     entryType="string"    alignment="center" textMargin="4" name="Function" keyword="SOURCE_FUNC" dataSourceType="func" colAvail="0" colAvailExFlag="8"/>
