@@ -2,7 +2,7 @@
 <GUI w="1024" h="471" backgroundColor="#00000000">
 
 <RoundedRect 			  x="635" y="-12" w="374" h="427" roundedRectRatio="0.015" style="SampleListBackground" /> 	
-<RoundedRect 			  x="635" y="25" w="145" h="390" roundedRectRatio="0.04" fill_color="#FFFFFF10" drawMode="filled"/>
+<RoundedRect 			  x="635" y="25" w="145" h="390" roundedRectRatio="0.04" fill_color="#FFFFFF20" drawMode="filled"/>
 
 	<!-- Sample List Rows -->
 		<RoundedRect 			   y="24" style="SampleListHighlight1" />
@@ -58,7 +58,7 @@
 
 		<!--ADSR Panels -->
 		
-		<RoundedRect              x="10" y="342" w="604" h="75" roundedRectRatio="0.2" style="SampleListBackground" />
+		<RoundedRect              x="5" y="342" w="609" h="73" roundedRectRatio="0.1" style="SampleListBackground" />
 		<StaticText 			  x="20" y="343" w="70" h="20" text="Envelope" style="StaticTextColor" font="SFCHEADING_16" alignment="left"/>
 		
 		<!-- Dividers -->

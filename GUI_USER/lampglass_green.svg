@@ -2,8 +2,8 @@
 <svg width="5" height="5" version="1.1" viewBox="0 0 1.3229 1.3229" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <radialGradient id="radialGradient1471" cx=".66146" cy=".66146" r=".66146" gradientUnits="userSpaceOnUse">
-   <stop style="stop-color:#ffffff;stop-opacity:.25098" offset="0"/>
-   <stop style="stop-color:#ffffff;stop-opacity:0" offset="1"/>
+   <stop style="stop-color:#00ff00;stop-opacity:.50196" offset="0"/>
+   <stop style="stop-color:#00ff00;stop-opacity:.25098" offset="1"/>
   </radialGradient>
  </defs>
  <metadata>

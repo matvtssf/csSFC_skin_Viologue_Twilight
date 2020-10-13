@@ -145,46 +145,13 @@
 	</XMLMacroText>
 
 
-<!--    <StaticText text="Sample" x=" 72"  y="5"  w="115"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-	<StaticText text="A"      x="197"  y="5"  w="32"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-	<StaticText text="D"      x="239"  y="5"  w="32"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-	<StaticText text="S"      x="281"  y="5"  w="32"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-	<StaticText text="D2"     x="323"  y="5"  w="32"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-	<StaticText text="R"      x="365"  y="5"  w="32"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-
-	<StaticText text="Noise"  x="410"  y="5"  w="40"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-	<StaticText text="FM"     x="440"  y="5"  w="40"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-	<StaticText text="Echo"   x="470"  y="5"  w="40"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-	<StaticText text="Inv L"  x="500"  y="5"  w="40"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-	<StaticText text="Inv R"  x="530"  y="5"  w="40"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-	
-    <StaticText text="Retrig" x="565"  y="5"  w="40"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-	<StaticText text="Delay"  x="617"  y="5"  w="32"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-	<StaticText text="Fixed"  x="660"  y="5"  w="40"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-	<StaticText text="Coarse" x="705"  y="5"  w="40"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-	<StaticText text="Fine"   x="751"  y="5"  w="32"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-	<StaticText text="Vol"    x="793"  y="5"  w="32"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-	<StaticText text="Pan"    x="835"  y="5"  w="32"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-	<StaticText text="Glide"  x="877"  y="5"  w="32"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-	<StaticText text="LoKey"  x="918"  y="5"  w="32"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-	<StaticText text="HiKey"  x="960"  y="5"  w="32"  h="15" alignment="center" style="StaticTextColor" font="SFCHEADING_12"/>
-
-	<RoundedRect              x="17"   y="25" w="990" h="339" roundedRectRatio="0.07" style="SPCLayer"/>
--->	
-<!--
-	v. more control
-	<Ellipse x="17" y="25" w="38" h="38" style="SPCLayer"/>
-	<Rect x="17" y="44" w="38" h="19" style="SPCLayer"/>
-	<Rect x="24" y="25" w="952" h="38" style="SPCLayer"/>
-	<Ellipse x="957" y="25" w="38" h="38" style="SPCLayer"/>
-	<Rect x="957" y="44" w="38" h="19" style="SPCLayer"/>
 -->
 <GUIMacro path="sub_layer.xml" xoffset="18" yoffset="2" param_offset="0">
 		<Define name="$OP_NUM" value="1"/>
 		<Define name="$FM_BTN_POS" value="-999"/>
 		<Define name="$FM_TXT_POS" value="-999"/>
 </GUIMacro>
-<CS03Slider param="519" x="95" y="276" style="VolumeFader2" />
+<CS03Slider param="519" x="95" y="276" style="VolumeFader2"  />
 
 
 <GUIMacro path="sub_layer.xml" xoffset="130" yoffset="2" param_offset="16">

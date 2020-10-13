@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <GUI w="1024" h="560" backgroundColor="#00000000">
 
-	<CS01ViewContainer1 x="104" y="97" w="815" h="402" style="SettingsBackgroundColor">
-	<RoundedRect x="0" y="0" w="815" h="400" fill_color="#222222f0" drawMode="strokedFilled" frameWidth="1.5" roundedRectRatio="0.03" border_color="#00000050" />
+	<CS01ViewContainer1 x="104" y="97" w="815" h="402" backgroundColor="#00000000">
+	<RoundedRect x="0" y="0" w="815" h="400" style="SettingsBackgroundColor" />
 	<CS01TextButton controlTag="12312312" x="755" y="10" w="50" style="SettingsViewButtons" text="Close"/>
 
 	<StaticText text="Playing and Interface" x="71" y="26" w="400" style="SettingsStaticTextHeaders"/>
@@ -57,9 +57,9 @@
 		<StaticText text="Tuning" x="389" y="26" w="85" style="SettingsStaticTextHeaders"/>
 
 		<StaticText     x="408" y="60" w="150" text="Scala File" style="SettingsStaticText"/>
-		<Label          x="635" y="60" w="154" h="18" param="DID_SCALANAME"  alignment="center" color_back="#FFFFFF00" color_border="#FFFFFF00"/>
 		<CS01TextButton x="496" y="60" w="50"  style="SettingsViewButtons" command="load:scl" data0="scl" data1="Please select Scala file" text="📁   Set"/>
-    
+		<Label          x="635" y="60" w="154" h="18" param="DID_SCALANAME"  alignment="left" color_back="#FFFFFF00" color_border="#FFFFFF00"/>
+		    
 		<StaticText x="408" y="93" w="80" text="Scala Center"     style="SettingsStaticText"/>
 		<OptionMenu x="496" y="93" w="35" param="DID_SCALACENTER" style="SettingsOptionMenu">
 			<OptionItem name="A1"		value="21"/>

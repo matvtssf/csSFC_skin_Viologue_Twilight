@@ -17,7 +17,7 @@
 	<GUIContainer path="vgm_player.xml"  xoffset="715" yoffset="300" param_offset="384" />
 
     
-	<Picture8Data x="680"  y="25" w="320" h="224" target="com.Plogue.Emulator.SFC|0|8B17|0" param="DID_CUSTOM_DATA"/>   
+	<Picture8Data x="300" y="25" w="480" h="384" target="com.Plogue.Emulator.SFC|0|8B17|0" param="DID_CUSTOM_DATA"/>   
     
 
 	<CS01OnOffButton param="931" x="516" y="064" w="8" h="8" roundedRatio="0.3" style="VGMOnOffButton" onColor="#3f92edFF" enable_mouse="0"/>
