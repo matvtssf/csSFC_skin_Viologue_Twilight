@@ -7,7 +7,7 @@
 
 	<CS01StepEditorContainer param="DID_CUSTOM_DATA" target="$TARGET" x="0" y="00" w="404" h="425" tab_x="0" tab_y="0" tab_w="0" tab_h="0" style="StepEditorContainer"
 		disabled_x="0" disabled_y="21" disabled_w="404" disabled_h="408" resizeOnOnOff="0" resize_w="326" resize_h="16" tabType="2"
-		frameSelectionSubMenus="1" frameSelectionSubMenusDivider="10">
+		frameSelectionSubMenus="1" frameSelectionSubMenusDivider="10" >
 
 		<CS01OnOffButton role="onOff" param="0"  w="14" h="14" roundedRatio="0.2" style="StepEditorOnOffButton" x="6" y="4" />
 		<StaticText w="50" h="18" x="27" y="1" text="Step $STEPNUM" style="StaticTextStep2" alignment="left" font="SFC_11"/>

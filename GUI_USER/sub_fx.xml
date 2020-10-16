@@ -29,7 +29,7 @@
 
 	<!-- Page Select Text -->
 
-	<StaticText text="Mix" x="963" y="268" style="EchoStripText" />
+	<StaticText text="MIX" x="963" y="268" style="EchoStripText" />
 	<StaticText text="EFIR" x="980" y="268" style="EchoStripText" />
 
 	<!-- Preset Bar -->

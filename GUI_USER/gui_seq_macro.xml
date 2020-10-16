@@ -15,7 +15,7 @@
 		<PageName idx="7" name="Step 15"/>
 	</CS01ScrollViewPageController>
 
-	<ScrollView x="0" y="5" w="900" h="438" scrollbarwidth="0" internalwidth="7200" internalheight="451" backgroundColor="#333333FF" showScrollbars="0" name="modulatorsScrollView">
+	<ScrollView x="0" y="0" w="900" h="438" scrollbarwidth="0" internalwidth="7200" internalheight="451" backgroundColor="#333333FF" showScrollbars="0" name="modulatorsScrollView">
 
 		<CS01ViewContainerManager param="DID_CUSTOM_DATA" dataTarget="com.Plogue.Emulator.SFC|0|30D3|0"/>
 
@@ -454,7 +454,7 @@ Delay Dry Pan;Delay Wet Pan"/>
 
 
 		<Style name="ViewContainerStep" y="02" w="404" h="436"/>
-		<Style name="VisibilityContainerStep" y="5" w="366" h="16"/>
+		<Style name="VisibilityContainerStep" y="5" w="366" h="16" />
 		<Style name="VisibilityContainerTextButtonAdd" text="+" x="314"/>
 		<Style name="VisibilityContainerTextButtonRemove" rule="diff" rule_s1="empty" command="modulationLinksViewMessage" data0="removeLink" text="del"/>
 
@@ -466,7 +466,7 @@ Delay Dry Pan;Delay Wet Pan"/>
 		</VisibilityContainer>
 
 		<CS01ViewContainer   x="467" style="ViewContainerStep" identifier="STEP1"/>
-		<VisibilityContainer x="512" style="VisibilityContainerStep">
+		<VisibilityContainer x="517" style="VisibilityContainerStep">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP1"/>
 			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP1"/>
 			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP1"/>

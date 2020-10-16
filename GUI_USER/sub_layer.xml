@@ -69,7 +69,7 @@
 
 	<!-- SPC Effects Header-->
 
-		<RoundedRect x="55" y="266" w="50" h="1" style="DividerInverted" />
+		<RoundedRect x="50" y="266" w="55" h="1" style="DividerInverted" />
 		<StaticText text="SPC Effects" x="6" y="257" w="43" style="SmallTextHeaderChannelsTab" />
 
 		<!-- Noise -->

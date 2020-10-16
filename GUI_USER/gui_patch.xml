@@ -154,6 +154,7 @@
 <CS03Slider param="519" x="95" y="276" style="VolumeFader2"  />
 
 
+
 <GUIMacro path="sub_layer.xml" xoffset="130" yoffset="2" param_offset="16">
 		<Define name="$OP_NUM" value="2"/>
 		<Define name="$FM_BTN_POS" value="296"/>

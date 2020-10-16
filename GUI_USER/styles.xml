@@ -327,6 +327,13 @@
 		roundedRectRatio="1"
 		border_color="#00000002" />
 
+	<Style name="DividerEcho"
+		fill_color="#00000000"
+		drawMode="strokedFilled"
+		frameWidth="1"
+		roundedRectRatio="0.08"
+		border_color="#000000d0" />
+
 	<Style name="DividerInverted"
 		fill_color="#FFFFFF40"
 		drawMode="strokedFilled"
@@ -420,8 +427,7 @@
 	alignment="center"
 	w="17"
 	h="16"
-	x="5"
-	/>
+	x="5" />
 
 	<Style name="EchoLEDs"
 	w="5"
@@ -676,7 +682,7 @@
 		font="SFC_10" />
 
 	<Style name="StepEditorOptionMenu"
-		color_back="#54585aFF"
+		color_back="#00000000"
 		color_text="#FFFFFFBB"
 		w="40"
 		h="16"
@@ -686,7 +692,7 @@
 		mod_color_text="#F7BA0BBB"/>
 
 	<Style name="StepEditor"
-		backgroundColor="#54585aFF"
+		backgroundColor="#00000000"
 		fillColor="#325ECCFF"
 		loopIndicatorLineColor="#325ECCFF"
 		loopIndicatorLineColorOut="#325ECCFF"
