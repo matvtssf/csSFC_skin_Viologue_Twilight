@@ -14,46 +14,54 @@
 	<RoundedRect x="45" y="129" w="6" h="1" style="Divider" />
 	<RoundedRect x="45" y="176" w="6" h="1" style="Divider" />
 	<RoundedRect x="45" y="223" w="14" h="1" style="Divider" />
-	<RoundedRect x="76" y="25" w="9" h="1" style="Divider" />
+	<RoundedRect x="79" y="25" w="6" h="1" style="Divider" />
 	<RoundedRect x="85" y="25" w="1" h="102" style="Divider" />
 	<RoundedRect x="85" y="134" w="1" h="102" style="Divider" />
-	<RoundedRect x="76" y="235" w="9" h="1" style="Divider" />
+	<RoundedRect x="79" y="235" w="6" h="1" style="Divider" />
+	<RoundedRect x="5" y="62" w="80" h="1" style="Divider" />
+	<RoundedRect x="5" y="109" w="80" h="1" style="Divider" />
+	<RoundedRect x="5" y="156" w="80" h="1" style="Divider" />
+	<RoundedRect x="5" y="203" w="80" h="1" style="Divider" />
+	<RoundedRect x="5" y="25" w="6" h="1" style="Divider" />
+	<RoundedRect x="5" y="25" w="1" h="211" style="Divider" />
+	<RoundedRect x="5" y="236" w="6" h="1" style="Divider" />
+
 	</VisibilityContainer>
 
 <!-- 16kHz -->
 
-<CS03Knob style="SPCKnob3" param="904" x="7" y="15" labelText="16kHz" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0" label_fontColor="#000000d0" />
+<CS03Knob style="SPCKnob316kHz" param="904" x="7" y="15" labelText="16kHz" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0"  />
 
-	<CS01OnOffButton style="SPCOnOffSquared" param="909" x="59" y="30" w="16" h="12" />
+	<CS01OnOffButton style="SPCOnOffSquared" param="909" x="59" y="30" w="16" h="12" onColor="#DE1C22D0" />
 	
 <!-- 12kHz -->
 
-<CS03Knob style="SPCKnob3" param="903" x="7" y="62" labelText="12kHz" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0" label_fontColor="#000000d0" />
+<CS03Knob style="SPCKnob312kHz" param="903" x="7" y="62" labelText="12kHz" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0" />
 
-	<CS03Knob style="SPCKnobADSR" param="908" x="50" y="67" labelText=" " valueText_format="%1.2f" factor="1" stepped="0" />
+	<CS03Knob style="SPCKnobPhase12kHz" param="908" x="50" y="67" labelText=" " valueText_format="%1.2f" factor="1" stepped="0"  />
 
 <!-- 8kHz -->
 
-<CS03Knob style="SPCKnob3" param="902" x="7" y="109" labelText="8kHz" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0" label_fontColor="#000000d0" />
+<CS03Knob style="SPCKnob38kHz" param="902" x="7" y="109" labelText="8kHz" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0" />
 
-	<CS03Knob style="SPCKnobADSR" param="907" x="50" y="114" labelText=" " valueText_format="%1.2f" factor="1" stepped="0" />
+	<CS03Knob style="SPCKnobPhase8kHz" param="907" x="50" y="114" labelText=" " valueText_format="%1.2f" factor="1" stepped="0"  />
 
 <!-- 4kHz -->
 
-<CS03Knob style="SPCKnob3" param="901" x="7" y="156" labelText="4kHz" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0" label_fontColor="#000000d0" />
+<CS03Knob style="SPCKnob34kHz" param="901" x="7" y="156" labelText="4kHz" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0"  />
 
-	<CS03Knob style="SPCKnobADSR" param="906" x="50" y="161" labelText=" " valueText_format="%1.2f" factor="1" stepped="0" />
+	<CS03Knob style="SPCKnobPhase4kHz" param="906" x="50" y="161" labelText=" " valueText_format="%1.2f" factor="1" stepped="0" />
 
 <!-- 0kHz -->
 
-<CS03Knob style="SPCKnob3" param="900" x="7" y="203" labelText="0kHz" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0" label_fontColor="#000000d0" />
+<CS03Knob style="SPCKnob30kHz" param="900" x="7" y="203" labelText="0kHz" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0"  />
 
-	<CS01OnOffButton style="SPCOnOffSquared" param="905" x="59" y="218" w="16" h="12" />
+	<CS01OnOffButton style="SPCOnOffSquared" param="905" x="59" y="218" w="16" h="12" onColor="#000000D0" />
 
 <!-- aSPLODE -->
 
-<CS01OnOffButton style="SPCOnOffSquared" param="917" x="60" y="245" w="24" h="7" onColor="#de8b82D0" />
-<StaticText text="EFIR x 8" x="60" y="250" w="24" style="SmallTextChannelsTab" color_text="#880000d0" />
+<CS01OnOffButton style="SPCOnOffSquared" param="917" x="60" y="240" w="24" h="7" onColor="#de8b82D0" />
+<StaticText text="EFIR x 8" x="60" y="245" w="24" style="SmallTextChannelsTab" color_text="#880000d0" />
 
 <!-- Page Indicator Light -->
 

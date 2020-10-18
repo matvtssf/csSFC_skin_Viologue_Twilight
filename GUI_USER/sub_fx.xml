@@ -14,7 +14,7 @@
 	</ScrollView>
 	
 	<!-- Page Changer -->
-	<CS01ScrollViewPageController x="920" y="260" w="40" h="20" type="1" style="EchoViewPageController" frameColor="#00000000" 
+	<CS01ScrollViewPageController x="920" y="265" w="40" h="15" type="1" style="EchoViewPageController" frameColor="#00000000" 
 			frameDraw="0" scrollViewName="EchoPages" image_1="btn_echo_back.svg" image_1HL="btn_echo_back_hl.svg" name="EchoScrollViewPageController" showPageName="0" />
     <!-- Dividers for Page Select-->
 

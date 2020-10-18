@@ -20,7 +20,7 @@
 	<Property name="modulationLinksDataSources" value="1"/>
 	<Property name="modulationLinksContextMenu" value="1"/>
 
-	<Font alias="SFC_7"  filename="Changa-ExtraLight.ttf" name_windows="Changa" name_osx="Changa" size_windows="7"  style_windows="bold" size_osx="7"  style_osx="bold"/>
+	<Font alias="SFC_7"  filename="Changa-ExtraLight.ttf" name_windows="Changa" name_osx="Changa" size_windows="7"  style_windows="normal" size_osx="7"  style_osx="normal"/>
 	<Font alias="SFC_8"  filename="Changa-ExtraLight.ttf" name_windows="Changa" name_osx="Changa" size_windows="8"  style_windows="bold" size_osx="8"  style_osx="bold"/>
 	<Font alias="SFC_9"  filename="Changa-ExtraLight.ttf" name_windows="Changa" name_osx="Changa" size_windows="9"  style_windows="normal" size_osx="9"  style_osx="normal"/>
 	<Font alias="SFC_10"  filename="Changa-ExtraLight.ttf" name_windows="Changa" name_osx="Changa" size_windows="10"  style_windows="normal" size_osx="10"  style_osx="normal"/>

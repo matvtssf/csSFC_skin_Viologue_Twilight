@@ -41,8 +41,7 @@
 	
 </VisibilityContainer>
 	<!--Time-->	
-	<CS03Knob style="SPCKnob3" param="898" x="49" y="38" xvmin="0" vdefault="5" vmax="15" stepped="1" labelText="ms" factor="16" mouseIncrement="0.08" showValueTextOnHL="0" label_fontColor="#000000d0" />
-
+	<CS03Knob style="SPCKnob3" param="898" x="48" y="20" showValueTextOnHL="0" label_fontColor="#000000d0" xvmin="0" vdefault="5" vmax="15" stepped="1" labelText="ms" factor="15" mouseIncrement="0.08" />
 
 	<StaticText text="0" y="18"  style="EchoStripText" />  <StaticText text="128" x="25" y="18" style="EchoStripText" />
 	<StaticText text="16" y="28" style="EchoStripText" />  <StaticText text="144" x="25" y="28"  style="EchoStripText" />
@@ -52,28 +51,35 @@
 	<StaticText text="80" y="68" style="EchoStripText" />  <StaticText text="208" x="25" y="68"  style="EchoStripText" />
 	<StaticText text="96" y="78" style="EchoStripText" />  <StaticText text="224" x="25" y="78"  style="EchoStripText" />
 	<StaticText text="112" y="88" style="EchoStripText" /> <StaticText text="240" x="25" y="88"  style="EchoStripText" />
-	
-	
-	
-	
-	
-	
-	
-	
-
 
 	<!--Feedback-->
 	
-	<CS03Knob style="SPCKnob3" param="899" x="7" y="110" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="0.33" vmax="1" stepped="0" labelText="Feedback" showValueTextOnHL="1" label_fontColor="#000000d0" />
+	<CS03Knob style="SPCKnobEchoSmall" param="899" x="51" y="65" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="0.33" vmax="1" stepped="0" labelText="FEEDBACK" showValueTextOnHL="1" label_fontColor="#000000d0" />
 	
 	
-	<!-- Placeholders for now -->
+	<!-- Dry Mix -->
 
-<CS03Knob style="SPCKnob3" param="899" x="7" y="157" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="0.33" vmax="1" stepped="0" labelText="Feedback" showValueTextOnHL="1" label_fontColor="#000000d0" />
-<CS03Knob style="SPCKnob3" param="899" x="7" y="204" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="0.33" vmax="1" stepped="0" labelText="Feedback" showValueTextOnHL="1" label_fontColor="#000000d0" />
+	<StaticText text="DRY MIX" x="49" y="168" w="40" style="EchoStripText" font="SFC_8" />
 
-<CS03Knob style="SPCKnob3" param="899" x="46" y="157" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="0.33" vmax="1" stepped="0" labelText="Feedback" showValueTextOnHL="1" label_fontColor="#000000d0" />
-<CS03Knob style="SPCKnob3" param="899" x="46" y="204" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="0.33" vmax="1" stepped="0" labelText="Feedback" showValueTextOnHL="1" label_fontColor="#000000d0" />
+	<CS03Knob style="SPCKnobEchoSmallDry" param="896" x="12" y="147" labelText="LEVEL" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0" />
+	<CS03Knob style="SPCKnobEchoSmallDry" param="910" x="50" y="124" valueText_format="FORMAT_STEREOPAN" vmin="0" vdefault="0.5" vmax="1" stepped="0" unipolar="0" labelText="PAN"  />
+
+	<!-- Divider -->
+
+	<VisibilityContainer x="6" y="181" w="90" h="40">
+	<RoundedRect x="0" y="19" w="30" h="1" style="Divider" />
+	<Line x="30" y="20" w="20" h="-20" style="DividerLine" />
+	<RoundedRect x="50" y="0" w="30" h="1" style="Divider" />
+	</VisibilityContainer>
+		
+	
+
+	<!-- Wet Mix -->
+
+	<StaticText text="WET MIX" x="1" y="198" w="40" style="EchoStripText" font="SFC_8" />
+
+	<CS03Knob style="SPCKnobEchoSmallWet" param="897" x="12" y="217" labelText="LEVEL" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="0.33" vmax="1" stepped="0"  />
+	<CS03Knob style="SPCKnobEchoSmallWet" param="911" x="50" y="194" valueText_format="FORMAT_STEREOPAN" vmin="0" vdefault="0.5" vmax="1" stepped="0" unipolar="0" labelText="PAN"  />
 
    <!-- Page Indicator Light -->
 
