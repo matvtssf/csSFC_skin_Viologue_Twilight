@@ -11,7 +11,7 @@
 		<!-- Divider -->
 		<RoundedRect x="0" y="0" w="82" h="95" style="DividerEcho" />
 
-		<CS01RadioButtons x="0" y="0" w="50" h="160" param="898" vmin="0" vmax="15" vdefault="5" enable_keys="0" >
+	<CS01RadioButtons x="0" y="0" w="50" h="160" param="898" vmin="0" vmax="15" vdefault="5" enable_keys="0" >
 			<OptionItem x="15" y="7"  value="0" style="EchoLEDs" /> 
 			<OptionItem x="15" y="17"  value="1" style="EchoLEDs" />
 			<OptionItem x="15" y="27"  value="2" style="EchoLEDs" />
@@ -30,14 +30,14 @@
 			<OptionItem x="38" y="77"  value="15" style="EchoLEDs" />
 		</CS01RadioButtons>
 	
-	<StaticImage image="lampglass_green.svg" x="15"  y="9"  /> <StaticImage image="lampglass_yellow.svg" x="38"  y="9" /> 
-	<StaticImage image="lampglass_green.svg" x="15"  y="19" /> <StaticImage image="lampglass_yellow.svg" x="38"  y="19" />
-	<StaticImage image="lampglass_green.svg" x="15"  y="29" /> <StaticImage image="lampglass_yellow.svg" x="38"  y="29" />
-	<StaticImage image="lampglass_green.svg" x="15"  y="39" /> <StaticImage image="lampglass_yellow.svg" x="38"  y="39" />
-	<StaticImage image="lampglass_green.svg" x="15"  y="49" /> <StaticImage image="lampglass_yellow.svg" x="38"  y="49" />
-	<StaticImage image="lampglass_green.svg" x="15"  y="59" /> <StaticImage image="lampglass_yellow.svg" x="38"  y="59" />
-	<StaticImage image="lampglass_green.svg" x="15"  y="69" /> <StaticImage image="lampglass_yellow.svg" x="38"  y="69" />
-	<StaticImage image="lampglass_green.svg" x="15"  y="79" /> <StaticImage image="lampglass_yellow.svg" x="38"  y="79" />
+	<StaticImage image="lampglass_green.svg" x="14"  y="7"  /> <StaticImage image="lampglass_yellow.svg" x="37"  y="7" /> 
+	<StaticImage image="lampglass_green.svg" x="14"  y="17" /> <StaticImage image="lampglass_yellow.svg" x="37"  y="17" />
+	<StaticImage image="lampglass_green.svg" x="14"  y="27" /> <StaticImage image="lampglass_yellow.svg" x="37"  y="27" />
+	<StaticImage image="lampglass_green.svg" x="14"  y="37" /> <StaticImage image="lampglass_yellow.svg" x="37"  y="37" />
+	<StaticImage image="lampglass_green.svg" x="14"  y="47" /> <StaticImage image="lampglass_yellow.svg" x="37"  y="47" />
+	<StaticImage image="lampglass_green.svg" x="14"  y="57" /> <StaticImage image="lampglass_yellow.svg" x="37"  y="57" />
+	<StaticImage image="lampglass_green.svg" x="14"  y="67" /> <StaticImage image="lampglass_yellow.svg" x="37"  y="67" />
+	<StaticImage image="lampglass_green.svg" x="14"  y="77" /> <StaticImage image="lampglass_yellow.svg" x="37"  y="77" />
 	
 </VisibilityContainer>
 	<!--Time-->	
@@ -55,18 +55,38 @@
 	<!--Feedback-->
 	
 	<CS03Knob style="SPCKnobEchoSmall" param="899" x="51" y="65" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="0.33" vmax="1" stepped="0" labelText="FEEDBACK" showValueTextOnHL="1" label_fontColor="#000000d0" />
+	<StaticText text="Ø" x="78" y="57" w="6" h="8" style="EchoStripText" />
+	<CS01OnOffButton style="SPCOnOffSquaredEchoPhase" param="914" x="78" y="65" w="6" h="4" />
 	
 	
 	<!-- Dry Mix -->
 
-	<StaticText text="DRY MIX" x="49" y="168" w="40" style="EchoStripText" font="SFC_8" />
+	<StaticText text="DRY MIX" x="49" y="163" w="40" style="EchoStripText" font="SFC_8" />
 
 	<CS03Knob style="SPCKnobEchoSmallDry" param="896" x="12" y="147" labelText="LEVEL" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0" />
 	<CS03Knob style="SPCKnobEchoSmallDry" param="910" x="50" y="124" valueText_format="FORMAT_STEREOPAN" vmin="0" vdefault="0.5" vmax="1" stepped="0" unipolar="0" labelText="PAN"  />
+	
+	<CS01OnOffButton style="SPCOnOffSquaredEchoPhase" param="912" x="12" y="124" w="16" h="12" />
+	<StaticText text="Ø" x="12" y="138" w="16" h="8" style="EchoStripText" />
+	
+	<VisibilityContainer x="5" y="129" w="9" h="35" >
+	<RoundedRect x="0" y="0" w="7" h="1" style="Divider" />
+	<RoundedRect x="0" y="0" w="1" h="34" style="Divider" />
+	<RoundedRect x="0" y="34" w="9" h="1" style="Divider" />
+	</VisibilityContainer>
+
+	<CS01OnOffButton style="SPCOnOffSquaredEchoPhase" param="915" x="32" y="124" w="16" h="12" />
+	<StaticImage image="dolby.svg" x="37"  y="140" />
+
+	<VisibilityContainer x="40" y="117" w="27" h="9">
+	<RoundedRect x="0" y="0" w="1" h="7" style="Divider" />
+	<RoundedRect x="0" y="0" w="26" h="1" style="Divider" />
+	<RoundedRect x="26" y="0" w="1" h="9" style="Divider" />
+	</VisibilityContainer>
 
 	<!-- Divider -->
 
-	<VisibilityContainer x="6" y="181" w="90" h="40">
+	<VisibilityContainer x="6" y="176" w="90" h="40">
 	<RoundedRect x="0" y="19" w="30" h="1" style="Divider" />
 	<Line x="30" y="20" w="20" h="-20" style="DividerLine" />
 	<RoundedRect x="50" y="0" w="30" h="1" style="Divider" />
@@ -76,15 +96,34 @@
 
 	<!-- Wet Mix -->
 
-	<StaticText text="WET MIX" x="1" y="198" w="40" style="EchoStripText" font="SFC_8" />
+	<StaticText text="WET MIX" x="1" y="193" w="40" style="EchoStripText" font="SFC_8" />
 
-	<CS03Knob style="SPCKnobEchoSmallWet" param="897" x="12" y="217" labelText="LEVEL" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="0.33" vmax="1" stepped="0"  />
-	<CS03Knob style="SPCKnobEchoSmallWet" param="911" x="50" y="194" valueText_format="FORMAT_STEREOPAN" vmin="0" vdefault="0.5" vmax="1" stepped="0" unipolar="0" labelText="PAN"  />
+	<CS03Knob style="SPCKnobEchoSmallWet" param="897" x="12" y="207" labelText="LEVEL" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="0.33" vmax="1" stepped="0"  />
+	<CS03Knob style="SPCKnobEchoSmallWet" param="911" x="50" y="184" valueText_format="FORMAT_STEREOPAN" vmin="0" vdefault="0.5" vmax="1" stepped="0" unipolar="0" labelText="PAN"  />
+
+
+	<CS01OnOffButton style="SPCOnOffSquaredEchoPhase" param="913" x="47" y="224" w="16" h="12" />
+	<StaticText text="Ø" x="47" y="238" w="16" h="8" style="EchoStripText" />
+
+	<VisibilityContainer x="29" y="246" w="27" h="8">
+	<RoundedRect x="0" y="0" w="1" h="7" style="Divider" />
+	<RoundedRect x="0" y="7" w="26" h="1" style="Divider" />
+	<RoundedRect x="26" y="0" w="1" h="8" style="Divider" />
+	</VisibilityContainer>
+	
+	<CS01OnOffButton style="SPCOnOffSquaredEchoPhase" param="916" x="67" y="224" w="16" h="12" />
+	<StaticImage image="dolby.svg" x="72"  y="240" />	
+	
+	<VisibilityContainer x="82" y="200" w="6" h="35" >
+	<RoundedRect x="0" y="0" w="6" h="1" style="Divider" />
+	<RoundedRect x="5" y="0" w="1" h="30" style="Divider" />
+	<RoundedRect x="1" y="30" w="5" h="1" style="Divider" />
+	</VisibilityContainer>
 
    <!-- Page Indicator Light -->
 
-   <StaticText text="●" x="48" y="258" style="EchoStripText" font="SFC_11" color_text="#FF0000FF" />
-   <StaticText text="●" x="67" y="258" style="EchoStripText" font="SFC_11" color_text="#002200FF" />
+   <StaticText text="⚫" x="48" y="258" style="EchoStripText" font="SFC_11" color_text="#FF0000FF" />
+   <StaticText text="⚫" x="67" y="258" style="EchoStripText" font="SFC_11" color_text="#002200FF" />
 
 
 

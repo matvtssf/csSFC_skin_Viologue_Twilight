@@ -161,6 +161,11 @@
 
 		<CS01ExpandViewButton x="332" y="377" w="45" h="18" close_button_tag="12312312" roundedRatio="0.5" offColor="#54585aFF" onColor="#333333AA" color_text="#FFFFFFBB" text="Func" role="shapesExpandView" enabledByOnOff="1" font="SFC_11">
 			<CS01ViewContainer path="gui_seq_shapes.xml" backgroundColor="#444444880" x="44" y="112" w="316" h="150" xoffset="0" yoffset="0"/>
+
+</CS01ExpandViewButton>
+		<CS01ExpandViewButton x="332" y="390" w="45" h="18" close_button_tag="12312312" roundedRatio="0.5" offColor="#54585aFF" onColor="#333333AA" color_text="#FFFFFFBB" text="EXP" enabledByOnOff="1" font="SFC_11">
+			<CS01ViewContainer path="gui_seq_expansion.xml" backgroundColor="#444444880" x="44" y="112" w="316" h="150" xoffset="0" yoffset="0"/>
+
 		</CS01ExpandViewButton>
 		<!-- left is virt 11, right is virt 13 -->
 		<CS01TextButton x="332" y="405" role="shiftLeft"  w="21" h="18" text="←" roundedRatio="0.5" offColor="#54585aFF" style="StepEditorTextButton" color_text="#FFFFFFBB" enabledByOnOff="1" enable_keys="1" virtual_key="11" font="SFC_11"/>

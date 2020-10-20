@@ -20,12 +20,12 @@
 
 	<RoundedRect x="940" y="280" w="1" h="5" style="Divider" />
 	<RoundedRect x="940" y="285" w="51" h="1" style="Divider" />
-	<RoundedRect x="973" y="280" w="1" h="5" style="Divider" />
+	<RoundedRect x="971" y="280" w="1" h="5" style="Divider" />
 	<RoundedRect x="990" y="280" w="1" h="5" style="Divider" />
 
 	<!-- Lamp Glass -->
-	<StaticImage image="lampglass.svg" x="969"  y="267"  />
-	<StaticImage image="lampglass.svg" x="987"  y="267"  />
+	<StaticImage image="lampglass.svg" x="967"  y="265"  />
+	<StaticImage image="lampglass.svg" x="986"  y="265"  />
 
 	<!-- Page Select Text -->
 

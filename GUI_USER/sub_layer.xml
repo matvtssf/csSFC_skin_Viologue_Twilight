@@ -92,9 +92,9 @@
 
 		<!-- Echo -->
 
-		<CS01OnOffButton style="SPCOnOffSquaredEchoButton" param="777" x="41" y="273" w="30" h="30" roundedRatio="0.05" enabledByOnOff="1"/>
-		<CS01OnOffButton style="SPCOnOffSquared" param="777" x="49" y="277" w="14" h="5" roundedRatio="0.1" enabledByOnOff="1"/>
-		<StaticText text="ECHO" x="44" y="302" w="28" style="SmallTextChannelsTab" />
+		<CS01OnOffButton style="SPCOnOffSquared" param="777" x="41" y="273" w="30" h="30" roundedRatio="0.1" enabledByOnOff="1" enable_mouse="0" />
+		<CS01OnOffButton style="SPCOnOffSquaredEchoButton" param="777" x="46" y="278" w="20" h="20" roundedRatio="0.1" enabledByOnOff="1"/>
+		<StaticText text="ECHO" x="41" y="302" w="30" style="SmallTextChannelsTab" />
 
 
 	<!-- Mix Header -->

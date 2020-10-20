@@ -189,6 +189,10 @@
 
 	</TabView>
 
+<!-- Keyboard expander -->
+
+<CS01OnOffButton style="SPCOnOffSquared" x="467" y="524" w="90" h="8" command="visibilityChangingView|KeyboardSection" vdefault="1.0" on_value="1.0" onColor="#FFFFFF40" off_value="0.0" enable_mousewheel="0" />
+
 
 
 	<CS01ViewContainer x="0" y="534" w="1024" h="95" visibilityChangeName="KeyboardSection" visibilityChangeDirection="bottom">
@@ -214,7 +218,7 @@
 			inactiveColor="#11111199" ksActiveColor="#0000AADD" ksInactiveColor="#000044DD"/>
 
 <!--Zoom-->
-		<StaticText text="Zoom" x="931" y="0" w="45" h="16" style="StaticTextColorMain" alignment="center" font="SFC_11"/>
+		<StaticText text="Zoom" x="931" y="0" w="45" h="22" style="StaticTextColorMain" alignment="center" font="SFC_11"/>
 		<RoundedRect x="975" y="0" w="40" h="22" style="RoundedValueBoxes" />
 			<OptionMenu command="ui_zoomRatio" x="975" y="0" w="40" style="GUIOptionMenuBottomRight" vdefault="1.00">
 			<OptionItem name="25%"  value="0.25"/>
@@ -226,9 +230,6 @@
 			<OptionItem name="175%" value="1.75"/>
 			<OptionItem name="200%" value="2.00"/>
 		</OptionMenu>
-<!--Wrap-->
-		<StaticText text="Wrap" x="931" y="60" w="45" h="16" style="StaticTextColorMain" alignment="center" font="SFC_11"/>
-		<CS01OnOffButton style="SPCOnOffSquared" param="919" x="975" y="60" w="40" h="22" />
 
 	</CS01ViewContainer>
 
