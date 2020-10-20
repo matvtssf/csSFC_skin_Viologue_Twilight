@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="matrix(2 0 0 2 0 -.0103)">
+  <rect transform="scale(-1)" x="-40.5" y="-49" width="36" height="23" rx="2.5" ry="2.5" fill="#fff" fill-opacity=".094118" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="0" stroke-width=".36055" style="paint-order:markers stroke fill"/>
+  <rect transform="scale(-1)" x="-40.5" y="-49" width="36" height="3" fill="#6c78c4" stroke-width=".77805"/>
+  <g transform="translate(10.5)" stroke="#fff" stroke-opacity=".81569">
+   <g transform="matrix(.99998 0 0 1 -.99978 24)">
+    <g stroke="#fff" stroke-opacity=".81569">
+     <g stroke="#fff" stroke-opacity=".81569">
+      <g stroke-opacity=".81569">
+       <g fill="#fff" fill-opacity=".81569" stroke="none">
+        <g fill="none">
+         <g transform="matrix(.9259 0 0 .9259 6.7828 -1.2392)" stroke="#fff">
+          <path d="m.94135-9.1948c3.802-.019849 7.6039-.039697 11.406-.059546m.022794 2.7623c.35851-.53102.38283-1.2452.30391-1.8641-.18955-1.5262-.42149-3.0478-.79826-4.5403-.1813-.51618-.1277-1.3801-.78368-1.5271l-.12349-.000562m1.4015 7.9321.01621-.01068m-9.7724-7.8506c-.58423.0278-.69259.73344-.83435 1.1828-.43649 1.6405-.84615 3.2932-1.0368 4.9831-.029237.57565-.078428 1.2834.31608 1.7417.47931.28103 1.0639.1164 1.5913.15814 3.1419-.020825 6.2848-.01247 9.426-.0565.11767-.0155.22808-.073087.31012-.15866m-11.354.051436.0264.01769" stroke-opacity=".25098" stroke-width=".96366"/>
+          <path d="m3.4816-15.769c2.1637-.23364 4.3601-.21402 6.5816 0v2.9542c-1.7942.12878-3.5994.25402-6.5816 0z" opacity=".9" stop-color="#000000" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit=".8" stroke-opacity=".81569" stroke-width="1.08" style="paint-order:markers stroke fill"/>
+          <path d="m5.5104-7.6687h-1.5579" stroke-linecap="round" stroke-opacity=".25098"/>
+          <path d="m9.2369-7.6686h-1.5579" stroke-linecap="round" stroke-opacity=".25098"/>
+         </g>
+         <path d="m3.1525-11.447s.44211-.0421 0 0z" stroke="#000" stroke-opacity="1" stroke-width=".5px"/>
+         <g transform="matrix(.9259 0 0 .9259 6.7828 24.458)" stroke="#fff" stroke-opacity=".81569">
+          <path d="m.94135-9.942c3.802-.019849 7.6039-.039697 11.406-.059546m.022794 2.7623c.35851-.53102.38283-1.2452.30391-1.8641-.18955-1.5262-.42149-3.0478-.79826-4.5403-.1813-.51618-.1277-1.3801-.78368-1.5271l-.12349-.000562m1.4015 7.9321.01621-.01068m-9.7724-7.8506c-.58423.0278-.69259.73344-.83435 1.1828-.43649 1.6405-.84615 3.2932-1.0368 4.9831-.029237.57565-.078428 1.2834.31608 1.7417.47931.28103 1.0639.1164 1.5913.15814 3.1419-.020825 6.2848-.01247 9.426-.0565.11767-.0155.22808-.073087.31012-.15866m-11.354.051436.0264.01769" stroke-width=".96366"/>
+          <path d="m3.4816-16.516c2.1637-.23364 4.3601-.21402 6.5816 0v2.9542c-1.7942.12878-3.5994.25402-6.5816 0z" opacity=".9" stop-color="#000000" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit=".8" stroke-width="1.08" style="paint-order:markers stroke fill"/>
+          <path d="m5.5104-8.4159h-1.5579" stroke-linecap="round"/>
+          <path d="m9.2369-8.4158h-1.5579" stroke-linecap="round"/>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -1,81 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GUI w="1024" h="471" backgroundColor="#00000000">
-	
-	<CS01ViewContainer1 x="914" y="2" w="90" h="446" >
+
 <!-- Channel Strip Background -->
 	
-	<RoundedRect x="2" y="2" style="EchoStripBackground" />
-	<StaticImage image="echostrip.svg" x="2"  y="2"/>
+	<RoundedRect x="916" y="4" style="EchoStripBackground" />
+	<StaticImage image="echostrip.svg" x="916"  y="4"/>
+
+	<ScrollView x="914" y="2" w="90" h="446" scrollbarwidth="0" internalwidth="180" internalheight="446" backgroundColor="#333333FF" showScrollbars="0" name="EchoPages">	
+
+		<GUIMacro path="sub_fx_mix.xml" xoffset="0" yoffset="0" />
+		<GUIMacro path="sub_fx_filter.xml" xoffset="90" yoffset="0" />
+
+	</ScrollView>
 	
-<!-- Fancy Delay -->
+	<!-- Page Changer -->
+	<CS01ScrollViewPageController x="920" y="265" w="40" h="15" type="1" style="EchoViewPageController" frameColor="#00000000" 
+			frameDraw="0" scrollViewName="EchoPages" image_1="btn_echo_back.svg" image_1HL="btn_echo_back_hl.svg" name="EchoScrollViewPageController" showPageName="0" />
+    <!-- Dividers for Page Select-->
 
-	<CS01RadioButtons x="20" y="20" w="5" h="160" param="898" vmin="0" vmax="15" vdefault="5" enable_keys="0" enable_mouse="0" >
-		<OptionItem x="0"   y="0"  value="0" style="EchoLEDs" />
-		<OptionItem x="0"  y="10"  value="1" style="EchoLEDs" />
-		<OptionItem x="0" y="20"  value="2" style="EchoLEDs" />
-		<OptionItem x="0" y="30"  value="3" style="EchoLEDs" />
-		<OptionItem x="0" y="40"  value="4" style="EchoLEDs" />
-		<OptionItem x="0" y="50"  value="5" style="EchoLEDs" />
-		<OptionItem x="0" y="60"  value="6" style="EchoLEDs" />
-		<OptionItem x="0" y="70"  value="7" style="EchoLEDs" />
-		<OptionItem x="0" y="80"  value="8" style="EchoLEDs" />
-		<OptionItem x="0" y="90"  value="9" style="EchoLEDs" />
-		<OptionItem x="0" y="100"  value="10" style="EchoLEDs" />
-		<OptionItem x="0" y="110"  value="11" style="EchoLEDs" />
-		<OptionItem x="0" y="120"  value="12" style="EchoLEDs" />
-		<OptionItem x="0" y="130"  value="13" style="EchoLEDs" />
-		<OptionItem x="0" y="140"  value="14" style="EchoLEDs" />
-		<OptionItem x="0" y="150"  value="15" style="EchoLEDs" />
-	</CS01RadioButtons>
+	<RoundedRect x="940" y="280" w="1" h="5" style="Divider" />
+	<RoundedRect x="940" y="285" w="51" h="1" style="Divider" />
+	<RoundedRect x="973" y="280" w="1" h="5" style="Divider" />
+	<RoundedRect x="990" y="280" w="1" h="5" style="Divider" />
 
-	<StaticImage image="lampglass.svg" x="20"  y="23"/> 
-	<StaticImage image="lampglass.svg" x="20"  y="33"/>
-	<StaticImage image="lampglass.svg" x="20"  y="43"/>
-	<StaticImage image="lampglass.svg" x="20"  y="53"/>
-	<StaticImage image="lampglass.svg" x="20"  y="63"/>
-	<StaticImage image="lampglass.svg" x="20"  y="73"/>
-	<StaticImage image="lampglass.svg" x="20"  y="83"/>
-	<StaticImage image="lampglass.svg" x="20"  y="93"/>
-	<StaticImage image="lampglass.svg" x="20"  y="103"/>
-	<StaticImage image="lampglass.svg" x="20"  y="113"/>
-	<StaticImage image="lampglass.svg" x="20"  y="123"/>
-	<StaticImage image="lampglass.svg" x="20"  y="133"/>
-	<StaticImage image="lampglass.svg" x="20"  y="143"/>
-	<StaticImage image="lampglass.svg" x="20"  y="153"/>
-	<StaticImage image="lampglass.svg" x="20"  y="163"/>
-	<StaticImage image="lampglass.svg" x="20"  y="173"/>
+	<!-- Lamp Glass -->
+	<StaticImage image="lampglass.svg" x="969"  y="267"  />
+	<StaticImage image="lampglass.svg" x="987"  y="267"  />
 
-	<StaticText text="0" x="5" y="17" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="16" x="5" y="27" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="32" x="5" y="37" w="15" h="16"  style="EchoStripText" /> 
-	<StaticText text="48" x="5" y="47" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="64" x="5" y="57" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="80" x="5" y="67" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="96" x="5" y="77" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="112" x="5" y="87" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="128" x="5" y="97" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="144" x="5" y="107" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="160" x="5" y="117" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="176" x="5" y="127" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="192" x="5" y="137" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="208" x="5" y="147" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="224" x="5" y="157" w="15" h="16"  style="EchoStripText" />
-	<StaticText text="240" x="5" y="167" w="15" h="16"  style="EchoStripText" />
+	<!-- Page Select Text -->
 
-	<!-- Divider -->
-	<RoundedRect x="22" y="20" w="5" h="1" style="Divider" />
-	<RoundedRect x="22" y="180" w="5" h="1" style="Divider" />
-	<RoundedRect x="26" y="20" w="1" h="161" style="Divider" />
-	<RoundedRect x="26" y="100" w="10" h="1" style="Divider" /> 
-	<RoundedRect x="35" y="35" w="1" h="66" style="Divider" />
-	<RoundedRect x="35" y="35" w="8" h="1" style="Divider" /> 
-	
-	<CS03Knob style="SPCKnob3" param="898" x="42" y="15" xvmin="0" vdefault="5" vmax="15" stepped="1" labelText="ms" factor="16" mouseIncrement="0.08" showValueTextOnHL="0" label_fontColor="#000000d0" />
+	<StaticText text="MIX" x="963" y="268" style="EchoStripText" />
+	<StaticText text="EFIR" x="980" y="268" style="EchoStripText" />
 
-<!-- Feedback -->
-
-
-	</CS01ViewContainer1>
+	<!-- Preset Bar -->
+	<RoundedRect x="920" y="289" w="82" h="20" style="RoundedValueBoxes" />
+	<PresetMenu param="DID_PRESETNAME" target="com.Plogue.Emulator.SFCDelay" type="com.Plogue.Emulator.SFCDelay"
+				entry_save="1" entry_load="0" entry_reload="0" entry_empty="0" 
+				param_lo="896" param_hi="917" param_behaviour="1" 
+							
+				x="920" y="290" w="82" h="20" transparent="0" alignment="center" 
+				image_next="arrow-next.svg" image_previous="arrow-previous.svg" image_vertical_align="2" 
+				style="PresetMenuColor" btn_margin="2" arrowsTolerance="5" sendToArrows="1" font="SFC_9" drawFrame="0"/>
 
 	
 </GUI>

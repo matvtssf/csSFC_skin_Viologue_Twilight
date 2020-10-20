@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUI w="990" h="73" backgroundColor="#00000000">
+
+	<StaticText text="Echo" x="6" y="15" w="40" h="16" font="SFCHEADING_16" />	
+		
+	<PresetMenu param="DID_PRESETNAME" target="com.Plogue.Emulator.SFCDelay" type="com.Plogue.Emulator.SFCDelay"
+				entry_save="1" entry_load="0" entry_reload="0" entry_empty="0" 
+				param_lo="896" param_hi="917" param_behaviour="1" 
+							
+				x="55" y="15" w="141" h="22" transparent="0" alignment="center" 
+				image_next="arrow-next.svg" image_previous="arrow-previous.svg" image_vertical_align="2" 
+				style="PresetMenuColor" 				btn_margin="1" arrowsTolerance="5" sendToArrows="1" font="SFC_12" drawFrame="0"/>
+	
+	<GUIMacro path="gui_fx_time.xml"   xoffset="250"    yoffset="2"/>	
+
+	<StaticText text="Filter Level" x="580" y="15" w="62" h="12" alignment="center" font="SFCHEADING_12" />
+
+	<GUIMacro path="gui_fx_filter.xml" xoffset="650"  yoffset="2"/>
+	
+</GUI>

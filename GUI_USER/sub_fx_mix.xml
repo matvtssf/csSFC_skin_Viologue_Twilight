@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUI w="90" h="446" backgroundColor="#00000000">
+
+<StaticText text="MIX" x="5" y="0" style="EchoStripText" alignment="left" font="SFC_8" />
+
+
+<!-- Fancy Delay -->
+
+	<VisibilityContainer x="5" y="15" w="88" h="170">
+
+		<!-- Divider -->
+		<RoundedRect x="0" y="0" w="82" h="95" style="DividerEcho" />
+
+		<CS01RadioButtons x="0" y="0" w="50" h="160" param="898" vmin="0" vmax="15" vdefault="5" enable_keys="0" >
+			<OptionItem x="15" y="7"  value="0" style="EchoLEDs" /> 
+			<OptionItem x="15" y="17"  value="1" style="EchoLEDs" />
+			<OptionItem x="15" y="27"  value="2" style="EchoLEDs" />
+			<OptionItem x="15" y="37"  value="3" style="EchoLEDs" />
+			<OptionItem x="15" y="47"  value="4" style="EchoLEDs" />
+			<OptionItem x="15" y="57"  value="5" style="EchoLEDs" />
+			<OptionItem x="15" y="67"  value="6" style="EchoLEDs" />
+			<OptionItem x="15" y="77"  value="7" style="EchoLEDs" />
+			<OptionItem x="38" y="7"  value="8" style="EchoLEDs" />
+			<OptionItem x="38" y="17"  value="9" style="EchoLEDs" />
+			<OptionItem x="38" y="27"  value="10" style="EchoLEDs" />
+			<OptionItem x="38" y="37"  value="11" style="EchoLEDs" />
+			<OptionItem x="38" y="47"  value="12" style="EchoLEDs" />
+			<OptionItem x="38" y="57"  value="13" style="EchoLEDs" />
+			<OptionItem x="38" y="67"  value="14" style="EchoLEDs" />
+			<OptionItem x="38" y="77"  value="15" style="EchoLEDs" />
+		</CS01RadioButtons>
+	
+	<StaticImage image="lampglass_green.svg" x="15"  y="9"  /> <StaticImage image="lampglass_yellow.svg" x="38"  y="9" /> 
+	<StaticImage image="lampglass_green.svg" x="15"  y="19" /> <StaticImage image="lampglass_yellow.svg" x="38"  y="19" />
+	<StaticImage image="lampglass_green.svg" x="15"  y="29" /> <StaticImage image="lampglass_yellow.svg" x="38"  y="29" />
+	<StaticImage image="lampglass_green.svg" x="15"  y="39" /> <StaticImage image="lampglass_yellow.svg" x="38"  y="39" />
+	<StaticImage image="lampglass_green.svg" x="15"  y="49" /> <StaticImage image="lampglass_yellow.svg" x="38"  y="49" />
+	<StaticImage image="lampglass_green.svg" x="15"  y="59" /> <StaticImage image="lampglass_yellow.svg" x="38"  y="59" />
+	<StaticImage image="lampglass_green.svg" x="15"  y="69" /> <StaticImage image="lampglass_yellow.svg" x="38"  y="69" />
+	<StaticImage image="lampglass_green.svg" x="15"  y="79" /> <StaticImage image="lampglass_yellow.svg" x="38"  y="79" />
+	
+</VisibilityContainer>
+	<!--Time-->	
+	<CS03Knob style="SPCKnob3" param="898" x="48" y="20" showValueTextOnHL="0" label_fontColor="#000000d0" xvmin="0" vdefault="5" vmax="15" stepped="1" labelText="ms" factor="15" mouseIncrement="0.08" />
+
+	<StaticText text="0" y="18"  style="EchoStripText" />  <StaticText text="128" x="25" y="18" style="EchoStripText" />
+	<StaticText text="16" y="28" style="EchoStripText" />  <StaticText text="144" x="25" y="28"  style="EchoStripText" />
+	<StaticText text="32" y="38" style="EchoStripText" />  <StaticText text="160" x="25" y="38"  style="EchoStripText" />
+	<StaticText text="48" y="48" style="EchoStripText" />  <StaticText text="176" x="25" y="48"  style="EchoStripText" />
+	<StaticText text="64" y="58" style="EchoStripText" />  <StaticText text="192" x="25" y="58"  style="EchoStripText" />
+	<StaticText text="80" y="68" style="EchoStripText" />  <StaticText text="208" x="25" y="68"  style="EchoStripText" />
+	<StaticText text="96" y="78" style="EchoStripText" />  <StaticText text="224" x="25" y="78"  style="EchoStripText" />
+	<StaticText text="112" y="88" style="EchoStripText" /> <StaticText text="240" x="25" y="88"  style="EchoStripText" />
+
+	<!--Feedback-->
+	
+	<CS03Knob style="SPCKnobEchoSmall" param="899" x="51" y="65" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="0.33" vmax="1" stepped="0" labelText="FEEDBACK" showValueTextOnHL="1" label_fontColor="#000000d0" />
+	
+	
+	<!-- Dry Mix -->
+
+	<StaticText text="DRY MIX" x="49" y="168" w="40" style="EchoStripText" font="SFC_8" />
+
+	<CS03Knob style="SPCKnobEchoSmallDry" param="896" x="12" y="147" labelText="LEVEL" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0" />
+	<CS03Knob style="SPCKnobEchoSmallDry" param="910" x="50" y="124" valueText_format="FORMAT_STEREOPAN" vmin="0" vdefault="0.5" vmax="1" stepped="0" unipolar="0" labelText="PAN"  />
+
+	<!-- Divider -->
+
+	<VisibilityContainer x="6" y="181" w="90" h="40">
+	<RoundedRect x="0" y="19" w="30" h="1" style="Divider" />
+	<Line x="30" y="20" w="20" h="-20" style="DividerLine" />
+	<RoundedRect x="50" y="0" w="30" h="1" style="Divider" />
+	</VisibilityContainer>
+		
+	
+
+	<!-- Wet Mix -->
+
+	<StaticText text="WET MIX" x="1" y="198" w="40" style="EchoStripText" font="SFC_8" />
+
+	<CS03Knob style="SPCKnobEchoSmallWet" param="897" x="12" y="217" labelText="LEVEL" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="0.33" vmax="1" stepped="0"  />
+	<CS03Knob style="SPCKnobEchoSmallWet" param="911" x="50" y="194" valueText_format="FORMAT_STEREOPAN" vmin="0" vdefault="0.5" vmax="1" stepped="0" unipolar="0" labelText="PAN"  />
+
+   <!-- Page Indicator Light -->
+
+   <StaticText text="●" x="48" y="258" style="EchoStripText" font="SFC_11" color_text="#FF0000FF" />
+   <StaticText text="●" x="67" y="258" style="EchoStripText" font="SFC_11" color_text="#002200FF" />
+
+
+
+</GUI>

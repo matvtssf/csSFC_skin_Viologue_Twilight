@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="90" height="50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<svg width="90" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
  <metadata>
   <rdf:RDF>
    <cc:Work rdf:about="">
@@ -9,7 +9,9 @@
    </cc:Work>
   </rdf:RDF>
  </metadata>
- <rect width="90" height="23.491" ry="1.8793" fill="#fff" fill-opacity=".25098" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="0" stroke-width=".57614" style="paint-order:markers stroke fill"/>
- <rect y="25" width="90" height="23.491" ry="1.8793" fill="#fff" fill-opacity=".062745" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="0" stroke-width=".57614" style="paint-order:markers stroke fill"/>
- <rect y="25" width="90" height="1.9824" fill="#6c78c4" stroke-width=".28159"/>
+ <g transform="translate(0 24.995)">
+  <rect x="9" y="-22.985" width="72" height="47.332" rx="5" ry="5" fill="#fff" fill-opacity=".28235" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="0" stroke-width="1.2948" style="paint-order:markers stroke fill"/>
+  <rect transform="scale(-1)" x="-81" y="-72.995" width="72" height="46" rx="5" ry="5" fill="#ffffff" fill-opacity=".094118" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="0" stroke-width=".7211" style="paint-order:markers stroke fill"/>
+  <rect transform="scale(-1)" x="-81" y="-72.995" width="72" height="6" fill="#6c78c4" stroke-width="1.5561"/>
+ </g>
 </svg>

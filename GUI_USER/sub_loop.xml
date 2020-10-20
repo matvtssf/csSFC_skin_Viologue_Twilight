@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUI w="65" h="160" backgroundColor="#00000000">
+	<CS01ViewContainer1 x="0" y="0" w="65" h="160" disabled_x="0" disabled_y="0" disabled_w="65" disabled_h="160" style="LoopContainer" >
+			
+			<!-- Loop Crossfade -->
+			<CS03Knob style="SPCSampleKnob03_34" x="3" y="0" roles="userparam_11;xfade" vmin="0" vmax="100" vdefault="0" mouseIncrement="0.5" stepped="1" labelText="XFade" enabledByOnOff="1" />
+
+			<!-- Loop In/Out Text and BG Bars -->
+			<RoundedRect 			 x="0" y="60" w="65" style="LoopInOutField" />
+			<RoundedRect 			 x="0" y="83" w="65" style="LoopInOutField" />
+			<StaticText x="0" y="102" w="65" h="16" text="Loop Points" style="SmallTextHeaderSampleTab" alignment="center" font="SFC_9"/>
+
+			<!-- Loop -->
+			<StaticText x="0" y="139" w="65" h="16" text="Loop Enable" style="SmallTextHeaderSampleTab"  alignment="center" font="SFC_9"/>
+			<CS01OnOffButton style="SPCOnOffSquared" role="onOff" x="0" y="150" w="60" addControl="0" /> 
+
+</GUI>

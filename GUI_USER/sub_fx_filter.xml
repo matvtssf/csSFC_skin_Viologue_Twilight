@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUI w="90" h="446" backgroundColor="#00000000">
+
+<StaticText text="FILTER" y="0" style="EchoStripText" alignment="right" font="SFC_8" w="80"/>
+
+<StaticText text="Ø" x="77" y="120" h="20" w="16" style="SmallTextHeaderChannelsTab" color_text="#000000d0" />
+
+<!-- Dividers -->
+
+<VisibilityContainer x="0" y="0" w="90" h="446">
+
+	<RoundedRect x="45" y="35" w="14" h="1" style="Divider" />
+	<RoundedRect x="45" y="82" w="6" h="1" style="Divider" />
+	<RoundedRect x="45" y="129" w="6" h="1" style="Divider" />
+	<RoundedRect x="45" y="176" w="6" h="1" style="Divider" />
+	<RoundedRect x="45" y="223" w="14" h="1" style="Divider" />
+	<RoundedRect x="79" y="25" w="6" h="1" style="Divider" />
+	<RoundedRect x="85" y="25" w="1" h="102" style="Divider" />
+	<RoundedRect x="85" y="134" w="1" h="102" style="Divider" />
+	<RoundedRect x="79" y="235" w="6" h="1" style="Divider" />
+	<RoundedRect x="5" y="62" w="80" h="1" style="Divider" />
+	<RoundedRect x="5" y="109" w="80" h="1" style="Divider" />
+	<RoundedRect x="5" y="156" w="80" h="1" style="Divider" />
+	<RoundedRect x="5" y="203" w="80" h="1" style="Divider" />
+	<RoundedRect x="5" y="25" w="6" h="1" style="Divider" />
+	<RoundedRect x="5" y="25" w="1" h="211" style="Divider" />
+	<RoundedRect x="5" y="236" w="6" h="1" style="Divider" />
+
+	</VisibilityContainer>
+
+<!-- 16kHz -->
+
+<CS03Knob style="SPCKnob316kHz" param="904" x="7" y="15" labelText="16kHz" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0"  />
+
+	<CS01OnOffButton style="SPCOnOffSquared" param="909" x="59" y="30" w="16" h="12" onColor="#DE1C22D0" />
+	
+<!-- 12kHz -->
+
+<CS03Knob style="SPCKnob312kHz" param="903" x="7" y="62" labelText="12kHz" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0" />
+
+	<CS03Knob style="SPCKnobPhase12kHz" param="908" x="50" y="67" labelText=" " valueText_format="%1.2f" factor="1" stepped="0"  />
+
+<!-- 8kHz -->
+
+<CS03Knob style="SPCKnob38kHz" param="902" x="7" y="109" labelText="8kHz" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0" />
+
+	<CS03Knob style="SPCKnobPhase8kHz" param="907" x="50" y="114" labelText=" " valueText_format="%1.2f" factor="1" stepped="0"  />
+
+<!-- 4kHz -->
+
+<CS03Knob style="SPCKnob34kHz" param="901" x="7" y="156" labelText="4kHz" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0"  />
+
+	<CS03Knob style="SPCKnobPhase4kHz" param="906" x="50" y="161" labelText=" " valueText_format="%1.2f" factor="1" stepped="0" />
+
+<!-- 0kHz -->
+
+<CS03Knob style="SPCKnob30kHz" param="900" x="7" y="203" labelText="0kHz" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0"  />
+
+	<CS01OnOffButton style="SPCOnOffSquared" param="905" x="59" y="218" w="16" h="12" onColor="#000000D0" />
+
+<!-- aSPLODE -->
+
+<CS01OnOffButton style="SPCOnOffSquared" param="917" x="60" y="240" w="24" h="7" onColor="#de8b82D0" />
+<StaticText text="EFIR x 8" x="60" y="245" w="24" style="SmallTextChannelsTab" color_text="#880000d0" />
+
+<!-- Page Indicator Light -->
+
+   <StaticText text="●" x="48" y="258" style="EchoStripText" font="SFC_11" color_text="#220000FF" />
+   <StaticText text="●" x="67" y="258" style="EchoStripText" font="SFC_11" color_text="#00FF00FF" />
+</GUI>

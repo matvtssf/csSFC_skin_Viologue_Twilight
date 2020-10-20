@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUI w="243" h="47" backgroundColor="#00000000">
+	<!--0k-->
+	<CS03Knob style="SPCFXKnob3"  w="55" label_w="55" knob_x="16" labelText="0k"  param="004" x="-5" y="0" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0"/>
+	<!--4k-->
+	<CS03Knob style="SPCFXKnob3"  w="55" label_w="55" knob_x="16" labelText="4k"  param="005" x="46" y="0" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0"/>
+	<!--8k-->
+	<CS03Knob style="SPCFXKnob3"  w="55" label_w="55" knob_x="16" labelText="8k"  param="006" x="97" y="0" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0"/>
+	<!--12k-->
+	<CS03Knob style="SPCFXKnob3"  w="55" label_w="55" knob_x="16" labelText="12k" param="007" x="148" y="0" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0"/>
+	<!--16k-->
+	<CS03Knob style="SPCFXKnob3"  w="55" label_w="55" knob_x="16" labelText="16k" param="008" x="199" y="0" valueText_format="%.f%%" valueText_format_format_mod="%.f (%.f)%%" factor="100" vmin="0" vdefault="1" vmax="1" stepped="0"/>
+</GUI>				
