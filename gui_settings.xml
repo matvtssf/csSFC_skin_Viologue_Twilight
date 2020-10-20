@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<GUI w="1024" h="560" backgroundColor="#00000000">
+
+	<CS01ViewContainer1 x="104" y="97" w="815" h="402" backgroundColor="#00000000">
+	<RoundedRect x="0" y="0" w="815" h="400" style="SettingsBackgroundColor" />
+	<CS01TextButton controlTag="12312312" x="755" y="10" w="50" style="SettingsViewButtons" text="Close"/>
+
+	<StaticText text="Playing and Interface" x="71" y="26" w="400" style="SettingsStaticTextHeaders"/>
+	<StaticText x="90" y="60" w="100" style="SettingsStaticText" text="Pitch Bend Range"/>
+	<OptionMenu param="DID_SLOTPBSEMI" x="250" y="63" w="40" style="SettingsOptionMenu" vdefault="-1">
+			<OptionItem name="-GPitch Bend Range" value="-2"/>
+			<OptionItem name="Def" value="-1"/>
+			<OptionItem name="OFF" value="0"/>
+			<OptionItem name="1" value="100"/>
+			<OptionItem name="2" value="200"/>
+			<OptionItem name="3" value="300"/>
+			<OptionItem name="4" value="400"/>
+			<OptionItem name="5" value="500"/>
+			<OptionItem name="6" value="600"/>
+			<OptionItem name="7" value="700"/>
+			<OptionItem name="8" value="800"/>
+			<OptionItem name="12" value="1200"/>
+			<OptionItem name="24" value="2400"/>
+			<OptionItem name="36" value="3600"/>
+			<OptionItem name="48" value="4800"/>
+		</OptionMenu>
+
+		<StaticText x="90" y="93" w="100" style="SettingsStaticText" text="Velocity Sensitivity"/>
+		<CS01Knob param="DID_SLOTVELTRACK" x="256" y="88" w="32" h="32" style="SettingsKnob" trackWidth="3" font="SFC_11" vmin="0" vmax="1" vdefault="1" stepped="0"/>
+
+		<StaticText x="90" y="126" w="60" style="SettingsStaticText" text="UI Zoom"/>
+		<OptionMenu command="ui_zoomRatio" x="250" y="128" w="40" style="SettingsOptionMenu" vdefault="1.00">
+			<OptionItem name="25%"  value="0.25"/>
+			<OptionItem name="50%"	value="0.50"/>
+			<OptionItem name="75%"	value="0.75"/>
+			<OptionItem name="100%"	value="1.00"/>
+			<OptionItem name="125%"	value="1.25"/>
+			<OptionItem name="150%" value="1.50"/>
+			<OptionItem name="175%" value="1.75"/>
+			<OptionItem name="200%" value="2.00"/>
+		</OptionMenu>
+
+		<StaticText w="60" h="14"                          x="90"   y="159" text="Skin" style="SettingsStaticText"/>
+		<OptionMenu param="DID_PRODUCT_DISPLAYSKINVARIANT" x="250"   y="159" w="100" style="SettingsOptionMenu" >
+			<OptionItem name="JP/EUR"        value="0" />
+			<OptionItem name="Americas"      value="1" />
+			<OptionItem name="Americas(OLD)" value="2" />
+			<OptionItem name="日本語"         value="3" /> 			
+			<OptionItem name="USER"          value="4" />         
+		</OptionMenu>
+
+		<StaticText      x="90" y="190" w="80" style="SettingsStaticText" text="Show keyboard"/>
+		<CS01OnOffButton x="259" y="196" style="SettingsOnOffButton" w="20" h="8" roundedRatio="0.5" command="visibilityChangingView|KeyboardSection" vdefault="1.0" on_value="1.0" off_value="0.0" enable_mousewheel="0"/>
+
+
+
+		<StaticText text="Tuning" x="389" y="26" w="85" style="SettingsStaticTextHeaders"/>
+
+		<StaticText     x="408" y="60" w="150" text="Scala File" style="SettingsStaticText"/>
+		<CS01TextButton x="496" y="60" w="50"  style="SettingsViewButtons" command="load:scl" data0="scl" data1="Please select Scala file" text="📁   Set"/>
+		<Label          x="635" y="60" w="154" h="18" param="DID_SCALANAME"  alignment="left" color_back="#FFFFFF00" color_border="#FFFFFF00"/>
+		    
+		<StaticText x="408" y="93" w="80" text="Scala Center"     style="SettingsStaticText"/>
+		<OptionMenu x="496" y="93" w="35" param="DID_SCALACENTER" style="SettingsOptionMenu">
+			<OptionItem name="A1"		value="21"/>
+			<OptionItem name="C4"		value="48"/>
+			<OptionItem name="C#4"		value="49"/>
+			<OptionItem name="D4"		value="50"/>
+			<OptionItem name="D#4"		value="51"/>
+			<OptionItem name="E4"		value="52"/>
+			<OptionItem name="F4"		value="53"/>
+			<OptionItem name="F#4"		value="54"/>
+			<OptionItem name="G4"		value="55"/>
+			<OptionItem name="G#4"		value="56"/>
+			<OptionItem name="A4"		value="57"/>
+			<OptionItem name="A#4"		value="58"/>
+			<OptionItem name="B4"		value="59"/>
+			<OptionItem name="C5"		value="60"/>
+			<OptionItem name="C#5"		value="61"/>
+			<OptionItem name="D5"		value="62"/>
+			<OptionItem name="D#5"		value="63"/>
+			<OptionItem name="E5"		value="64"/>
+			<OptionItem name="F5"		value="65"/>
+			<OptionItem name="F#5"		value="66"/>
+			<OptionItem name="G5"		value="67"/>
+			<OptionItem name="G#5"		value="68"/>
+			<OptionItem name="A5"		value="69"/>
+			<OptionItem name="A#5"		value="70"/>
+			<OptionItem name="B5"		value="71"/>
+			<OptionItem name="C6"		value="72"/>
+		</OptionMenu>
+
+		<StaticText text="Tuning (cents)"   x="408" y="126" w="80" style="SettingsStaticText"/>
+		<CS01Knob param="DID_SLOTTUNING" x="500" y="120" w="32" h="32" style="SettingsKnob" unipolar="0" format="%.f" trackWidth="3" font_size="VerySmall" vmin="-300" vmax="300" vdefault="0" stepped="0"/>
+
+		<DisplayStringOption param="DID_SLOTTUNING" x="635" y="126" w="64" h="18" transparent="1" format="%.2f ct" style="SettingsDisplayStringOption">
+			<DisplayStringOptionItem name="380 Hz"        value="-253.805" epsilon="0.25"/>
+			<DisplayStringOptionItem name="409 Hz"        value="-126.483" epsilon="0.25"/>
+			<DisplayStringOptionItem name="415 Hz"        value="-101.271" epsilon="0.25"/> 
+			<DisplayStringOptionItem name="422.5 Hz"      value="-70.2626" epsilon="0.25"/>
+			<DisplayStringOptionItem name="423.2 Hz"      value="-67.3967" epsilon="0.25"/>
+			<DisplayStringOptionItem name="432 Hz"        value="-31.7667" epsilon="0.25"/>
+			<DisplayStringOptionItem name="435 Hz"        value="-19.7857" epsilon="0.25"/>
+			<DisplayStringOptionItem name="438 Hz"        value="-7.8872"  epsilon="0.25"/>
+			<DisplayStringOptionItem name="439 Hz"        value="-3.9391"  epsilon="0.25"/>
+			<DisplayStringOptionItem name="440 Hz (Intl)" value="0"        epsilon="0.25"/>
+			<DisplayStringOptionItem name="442 Hz"        value="7.85142"  epsilon="0.25"/>
+			<DisplayStringOptionItem name="445 Hz"        value="19.5622"  epsilon="0.25"/>
+			<DisplayStringOptionItem name="451 Hz"        value="42.7487"  epsilon="0.25"/>
+		</DisplayStringOption>
+
+		<StaticText x="408" y="159" w="75"  h="14"  text="Filtering" style="SettingsStaticText"/>
+		<OptionMenu x="496" y="159" w="100" param="260" style="SettingsOptionMenu" >
+			<OptionItem name="Minimal"     value="0" />
+			<OptionItem name="Native"      value="1" />      
+		</OptionMenu>
+
+		<StaticText      x="408" y="190" w="125" text="No Pitch Wraps" style="SettingsStaticText" />
+		<CS01OnOffButton x="505" y="195" w="20" h="8"  param="919"  style="SettingsOnOffButton" roundedRatio="0.5" vdefault="0.0" on_value="1.0" off_value="0.0" enable_mousewheel="0"/>
+
+
+
+		<!-- Bottom -->
+
+
+
+		<StaticText x="71" y="223" w="400" text="Current Host Settings" style="SettingsStaticTextHeaders"/>
+		
+		<StaticText x="90" y="256" w="70"  text="Sample Rate"            style="SettingsStaticText" />
+		<StaticText x="90" y="289" w="110"  text="Buffer Size (current)"       style="SettingsStaticText" />
+		<StaticText x="90" y="322" w="120"  text="Buffer Size (maximum)"       style="SettingsStaticText" />
+		<StaticText x="90" y="355" w="90"  text="Current Note Ons"              style="SettingsStaticText" />
+		
+		<Label x="250" y="256" w="60" param="DID_SAMPLERATE"    style="SettingsLabel" format=" %5.0f"/>
+		<Label x="250" y="289" w="60" param="DID_CURBUFFERSIZE" style="SettingsLabel" format=" %5.0f"/>
+		<Label x="250" y="322" w="60" param="DID_MAXBUFFERSIZE" style="SettingsLabel" format=" %5.0f"/>
+		<Label x="250" y="355" w="60" param="DID_NOTES"         style="SettingsLabel" format=" %3.0f"/>
+
+
+
+
+
+		<StaticText     x="389" y="223" w="85" text="Info" style="SettingsStaticTextHeaders"/>
+
+		<Label          x="408" y="256" w="150" param="DID_PRODUCTVERSION" text="temp" style="SettingsLabel10"/>
+		<CS01TextButton x="635" y="256" w="100" style="SettingsViewButtons" command="versioncheck_product" data1="Checking SFC Version" text="ⓘ   Version check"/>
+
+		<Label          x="408" y="289" w="200" param="DID_VERSION" text="temp" style="SettingsLabel10"/>
+		<CS01TextButton x="635" y="289" w="100" style="SettingsViewButtons" command="versioncheck_fermata" data1="Checking Fermata Engine Version" text="ⓘ   Version check"/>
+
+		<Label          x="408" y="322" w="200" param="DID_WRAPPERVERSION" style="SettingsLabel10" text="temp" />
+
+		<StaticText     x="408" y="355" w="400" text="(c) 2005-2020 Plogue Art et Technologie, Inc." style="SettingsLabel10"  />
+		<CS01TextButton x="635" y="355" w="100" command="license" style="SettingsViewButtons" text="ⓘ   Show License"/>
+
+
+	</CS01ViewContainer1>
+</GUI>

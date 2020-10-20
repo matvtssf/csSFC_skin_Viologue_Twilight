@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 90 100" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="matrix(2 0 0 2 0 -.0103)">
+  <rect transform="scale(-1)" x="-40.5" y="-49" width="36" height="23" rx="2.5" ry="2.5" fill="#ffffff" fill-opacity=".094118" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="0" stroke-width=".36055" style="paint-order:markers stroke fill"/>
+  <rect transform="scale(-1)" x="-40.5" y="-49" width="36" height="3" fill="#6c78c4" stroke-width=".77805"/>
+  <g transform="translate(10.5)" stroke="#fff" stroke-opacity=".81569">
+   <g transform="matrix(.99998 0 0 1 -.99978 24)">
+    <g stroke="#fff" stroke-opacity=".81569">
+     <g stroke="#fff" stroke-opacity=".81569">
+      <g stroke-opacity=".81569">
+       <rect x="7.4631" y="8.4631" width="11.074" height="11.074" rx="1.8526" ry="1.8526" fill="none" opacity=".98" stop-color="#000000" stroke="#fff" stroke-linecap="square" stroke-miterlimit=".8" stroke-opacity=".81569" stroke-width=".92628" style="paint-order:fill markers stroke"/>
+       <g fill="#fff" fill-opacity=".81569" stroke="none">
+        <rect x="9" y="10" width="2" height="2" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
+        <rect x="12" y="10" width="2" height="2" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
+        <rect x="15" y="10" width="2" height="2" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
+        <rect x="12" y="13" width="2" height="2" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
+        <rect x="15" y="16" width="2" height="2" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g transform="translate(-.99996 -.99996)">
+    <g stroke="#fff" stroke-opacity=".81569">
+     <g stroke="#fff" stroke-opacity=".81569">
+      <g stroke-opacity=".81569">
+       <rect x="7.4631" y="8.4631" width="11.074" height="11.074" rx="1.8526" ry="1.8526" fill="none" opacity=".98" stop-color="#000000" stroke="#fff" stroke-linecap="square" stroke-miterlimit=".8" stroke-opacity=".81569" stroke-width=".92628" style="paint-order:fill markers stroke"/>
+       <g fill="#fff" fill-opacity=".81569" stroke="none">
+        <rect x="9" y="10" width="2" height="2" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
+        <rect x="12" y="10" width="2" height="2" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
+        <rect x="15" y="10" width="2" height="2" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
+        <rect x="12" y="13" width="2" height="2" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
+        <rect x="15" y="16" width="2" height="2" opacity=".9" stop-color="#000000" style="paint-order:markers stroke fill"/>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <rect x="4.5" y="1.0103" width="36" height="22.5" rx="2.5" ry="2.5" fill="#ffffff" fill-opacity=".28235" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="0" stroke-width=".64738" style="paint-order:markers stroke fill"/>
+ </g>
+</svg>
