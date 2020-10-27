@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GUI w="1024" h="471" backgroundColor="#00000000">
 
+<!-- Background Panels for the File List -->
+
 <RoundedRect 			  x="635" y="-12" w="374" h="427" roundedRectRatio="0.015" style="SampleListBackground" /> 	
 <RoundedRect 			  x="635" y="25" w="145" h="390" roundedRectRatio="0.04" fill_color="#FFFFFF20" drawMode="filled"/>
 

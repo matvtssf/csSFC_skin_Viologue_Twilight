@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GUI w="1024" h="471" backgroundColor="#00000000">
-<Line x="70" y="70" w="40" h="40" drawMode="filled" frameWidth="7" border_color="#AA425CFF" fill_color="#AA425CFF" />
+	<CS01ViewContainer1 x="0" y="0" w="316" h="150" style="StepFuncBackground">
+
+<CS01TextButton controlTag="12312312" x="0" y="0" w="50" h="20" roundedRatio="0.2" style="StepFuncTextButton" text="Close" font="SFC_11"/>
+
+<CS01StepEditor x="50" y="35" w="404" h="274" style="StepEditor"
+			stepsArea_x="10" stepsArea_y="0" stepsArea_w="192" stepsArea_h="131"
+			vmin="0" vmax="127" numSteps="32" minNumSteps="4" maxNumSteps="64" loopingEnabled="1"
+			xAxisColor="#444444FF" useKeys="1" activeFillColor="#AAAAAAFF"
+			stepDivisionHintCount="4" loopingSectionFillColor="#bbbbbbFF" useLoopIndicators="1"
+			loopIndicatorHandleLeft="LILeftTri.svg" loopIndicatorHandleLeft_alignment="right"
+			loopIndicatorHandleRight="LIRightTri.svg" loopIndicatorHandleRight_alignment="left" stepMode0_fillColor="#111111FF" stepMode0_loopingSectionFillColor="#222222FF"
+			stepMode1_loopingSectionFillColor="#bbbbbbFF" loopIndicatorsInvisibleLoopModeValuesI="0" drawRects="1"/>
+
+
+</CS01ViewContainer1>
+
 </GUI>

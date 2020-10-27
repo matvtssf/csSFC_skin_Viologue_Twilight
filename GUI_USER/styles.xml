@@ -43,6 +43,9 @@
 	<Style name="SmallTextHeaderSampleTab"
 		color_text="#cbcbd8d0" />
 
+	<Style name="SmallTextHeaderStepTab"
+		color_text="#cbcbd8d0" />
+
 	<Style name="RoundedValueBoxes"
 		fill_color="#00000060"
 		roundedRectRatio="0.3"
@@ -1044,9 +1047,9 @@
 		drawMode="strokedFilled" />
 
 	<Style name="ScrollViewPageController"
-		backgroundColor="#54585aFF"
-		fontColor="#FFFFFFAA"
-		fontColorHL="#ffffffFF"/>
+		backgroundColor="#00000000"
+		fontColor="#FFFFFFA0"
+		fontColorHL="#ffffffff"/>
 
 	<Style name="EchoViewPageController"
 		backgroundColor="00000000"
@@ -1059,19 +1062,19 @@
 		role="controller"
 		controller_name="currentLabel"
 		text="empty"
-		x="33"
-		y="0"
-		w="218"
+		x="15"
+		y="-2"
+		w="700"
 		h="15"
 		font="SFC_11"
-		color_text="#cbcbd8ff"
-		color_back="#4d5055ff"
-		color_border="#FFFFFF00"
+		color_text="#FFFFFFD0"
+		color_back="#00000000"
+		color_border="#00000000"
 		alignment="center"/>
 
 	<Style name="VisibilityContainerTextButton"
-		x="334"
-		y="01"
+		x="900"
+		y="50"
 		w="15"
 		h="15"
 		controller="currentLabel"
@@ -1082,7 +1085,7 @@
 		font="SFC_10" />
 
 	<Style name="StepEditorOptionMenu"
-		color_back="#00000000"
+		color_back="#000000FF"
 		color_text="#FFFFFFBB"
 		w="40"
 		h="16"
@@ -1093,15 +1096,19 @@
 
 	<Style name="StepEditor"
 		backgroundColor="#00000000"
-		fillColor="#325ECCFF"
-		loopIndicatorLineColor="#325ECCFF"
-		loopIndicatorLineColorOut="#325ECCFF"
-		stepMode1_fillColor="#325ECCFF"
+		fillColor="#8c8c9fdd"
+		loopIndicatorLineColor="#8c8c9fdd"
+		loopIndicatorLineColorOut="#8c8c9fdd"
+		stepMode1_fillColor="#00000000"
 		stepDivisionHintLuminanceChange="0.2"/>
 
 	<Style name="StepEditorOnOffButton"
-		color_disabled="#111111FF"
-		offColor="#333333FF"/>
+		h="10"
+		roundedRatio="0.2"
+		offColor="#0000005F"
+		color_disabled="#00000040"
+		onColor="#828bdeD0"
+		enable_mousewheel="0" />
 
 	<Style name="StepEditorTextButton"
 		onColor="#333333AA"/>
@@ -1180,9 +1187,26 @@
 	<Style name="StepBackgroundRectColor"
 		fill_color="#707372FF"/>
 
-	<Style name="StepSubRectColor"
-		fill_color="#44484aFF"/>
+	<Style name="StepRightPanel"
+		fill_color="#00000040"
+		drawMode="strokedFilled"
+		frameWidth="3"
+		border_color="#00000010" />
+		
 
+	<Style name="StepSubRectColor"
+		fill_color="#FFFFFFFF"/>
+
+	<Style name="StepsBehindAll"
+		fill_color="#00000040"
+		drawMode="filled" />
+
+	<Style name="StepsEditBackground"
+		fill_color="#FFFFFF10"
+		drawMode="strokedFilled"
+		frameWidth="1.5"
+		border_color="#00000008"
+		roundedRectRatio="0.01" />
 
 	<Style name="StepFuncBackground"
 		backgroundColor="#44444480"/>
@@ -1210,7 +1234,7 @@
 
 	<Style name="StepEditorContainer"
 		backgroundColor="#333333FF"
-		disabledColor="#B2B4B2BB"/>
+		disabledColor="#000000F0"/>
 
 	<Style name="SPCKnob3VGM"
 		w="40"
