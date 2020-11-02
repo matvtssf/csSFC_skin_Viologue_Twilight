@@ -62,8 +62,8 @@
 		<RoundedRect              x="0" y="0" w="994" h="2" style="Divider" fill_color="#00000040" />
 	</VisibilityContainer>
 
-<TextEditor param="DID_CUSTOM_DATA" x="20" y="481" w="233" h="25"
-		text_x="0" text_y="2" text_h="25" text_w="233"
+<TextEditor param="DID_CUSTOM_DATA" x="20" y="483" w="233" h="25"
+		text_x="0" text_y="0" text_h="25" text_w="233"
 		transparent="0"
 		alignment="left"
 		target="com.Plogue.Emulator.SFC|0|7E87|0"

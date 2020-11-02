@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GUI w="1024" h="471" backgroundColor="#00000000">
 <Line x="70" y="70" w="40" h="40" drawMode="filled" frameWidth="7" border_color="#AA425CFF" fill_color="#AA425CFF" />
+ <!-- kSyncDraw -->
+	<OnOffButton eslot="" param="6" x="2" y="4" w="16" h="16" image="toggle.png" inverse="1"  />
+		
+	<!-- kTimeWindow -->
+	<DragLabel   eslot="" param="4" x="62" y="3"  w="50" h="18" format="%3.f%%"  transparent="1" offset="0" factor="100" />
+
+	<!-- kAmpWindow-->
+	<DragLabel   eslot="" param="5" x="152" y="3" w="50" h="18" format="%3.f%%" transparent="1"   offset="0" factor="200" />
+
+	<OptionMenu eslot="" param="1" x="236" y="2" w="68" h="18"  transparent="1"  alignment="center" >	
+		<OptionItem name="free"		value="0" />
+		<OptionItem name="rising"	value="0.25" />
+		<OptionItem name="falling"	value="0.50" />
+		<OptionItem name="internal"	value="0.75" />
+	</OptionMenu>
+
+<Oscilloscope x="2" y="26" w="300" h="150" image="scope.png" zero_color="#38ab55ff" wave_color="#38ab55ff" wave2_color="#38ab55ff" />
 </GUI>

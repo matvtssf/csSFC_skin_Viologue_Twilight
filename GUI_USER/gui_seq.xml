@@ -1,70 +1,47 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<GUI w="1024" h="420">
+<GUI w="1024" h="425">
 
-	<CS01StepEditorContainer param="DID_CUSTOM_DATA" target="$TARGET" x="0" y="0" w="994" h="420" tab_x="0" tab_y="0" tab_w="0" tab_h="0" style="StepEditorContainer"
-		disabled_x="0" disabled_y="15" disabled_w="860" disabled_h="420" resizeOnOnOff="0" resize_w="0" resize_h="0" tabType="2"
+	<CS01StepEditorContainer param="DID_CUSTOM_DATA" target="$TARGET" x="0" y="0" w="994" h="425" tab_x="0" tab_y="0" tab_w="0" tab_h="0" style="StepEditorContainer"
+		disabled_x="0" disabled_y="20" disabled_w="994" disabled_h="425" resizeOnOnOff="0" resize_w="0" resize_h="0" tabType="2"
 		frameSelectionSubMenus="0" frameSelectionSubMenusDivider="10" >
 
-
-
-		<CS01OnOffButton role="onOff" param="0" w="115" roundedRatio="0.2" style="StepEditorOnOffButton" x="870" y="400" />
+	<RoundedRect x="0" y="40" w="860" h="404" style="StepsEditBackground"/>
+	
+	<CS01OnOffButton role="onOff" param="0" w="115" roundedRatio="0.2" style="StepEditorOnOffButton" x="870" y="405" />
 		
 	<!--<StaticText w="50" h="18" x="27" y="1" text="Step $STEPNUM" style="StaticTextStep2" alignment="left" font="SFC_11"/>-->
 
-		<!-- fake controls -->
+
+
+
+		<!--Tool bar -->
+		<RoundedRect x="0" y="20" w="860" h="20" style="StepEditorToolBar" />
+		
+		<StaticImage image="steps_copy.svg" x="55" y="20" />
+		<CS01TextButton x="55" y="20" role="copyToCBEx" w="20" h="20" text="" roundedRatio="0.25" offColor="#00000000" color_disabled="#00000000" onColor="#00000000" color_text="#FFFFFFBB" enabledByOnOff="1" font="SFC_11"/>
+		<StaticImage image="steps_paste.svg" x="80" y="20" />
+		<CS01TextButton x="80" y="20" role="copyFromCB" w="20" h="20" text="" roundedRatio="0.25" offColor="#00000000" color_disabled="#00000000" onColorHL="#FFFFFFFF" onColor="#00000000" color_text="#FFFFFFBB" enabledByOnOff="1" font="SFC_11"/>
+
+
+
+		<!-- fake controls must be atop the step editor to work-->
 		<CS01StepEditorLoopPointControl param="9"  out="0"/>
 		<CS01StepEditorLoopPointControl param="10" out="1"/>
-		<StaticText role="displayUser" x="100" y="20" w="165" h="15" style="StaticTextStep3" text="" font="SFC_11"/>
-		<CS03Knob style="KnobStrips2ExLarge" 
-			param="9" x="800" y="383" w="97" knob_x="56" valueIndicator_x="56"  label_x="0" label_y="11" label_w="50" label_h="16"
-			textEdit_font="SFC_11" showValueTextOverKnob="0" 
-			labelText="test" label_font="SFC_11"
-			vmin="1" vmax="64" vdefault="1" stepped="1" enabledByOnOff="1" />
+		<StaticText role="displayUser" x="830" y="20" w="30" h="16" style="StaticTextStep3" text="" font="SFC_11"/>
+		
+		<!-- BG Stuff -->
 
+		<Rect x="860" y="20" w="133" h="374" roundedRectRatio="0.05" style="StepRightPanel" />
 
-		<StaticText x="870" y="321" w="60" h="16" style="StaticTextStep" alignment="left"  text="Loop Mode" font="SFC_11"/>
-		<OptionMenu role="loopMode" param="2" x="940" y="321" vmin="0" vmax="2" vdefault="0" enabledByOnOff="1" checkCurrentValue="1" alignment="left" transparent="1" style="StepEditorOptionMenu" >
-			<OptionItem value="0" name="One Shot"    stringToDraw="Once"/>
-			<OptionItem value="1" name="Note Gate"   stringToDraw="Gate"/>
-			<OptionItem value="2" name="Loop Always" stringToDraw="∞"/>
-			<OptionItem isTitle="1" name="Loop Mode"/>
-		</OptionMenu>
+		<!-- Time Stuff -->
 
-		<StaticText x="870" y="301" w="60" h="16" style="StaticTextStep" alignment="left"  text="Restart" font="SFC_11"/>
-		<OptionMenu role="resetMode" param="12" x="940" y="301" vmin="0" vmax="3" vdefault="0" enabledByOnOff="1" checkCurrentValue="1" alignment="left" transparent="1" style="StepEditorOptionMenu" >
-			<OptionItem value="0" name="Each Note"  stringToDraw="Each"/>
-			<OptionItem value="1" name="First Note" stringToDraw="1st"/>
-			<OptionItem value="2" name="Last Note"  stringToDraw="Last"/>
-			<OptionItem value="3" name="Bar Pos"    stringToDraw="Bar"/>
-			<OptionItem isTitle="1" name="Restart Position"/>
-		</OptionMenu>
+		<RoundedRect x="865" y="170" w="123" h="219" roundedRectRatio="0.05" style="StepRightPanel" fill_color="#ffffff10"  />
+		<StaticText x="870" y="170" w="75" h="20" text="Time" style="StaticTextColor" font="SFCHEADING_16" alignment="left"/>
 
-		<StaticText x="870" y="281" w="60" h="16" style="StaticTextStep" alignment="left"  text="Sync" font="SFC_11"/>
-		<OptionMenu role="syncMode" param="4" x="940" y="281" vmin="0" vmax="2" vdefault="0" enabledByOnOff="1" checkCurrentValue="1" alignment="left" transparent="1" style="StepEditorOptionMenu" >
-			<OptionItem value="0" name="Host BPM"      stringToDraw="Host"/>
-			<OptionItem value="1" name="Internal BPM"  stringToDraw="Int."/>
-			<OptionItem value="2" name="Note Period"   stringToDraw="Note"/>
-			<OptionItem isTitle="1" name="BPM Source"/>
-		</OptionMenu>
-
-		<!--
-			To Get 128/256, also need to change maxNumSteps in CS01StepEditor and drawRects to 0 too
-		<OptionMenu role="gridScale" param="5" x="235" y="352" vmin="4" vmax="256" vdefault="0" enabledByOnOff="1" checkCurrentValue="1" alignment="center" transparent="0" style="StepEditorOptionMenu" >
-			<OptionItem value="4" name="4"/>
-			<OptionItem value="8" name="8"/>
-			<OptionItem value="16" name="16"/>
-			<OptionItem value="32" name="32"/>
-			<OptionItem value="64" name="64"/>
-			<OptionItem value="128" name="128"/>
-			<OptionItem value="256" name="256"/>
-		</OptionMenu>
-		-->
-
-		<StaticText x="126" y="321" w="83" h="16" style="StaticTextStep2" text="Time" font="SFC_12"/>
+		<CS03Knob style="KnobStepsSpeed" param="6" role="speedScale" x="874" y="193" textEdit_font="SFC_11" showValueTextOverKnob="0" labelText="Speed" vmin="0.25" vmax="8" vdefault="1"  enabledByOnOff="1" />
 
 		<!-- SYNC_NUM -->
-		<StaticText x="123" y="346" w="46" h="16" style="StaticTextStep2" text="Num" font="SFC_11"/>
-		<OptionMenu param="7" x="166" y="346" style="StepEditorOptionMenu" transparent="0" alignment="center" enabledByOnOff="1" checkCurrentValue="1">
+		<OptionMenu param="7" x="910" y="170" style="StepEditorOptionMenu" transparent="0" alignment="center" enabledByOnOff="1" checkCurrentValue="1">
 			<OptionItem name="1"  value="1"  />
 			<OptionItem name="2"  value="2"  />
 			<OptionItem name="3"  value="3"  />
@@ -97,12 +74,12 @@
 			<OptionItem name="30" value="30" />
 			<OptionItem name="31" value="31" />
 			<OptionItem name="32" value="32" />
-		<!--			<OptionItem isTitle="1" name="Time Sig Num"/> -->
 		</OptionMenu>
+		<StaticText x="910" y="182" w="46" h="16" style="StaticTextStep2" text="Steps" font="SFC_9"/>
 
 		<!-- SYNC_DEN -->
-		<StaticText x="123" y="362" w="46" h="16" style="StaticTextStep2" text="Den" font="SFC_11"/>
-		<OptionMenu param="8" x="166" y="362" style="StepEditorOptionMenu" transparent="0" alignment="center" enabledByOnOff="1" checkCurrentValue="1">
+		<StaticText x="940" y="182" w="46" h="16" style="StaticTextStep2" text="Den" font="SFC_9"/>
+		<OptionMenu param="8" x="940" y="170" style="StepEditorOptionMenu" transparent="0" alignment="center" enabledByOnOff="1" checkCurrentValue="1">
 			<OptionItem name="1"   value="1"   />
 			<OptionItem name="2"   value="2"   />
 			<OptionItem name="3"   value="3"   />
@@ -121,16 +98,50 @@
 			<OptionItem name="128" value="128" />
 			<OptionItem name="192" value="192" />
 			<OptionItem name="256" value="256" />
-		<!--			<OptionItem isTitle="1" name="Time Sig Denom"/> -->
 		</OptionMenu>
 
-		<CS03Knob style="KnobStrips2ExLarge" 
-			param="6" role="speedScale" x="119" y="383" w="97" knob_x="56" valueIndicator_x="56"  label_x="0" label_y="11" label_w="50" label_h="16"
-			textEdit_font="SFC_11" showValueTextOverKnob="0" 
-			labelText="Speed" label_font="SFC_11"
-			vmin="0.25" vmax="8" vdefault="1" enabledByOnOff="1" />
+		<CS03Knob style="KnobStepsDelayRamp" x="908" y="200" param="11"  vmin="0" vmax="255" labelText="Delay" role="delay" label_font="SFC_9"/>
+		<CS03Knob style="KnobStepsDelayRamp" x="942" y="200" param="13"  vmin="0" vmax="1023" mouseIncrement="10" labelText="Ease In" role="delay" label_font="SFC_9"/>
 
+		<!-- Loop Stuff -->
+		<StaticText x="870" y="250" w="75" h="20" text="Step Loop" style="StaticTextColor" font="SFCHEADING_16" alignment="left"/>
 
+		<RoundedRect x="936" y="275" w="40" h="60" roundedRectRatio="0.1" style="RoundedValueBoxes" />
+
+		<StaticText x="870" y="276" w="60" h="16" style="StaticTextStep" alignment="left"  text="Sync" font="SFC_9"/>
+		<OptionMenu role="syncMode" param="4" x="940" y="276" vmin="0" vmax="2" vdefault="0" enabledByOnOff="1" checkCurrentValue="1" alignment="left" style="StepEditorOptionMenu" >
+			<OptionItem value="0" name="Host BPM"      stringToDraw="Host"/>
+			<OptionItem value="1" name="Internal BPM"  stringToDraw="Int."/>
+			<OptionItem value="2" name="Note Period"   stringToDraw="Note"/>
+			<OptionItem isTitle="1" name="BPM Source"/>
+		</OptionMenu>
+
+		<StaticText x="870" y="296" w="60" h="16" style="StaticTextStep" alignment="left"  text="Restart" font="SFC_9"/>
+		<OptionMenu role="resetMode" param="12" x="940" y="296" vmin="0" vmax="3" vdefault="0" enabledByOnOff="1" checkCurrentValue="1" alignment="left" style="StepEditorOptionMenu" >
+			<OptionItem value="0" name="Each Note"  stringToDraw="Each"/>
+			<OptionItem value="1" name="First Note" stringToDraw="1st"/>
+			<OptionItem value="2" name="Last Note"  stringToDraw="Last"/>
+			<OptionItem value="3" name="Bar Pos"    stringToDraw="Bar"/>
+			<OptionItem isTitle="1" name="Restart Position"/>
+		</OptionMenu>
+
+		<StaticText x="870" y="316" w="60" h="16" style="StaticTextStep" alignment="left"  text="Loop Mode" font="SFC_9"/>
+		
+		<OptionMenu role="loopMode" param="2" x="940" y="316" vmin="0" vmax="2" vdefault="0" enabledByOnOff="1" checkCurrentValue="1" alignment="left" transparent="1" style="StepEditorOptionMenu" >
+			<OptionItem value="0" name="One Shot"    stringToDraw="Once"/>
+			<OptionItem value="1" name="Note Gate"   stringToDraw="Gate"/>
+			<OptionItem value="2" name="Loop Always" stringToDraw="∞"/>
+			<OptionItem isTitle="1" name="Loop Mode"/>
+		</OptionMenu>
+
+		<RoundedRect x="924" y="337" w="1" h="50" style="DividerInverted" />
+
+		<CS03Knob style="KnobStepsLoop" param="9" x="874" y="337" textEdit_font="SFC_11" showValueTextOverKnob="0" labelText="In" vmin="0" vmax="63" vdefault="0"  enabledByOnOff="1" />
+		<CS03Knob style="KnobStepsLoop" param="10" x="937" y="337" textEdit_font="SFC_11" showValueTextOverKnob="0" labelText="Out" vmin="0" vmax="63" vdefault="63"  enabledByOnOff="1" />
+
+		
+
+		
 		<StaticText x="254" y="308" w="40" h="16" style="StaticTextStep"   text="Steps" font="SFC_11"/>
 		<OptionMenu role="gridScale" param="5" x="254" y="324" vmin="4" vmax="64" vdefault="0" enabledByOnOff="1" checkCurrentValue="1" alignment="center" transparent="0" style="StepEditorOptionMenu" preventIdle="1">
 			<OptionItem value="4" name="4"/>
@@ -143,34 +154,23 @@
 		<StaticText x="254" y="344" w="40" h="16" style="StaticTextStep"   text="Frame" font="SFC_11"/>
 		<OptionMenu role="frameSelection" param="1" x="254" y="360" style="StepEditorOptionMenu" transparent="0" alignment="center" enabledByOnOff="1" checkCurrentValue="1" supportsMod="1" mod_x="25" mod_y="0" mod_w="15" mod_h="12"/>
 
-		<CS03Knob style="KnobEnvExNoMod" x="232" y="384" param="11"  vmin="0" vmax="255"
-				labelText="Delay" role="delay" label_font="SFC_11"/>
-
-		<CS03Knob style="KnobEnvExNoMod" x="278" y="384" param="13"  vmin="0" vmax="1023" mouseIncrement="10"
-				labelText="Ramp" role="delay" label_font="SFC_11"/>
-
-		<CS01StepEditor x="0" y="16" w="860" h="420" style="StepEditor"
-			stepsArea_x="0" stepsArea_y="0" stepsArea_w="860" stepsArea_h="380"
-			vmin="0" vmax="127" numSteps="32" minNumSteps="4" maxNumSteps="64" loopingEnabled="1"
-			xAxisColor="#FFFFFF80" useKeys="1" activeFillColor="#FFFFFFA0"
-			stepDivisionHintCount="4" loopingSectionFillColor="#bbbbbbFF" useLoopIndicators="1"
-			loopIndicatorHandleLeft="LILeftTri.svg" loopIndicatorHandleLeft_alignment="right"
-			loopIndicatorHandleRight="LIRightTri.svg" loopIndicatorHandleRight_alignment="left" stepMode0_fillColor="#111111FF" stepMode0_loopingSectionFillColor="#222222FF"
-			stepMode1_loopingSectionFillColor="#bbbbbbFF" loopIndicatorsInvisibleLoopModeValuesI="0" drawRects="1"/>
-
-		<CS01TextButton x="309" y="320" role="copyToCBEx" w="45" h="18" text="Copy" roundedRatio="0.5" offColor="#54585aFF" onColor="#333333AA" color_text="#FFFFFFBB" enabledByOnOff="1" font="SFC_11"/>
-		<CS01TextButton x="355" y="320" role="copyFromCB" w="45" h="18" text="Paste" roundedRatio="0.5" offColor="#54585aFF" onColor="#333333AA" color_text="#FFFFFFBB" enabledByOnOff="1" font="SFC_11"/>
-
+			
 		<CS01TextButton x="332" y="349" role="clear" w="45" h="18" text="Clear" roundedRatio="0.5" offColor="#54585aFF" onColor="#333333AA" color_text="#FFFFFFBB" enabledByOnOff="1" font="SFC_11"/>
 
 		<CS01ExpandViewButton x="332" y="377" w="45" h="18" close_button_tag="12312312" roundedRatio="0.5" offColor="#54585aFF" onColor="#333333AA" color_text="#FFFFFFBB" text="Func" role="shapesExpandView" enabledByOnOff="1" font="SFC_11">
 			<CS01ViewContainer path="gui_seq_shapes.xml" backgroundColor="#444444880" x="44" y="112" w="316" h="150" xoffset="0" yoffset="0"/>
 
 </CS01ExpandViewButton>
-		<CS01ExpandViewButton x="332" y="390" w="45" h="18" close_button_tag="12312312" roundedRatio="0.5" offColor="#54585aFF" onColor="#333333AA" color_text="#FFFFFFBB" text="EXP" enabledByOnOff="1" font="SFC_11">
-			<CS01ViewContainer path="gui_seq_expansion.xml" backgroundColor="#444444880" x="0" y="0" w="808" h="300" xoffset="0" yoffset="0"/>
 
-		</CS01ExpandViewButton>
+<CS01StepEditor x="0" y="40" w="860" h="385" style="StepEditor"
+			stepsArea_x="0" stepsArea_y="0" stepsArea_w="860" stepsArea_h="385"
+			vmin="0" vmax="127" numSteps="32" minNumSteps="4" maxNumSteps="64" loopingEnabled="1"
+			xAxisColor="#00000040" useKeys="1" activeFillColor="#FFFFFFA0"
+			stepDivisionHintCount="4" loopingSectionFillColor="#acacbfd0" useLoopIndicators="1"
+			loopIndicatorHandleLeft="LILeftTri.svg" loopIndicatorHandleLeft_alignment="right"
+			loopIndicatorHandleRight="LIRightTri.svg" loopIndicatorHandleRight_alignment="left" stepMode0_fillColor="#111111FF" stepMode0_loopingSectionFillColor="#222222FF"
+			stepMode1_loopingSectionFillColor="#bbbbbbFF" loopIndicatorsInvisibleLoopModeValuesI="1" drawRects="1"/>
+
 		<!-- left is virt 11, right is virt 13 -->
 		<CS01TextButton x="332" y="405" role="shiftLeft"  w="21" h="18" text="←" roundedRatio="0.5" offColor="#54585aFF" style="StepEditorTextButton" color_text="#FFFFFFBB" enabledByOnOff="1" enable_keys="1" virtual_key="11" font="SFC_11"/>
 		<CS01TextButton x="356" y="405" role="shiftRight" w="21" h="18" text="→" roundedRatio="0.5" offColor="#54585aFF" style="StepEditorTextButton" color_text="#FFFFFFBB" enabledByOnOff="1" enable_keys="1" virtual_key="13" font="SFC_11"/>

@@ -12,24 +12,24 @@
 		<RoundedRect x="0" y="0" w="82" h="95" style="DividerEcho" />
 
 	<CS01RadioButtons x="0" y="0" w="50" h="160" param="898" vmin="0" vmax="15" vdefault="5" enable_keys="0" >
-			<OptionItem x="15" y="7"  value="0" style="EchoLEDs" /> 
-			<OptionItem x="15" y="17"  value="1" style="EchoLEDs" />
-			<OptionItem x="15" y="27"  value="2" style="EchoLEDs" />
-			<OptionItem x="15" y="37"  value="3" style="EchoLEDs" />
-			<OptionItem x="15" y="47"  value="4" style="EchoLEDs" />
-			<OptionItem x="15" y="57"  value="5" style="EchoLEDs" />
-			<OptionItem x="15" y="67"  value="6" style="EchoLEDs" />
-			<OptionItem x="15" y="77"  value="7" style="EchoLEDs" />
-			<OptionItem x="38" y="7"  value="8" style="EchoLEDs" />
-			<OptionItem x="38" y="17"  value="9" style="EchoLEDs" />
-			<OptionItem x="38" y="27"  value="10" style="EchoLEDs" />
-			<OptionItem x="38" y="37"  value="11" style="EchoLEDs" />
-			<OptionItem x="38" y="47"  value="12" style="EchoLEDs" />
-			<OptionItem x="38" y="57"  value="13" style="EchoLEDs" />
-			<OptionItem x="38" y="67"  value="14" style="EchoLEDs" />
-			<OptionItem x="38" y="77"  value="15" style="EchoLEDs" />
+			<OptionItem x="13" y="7"  value="0" style="EchoLEDs" /> 
+			<OptionItem x="13" y="17"  value="1" style="EchoLEDs" />
+			<OptionItem x="13" y="27"  value="2" style="EchoLEDs" />
+			<OptionItem x="13" y="37"  value="3" style="EchoLEDs" />
+			<OptionItem x="13" y="47"  value="4" style="EchoLEDs" />
+			<OptionItem x="13" y="57"  value="5" style="EchoLEDs" />
+			<OptionItem x="13" y="67"  value="6" style="EchoLEDs" />
+			<OptionItem x="13" y="77"  value="7" style="EchoLEDs" />
+			<OptionItem x="35" y="7"  value="8" style="EchoLEDs2" />
+			<OptionItem x="35" y="17"  value="9" style="EchoLEDs2" />
+			<OptionItem x="35" y="27"  value="10" style="EchoLEDs2" />
+			<OptionItem x="35" y="37"  value="11" style="EchoLEDs2" />
+			<OptionItem x="35" y="47"  value="12" style="EchoLEDs2" />
+			<OptionItem x="35" y="57"  value="13" style="EchoLEDs2" />
+			<OptionItem x="35" y="67"  value="14" style="EchoLEDs2" />
+			<OptionItem x="35" y="77"  value="15" style="EchoLEDs2" />
 		</CS01RadioButtons>
-	
+	<!--
 	<StaticImage image="lampglass_green.svg" x="14"  y="7"  /> <StaticImage image="lampglass_yellow.svg" x="37"  y="7" /> 
 	<StaticImage image="lampglass_green.svg" x="14"  y="17" /> <StaticImage image="lampglass_yellow.svg" x="37"  y="17" />
 	<StaticImage image="lampglass_green.svg" x="14"  y="27" /> <StaticImage image="lampglass_yellow.svg" x="37"  y="27" />
@@ -37,7 +37,7 @@
 	<StaticImage image="lampglass_green.svg" x="14"  y="47" /> <StaticImage image="lampglass_yellow.svg" x="37"  y="47" />
 	<StaticImage image="lampglass_green.svg" x="14"  y="57" /> <StaticImage image="lampglass_yellow.svg" x="37"  y="57" />
 	<StaticImage image="lampglass_green.svg" x="14"  y="67" /> <StaticImage image="lampglass_yellow.svg" x="37"  y="67" />
-	<StaticImage image="lampglass_green.svg" x="14"  y="77" /> <StaticImage image="lampglass_yellow.svg" x="37"  y="77" />
+	<StaticImage image="lampglass_green.svg" x="14"  y="77" /> <StaticImage image="lampglass_yellow.svg" x="37"  y="77" /> -->
 	
 </VisibilityContainer>
 	<!--Time-->	

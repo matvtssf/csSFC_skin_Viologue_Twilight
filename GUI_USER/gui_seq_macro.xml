@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GUI w="1024" h="471">
 	<Rect x="15" y="20" w="994" h="404" style="StepsBehindAll"/>
-	<RoundedRect x="15" y="20" w="860" h="404" style="StepsEditBackground"/>
-	<RoundedRect x="875" y="20" w="133" h="374" roundedRectRatio="0.05" style="StepRightPanel" />
-
-	<ScrollView x="0" y="0" w="1024" h="424" scrollbarwidth="0" internalwidth="15360" internalheight="422" backgroundColor="#00000000" showScrollbars="0" name="modulatorsScrollView">
+		
+	<ScrollView x="0" y="0" w="1024" h="425" scrollbarwidth="0" internalwidth="15360" internalheight="422" backgroundColor="#00000000" showScrollbars="0" name="modulatorsScrollView">
 
 		<CS01ViewContainerManager param="DID_CUSTOM_DATA" dataTarget="com.Plogue.Emulator.SFC|0|30D3|0"/>
 
@@ -442,20 +440,24 @@ Delay Dry Pan;Delay Wet Pan"/>
 
 
 
-		<Style name="ViewContainerStep" y="5" w="1024" h="420"/>
-		<Style name="VisibilityContainerStep" y="5" w="1024" h="70" />
-		<Style name="VisibilityContainerTextButtonAdd" text="+" x="880" />
-		<Style name="VisibilityContainerTextButtonRemove" rule="diff" rule_s1="empty" command="modulationLinksViewMessage" data0="removeLink" text="del"/>
-
+		<Style name="ViewContainerStep" y="0" w="1024" h="425"/>
+		<Style name="VisibilityContainerStep" y="0" w="1024" h="40" />
+		<Style name="VisibilityContainerTextButtonAdd" text="" x="0" />
+		<Style name="VisibilityContainerTextButtonRemove" rule="diff" rule_s1="empty" command="modulationLinksViewMessage" data0="removeLink" text=""/>
+															
 		<CS01ViewContainer   x="15" style="ViewContainerStep" identifier="STEP0"/>
-		<VisibilityContainer x="75" style="VisibilityContainerStep">
+		<VisibilityContainer x="20" style="VisibilityContainerStep">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP0"/>
+			<StaticImage image="steps_new.svg" x="0" y="20" />
+			<StaticImage image="steps_del.svg" x="25" y="20" />
 			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP0"/>
 			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP0"/>
 		</VisibilityContainer>
 
+		<!--Don't forget to add the + and - for the other steps other than just 1 -->
+
 		<CS01ViewContainer   x="1039" style="ViewContainerStep" identifier="STEP1"/>
-		<VisibilityContainer x="1099" style="VisibilityContainerStep">
+		<VisibilityContainer x="1044" style="VisibilityContainerStep">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP1"/>
 			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP1"/>
 			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP1"/>
@@ -463,14 +465,14 @@ Delay Dry Pan;Delay Wet Pan"/>
 
 
 		<CS01ViewContainer   x="2063" style="ViewContainerStep" identifier="STEP2"/>
-		<VisibilityContainer x="2123" style="VisibilityContainerStep">
+		<VisibilityContainer x="2068" style="VisibilityContainerStep">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP2"/>
 			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP2"/>
 			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP2"/>
 		</VisibilityContainer>
 
 		<CS01ViewContainer   x="3087" style="ViewContainerStep" identifier="STEP3"/>
-		<VisibilityContainer x="3147" style="VisibilityContainerStep">
+		<VisibilityContainer x="3092" style="VisibilityContainerStep">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP3"/>
 			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP3"/>
 			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP3"/>
@@ -478,14 +480,14 @@ Delay Dry Pan;Delay Wet Pan"/>
 
 
 		<CS01ViewContainer   x="4111" style="ViewContainerStep" identifier="STEP4"/>
-		<VisibilityContainer x="4171" style="VisibilityContainerStep">
+		<VisibilityContainer x="4116" style="VisibilityContainerStep">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP4"/>
 			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP4"/>
 			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP4"/>
 		</VisibilityContainer>
 
 		<CS01ViewContainer   x="5135" style="ViewContainerStep" identifier="STEP5"/>
-		<VisibilityContainer x="5195" style="VisibilityContainerStep">
+		<VisibilityContainer x="5140" style="VisibilityContainerStep">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP5"/>
 			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP5"/>
 			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP5"/>
@@ -493,14 +495,14 @@ Delay Dry Pan;Delay Wet Pan"/>
 
 
 		<CS01ViewContainer   x="6159" style="ViewContainerStep" identifier="STEP6"/>
-		<VisibilityContainer x="6219" style="VisibilityContainerStep">
+		<VisibilityContainer x="6164" style="VisibilityContainerStep">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP6"/>
 			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP6"/>
 			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP6"/>
 		</VisibilityContainer>
 
 		<CS01ViewContainer   x="7183" style="ViewContainerStep" identifier="STEP7"/>
-		<VisibilityContainer x="7243" style="VisibilityContainerStep">
+		<VisibilityContainer x="7188" style="VisibilityContainerStep">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP7"/>
 			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP7"/>
 			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP7"/>
@@ -508,14 +510,14 @@ Delay Dry Pan;Delay Wet Pan"/>
 
 
 		<CS01ViewContainer   x="8207" style="ViewContainerStep" identifier="STEP8"/>
-		<VisibilityContainer x="8267" style="VisibilityContainerStep">
+		<VisibilityContainer x="8212" style="VisibilityContainerStep">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP8"/>
 			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP8"/>
 			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP8"/>
 		</VisibilityContainer>
 
 		<CS01ViewContainer   x="9231" style="ViewContainerStep" identifier="STEP9"/>
-		<VisibilityContainer x="9291" style="VisibilityContainerStep">
+		<VisibilityContainer x="9236" style="VisibilityContainerStep">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP9"/>
 			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP9"/>
 			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP9"/>
@@ -523,14 +525,14 @@ Delay Dry Pan;Delay Wet Pan"/>
 
 
 		<CS01ViewContainer   x="10255" style="ViewContainerStep" identifier="STEP10"/>
-		<VisibilityContainer x="10315" style="VisibilityContainerStep">
+		<VisibilityContainer x="10260" style="VisibilityContainerStep">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP10"/>
 			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP10"/>
 			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP10"/>
 		</VisibilityContainer>
 
 		<CS01ViewContainer   x="11279" style="ViewContainerStep" identifier="STEP11"/>
-		<VisibilityContainer x="11339" style="VisibilityContainerStep">
+		<VisibilityContainer x="11284" style="VisibilityContainerStep">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP11"/>
 			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP11"/>
 			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP11"/>
@@ -538,14 +540,14 @@ Delay Dry Pan;Delay Wet Pan"/>
 
 
 		<CS01ViewContainer   x="12303" style="ViewContainerStep" identifier="STEP12"/>
-		<VisibilityContainer x="12363" style="VisibilityContainerStep">
+		<VisibilityContainer x="12308" style="VisibilityContainerStep">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP12"/>
 			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP12"/>
 			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP12"/>
 		</VisibilityContainer>
 
 		<CS01ViewContainer   x="13327" style="ViewContainerStep" identifier="STEP13"/>
-		<VisibilityContainer x="13387" style="VisibilityContainerStep">
+		<VisibilityContainer x="13332" style="VisibilityContainerStep">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP13"/>
 			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP13"/>
 			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP13"/>
@@ -553,7 +555,7 @@ Delay Dry Pan;Delay Wet Pan"/>
 
 
 		<CS01ViewContainer   x="14351" style="ViewContainerStep" identifier="STEP14"/>
-		<VisibilityContainer x="14411" style="VisibilityContainerStep">
+		<VisibilityContainer x="14356" style="VisibilityContainerStep">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP14"/>
 			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP14"/>
 			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP14"/>
