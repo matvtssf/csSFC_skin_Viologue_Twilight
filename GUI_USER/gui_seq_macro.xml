@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GUI w="1024" h="471">
+	
+	<!-- Static BG Stuff -->
 	<Rect x="15" y="20" w="994" h="404" style="StepsBehindAll"/>
+
+	<!-- Header -->
+
+		<StaticText x="885" y="20" w="80" h="20" text="Step Editor" style="StaticTextColor" font="SFCHEADING_16" alignment="left"/>
+		<RoundedRect x="880" y="44" w="122" h="1" style="DividerInverted" />
+
+
 		
 	<ScrollView x="0" y="0" w="1024" h="425" scrollbarwidth="0" internalwidth="15360" internalheight="422" backgroundColor="#00000000" showScrollbars="0" name="modulatorsScrollView">
 
@@ -348,10 +357,14 @@ Voice Detune;Voice Transpose;Voice Amplitude;
 Delay Dry Mix;Delay Wet Mix;Delay Time;Delay Feedback;
 Delay Dry Pan;Delay Wet Pan"/>
 
+	
+
 		<CS01ViewContainer identifier="STEPEDIT0" param_offset="1280" style="STEPEDITAliases">
 			<Define name="$TARGET" value="com.Plogue.Emulator.SFC|0|575A|0"/>
 			<Define name="$NAME" value="Step Editor 1"/>
 			<Define name="$STEPNUM" value="1"/>
+
+
 		</CS01ViewContainer>
 
 		<CS01ViewContainer identifier="STEPEDIT1" param_offset="1296" style="STEPEDITAliases">
@@ -441,17 +454,20 @@ Delay Dry Pan;Delay Wet Pan"/>
 
 
 		<Style name="ViewContainerStep" y="0" w="1024" h="425"/>
-		<Style name="VisibilityContainerStep" y="0" w="1024" h="40" />
+		<Style name="VisibilityContainerStepText" y="0" w="1024" h="20" />
+		<Style name="VisibilityContainerStepButtons" y="0" w="1024" h="80" />
 		<Style name="VisibilityContainerTextButtonAdd" text="" x="0" />
 		<Style name="VisibilityContainerTextButtonRemove" rule="diff" rule_s1="empty" command="modulationLinksViewMessage" data0="removeLink" text=""/>
 															
 		<CS01ViewContainer   x="15" style="ViewContainerStep" identifier="STEP0"/>
-		<VisibilityContainer x="20" style="VisibilityContainerStep">
+		<VisibilityContainer x="20" style="VisibilityContainerStepText">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP0"/>
-			<StaticImage image="steps_new.svg" x="0" y="20" />
-			<StaticImage image="steps_del.svg" x="25" y="20" />
-			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP0"/>
-			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP0"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="850" style="VisibilityContainerStepButtons">
+			<StaticImage image="steps_new.svg" x="0" y="25" />
+			<StaticImage image="steps_del.svg" x="0" y="50" />
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" y="25" codedName="STEP0"/>
+			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" y="50" data1="STEP0"/>
 		</VisibilityContainer>
 
 		<!--Don't forget to add the + and - for the other steps other than just 1 -->
@@ -564,6 +580,8 @@ Delay Dry Pan;Delay Wet Pan"/>
 	</ScrollView>
 
 
+
+
 	<CS01ScrollViewPageController x="875" y="0" w="130" h="20" type="0" style="ScrollViewPageController" frameColor="#FFFFFF00" 
 			frameDraw="1" scrollViewName="modulatorsScrollView" image_1="SVLeft.svg" image_2="SVRight.svg" image_1HL="SVLeftHL.svg" image_2HL="SVRightHL.svg" disabledLuminanceChange="1" name="modulatorsScrollViewPageController" showPageName="1" showPageNameType="2" font="SFC_12" 
 			circleEdit="0" circleEditColor="#808080CC" showPageNameCheckCurrentValue="1">
@@ -583,6 +601,13 @@ Delay Dry Pan;Delay Wet Pan"/>
 		<PageName idx="13" name="Step 14"/>
 		<PageName idx="14" name="Step 15"/>
 	</CS01ScrollViewPageController>
+
+	<!-- Static FG Stuff -->
+	<RoundedRect style="StepRightPanel" />
+	<RoundedRect style="StepRightPanel" fill_color="#ffffff20"  />
+	<Rect style="StepEditorToolsBar" />
+	<RoundedRect style="StepEditorStatusBar" />
+	
 
 
 </GUI>

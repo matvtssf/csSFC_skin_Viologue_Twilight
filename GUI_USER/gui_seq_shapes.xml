@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<GUI x="44" y="112" w="316" h="150" backgroundColor="#00000000">
-	<CS01ViewContainer1 x="0" y="0" w="316" h="150" style="StepFuncBackground">
+<GUI x="835" y="200" w="155" h="200" backgroundColor="#00000000">
+	<CS01ViewContainer1 x="0" y="0" w="155" h="200" style="StepFuncBackground">
+	
+	<RoundedRect x="0" y="0" w="155" h="200" style="StepFuncBackgroundReal" />	
 		<CS01TextButton controlTag="12312312" x="255" y="5" w="50" h="20" roundedRatio="0.2" style="StepFuncTextButton" text="Close" font="SFC_11"/>
 
 		<CS01TextButton role="rampUp" x="10" y="20" w="60" h="20" roundedRatio="0.2" style="StepFuncTextButton" text="Ramp ↑" addControl="0" font="SFC_11"/>
