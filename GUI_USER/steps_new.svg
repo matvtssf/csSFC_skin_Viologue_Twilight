@@ -11,9 +11,9 @@
  </metadata>
  <g style="stroke-opacity:.81569;stroke:#ffffff">
   <g transform="translate(.56447 -.12378)" style="stroke-opacity:.81569;stroke:#ffffff">
-   <g transform="translate(.011693 -.093544)" style="fill:none;stroke-opacity:.25098;stroke:#ffffff">
-    <g transform="matrix(.65811 0 0 .65811 .72607 .99609)" style="fill-opacity:.81569;fill:#ffffff;stroke-opacity:.25098;stroke:#ffffff" aria-label="+">
-     <path d="m2.658 1.5864-.13758.9525h.83608l-.09525.74083h-.84666l-.13758.9525h-.70908l.13758-.9525h-.83608l.10583-.74083h.83608l.127-.9525z" style="fill-opacity:.81569;fill:#ffffff;stroke-opacity:.25098;stroke:#ffffff"/>
+   <g transform="translate(.011693 -.093544)" style="fill:none;stroke-opacity:.25098;stroke-width:.26458;stroke:#ffffff">
+    <g transform="matrix(.65811 0 0 .65811 .72607 .99609)" style="fill-opacity:.81569;fill:#ffffff;stroke-opacity:.25098;stroke-width:.40204;stroke:#ffffff" aria-label="+">
+     <path d="m2.658 1.5864-.13758.9525h.83608l-.09525.74083h-.84666l-.13758.9525h-.70908l.13758-.9525h-.83608l.10583-.74083h.83608l.127-.9525z" style="fill-opacity:.81569;fill:#ffffff;stroke-opacity:.25098;stroke-width:.40204;stroke:#ffffff"/>
     </g>
    </g>
   </g>

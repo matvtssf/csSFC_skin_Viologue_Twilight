@@ -1,28 +1,56 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<GUI x="835" y="200" w="155" h="200" backgroundColor="#00000000">
-	<CS01ViewContainer1 x="0" y="0" w="155" h="200" style="StepFuncBackground">
+<GUI x="830" y="170" w="165" h="260" backgroundColor="#00000000">
+	<CS01ViewContainer1 x="0" y="0" w="165" h="260" style="StepFuncBackground">
 	
-	<RoundedRect x="0" y="0" w="155" h="200" style="StepFuncBackgroundReal" />	
-		<CS01TextButton controlTag="12312312" x="255" y="5" w="50" h="20" roundedRatio="0.2" style="StepFuncTextButton" text="Close" font="SFC_11"/>
+	<RoundedRect x="0" y="0" w="165" h="225" style="StepFuncBackgroundReal" />
 
-		<CS01TextButton role="rampUp" x="10" y="20" w="60" h="20" roundedRatio="0.2" style="StepFuncTextButton" text="Ramp ↑" addControl="0" font="SFC_11"/>
-		<CS01TextButton role="rampDown" x="80" y="20" w="60" h="20" roundedRatio="0.2" style="StepFuncTextButton" text="Ramp ↓" addControl="0" font="SFC_11"/>
+	<StaticText x="85" y="5" w="70" h="20" text="Generate" style="StaticTextColor" font="SFCHEADING_16" alignment="left"/>
+	<RoundedRect x="5" y="29" w="157" h="1" style="DividerInverted" />
 
-		<CS01TextButton role="concaveUp" x="10" y="50" w="60" h="20" roundedRatio="0.2" style="StepFuncTextButton" text="Concave ↑" addControl="0" font="SFC_11"/>
-		<CS01TextButton role="concaveDown" x="80" y="50" w="60" h="20" roundedRatio="0.2" style="StepFuncTextButton" text="Concave ↓" addControl="0" font="SFC_11"/>
+		<StaticImage image="steps_generate_rampup.svg" x="20" y="45" />
+		<CS01TextButton role="rampUp" x="15" y="40" w="30" h="30" roundedRatio="0.2" style="StepFuncTextButton" text="" addControl="0" />
+		<StaticImage image="steps_generate_rampdown.svg" x="70" y="45" />
+		<CS01TextButton role="rampDown" x="65" y="40" w="30" h="30" roundedRatio="0.2" style="StepFuncTextButton" text="" addControl="0" />
 
-		<CS01TextButton role="convexUp" x="10" y="80" w="60" h="20" roundedRatio="0.2" style="StepFuncTextButton" text="Convex ↑" addControl="0" font="SFC_11"/>
-		<CS01TextButton role="convexDown" x="80" y="80" w="60" h="20" roundedRatio="0.2" style="StepFuncTextButton" text="Convex ↓" addControl="0" font="SFC_11"/>
+		<StaticImage image="steps_generate_concaveup.svg" x="20" y="80" />
+		<CS01TextButton role="concaveUp" x="15" y="75" w="30" h="30" roundedRatio="0.2" style="StepFuncTextButton" text="" addControl="0" />
+		<StaticImage image="steps_generate_concavedown.svg" x="70" y="80" />
+		<CS01TextButton role="concaveDown" x="65" y="75" w="30" h="30" roundedRatio="0.2" style="StepFuncTextButton" text="" addControl="0" />
 
-		<CS01TextButton role="switchUp" x="10" y="110" w="60" h="20" roundedRatio="0.2" style="StepFuncTextButton" text="Switch ↑" addControl="0" font="SFC_11"/>
-		<CS01TextButton role="switchDown" x="80" y="110" w="60" h="20" roundedRatio="0.2" style="StepFuncTextButton" text="Switch ↓" addControl="0" font="SFC_11"/>
+		<StaticImage image="steps_generate_convexup.svg" x="20" y="115" />
+		<CS01TextButton role="convexUp" x="15" y="110" w="30" h="30" roundedRatio="0.2" style="StepFuncTextButton" text="" addControl="0" />
+		<StaticImage image="steps_generate_convexdown.svg" x="70" y="115" />
+		<CS01TextButton role="convexDown" x="65" y="110" w="30" h="30" roundedRatio="0.2" style="StepFuncTextButton" text="" addControl="0" />
 
-		<CS01TextButton role="triangle" x="150" y="20" w="60" h="20" roundedRatio="0.2" style="StepFuncTextButton" text="Tri" addControl="0" font="SFC_11"/>
-		<CS01TextButton role="rand" x="150" y="50" w="60" h="20" roundedRatio="0.2" style="StepFuncTextButton" text="Rand" addControl="0" font="SFC_11"/>
-		<CS01TextButton role="sine" x="150" y="80" w="60" h="20" roundedRatio="0.2" style="StepFuncTextButton" text="Sine" addControl="0" font="SFC_11"/>
+		<StaticImage image="steps_generate_switchup.svg" x="20" y="150" />
+		<CS01TextButton role="switchUp" x="15" y="145" w="30" h="30" roundedRatio="0.2" style="StepFuncTextButton" text="" addControl="0" />
+		<StaticImage image="steps_generate_switchdown.svg" x="70" y="150" />
+		<CS01TextButton role="switchDown" x="65" y="145" w="30" h="30" roundedRatio="0.2" style="StepFuncTextButton" text="" addControl="0" />
+
+		<StaticImage image="steps_generate_tri.svg" x="20" y="185" />
+		<CS01TextButton role="triangle" x="15" y="180" w="30" h="30" roundedRatio="0.2" style="StepFuncTextButton" text="" addControl="0" />
+		<StaticImage image="steps_generate_sine.svg" x="70" y="185" />
+		<CS01TextButton role="sine" x="65" y="180" w="30" h="30" roundedRatio="0.2" style="StepFuncTextButton" text="" addControl="0" />
+		<StaticImage image="steps_generate_random.svg" x="120" y="185" />
+		<CS01TextButton role="rand" x="115" y="180" w="30" h="30" roundedRatio="0.2" style="StepFuncTextButton" text="" addControl="0" />
+
+		<CS03Knob role="amplitude" x="120" y="45" w="16" h="125" style="StepFuncKnob" />
+
+		<!-- <CS01TextButton controlTag="12312312" x="255" y="5" w="50" h="20" roundedRatio="0.2" style="StepFuncTextButton" text="Close" font="SFC_11"/>
+
+		
+
+		
+		
+
+		
+
+		
+
+
 
 		<CS01Knob role="amplitude" x="258" y="80" w="40" h="40" style="StepFuncKnob" trackWidth="3" font="SFC_11" vmin="0.01" vmax="1" vdefault="1" textEdit_backColorTransparentMode="1" addControl="0"/>
-		<StaticText text="Level" x="263" y="122" w="30" h="15" font="SFC_11"/>
+		<StaticText text="Level" x="263" y="122" w="30" h="15" font="SFC_11"/> -->
 
 <!-- missing : amplitude 0 to 1 knob? -->
 	</CS01ViewContainer1>

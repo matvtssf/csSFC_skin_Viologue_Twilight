@@ -9,14 +9,11 @@
    </cc:Work>
   </rdf:RDF>
  </metadata>
- <g>
+ <g transform="translate(-.021599 .0071996)">
   <g style="stroke-opacity:.81569;stroke:#000000">
-   <path transform="scale(.26458)" d="m3.3929 2.993c-1.9978 0-1.6956 1.6958-1.6956 3.5011v8.3516c0 4.3036-.43588 3.7793 3.7793 3.7793h2.1512m5.3703-12.882c0-1.8669.44781-2.8277-1.6476-2.8277" style="fill:none;paint-order:stroke fill markers;stop-color:#000000;stroke-opacity:.81569;stroke:#000000"/>
-   <path d="m2.4087 1.292c.23495-.00386.18143-.13802.18143-.37188 0-.23674-.10232-.42752-.22928-.42752h-.81242c-.12696 0-.22928.19078-.22928.42752-.015341.26936-.029519.33286.18191.37188z" style="fill:none;paint-order:stroke fill markers;stop-color:#000000;stroke-linecap:round;stroke-opacity:.81569;stroke-width:.26458;stroke:#000000"/>
-   <rect x="2.5023" y="1.9878" width="2.3152" height="2.9466" rx=".25" ry=".25" style="fill:none;paint-order:stroke fill markers;stop-color:#000000;stroke-opacity:.81569;stroke-width:.26458;stroke:#000000"/>
-   <path d="m3.1454 4.268v-.6665" style="fill:none;stroke-opacity:.81569;stroke-width:.26458;stroke:#000000"/>
-   <path d="m3.6716 4.259v-.91761" style="fill:none;stroke-opacity:.81569;stroke-width:.26458;stroke:#000000"/>
-   <path d="m4.2212 4.2547v-1.3533" style="fill:none;stroke-opacity:.81569;stroke-width:.26458;stroke:#000000"/>
+   <path transform="scale(.26458)" d="m3.3929 2.993c-1.9978 0-1.6956 1.6958-1.6956 3.5011v8.3516c0 4.3036-.43588 3.7793 3.7793 3.7793h2.1512m5.3703-12.882c0-1.8669.44781-2.8277-1.6476-2.8277" style="fill:none;paint-order:stroke fill markers;stop-color:#000000;stroke-opacity:.81569;stroke:#ffffff"/>
+   <path d="m2.5874 1.4489c.32717-.005375.25264-.19219.25264-.51784 0-.32966-.14248-.59532-.31927-.59532h-1.1313c-.17679 0-.31927.26566-.31927.59532-.021362.37508-.041105.46351.25331.51784z" style="fill-opacity:.81569;fill:#ffffff;paint-order:stroke fill markers;stop-color:#000000;stroke:none"/>
+   <path transform="matrix(.26458 0 0 .26458 .021599 -.0071996)" d="m9.8711 6.9688c-.52346 0-.94336.42185-.94336.94531v10.389c0 .52346.4199.94531.94336.94531h7.7598c.52346 0 .94336-.42185.94336-.94531v-10.389c0-.52346-.4199-.94531-.94336-.94531h-7.7598zm5.5039 4.0273h.99805v5.1094h-.99805v-5.1094zm-2.0801 1.6621h1.0039v3.4688h-1.0039v-3.4688zm-1.9863.98047h.99609v2.5176h-.99609v-2.5176z" style="fill-opacity:.81569;fill:#ffffff;paint-order:stroke fill markers;stop-color:#000000;stroke:none"/>
   </g>
  </g>
 </svg>

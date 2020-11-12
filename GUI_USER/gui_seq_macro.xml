@@ -10,6 +10,7 @@
 		<RoundedRect x="880" y="44" w="122" h="1" style="DividerInverted" />
 
 
+
 		
 	<ScrollView x="0" y="0" w="1024" h="425" scrollbarwidth="0" internalwidth="15360" internalheight="422" backgroundColor="#00000000" showScrollbars="0" name="modulatorsScrollView">
 
@@ -363,8 +364,6 @@ Delay Dry Pan;Delay Wet Pan"/>
 			<Define name="$TARGET" value="com.Plogue.Emulator.SFC|0|575A|0"/>
 			<Define name="$NAME" value="Step Editor 1"/>
 			<Define name="$STEPNUM" value="1"/>
-
-
 		</CS01ViewContainer>
 
 		<CS01ViewContainer identifier="STEPEDIT1" param_offset="1296" style="STEPEDITAliases">
@@ -455,7 +454,7 @@ Delay Dry Pan;Delay Wet Pan"/>
 
 		<Style name="ViewContainerStep" y="0" w="1024" h="425"/>
 		<Style name="VisibilityContainerStepText" y="0" w="1024" h="20" />
-		<Style name="VisibilityContainerStepButtons" y="0" w="1024" h="80" />
+		<Style name="VisibilityContainerStepButtons" y="0" w="20" h="80" />
 		<Style name="VisibilityContainerTextButtonAdd" text="" x="0" />
 		<Style name="VisibilityContainerTextButtonRemove" rule="diff" rule_s1="empty" command="modulationLinksViewMessage" data0="removeLink" text=""/>
 															
@@ -465,9 +464,9 @@ Delay Dry Pan;Delay Wet Pan"/>
 		</VisibilityContainer>
 		<VisibilityContainer x="850" style="VisibilityContainerStepButtons">
 			<StaticImage image="steps_new.svg" x="0" y="25" />
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton;ToolsBarButtons" y="25" codedName="STEP0"/>
 			<StaticImage image="steps_del.svg" x="0" y="50" />
-			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" y="25" codedName="STEP0"/>
-			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" y="50" data1="STEP0"/>
+			<CS01TextButton style="ToolsBarButtons;VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" y="50" data1="STEP0"/>
 		</VisibilityContainer>
 
 		<!--Don't forget to add the + and - for the other steps other than just 1 -->
@@ -583,8 +582,8 @@ Delay Dry Pan;Delay Wet Pan"/>
 
 
 	<CS01ScrollViewPageController x="875" y="0" w="130" h="20" type="0" style="ScrollViewPageController" frameColor="#FFFFFF00" 
-			frameDraw="1" scrollViewName="modulatorsScrollView" image_1="SVLeft.svg" image_2="SVRight.svg" image_1HL="SVLeftHL.svg" image_2HL="SVRightHL.svg" disabledLuminanceChange="1" name="modulatorsScrollViewPageController" showPageName="1" showPageNameType="2" font="SFC_12" 
-			circleEdit="0" circleEditColor="#808080CC" showPageNameCheckCurrentValue="1">
+			frameDraw="0" scrollViewName="modulatorsScrollView" image_1="SVLeft.svg" image_2="SVRight.svg" image_1HL="SVLeftHL.svg" image_2HL="SVRightHL.svg" disabledLuminanceChange="0" name="modulatorsScrollViewPageController" showPageName="1" showPageNameType="2" font="SFC_12" 
+			circleEdit="0" circleEditColor="#00000000" showPageNameCheckCurrentValue="1">
 		<PageName idx="0" name="Step 1"/>
 		<PageName idx="1" name="Step 2"/>
 		<PageName idx="2" name="Step 3"/>
@@ -607,6 +606,40 @@ Delay Dry Pan;Delay Wet Pan"/>
 	<RoundedRect style="StepRightPanel" fill_color="#ffffff20"  />
 	<Rect style="StepEditorToolsBar" />
 	<RoundedRect style="StepEditorStatusBar" />
+	
+<!-- This was an attempt to set up a definable highlight for the step editor, by setting the highlight as a variable. This doesn't work because I probably can't use the Define command outside of a container or a GUIMacro
+<OptionMenu x="000" y="0" vmin="1" vmax="32" vdefault="4" checkCurrentValue="1" alignment="center" transparent="0" style="StepEditorOptionMenu" >
+			<OptionItem value="1" name="1">
+			<Define name="$STEPHL" value="1"/>
+			</OptionItem>
+			<OptionItem value="2" name="2">
+			<Define name="$STEPHL" value="2"/>
+			</OptionItem>
+			<OptionItem value="3" name="3">
+			<Define name="$STEPHL" value="3"/>
+			</OptionItem>
+			<OptionItem value="4" name="4">
+			<Define name="$STEPHL" value="4"/>
+			</OptionItem>
+			<OptionItem value="6" name="6">
+			<Define name="$STEPHL" value="6"/>
+			</OptionItem>
+			<OptionItem value="8" name="8">
+			<Define name="$STEPHL" value="8"/>
+			</OptionItem>
+			<OptionItem value="12" name="12">
+			<Define name="$STEPHL" value="12"/>
+			</OptionItem>
+			<OptionItem value="16" name="16">
+			<Define name="$STEPHL" value="16"/>
+			</OptionItem>
+			<OptionItem value="24" name="24">
+			<Define name="$STEPHL" value="24"/>
+			</OptionItem>
+			<OptionItem value="32" name="32">
+			<Define name="$STEPHL" value="32"/>
+			</OptionItem>			
+		</OptionMenu> -->
 	
 
 
