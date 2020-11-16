@@ -10,16 +10,12 @@
   </rdf:RDF>
  </metadata>
  <g>
-  <g transform="translate(.011693 -.093544)" style="fill-opacity:.25098;fill:#ffffff;stroke-opacity:.81569;stroke:#000000">
-   <path d="m.68264.79431h2.451c.067235-.038002.50996.42623.57304.52034v3.3698c0 .1385-.1115.25-.25.25h-2.7741c-.1385 0-.25-.1115-.25-.25v-3.6402c0-.1385.1115-.25.25-.25z" style="fill-opacity:.25098;fill:#ffffff;paint-order:stroke fill markers;stop-color:#000000;stroke-opacity:.81569;stroke-width:.26458;stroke:#ffffff"/>
-   <path d="m1.3421 3.998v-.93646" style="fill-opacity:.25098;fill:#ffffff;stroke-opacity:.81569;stroke-width:.26458;stroke:#ffffff"/>
-   <path d="m2.0862 3.9855v-1.2893" style="fill-opacity:.25098;fill:#ffffff;stroke-opacity:.81569;stroke-width:.26458;stroke:#ffffff"/>
-   <path d="m2.8634 3.9794v-1.9014" style="fill-opacity:.25098;fill:#ffffff;stroke-opacity:.81569;stroke-width:.26458;stroke:#ffffff"/>
-  </g>
-  <path d="m3.0146.83331v.39661c.00311.12956.063579.15974.16283.15912h.41134" style="fill:none;stroke-opacity:.81569;stroke-width:.26458px;stroke:#ffffff"/>
+  <path transform="scale(.26458)" d="m2.623 2.6484c-.52346 0-.94336.42185-.94336.94531v13.758c0 .52346.4199.94531.94336.94531h10.486c.52346 0 .94336-.42185.94336-.94531v-12.736c-.23841-.35569-1.9099-2.1104-2.1641-1.9668h-9.2637-.0019531zm9.0781 1.0254.027344 1.1699 1.332.027344.005859 1.0039-1.3164-.027344c-.26535.015609-.56289.028857-.78906-.13477-.21043-.15979-.22632-.45485-.19141-.69531-.035225-1.0124.003526-.63225-.048828-1.3164l.98047-.027344zm-1.3613 3.8359h1.0176v7.1777h-1.0176v-7.1777zm-2.9023 2.3281h1.0156v4.8535h-1.0156v-4.8535zm-2.8574 1.4043h1.0176v3.6113h-1.0176v-3.6113z" style="fill-opacity:.81569;fill:#ffffff;paint-order:stroke fill markers;stop-color:#000000"/>
   <g transform="translate(1.2044 -.40762)" style="fill:none;stroke-opacity:.81569;stroke:#ffffff">
    <path d="m.43264.9303c0-.1385.1115-.13599.25-.13599h2.451c.067235-.038002.50996.42623.57304.52034v3.3698c0 .1385-.13892.25-.13892.25h-.73222" style="fill:none;paint-order:stroke fill markers;stop-color:#000000;stroke-opacity:.81569;stroke-width:.26458;stroke:#ffffff"/>
   </g>
-  <path d="m4.2049.51834v.39661c.00311.12956.063579.15974.16283.15912h.41134" style="fill:none;stroke-opacity:.81569;stroke-width:.26458px;stroke:#ffffff"/>
+  <g transform="matrix(1.8652 0 0 1.7773 -3.7893 -.66929)" style="stroke-width:.54923">
+   <path d="m4.3607.67084c-.068008-.002619-.16734-.002602-.16734-.002602l.01158.24671c.00311.12956.063579.15974.16283.15912h.2307l-.00499-.1652-.092001-.10258-.093751-.097652" style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill-opacity:.81569;fill:#ffffff;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;image-rendering:auto;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;shape-rendering:auto;solid-color:#000000;stop-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+  </g>
  </g>
 </svg>

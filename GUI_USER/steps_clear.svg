@@ -9,10 +9,10 @@
    </cc:Work>
   </rdf:RDF>
  </metadata>
- <g transform="matrix(.89459 0 0 .89467 .27908 .2776)" style="stroke-width:1.1178">
-  <g transform="translate(0 .11533)" style="stroke-width:1.1178">
-   <path d="m1.0162 1.9228 1.3324-1.4494c.29761-.32373.81159-.31094 1.1225 2e-8l1.3406 1.3406c.31094.31094.29761.79881 0 1.1225l-1.3324 1.4494" style="fill-opacity:.81569;fill-rule:evenodd;fill:#000000;paint-order:stroke fill markers;stop-color:#000000;stroke-width:1.1178"/>
-   <path transform="rotate(45)" d="m2.7938-2.1032h1.8959c.43974 0 .79375.35401.79375.79375 0 0 .075605 2.542 0 2.6189-.39356.40003-.41577.411-.79375.79375-.068122.068981-1.8959 0-1.8959 0-.43974 0-.79375-.35401-.79375-.79375v-2.6189c0-.43974.35401-.79375.79375-.79375z" style="fill:none;paint-order:stroke fill markers;stop-color:#000000;stroke-linecap:round;stroke-opacity:.81569;stroke-width:.29574;stroke:#000000"/>
+ <g transform="matrix(.89459 0 0 .89467 .27908 .2776)" style="fill-opacity:.81569;fill:#ffffff;stroke-opacity:.81569;stroke-width:.29575;stroke:#ffffff">
+  <g transform="translate(0 .11533)" style="fill-opacity:.81569;fill:#ffffff;stroke-opacity:.81569;stroke-width:.29575;stroke:#ffffff">
+   <path d="m1.0162 1.9228 1.3324-1.4494c.29761-.32373.81159-.31094 1.1225 2e-8l1.3406 1.3406c.31094.31094.29761.79881 0 1.1225l-1.3324 1.4494" style="fill-opacity:.81569;fill-rule:evenodd;fill:#ffffff;paint-order:stroke fill markers;stop-color:#000000;stroke-opacity:.81569;stroke-width:.29575;stroke:#ffffff"/>
+   <path transform="rotate(45)" d="m2.7938-2.1032h1.8959c.43974 0 .79375.35401.79375.79375 0 0 .075605 2.542 0 2.6189-.39356.40003-.41577.411-.79375.79375-.068122.068981-1.8959 0-1.8959 0-.43974 0-.79375-.35401-.79375-.79375v-2.6189c0-.43974.35401-.79375.79375-.79375z" style="fill:none;paint-order:stroke fill markers;stop-color:#000000;stroke-linecap:round;stroke-opacity:.81569;stroke-width:.29575;stroke:#ffffff"/>
   </g>
  </g>
 </svg>
