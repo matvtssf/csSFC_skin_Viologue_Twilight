@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<GUI x="830" y="170" w="165" h="260" backgroundColor="#00000000">
-	<CS01ViewContainer1 x="0" y="0" w="165" h="260" style="StepFuncBackground">
+<GUI x="837" y="170" w="170" h="260" backgroundColor="#00000000">
+	<CS01ViewContainer1 x="0" y="0" w="170" h="260" style="StepFuncBackground">
 	
-	<RoundedRect x="0" y="0" w="165" h="225" style="StepFuncBackgroundReal" />
+	<RoundedRect x="0" y="0" w="170" h="225" style="StepFuncBackgroundReal" />
 
 	<StaticText x="85" y="5" w="70" h="20" text="Generate" style="StaticTextColor" font="SFCHEADING_16" alignment="left"/>
-	<RoundedRect x="5" y="29" w="157" h="1" style="DividerInverted" />
+	<RoundedRect x="5" y="29" w="155" h="1" style="DividerInverted" />
 
 		<StaticImage image="steps_generate_rampup.svg" x="20" y="45" />
 		<CS01TextButton role="rampUp" x="15" y="40" w="30" h="30" roundedRatio="0.2" style="StepFuncTextButton" text="" addControl="0" />
@@ -34,24 +34,13 @@
 		<StaticImage image="steps_generate_random.svg" x="120" y="185" />
 		<CS01TextButton role="rand" x="115" y="180" w="30" h="30" roundedRatio="0.2" style="StepFuncTextButton" text="" addControl="0" />
 
-		<CS03Knob role="amplitude" x="120" y="45" w="16" h="125" style="StepFuncKnob" />
+		<RoundedRect x="124" y="44" w="12" h="91" style="StepFuncKnobBackground"/>
+		<CS03Knob role="amplitude" x="122" y="38" w="24" h="95" style="StepFuncKnob" />
+		<!--Used to disable mouse input for this knob -->
+		<StaticText x="120" y="38" w="30" h="95" style="StaticTextStep" alignment="left"  text="" font="SFC_9" /> 
 
-		<!-- <CS01TextButton controlTag="12312312" x="255" y="5" w="50" h="20" roundedRatio="0.2" style="StepFuncTextButton" text="Close" font="SFC_11"/>
+		<CS01Knob role="amplitude" x="115" y="145" style="StepFuncLevel" preventIdle="1" />
+		<StaticText x="119" y="158" w="60" h="16" style="StaticTextStep" alignment="left"  text="LEVEL" font="SFC_9"/>
 
-		
-
-		
-		
-
-		
-
-		
-
-
-
-		<CS01Knob role="amplitude" x="258" y="80" w="40" h="40" style="StepFuncKnob" trackWidth="3" font="SFC_11" vmin="0.01" vmax="1" vdefault="1" textEdit_backColorTransparentMode="1" addControl="0"/>
-		<StaticText text="Level" x="263" y="122" w="30" h="15" font="SFC_11"/> -->
-
-<!-- missing : amplitude 0 to 1 knob? -->
-	</CS01ViewContainer1>
+		</CS01ViewContainer1>
 </GUI>

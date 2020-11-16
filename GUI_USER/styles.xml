@@ -99,6 +99,18 @@
 		vmax="127"
 		stepped="1"/>
 
+		<Style name="GUIVelocity" 
+		w="22"
+		h="22"
+		textEdit_backColor="#00000000"
+		showFill="0"
+		showTrack="0"
+		backColor="#00000000"
+		fontColor="#FFFFFFAA"
+		vmin="0"
+		vmax="1"
+		stepped="0"/>
+
 	<Style name="SPCKnob3"
 		w="40"
 		h="50"
@@ -966,6 +978,8 @@
 		backgroundColor="#00000000"/>
 
 	<Style name="ModLinksViewButtons"
+		y="351"
+		w="60"
 		h="20"
 		roundedRatio="0.15"
 		offColor="#6c78c4D0"
@@ -1027,17 +1041,22 @@
 	<Style name="ModLinksTextHeader"
 	color_text="#FFFFFFA0"
 	h="16"
+	y="23"
 	alignment="center"
 	font="SFCHEADING_12" />
 
 	<Style name="ModLinksColumnDarkened"
+		y="20"
+		h="384"
 		fill_color="#00000018"
 		drawMode="filled" />
 
 	<Style name="ModLinksTopBar"
 		roundedRectRatio="0.01"
 		fill_color="#FFFFFF18"
-		drawMode="filled" />
+		frameWidth="1"
+		border_color="#00000020"
+		drawMode="strokedFilled" />
 
 	<Style name="ModulaionRightPanel"
 		fill_color="#FFFFFF20"
@@ -1055,13 +1074,13 @@
 
 	<Style name="ScrollViewPageController"
 		backgroundColor="#00000000"
-		fontColor="#FFFFFFA0"
+		fontColor="#FFFFFFD0"
 		fontColorHL="#ffffffff"/>
 
 	<Style name="EchoViewPageController"
 		backgroundColor="00000000"
 		fontColor="#00000000"
-		fontColorHL="00000000"
+		fontColorHL="#00000000"
 		disabledLuminanceChange="-0.2" />
 
 	<Style name="VisibilityContainerStaticText"
@@ -1070,27 +1089,21 @@
 		controller_name="currentLabel"
 		text="empty"
 		x="15"
-		y="0"
+		y="2"
 		w="700"
 		h="20"
-		font="SFC_11"
+		font="SFCHEADING_12"
 		color_text="#FFFFFFD0"
 		color_back="#00000000"
 		color_border="#00000000"
 		alignment="center"/>
 
 	<Style name="VisibilityContainerTextButton"
-		x="25"
-		y="20"
-		w="20"
-		h="20"
+		x="0"
+		w="26"
+		h="26"
 		controller="currentLabel"
-		roundedRatio="0.25"
-		offColor="#00000000"
-		color_pushed="#00000080"
-		color_text="#00000000"
-		drawTextHint="0"
-		font="SFC_10" />
+		drawTextHint="0" />
 
 	<Style name="StepEditorOptionMenu"
 		color_back="#00000000"
@@ -1120,7 +1133,7 @@
 		enable_mousewheel="0" />
 
 	<Style name="StepEditorTextButton"
-		onColor="#333333AA"/>
+		onColor="#00000000"/>
 
 	<Style name="KnobStepsDelayRamp"
 		w="40"
@@ -1159,6 +1172,8 @@
 		value_font="SFC_11"
 		label_font="SFC_9"
 		textEdit_backColor="#00000000" />
+
+
 
 <Style name="KnobStepsLoop"
 		w="40"
@@ -1235,6 +1250,43 @@
 		label_font="SFC_9"
 		textEdit_backColor="#00000000" />
 
+<Style name="KnobStepsFrameNumber"
+		w="60"
+		h="50"
+		knob_x="20"
+		knob_y="10"
+		knob_w="20"
+		knob_h="20"
+		knobFillColor="#FFFFFFa0"
+		label_x="0"
+		label_y="34"
+		label_w="60"
+		label_h="16"
+		valueIndicatorType="1"
+		valueIndicatorMargin="-1"
+		valueIndicator_x="0"
+		valueIndicator_y="0"
+		valueIndicator_w="2"
+		valueIndicator_h="10"
+		valueIndicatorFillColor="#000000a0"
+		valueTrackOrder="0"
+		valueTrackColor="#00000080"
+		valueFillColor="#828bdeD0"
+		valueTrackMargin="1"
+		valueTrackWidth="3"
+		modTrackColor="#00000020"
+		modTrackOrder="1"
+		modTrackMargin="2"
+		modTrackWidth="2"
+		modFillColor="#FF00FF60"
+		label_fontColor="#FFFFFFAA"
+		showValueTextOnHL="1"
+		value_fontColor="#cbcbd8d0"
+		textEdit_font="SFC_11"
+		value_font="SFC_11"
+		label_font="SFC_9"
+		textEdit_backColor="#00000000" />
+
 
 	<Style name="StepHeaderRectColor"
 		fill_color="#54585aFF"/>
@@ -1242,12 +1294,35 @@
 	<Style name="StepBackgroundRectColor"
 		fill_color="#707372FF"/>
 
+	<Style name="StepEditorToolsBar"
+		x="845"
+		y="20"
+		w="163"
+		h="405"
+		fill_color="#00000040"
+		drawMode="filled" />
+
+	<Style name="StepEditorStatusBar"
+		x="15"
+		y="404"
+		w="860"
+		h="20"
+		fill_color="#6D7188FF"
+		drawMode="strokedFilled"
+		frameWidth="1"
+		border_color="#00000020"
+		roundedRectRatio="0.2" />
+
 	<Style name="StepRightPanel"
+		x="875"
+		y="20"
+		w="133"
+		h="405"
+		roundedRectRatio="0.05" 
 		fill_color="#00000040"
 		drawMode="strokedFilled"
-		frameWidth="3"
+		frameWidth="1"
 		border_color="#00000010" />
-		
 
 	<Style name="StepSubRectColor"
 		fill_color="#FFFFFFFF"/>
@@ -1258,32 +1333,78 @@
 
 	<Style name="StepsEditBackground"
 		fill_color="#FFFFFF10"
-		drawMode="strokedFilled"
-		frameWidth="1.5"
-		border_color="#00000008"
-		roundedRectRatio="0.01" />
-
-	<Style name="StepEditorToolBar"
-		fill_color="#FFFFFF44"
-		drawMode="strokedFilled"
-		frameWidth="2"
-		border_color="#00000020"
-		roundedRectRatio="0.2" />
+		drawMode="filled" />
 
 	<Style name="StepFuncBackground"
-		backgroundColor="#44444480"/>
+		backgroundColor="#00000000"/>
+
+	<Style name="StepFuncBackgroundReal"
+		roundedRectRatio="0.05" 
+		fill_color="#000000F0"
+		drawMode="strokedFilled"
+		frameWidth="1"
+		border_color="#00000080" />
 
 	<Style name="StepFuncTextButton"
-		offColor="#000000AA"
-		offColorHL="#333333AA"
-		color_text="#FFFFFFBB"
-		color_textHL="#FFFFFFBB"/>
+		offColor="#00000000"
+		offColorHL="#FFFFFF40"
+		color_pushed="#000000D0"
+		color_text="#00000000"
+		color_textHL="00000000"/>
+
+	<Style name="ToolsBarButtons"
+		color_disabled="#00000000"
+		offColor="#00000000"
+		offColorHL="#FFFFFF40"
+		onColor="#00000000"
+		onColorHL="#FFFFFF40"
+		color_pushed="#00000000"
+		color_text="#FFFFFFD0"
+		text=""
+		roundedRatio="0.25"
+		font="SFC_16" />
 
 	<Style name="StepFuncKnob"
-		trackColor="#111111FF"
-		fillColor="#0066ccFF"
-		fontColor="#ccccccff"
-		textEdit_backColor="#11111100"/>
+		knob_x="16"
+		knob_y="16"
+		knob_w="-16"
+		knob_h="75"
+		knobFillColor="#00000000"
+		label_x="0"
+		label_y="120"
+		label_w="16"
+		label_h="16"
+		valueTrackOrder="0"
+		valueTrackColor="#00000000"
+		valueFillColor="#FFFFFFD0"
+		valueTrackWidth="8"
+		value_fontColor="#cbcbd8d0"
+		vmin="0.01"
+		vmax="2"
+		vdefault="1"
+		textEdit_backColor="#00000000" />
+
+	<Style name="StepFuncKnobBackground"
+		roundedRectRatio="0.25" 
+		fill_color="#FFFFFF40"
+		drawMode="strokedFilled"
+		frameWidth="1"
+		border_color="#FFFFFF10" />
+
+	<Style name="StepFuncLevel"
+		w="30"
+		h="20"
+		textEdit_backColor="#00000000"
+		showFill="0"
+		showTrack="0"
+		backColor="#00000000"
+		fontColor="#FFFFFFD0"
+		stepped="0"
+		font="SFC_16"
+		vdefault="1"
+		vmin="0.01"
+		vmax="1"
+		mouseIncrement="0.1" />
 
 	<Style name="StaticTextStep"
 		color_text="#EEEEEEAA"/>
@@ -1295,8 +1416,8 @@
 		color_text="#FFFFFFDD"/>
 
 	<Style name="StepEditorContainer"
-		backgroundColor="#333333FF"
-		disabledColor="#00000060"/>
+		backgroundColor="#00000000"
+		disabledColor="#00000080"/>
 
 	<Style name="SPCKnob3VGM"
 		w="40"
@@ -1387,7 +1508,7 @@
 		h="22"
 		font="SFC_9"
 		transparent="1"
-		alignment="center"
+		alignment="right"
 		color_text="#FFFFFFBB"
 		color_back="#00000000"
 		color_border="#FFFFFF00"
@@ -1403,8 +1524,7 @@
 		alignment="center"
 		checkCurrentValue="1"
 		font="SFC_11"/>
-	o
-	
+		
 	<Style name="SettingsLabel"
 		h="18"
 		alignment="left"
@@ -1435,5 +1555,12 @@
 	
 	<Style name="SettingsDisplayStringOption"
 		color_text="#FFFFFFAA"/>
+
+	<Style name="VGMLCDFrame"
+		fill_color="#000000D0"
+		drawMode="strokedFilled"
+		roundedRectRatio="0.01"
+		frameWidth="2"
+		border_color="#00000020" />
 
 </Styles>

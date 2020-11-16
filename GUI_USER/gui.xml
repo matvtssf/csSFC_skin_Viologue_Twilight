@@ -2,13 +2,13 @@
 <GUI w="1024" h="630"
 	backgroundColor="#00000000"
 	DrawingBoundaries="0"
-	color_DrawingBoundaries="#0000FFFF"
+	color_DrawingBoundaries="#00000000"
 	color_back="#00000000"
 	color_text="#FFFFFFFF" 
 	color_border="#000000FF"
 	font_size="Small"
 	modulatedParamSource="com.Plogue.Emulator.SFC|0|30D1|0"
-	highlight_Luminance="-0.1">
+	highlight_Luminance="-0.2">
 
 	<Property name="modulationDestinationsAlphaOrder" value="0"/>
 	<Property name="modulationDestinationsPrefixOrder" value="L1 ;L01 ;L2 ;L02 ;L3 ;L03 ;L3 ;L03 ;L4 ;L04 ;L5 ;L05 ;L6 ;L06 ;L7 ;L07 ;L8 ;L08 ;Voice ;Delay ;Step0 ;Step1 ;Step2 ;Step3 ;Step4 ;Step5 ;Step6 ;Step7 ;Step8 ;Step9 ;Step10 ;Step11 ;Step12 ;Step13 ;Step14 "/>
@@ -217,10 +217,13 @@
 			white_key_on="keyboard/white_key_on.svg" white_key_off="keyboard/white_key_off.svg" black_key_on="keyboard/black_key_on_3D.svg" black_key_off="keyboard/black_key_off_3D.svg"
 			inactiveColor="#11111199" ksActiveColor="#0000AADD" ksInactiveColor="#000044DD"/>
 
+<RoundedRect x="940" y="0" w="75" h="50" style="RoundedValueBoxes" roundedRectRatio="0.15" />
+
 <!--Zoom-->
-		<StaticText text="Zoom" x="931" y="0" w="45" h="22" style="StaticTextColorMain" alignment="center" font="SFC_11"/>
-		<RoundedRect x="975" y="0" w="40" h="22" style="RoundedValueBoxes" />
-			<OptionMenu command="ui_zoomRatio" x="975" y="0" w="40" style="GUIOptionMenuBottomRight" vdefault="1.00">
+		<StaticText text="🔍" x="946" y="0" w="45" h="22" style="StaticTextColorMain" alignment="left" font="SFC_16"/>
+		
+
+			<OptionMenu command="ui_zoomRatio" x="940" y="0" w="65" style="GUIOptionMenuBottomRight" vdefault="1">
 			<OptionItem name="25%"  value="0.25"/>
 			<OptionItem name="50%"	value="0.50"/>
 			<OptionItem name="75%"	value="0.75"/>
@@ -230,6 +233,16 @@
 			<OptionItem name="175%" value="1.75"/>
 			<OptionItem name="200%" value="2.00"/>
 		</OptionMenu>
+
+<!--VelocitySensitivity-->
+		<StaticText text="🎹⦨" x="946" y="27" w="45" h="22" style="StaticTextColorMain" alignment="left" font="SFC_16"/>
+		
+
+		<CS01Knob x="990" y="27" style="GUIOptionMenuBottomRight;GUIVelocity" param="DID_SLOTVELTRACK" vdefault="1" vmin="0" vmax="1" stepped="0" mouseIncrement="0.5" />
+
+<!--logo-->
+
+		<StaticImage image="madeby.svg" x="946" y="63" url="https://github.com/matvtssf/csSFC_skin_Viologue_Twilight"/>
 
 	</CS01ViewContainer>
 

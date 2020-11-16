@@ -17,5 +17,10 @@
 		<OptionItem name="internal"	value="0.75" />
 	</OptionMenu>
 
+<CS01Keyboard param="DID_KEYBOARDGUI" x="50" y="2" w="878" h="88" start_key="24" end_key="96"
+			offset0="13" offset1="53" offset2="73" offset3="113" offset4="133" offset5="153"
+			white_key_on="keyboard/white_key_on.svg" white_key_off="keyboard/white_key_off.svg" black_key_on="keyboard/black_key_on_3D.svg" black_key_off="keyboard/black_key_off_3D.svg"
+			inactiveColor="#11111199" ksActiveColor="#0000AADD" ksInactiveColor="#000044DD"/>
+
 <Oscilloscope x="2" y="26" w="300" h="150" image="scope.png" zero_color="#38ab55ff" wave_color="#38ab55ff" wave2_color="#38ab55ff" />
 </GUI>

@@ -454,126 +454,245 @@ Delay Dry Pan;Delay Wet Pan"/>
 
 		<Style name="ViewContainerStep" y="0" w="1024" h="425"/>
 		<Style name="VisibilityContainerStepText" y="0" w="1024" h="20" />
-		<Style name="VisibilityContainerStepButtons" y="0" w="20" h="80" />
+		<Style name="VisibilityContainerStepButtons" y="0" w="26" h="80" />
 		<Style name="VisibilityContainerTextButtonAdd" text="" x="0" />
 		<Style name="VisibilityContainerTextButtonRemove" rule="diff" rule_s1="empty" command="modulationLinksViewMessage" data0="removeLink" text=""/>
 															
-		<CS01ViewContainer   x="15" style="ViewContainerStep" identifier="STEP0"/>
+		<!-- Page 1 -->
+		<CS01ViewContainer   x="5" style="ViewContainerStep" identifier="STEP0"/>
+		<VisibilityContainer x="848" y="3" w="157" h="14">
+			<StaticImage image="SVRight.svg" x="150" y="0"/>
+		</VisibilityContainer>
 		<VisibilityContainer x="20" style="VisibilityContainerStepText">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP0"/>
 		</VisibilityContainer>
-		<VisibilityContainer x="850" style="VisibilityContainerStepButtons">
-			<StaticImage image="steps_new.svg" x="0" y="25" />
-			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton;ToolsBarButtons" y="25" codedName="STEP0"/>
-			<StaticImage image="steps_del.svg" x="0" y="50" />
-			<CS01TextButton style="ToolsBarButtons;VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" y="50" data1="STEP0"/>
+		<VisibilityContainer x="847" style="VisibilityContainerStepButtons">
+			<StaticImage image="steps_new.svg" x="3" y="25" />
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton;ToolsBarButtons" y="22" codedName="STEP0"/>
+			<StaticImage image="steps_del.svg" x="3" y="50" />
+			<CS01TextButton style="ToolsBarButtons;VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" y="47" data1="STEP0"/>
 		</VisibilityContainer>
 
-		<!--Don't forget to add the + and - for the other steps other than just 1 -->
-
-		<CS01ViewContainer   x="1039" style="ViewContainerStep" identifier="STEP1"/>
-		<VisibilityContainer x="1044" style="VisibilityContainerStep">
+		<!-- Page 2 -->
+		<CS01ViewContainer   x="1029" style="ViewContainerStep" identifier="STEP1"/>
+		<VisibilityContainer x="1872" y="3" w="157" h="14">
+			<StaticImage image="SVLeft.svg" x="0" y="0"/>
+			<StaticImage image="SVRight.svg" x="150" y="0"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="1044" style="VisibilityContainerStepText">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP1"/>
-			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP1"/>
-			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP1"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="1871" style="VisibilityContainerStepButtons">
+			<StaticImage image="steps_new.svg" x="3" y="25" />
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton;ToolsBarButtons" y="22" codedName="STEP1"/>
+			<StaticImage image="steps_del.svg" x="3" y="50" />
+			<CS01TextButton style="ToolsBarButtons;VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" y="47" data1="STEP1"/>
 		</VisibilityContainer>
 
-
-		<CS01ViewContainer   x="2063" style="ViewContainerStep" identifier="STEP2"/>
-		<VisibilityContainer x="2068" style="VisibilityContainerStep">
+		<!-- Page 3 -->
+		<CS01ViewContainer   x="2053" style="ViewContainerStep" identifier="STEP2"/>
+		<VisibilityContainer x="2896" y="3" w="157" h="14">
+			<StaticImage image="SVLeft.svg" x="0" y="0"/>
+			<StaticImage image="SVRight.svg" x="150" y="0"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="2068" style="VisibilityContainerStepText">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP2"/>
-			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP2"/>
-			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP2"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="2895" style="VisibilityContainerStepButtons">
+			<StaticImage image="steps_new.svg" x="3" y="25" />
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton;ToolsBarButtons" y="22" codedName="STEP2"/>
+			<StaticImage image="steps_del.svg" x="3" y="50" />
+			<CS01TextButton style="ToolsBarButtons;VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" y="47" data1="STEP2"/>
 		</VisibilityContainer>
 
-		<CS01ViewContainer   x="3087" style="ViewContainerStep" identifier="STEP3"/>
-		<VisibilityContainer x="3092" style="VisibilityContainerStep">
+		<!-- Page 4 -->
+		<CS01ViewContainer   x="3077" style="ViewContainerStep" identifier="STEP3"/>
+		<VisibilityContainer x="3920" y="3" w="157" h="14">
+			<StaticImage image="SVLeft.svg" x="0" y="0"/>
+			<StaticImage image="SVRight.svg" x="150" y="0"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="3092" style="VisibilityContainerStepText">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP3"/>
-			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP3"/>
-			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP3"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="3919" style="VisibilityContainerStepButtons">
+			<StaticImage image="steps_new.svg" x="3" y="25" />
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton;ToolsBarButtons" y="22" codedName="STEP3"/>
+			<StaticImage image="steps_del.svg" x="3" y="50" />
+			<CS01TextButton style="ToolsBarButtons;VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" y="47" data1="STEP3"/>
 		</VisibilityContainer>
 
-
-		<CS01ViewContainer   x="4111" style="ViewContainerStep" identifier="STEP4"/>
-		<VisibilityContainer x="4116" style="VisibilityContainerStep">
+		<!-- Page 5 -->
+		<CS01ViewContainer   x="4101" style="ViewContainerStep" identifier="STEP4"/>
+		<VisibilityContainer x="4944" y="3" w="157" h="14">
+			<StaticImage image="SVLeft.svg" x="0" y="0"/>
+			<StaticImage image="SVRight.svg" x="150" y="0"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="4116" style="VisibilityContainerStepText">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP4"/>
-			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP4"/>
-			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP4"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="4943" style="VisibilityContainerStepButtons">
+			<StaticImage image="steps_new.svg" x="3" y="25" />
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton;ToolsBarButtons" y="22" codedName="STEP4"/>
+			<StaticImage image="steps_del.svg" x="3" y="50" />
+			<CS01TextButton style="ToolsBarButtons;VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" y="47" data1="STEP4"/>
 		</VisibilityContainer>
 
-		<CS01ViewContainer   x="5135" style="ViewContainerStep" identifier="STEP5"/>
-		<VisibilityContainer x="5140" style="VisibilityContainerStep">
+		<!-- Page 6 -->
+		<CS01ViewContainer   x="5125" style="ViewContainerStep" identifier="STEP5"/>
+		<VisibilityContainer x="5968" y="3" w="157" h="14">
+			<StaticImage image="SVLeft.svg" x="0" y="0"/>
+			<StaticImage image="SVRight.svg" x="150" y="0"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="5140" style="VisibilityContainerStepText">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP5"/>
-			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP5"/>
-			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP5"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="5967" style="VisibilityContainerStepButtons">
+			<StaticImage image="steps_new.svg" x="3" y="25" />
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton;ToolsBarButtons" y="22" codedName="STEP5"/>
+			<StaticImage image="steps_del.svg" x="3" y="50" />
+			<CS01TextButton style="ToolsBarButtons;VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" y="47" data1="STEP5"/>
 		</VisibilityContainer>
 
-
-		<CS01ViewContainer   x="6159" style="ViewContainerStep" identifier="STEP6"/>
-		<VisibilityContainer x="6164" style="VisibilityContainerStep">
+		<!-- Page 7 -->
+		<CS01ViewContainer   x="6149" style="ViewContainerStep" identifier="STEP6"/>
+		<VisibilityContainer x="6992" y="3" w="157" h="14">
+			<StaticImage image="SVLeft.svg" x="0" y="0"/>
+			<StaticImage image="SVRight.svg" x="150" y="0"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="6164" style="VisibilityContainerStepText">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP6"/>
-			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP6"/>
-			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP6"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="6991" style="VisibilityContainerStepButtons">
+			<StaticImage image="steps_new.svg" x="3" y="25" />
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton;ToolsBarButtons" y="22" codedName="STEP6"/>
+			<StaticImage image="steps_del.svg" x="3" y="50" />
+			<CS01TextButton style="ToolsBarButtons;VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" y="47" data1="STEP6"/>
 		</VisibilityContainer>
 
-		<CS01ViewContainer   x="7183" style="ViewContainerStep" identifier="STEP7"/>
-		<VisibilityContainer x="7188" style="VisibilityContainerStep">
+		<!-- Page 8 -->
+		<CS01ViewContainer   x="7173" style="ViewContainerStep" identifier="STEP7"/>
+		<VisibilityContainer x="8016" y="3" w="157" h="14">
+			<StaticImage image="SVLeft.svg" x="0" y="0"/>
+			<StaticImage image="SVRight.svg" x="150" y="0"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="7188" style="VisibilityContainerStepText">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP7"/>
-			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP7"/>
-			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP7"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="8015" style="VisibilityContainerStepButtons">
+			<StaticImage image="steps_new.svg" x="3" y="25" />
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton;ToolsBarButtons" y="22" codedName="STEP7"/>
+			<StaticImage image="steps_del.svg" x="3" y="50" />
+			<CS01TextButton style="ToolsBarButtons;VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" y="47" data1="STEP7"/>
 		</VisibilityContainer>
 
-
-		<CS01ViewContainer   x="8207" style="ViewContainerStep" identifier="STEP8"/>
-		<VisibilityContainer x="8212" style="VisibilityContainerStep">
+		<!-- Page 9 -->
+		<CS01ViewContainer   x="8197" style="ViewContainerStep" identifier="STEP8"/>
+		<VisibilityContainer x="9040" y="3" w="157" h="14">
+			<StaticImage image="SVLeft.svg" x="0" y="0"/>
+			<StaticImage image="SVRight.svg" x="150" y="0"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="8212" style="VisibilityContainerStepText">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP8"/>
-			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP8"/>
-			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP8"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="9039" style="VisibilityContainerStepButtons">
+			<StaticImage image="steps_new.svg" x="3" y="25" />
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton;ToolsBarButtons" y="22" codedName="STEP8"/>
+			<StaticImage image="steps_del.svg" x="3" y="50" />
+			<CS01TextButton style="ToolsBarButtons;VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" y="47" data1="STEP8"/>
 		</VisibilityContainer>
 
-		<CS01ViewContainer   x="9231" style="ViewContainerStep" identifier="STEP9"/>
-		<VisibilityContainer x="9236" style="VisibilityContainerStep">
+		<!-- Page 10 -->
+		<CS01ViewContainer   x="9221" style="ViewContainerStep" identifier="STEP9"/>
+		<VisibilityContainer x="10064" y="3" w="157" h="14">
+			<StaticImage image="SVLeft.svg" x="0" y="0"/>
+			<StaticImage image="SVRight.svg" x="150" y="0"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="9236" style="VisibilityContainerStepText">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP9"/>
-			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP9"/>
-			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP9"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="10063" style="VisibilityContainerStepButtons">
+			<StaticImage image="steps_new.svg" x="3" y="25" />
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton;ToolsBarButtons" y="22" codedName="STEP9"/>
+			<StaticImage image="steps_del.svg" x="3" y="50" />
+			<CS01TextButton style="ToolsBarButtons;VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" y="47" data1="STEP9"/>
 		</VisibilityContainer>
 
-
-		<CS01ViewContainer   x="10255" style="ViewContainerStep" identifier="STEP10"/>
-		<VisibilityContainer x="10260" style="VisibilityContainerStep">
+		<!-- Page 11 -->
+		<CS01ViewContainer   x="10245" style="ViewContainerStep" identifier="STEP10"/>
+		<VisibilityContainer x="11088" y="3" w="157" h="14">
+			<StaticImage image="SVLeft.svg" x="0" y="0"/>
+			<StaticImage image="SVRight.svg" x="150" y="0"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="10260" style="VisibilityContainerStepText">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP10"/>
-			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP10"/>
-			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP10"/>
 		</VisibilityContainer>
-
-		<CS01ViewContainer   x="11279" style="ViewContainerStep" identifier="STEP11"/>
-		<VisibilityContainer x="11284" style="VisibilityContainerStep">
+		<VisibilityContainer x="11087" style="VisibilityContainerStepButtons">
+			<StaticImage image="steps_new.svg" x="3" y="25" />
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton;ToolsBarButtons" y="22" codedName="STEP10"/>
+			<StaticImage image="steps_del.svg" x="3" y="50" />
+			<CS01TextButton style="ToolsBarButtons;VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" y="47" data1="STEP10"/>
+		</VisibilityContainer>
+		<!-- Page 12 -->
+		<CS01ViewContainer   x="11269" style="ViewContainerStep" identifier="STEP11"/>
+		<VisibilityContainer x="12112" y="3" w="157" h="14">
+			<StaticImage image="SVLeft.svg" x="0" y="0"/>
+			<StaticImage image="SVRight.svg" x="150" y="0"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="11284" style="VisibilityContainerStepText">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP11"/>
-			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP11"/>
-			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP11"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="12111" style="VisibilityContainerStepButtons">
+			<StaticImage image="steps_new.svg" x="3" y="25" />
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton;ToolsBarButtons" y="22" codedName="STEP11"/>
+			<StaticImage image="steps_del.svg" x="3" y="50" />
+			<CS01TextButton style="ToolsBarButtons;VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" y="47" data1="STEP11"/>
 		</VisibilityContainer>
 
-
-		<CS01ViewContainer   x="12303" style="ViewContainerStep" identifier="STEP12"/>
-		<VisibilityContainer x="12308" style="VisibilityContainerStep">
+		<!-- Page 13 -->
+		<CS01ViewContainer   x="12293" style="ViewContainerStep" identifier="STEP12"/>
+		<VisibilityContainer x="13136" y="3" w="157" h="14">
+			<StaticImage image="SVLeft.svg" x="0" y="0"/>
+			<StaticImage image="SVRight.svg" x="150" y="0"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="12308" style="VisibilityContainerStepText">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP12"/>
-			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP12"/>
-			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP12"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="13135" style="VisibilityContainerStepButtons">
+			<StaticImage image="steps_new.svg" x="3" y="25" />
+		<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton;ToolsBarButtons" y="22" codedName="STEP12"/>
+			<StaticImage image="steps_del.svg" x="3" y="50" />
+			<CS01TextButton style="ToolsBarButtons;VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" y="47" data1="STEP12"/>
 		</VisibilityContainer>
 
-		<CS01ViewContainer   x="13327" style="ViewContainerStep" identifier="STEP13"/>
-		<VisibilityContainer x="13332" style="VisibilityContainerStep">
+		<!-- Page 14 -->
+		<CS01ViewContainer   x="13317" style="ViewContainerStep" identifier="STEP13"/>
+		<VisibilityContainer x="14160" y="3" w="157" h="14">
+			<StaticImage image="SVLeft.svg" x="0" y="0"/>
+			<StaticImage image="SVRight.svg" x="150" y="0"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="13332" style="VisibilityContainerStepText">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP13"/>
-			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP13"/>
-			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP13"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="14159" style="VisibilityContainerStepButtons">
+			<StaticImage image="steps_new.svg" x="3" y="25" />
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton;ToolsBarButtons" y="22" codedName="STEP13"/>
+			<StaticImage image="steps_del.svg" x="3" y="50" />
+			<CS01TextButton style="ToolsBarButtons;VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" y="47" data1="STEP13"/>
 		</VisibilityContainer>
 
-
-		<CS01ViewContainer   x="14351" style="ViewContainerStep" identifier="STEP14"/>
-		<VisibilityContainer x="14356" style="VisibilityContainerStep">
+		<!-- Page 15 -->
+		<CS01ViewContainer   x="14341" style="ViewContainerStep" identifier="STEP14"/>
+		<VisibilityContainer x="15184" y="3" w="157" h="14">
+			<StaticImage image="SVLeft.svg" x="0" y="0"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="14356" style="VisibilityContainerStepText">
 			<StaticText style="VisibilityContainerStaticText" data0="STEP14"/>
-			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton" codedName="STEP14"/>
-			<CS01TextButton style="VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" data1="STEP14"/>
+		</VisibilityContainer>
+		<VisibilityContainer x="15183" style="VisibilityContainerStepButtons">
+			<StaticImage image="steps_new.svg" x="3" y="25" />
+			<CS01ModSourceTextButton style="VisibilityContainerTextButtonAdd;VisibilityContainerTextButton;ToolsBarButtons" y="22" codedName="STEP14"/>
+			<StaticImage image="steps_del.svg" x="3" y="50" />
+			<CS01TextButton style="ToolsBarButtons;VisibilityContainerTextButton;VisibilityContainerTextButtonRemove" y="47" data1="STEP14"/>
 		</VisibilityContainer>
 
 	</ScrollView>
@@ -581,8 +700,8 @@ Delay Dry Pan;Delay Wet Pan"/>
 
 
 
-	<CS01ScrollViewPageController x="875" y="0" w="130" h="20" type="0" style="ScrollViewPageController" frameColor="#FFFFFF00" 
-			frameDraw="0" scrollViewName="modulatorsScrollView" image_1="SVLeft.svg" image_2="SVRight.svg" image_1HL="SVLeftHL.svg" image_2HL="SVRightHL.svg" disabledLuminanceChange="0" name="modulatorsScrollViewPageController" showPageName="1" showPageNameType="2" font="SFC_12" 
+	<CS01ScrollViewPageController x="848" y="0" w="157" h="20" type="0" style="ScrollViewPageController" frameColor="#FFFFFF00" 
+			frameDraw="0" scrollViewName="modulatorsScrollView" image_1="SVEmpty.svg" image_2="SVEmpty.svg" image_1HL="SVLeftHL.svg" image_2HL="SVRightHL.svg" disabledLuminanceChange="0" name="modulatorsScrollViewPageController" showPageName="1" showPageNameType="2" font="SFCHEADING_12" 
 			circleEdit="0" circleEditColor="#00000000" showPageNameCheckCurrentValue="1">
 		<PageName idx="0" name="Step 1"/>
 		<PageName idx="1" name="Step 2"/>
@@ -602,8 +721,8 @@ Delay Dry Pan;Delay Wet Pan"/>
 	</CS01ScrollViewPageController>
 
 	<!-- Static FG Stuff -->
-	<RoundedRect style="StepRightPanel" />
-	<RoundedRect style="StepRightPanel" fill_color="#ffffff20"  />
+	<Rect style="StepRightPanel" />
+	<Rect style="StepRightPanel" fill_color="#ffffff20"  />
 	<Rect style="StepEditorToolsBar" />
 	<RoundedRect style="StepEditorStatusBar" />
 	

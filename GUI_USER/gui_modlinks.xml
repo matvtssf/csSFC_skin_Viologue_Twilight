@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GUI w="1024" h="449" backgroundColor="#00000000">
 <!--Background -->
-<RoundedRect 			  x="23" y="20" w="980" h="380" style="ModulaionRightPanel"/>
-<RoundedRect 			  x="23" y="20" w="833" h="380" style="ModLinksTopBar" />
-<RoundedRect 			  x="23" y="38" w="833" h="362" style="ModLinksDataBackground"/>
+<RoundedRect 			  x="15" y="0" w="994" h="430" style="ModulaionRightPanel"/>
+<RoundedRect 			  x="15" y="20" w="833" h="384" style="ModLinksTopBar" />
+<RoundedRect 			  x="15" y="40" w="833" h="364" style="ModLinksDataBackground"/>
 
 <!--Header Text -->
 		
-		<RoundedRect              x="865" y="43" w="130" h="1" style="DividerInverted" />
-		<StaticText 			  x="913" y="23" w="80" h="20" text="Mod Matrix" style="StaticTextColor" font="SFCHEADING_16" alignment="center"/>
+		<StaticText 			  x="913" y="3" w="80" h="20" text="Mod Matrix" style="StaticTextColor" font="SFCHEADING_16" alignment="center"/>
+		<RoundedRect              x="865" y="23" w="130" h="1" style="DividerInverted" />
+		
 
 <!-- Column Grids -->
-<Rect 			  x="185" y="40" w="160" h="360" style="ModLinksColumnDarkened" />
-<Rect 			  x="544" y="40" w="200" h="360" style="ModLinksColumnDarkened" />
-<Rect 			  x="775" y="40" w="60" h="360" style="ModLinksColumnDarkened" />
+<Rect 			  x="177" w="160" style="ModLinksColumnDarkened" />
+<Rect 			  x="536" w="200" style="ModLinksColumnDarkened" />
+<Rect 			  x="767" w="60" style="ModLinksColumnDarkened" />
 
 <!-- Text Header -->
-<StaticText text="Source" x="27" y="23" w="76" style="ModLinksTextHeader" />
-<StaticText text="Function" x="107" y="23" w="76" style="ModLinksTextHeader" />
-<StaticText text="Control" x="187" y="23" w="76" style="ModLinksTextHeader" />
-<StaticText text="Function" x="267" y="23" w="78" style="ModLinksTextHeader" />
-<StaticText text="Destination" x="347" y="23" w="196" style="ModLinksTextHeader" />
-<StaticText text="Range" x="547" y="23" w="196" style="ModLinksTextHeader" />
-<StaticText text="Inv" x="747" y="23" w="26" style="ModLinksTextHeader" />
-<StaticText text="Math" x="777" y="23" w="56" style="ModLinksTextHeader" />
+<StaticText text="Source" x="19" w="76" style="ModLinksTextHeader" />
+<StaticText text="Function" x="99" w="76" style="ModLinksTextHeader" />
+<StaticText text="Control" x="179" w="76" style="ModLinksTextHeader" />
+<StaticText text="Function" x="259" w="78" style="ModLinksTextHeader" />
+<StaticText text="Destination" x="339" w="196" style="ModLinksTextHeader" />
+<StaticText text="Range" x="539" w="196" style="ModLinksTextHeader" />
+<StaticText text="Inv" x="739" w="26" style="ModLinksTextHeader" />
+<StaticText text="Math" x="769" w="56" style="ModLinksTextHeader" />
 
 <!-- Table -->
-	<CS01ViewContainer1 x="-10" y="14" w="1020" h="435" style="ModLinksViewContainer1">
+	<CS01ViewContainer1 x="-18" y="16" w="1020" h="475" style="ModLinksViewContainer1">
 
-		<CS01ModulationLinksContainer param="DID_CUSTOM_DATA" x="30" y="25" w="1020" h="410" style="ModulationLinksContainer" token0=";" token1="=" deleteIconType="1" dataTarget="com.Plogue.Emulator.SFC|0|30D3|0"	tabSelectionViewName="main" tabSelectionIndex="2" skipScroll="1" >
+		<CS01ModulationLinksContainer param="DID_CUSTOM_DATA" x="30" y="25" w="1020" h="430" style="ModulationLinksContainer" token0=";" token1="=" deleteIconType="1" dataTarget="com.Plogue.Emulator.SFC|0|30D3|0"	tabSelectionViewName="main" tabSelectionIndex="2" skipScroll="1" >
 			
-			<CS01TextButton role="addRow"    x="846" y="331" w="60" style="ModLinksViewButtons" text="＋   Add" />
-			<CS01TextButton role="deleteAll" x="914" y="331" w="60" style="ModLinksViewButtons" text="✘   Clear" offColor="#9c4844d0" />
+			<CS01TextButton role="addRow"    x="850" style="ModLinksViewButtons" text="＋   Add" />
+			<CS01TextButton role="deleteAll" x="926" style="ModLinksViewButtons" text="✘   Clear" offColor="#9c4844d0" />
 
 			<CS01ModulationLinksColumn x="5"   y="0" w="80"  h="20" controltype="dynamicMenu"     entryType="string"    alignment="center" textMargin="4" name="Source" colChanged="1;4;5;6" keyword="SOURCE" dataSourceType="source"/>
 			<CS01ModulationLinksColumn x="90"  y="0" w="80"  h="20" controltype="dynamicMenu"     entryType="string"    alignment="center" textMargin="4" name="Function" keyword="SOURCE_FUNC" dataSourceType="func" colAvail="0" colAvailExFlag="8"/>
