@@ -3,24 +3,24 @@
 
 	<VisibilityContainer x="0" y="0" w="28" h="28" enabledByOnOff="1">
 		<CS03Knob        param="18" x="0" y="0" w="0"  h="0"  controller_name="MULTI_SPC" role="controller" />        
-		<Button          param="07" x="0" y="0" w="28" h="28"      controller="MULTI_SPC" rule="eq" rule_d1="0" image_off="text-VGM/text-VGM-BACK.svg" image_on="text-VGM/text-VGM-BACKOn.svg" />		
+		<Button          param="07" x="0" y="0" w="22" h="17"      controller="MULTI_SPC" rule="eq" rule_d1="0" image_off="text-VGM/text-VGM-BACK.svg" image_on="text-VGM/text-VGM-BACKOn.svg" />		
 	</VisibilityContainer>
 		
-	<Button param="09" image_off="text-VGM/text-VGM-REV.svg"    image_on="text-VGM/text-VGM-REVOn.svg"	x="40"  y="0" w="28" h="28"/>     
-	<Button param="03" image_off="text-VGM/text-VGM-STOP.svg"   image_on="text-VGM/text-VGM-STOPOn.svg"	x="80"  y="0" w="28" h="28"/>
-	<Button param="02" image_off="text-VGM/text-VGM-PLAY.svg"   image_on="text-VGM/text-VGM-PLAYOn.svg"	x="120" y="0" w="28" h="28"/>    
+	<Button param="09" image_off="text-VGM/text-VGM-REV.svg"    image_on="text-VGM/text-VGM-REVOn.svg"	x="30"  y="0" w="22" h="17"/>     
+	<Button param="03" image_off="text-VGM/text-VGM-STOP.svg"   image_on="text-VGM/text-VGM-STOPOn.svg"	x="60"  y="0" w="22" h="17"/>
+	<Button param="02" image_off="text-VGM/text-VGM-PLAY.svg"   image_on="text-VGM/text-VGM-PLAYOn.svg"	x="90" y="0" w="22" h="17"/>    
 	
-	<VisibilityContainer x="160" y="0" w="28" h="28" enabledByOnOff="1">
+	<VisibilityContainer x="120" y="0" w="22" h="17" enabledByOnOff="1">
 		<CS03Knob        param="18" x="0" y="0" w="0"  h="0"  controller_name="MULTI_SPC" role="controller" />        
-		<Button          param="08" x="0" y="0" w="28" h="28"      controller="MULTI_SPC" rule="eq" rule_d1="0"  image_off="text-VGM/text-VGM-END.svg"    image_on="text-VGM/text-VGM-ENDOn.svg" />		
+		<Button          param="08" x="0" y="0" w="22" h="17"      controller="MULTI_SPC" rule="eq" rule_d1="0"  image_off="text-VGM/text-VGM-END.svg"    image_on="text-VGM/text-VGM-ENDOn.svg" />		
 	</VisibilityContainer>
 	
-	<CommandButton param="DID_SLOTCOMMAND" image_off="text-VGM/text-VGM-OPEN.svg" image_on="text-VGM/text-VGM-OPENOn.svg" x="200" y="0" w="28" h="28" 
-	command="load:file|com.Plogue.Emulator.SFC" data0="*.*" data1="Please select file" />	
+	<CommandButton param="DID_SLOTCOMMAND" image_off="text-VGM/text-VGM-OPEN.svg" image_on="text-VGM/text-VGM-OPENOn.svg" x="150" y="0" w="22" h="17" 
+	command="load:file|com.Plogue.Emulator.SFC" data0="*.spc;*.zip;*.7z;*.sp2;*.rsn" data1="Please Select SPC File/Archive" />	
     
-	<VisibilityContainer x="240" y="0" w="28" h="28" enabledByOnOff="1">
+	<VisibilityContainer x="180" y="0" w="22" h="20" enabledByOnOff="1">
 		<CS03Knob        param="18" x="0" y="0" w="0"  h="0"  controller_name="MULTI_SPC" role="controller" />        
-		<OnOffButton     param="19" x="0" y="0" w="28" h="28"      controller="MULTI_SPC" rule="eq" rule_d1="0"  image_off="text-VGM/text-VGM-NOLOOP.svg" image_on="text-VGM/text-VGM-LOOPOn.svg" />		
+		<OnOffButton     param="19" x="0" y="0" w="22" h="20"      controller="MULTI_SPC" rule="eq" rule_d1="0"  image_off="text-VGM/text-VGM-NOLOOP.svg" image_on="text-VGM/text-VGM-LOOPOn.svg" />		
 	</VisibilityContainer>	
 	
 </GUI>	

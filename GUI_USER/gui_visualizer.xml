@@ -23,4 +23,7 @@
 			inactiveColor="#11111199" ksActiveColor="#0000AADD" ksInactiveColor="#000044DD"/>
 
 <Oscilloscope x="2" y="26" w="300" h="150" image="scope.png" zero_color="#38ab55ff" wave_color="#38ab55ff" wave2_color="#38ab55ff" />
+
+
+		/>
 </GUI>
