@@ -1,6 +1,16 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="28" height="28">
-<g transform="scale(2 2)">
-	<rect x="0.059" y="11.896" fill="#325ECC" width="13.812" height="1.833"/>
-	<polygon fill="#325ECC"  points="0,9.897 6.882,0.5 13.765,9.897 	"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 21.157 16.089" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <path transform="matrix(0 -.22361 .38095 0 9.4473 6.1533)" d="m4.2626 16.236c-27.677 15.979-23.455 18.417-23.455-13.542 1e-6-31.959-4.2219-29.521 23.455-13.542 27.677 15.979 27.677 11.104-1.4e-6 27.084z" style="fill-opacity:.68628;fill:#000000;paint-order:markers stroke fill;stop-color:#000000;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:.25098;stroke-width:4.9941;stroke:#4d5055"/>
+ <path transform="matrix(0 -.21135 .36397 0 9.5173 5.4854)" d="m4.2626 16.236c-27.677 15.979-23.455 18.417-23.455-13.542 1e-6-31.959-4.2219-29.521 23.455-13.542 27.677 15.979 27.677 11.104-1.4e-6 27.084z" style="fill:#4d5055;paint-order:markers stroke fill;stop-color:#000000"/>
+ <rect transform="rotate(-90)" x="-14.916" y="1.2917" width="2.785" height="18.692" rx=".84072" ry=".84072" style="fill-opacity:.68628;fill:#000000;font-variation-settings:normal;paint-order:markers stroke fill;stop-color:#000000;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:.25098;stroke-width:2.3457;stroke:#4d5055"/>
+ <rect transform="rotate(-90)" x="-13.662" y="1.2169" width="2.8955" height="18.714" rx=".87409" ry=".87409" style="fill:#4d5055;font-variation-settings:normal;paint-order:markers stroke fill;stop-color:#000000"/>
 </svg>
