@@ -50,10 +50,46 @@
 
 
 	<!--LCD and Bezel -->
-	<RoundedRect x="271" y="6" w="488" h="415" style="VGMLCDFrame"/>
-	<StaticImage x="285" y="398" image="PlogueSPCLogo.svg"/>
-	<Picture8Data x="275" y="10" w="480" h="384" target="com.Plogue.Emulator.SFC|0|8B17|0" param="DID_CUSTOM_DATA"/>   
+	<ScrollView x="271" y="6" w="488" h="415" scrollbarwidth="0" internalwidth="976" internalheight="415" backgroundColor="#00000000" showScrollbars="0" name="VGMLCDTV">	
+
+	<!-- Large -->
+		<VisibilityContainer x="0" y="0" w="488" h="415">
+			<RoundedRect x="0" y="0" w="487" h="414" style="VGMLCDFrame"/>
+			<StaticImage x="14" y="392" image="PlogueSPCLogo.svg"/>
+		</VisibilityContainer>
+		<Picture8Data x="4" y="4" w="480" h="384" target="com.Plogue.Emulator.SFC|0|8B17|0" param="DID_CUSTOM_DATA"/>
+
+	<!-- Small -->
+
+		<!-- Let's Try to Draw a TV using the internal shapes :) -->
+		<VisibilityContainer x="488" y="0" w="488" h="415">
+			<RoundedRect x="0" y="0" w="488" h="415" style="VGMRightPanel" roundedRectRatio="0.025"/>
+			<Rect x="5" y="25" w="478" h="370" style="VGMRightPanelHighlights" roundedRectRatio="0.025"/>
+			<RoundedRect x="20" y="40" w="448" h="310" style="VGMLCDFrame"/>
+			<Line x="75" y="55" w="337" h="1" frameWidth="1" border_color="#00000020" />
+			<Line x="75" y="334" w="337" h="1" frameWidth="1" border_color="#00000020" />
+			<RoundedRect x="30" y="55" w="45" h="280" style="VGMLCDFrame" />
+			<Ellipse x="40" y="120" w="25" h="25" style="VGMLCDFrame" border_color="#00000008" />
+			<Ellipse x="35" y="180" w="35" h="35" style="VGMLCDFrame" border_color="#00000008" />
+			<Ellipse x="35" y="240" w="35" h="35" style="VGMLCDFrame" border_color="#00000008"/>
+			<RoundedRect x="413" y="55" w="45" h="280" style="VGMLCDFrame" />
+			<Ellipse x="423" y="120" w="25" h="25" style="VGMLCDFrame" border_color="#00000008" />
+			<Ellipse x="418" y="180" w="35" h="35" style="VGMLCDFrame" border_color="#00000008" />
+			<Ellipse x="418" y="240" w="35" h="35" style="VGMLCDFrame" border_color="#00000008"/>
+			<StaticImage x="220" y="340" image="PlogueTVLogo.svg"/>
+			<RoundedRect x="84" y="350" w="320" h="30" style="VGMLCDFrame" />
+			<RoundedRect x="85" y="350" w="318" h="10" style="VGMLCDFrame" />
+			<RoundedRect x="65" y="380" w="358" h="10" style="VGMLCDFrame" />
+			<RoundedRect x="370" y="365" w="20" h="10" style="VGMLCDFrame" />
+		</VisibilityContainer>
+		<Picture8Data x="572" y="64" w="320" h="256" target="com.Plogue.Emulator.SFC|0|8B17|0" param="DID_CUSTOM_DATA"/>			
+
+	</ScrollView>
+
+	<CS01ScrollViewPageController x="700" y="410" w="46" h="7" type="1" style="EchoViewPageController" frameColor="#00000000" frameDraw="0" scrollViewName="VGMLCDTV" image_1="vgmsize.svg" name="EchoScrollViewPageController" showPageName="0" backgroundColor="#00000000" fontColor="#00000000"	fontColorHL="#00000000" 	disabledLuminanceChange="0" />
    
+
+   <!-- Controlls Section -->
 
 
 	<OnOffButton     param="931" x="785" y="30" w="20" h="20" image_off="text-VGM/C1-off.svg" image_on="text-VGM/C1-on.svg" />
@@ -104,7 +140,7 @@
 	<CS01OnOffButton style="VGMOnOffButton" param="1063" x="830" y="240" w="30" h="20" roundedRatio="0.1" />
 	<CS01OnOffButton style="VGMOnOffButton2" param="1063" x="835" y="255" w="20" h="5" roundedRatio="0.1"  enable_mouse="0" />
 
-	<StaticText style="VGMStaticText" text="Echo" x="785" y="275" w="40" h="13"  alignment="left" transparent="1" font="SFCHEADING_16"/>
+	<StaticText style="VGMStaticText" text="Echo" x="785" y="275" w="40" h="16"  alignment="left" transparent="1" font="SFCHEADING_16"/>
 
 	<RoundedRect x="830" y="270" w="30" h="20" style="VGMOnOffButtonBorder"/>
 	<CS01OnOffButton style="VGMOnOffButton" param="1066" x="830" y="270" w="30" h="20" roundedRatio="0.1" />

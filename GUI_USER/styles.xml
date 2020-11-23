@@ -1078,7 +1078,7 @@
 		fontColorHL="#ffffffff"/>
 
 	<Style name="EchoViewPageController"
-		backgroundColor="00000000"
+		backgroundColor="#00000000"
 		fontColor="#00000000"
 		fontColorHL="#00000000"
 		disabledLuminanceChange="-0.2" />
@@ -1602,5 +1602,11 @@
 		font="SFC_9"
 		style_windows="normal"
 		style_osx="normal"/>
-
+	
+	<Style name="MagnifyingGlassAndKeyboardIconColours"
+		drawMode="strokedFilled"
+		frameWidth="1"
+		border_color="#FFFFFFD0"
+		fill_color="#FFFFFF20"
+		roundedRectRatio="0.05" />
 </Styles>

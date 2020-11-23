@@ -189,7 +189,8 @@
 
 		<!-- Generator Expansion --> 
 
-		<CS01ExpandViewButton x="842" y="172" w="26" h="26" close_button_tag="12312312" role="shapesExpandView" text="✏️" style="ToolsBarButtons" enabledByOnOff="1"  expandedViewCloser="1" >
+		<StaticImage image="steps_generate.svg" x="845" y="175" />
+		<CS01ExpandViewButton x="842" y="172" w="26" h="26" close_button_tag="12312312" role="shapesExpandView" text="" style="ToolsBarButtons" enabledByOnOff="1"  expandedViewCloser="1" >
 		<CS01ViewContainer path="gui_seq_shapes.xml" x="840" y="170" w="170" h="260" xoffset="0" yoffset="0" />
 
 		</CS01ExpandViewButton>

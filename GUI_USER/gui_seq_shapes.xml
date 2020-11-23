@@ -4,6 +4,7 @@
 	
 	<RoundedRect x="0" y="0" w="170" h="225" style="StepFuncBackgroundReal" />
 
+	<StaticImage image="steps_generate_close.svg" x="8" y="5" />
 	<StaticText x="85" y="5" w="70" h="20" text="Generate" style="StaticTextColor" font="SFCHEADING_16" alignment="left"/>
 	<RoundedRect x="5" y="29" w="155" h="1" style="DividerInverted" />
 

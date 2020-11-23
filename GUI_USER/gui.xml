@@ -26,12 +26,12 @@
 	<Font alias="SFC_10"  filename="Changa-ExtraLight.ttf" name_windows="Changa" name_osx="Changa" size_windows="10"  style_windows="normal" size_osx="10"  style_osx="normal"/>
 	<Font alias="SFC_11"  filename="Changa-ExtraLight.ttf" name_windows="Changa" name_osx="Changa" size_windows="11"  style_windows="normal" size_osx="11"  style_osx="normal"/>
 	<Font alias="SFC_12"  filename="Changa-ExtraLight.ttf" name_windows="Changa" name_osx="Changa" size_windows="12"  style_windows="bold" size_osx="12"  style_osx="bold"/>
-	<Font alias="SFCHEADING_12" filename="AuberCFSemiBold-SemiBold.ttf" name_windows="Auber CF" name_osx="Auber CF" size_windows="12" style_windows="bold" size_osx="12" style_osx="bold"/>
+	<Font alias="SFCHEADING_12" filename="AuberCFSemiBold-SemiBold.ttf" name_windows="Auber CF" name_osx="Auber CF SemiBold SemiBold" size_windows="12" style_windows="bold" size_osx="12" style_osx="bold"/>
 	<Font alias="SFC_13"  filename="Changa-ExtraLight.ttf" name_windows="Changa" name_osx="Changa" size_windows="13"  style_windows="bold" size_osx="13"  style_osx="bold"/>
 	<Font alias="SFC_14"  filename="Changa-ExtraLight.ttf" name_windows="Changa" name_osx="Changa" size_windows="14"  style_windows="normal" size_osx="14"  style_osx="normal"/>
 	<Font alias="SFC_16"  filename="Changa-ExtraLight.ttf" name_windows="Changa" name_osx="Changa" size_windows="16"  style_windows="normal" size_osx="16"  style_osx="normal"/>
-	<Font alias="SFCHEADING_16" filename="AuberCFSemiBold-SemiBold.ttf" name_windows="Auber CF" name_osx="Auber CF" size_windows="16" style_windows="italic" size_osx="16" style_osx="italic"/>
-	<Font alias="SFCHEADING_36" filename="AuberCFSemiBold-SemiBold.ttf" name_windows="Auber CF" name_osx="Auber CF" size_windows="36" style_windows="normal" size_osx="36" style_osx="normal"/>
+	<Font alias="SFCHEADING_16" filename="AuberCFSemiBold-SemiBold.ttf" name_windows="Auber CF" name_osx="Auber CF SemiBold SemiBold" size_windows="16" style_windows="italic" size_osx="16" style_osx="italic"/>
+	<Font alias="SFCHEADING_36" filename="AuberCFSemiBold-SemiBold.ttf" name_windows="Auber CF" name_osx="Auber CF SemiBold SemiBold" size_windows="36" style_windows="normal" size_osx="36" style_osx="normal"/>
 	<Font alias="SFC_36"  filename="Changa-ExtraLight.ttf" name_windows="Changa" name_osx="Changa" size_windows="36"  style_windows="normal" size_osx="36"  style_osx="normal"/>
 	
 	<Styles path="styles.xml"/>
@@ -72,7 +72,7 @@
 		style="ARAMText"
 		font="SFC_13"/>
 
-	<CS01ExpandViewButton x="440" w="80" style="ExpandViewButtons" close_button_tag="12312312" text="⚙️   Settings" expandedViewCloser="1">
+	<CS01ExpandViewButton x="440" w="80" style="ExpandViewButtons" close_button_tag="12312312" text="Settings" expandedViewCloser="1">
 		<CS01ViewContainer path="gui_settings.xml" backgroundColor="#00000000" xoffset="0" yoffset="0"/>
 	</CS01ExpandViewButton>
 
@@ -217,12 +217,13 @@
 			white_key_on="keyboard/white_key_on.svg" white_key_off="keyboard/white_key_off.svg" black_key_on="keyboard/black_key_on_3D.svg" black_key_off="keyboard/black_key_off_3D.svg"
 			inactiveColor="#11111199" ksActiveColor="#0000AADD" ksInactiveColor="#000044DD"/>
 
-<RoundedRect x="940" y="0" w="75" h="50" style="RoundedValueBoxes" roundedRectRatio="0.15" />
+		<RoundedRect x="940" y="0" w="75" h="50" style="RoundedValueBoxes" roundedRectRatio="0.15" />
 
 <!--Zoom-->
-		<StaticText text="🔍" x="946" y="0" w="45" h="22" style="StaticTextColorMain" alignment="left" font="SFC_16"/>
-		
-
+		<!-- No Unicode, drawing the magnifying glass by hand :) -->
+		<Ellipse x="948" y="5" h="10" w="10" style="MagnifyingGlassAndKeyboardIconColours"/>
+		<Line x="957" y="14" h="6" w="6" style="MagnifyingGlassAndKeyboardIconColours" />
+	
 			<OptionMenu command="ui_zoomRatio" x="940" y="0" w="65" style="GUIOptionMenuBottomRight" vdefault="1">
 			<OptionItem name="25%"  value="0.25"/>
 			<OptionItem name="50%"	value="0.50"/>
@@ -235,7 +236,13 @@
 		</OptionMenu>
 
 <!--VelocitySensitivity-->
-		<StaticText text="🎹⦨" x="946" y="27" w="45" h="22" style="StaticTextColorMain" alignment="left" font="SFC_16"/>
+		<!-- No Unicode, drawing the keyboard velocity by hand :) -->
+		<RoundedRect x="948" y="32" w="16" h="12" style="MagnifyingGlassAndKeyboardIconColours"/>
+		<Rect x="951" y="32" w="2" h="8" style="MagnifyingGlassAndKeyboardIconColours" drawMode="filled" fill_color="#FFFFFFD0"/>
+		<Rect x="955" y="32" w="2" h="8" style="MagnifyingGlassAndKeyboardIconColours" drawMode="filled" fill_color="#FFFFFFD0"/>
+		<Rect x="959" y="32" w="2" h="8" style="MagnifyingGlassAndKeyboardIconColours" drawMode="filled" fill_color="#FFFFFFD0"/>
+		<StaticText text="⦨" x="966" y="27" w="45" h="22" style="StaticTextColorMain" alignment="left" font="SFC_16"/>
+
 		
 
 		<CS01Knob x="990" y="27" style="GUIOptionMenuBottomRight;GUIVelocity" param="DID_SLOTVELTRACK" vdefault="1" vmin="0" vmax="1" stepped="0" mouseIncrement="0.5" />
