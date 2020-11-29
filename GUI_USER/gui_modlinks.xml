@@ -45,7 +45,304 @@
 			<CS01ModulationLinksColumn x="770" y="0" w="20"  h="20" controltype="deleteRow"       entryType="deleteRow" alignment="center"/>
 		</CS01ModulationLinksContainer>
 	</CS01ViewContainer1>
+<!-- Tips text right panel -->
+
+<ScrollView x="849" y="40" w="206" h="340" scrollbarwidth="1" internalwidth="618" internalheight="340" showScrollbars="0" name="MatrixTips">
+	
+	<ScrollView x="194" y="0" w="172" h="340" scrollbarwidth="10" internalwidth="156" internalheight="640" showScrollbars="1" name="MatrixTips2">	
+	<Rect x="7" y="0" h="340" w="165" drawMode="filled" fill_color="#00000020"/>
+
+	<StaticText y="0" style="StaticTextColorMainLineBreaksHeader" 
+text="WHAT IS THE MATRIX"  />
+	<StaticText y="12" style="StaticTextColorMainLineBreaks"
+text="The Mod Matrix is where you" />
+	<StaticText y="24" style="StaticTextColorMainLineBreaks"
+text="would set up modulation for" />
+	<StaticText y="36" style="StaticTextColorMainLineBreaks"
+text="mono and poly MIDI modes." />
+
+	<StaticText y="60" style="StaticTextColorMainLineBreaksHeader"
+text="Mono Mode" />
+	<StaticText y="72" style="StaticTextColorMainLineBreaks"
+text="-Setting things using the" />
+	<StaticText y="84" style="StaticTextColorMainLineBreaks"
+text="Voice modulator will affect" />
+	<StaticText y="96" style="StaticTextColorMainLineBreaks"
+text="all channels/layers" />
+
+	<StaticText y="120" style="StaticTextColorMainLineBreaksHeader"
+text="Poly Mode" />
+	<StaticText y="132" style="StaticTextColorMainLineBreaks"
+text="-Setting things using the" />
+	<StaticText y="144" style="StaticTextColorMainLineBreaks"
+text="Voice modulator will affect" />
+	<StaticText y="156" style="StaticTextColorMainLineBreaks"
+text="all incoming MIDI channels" />
+	<StaticText y="168" style="StaticTextColorMainLineBreaks"
+text="and their directed targets." />
+
+	<StaticText y="192" style="StaticTextColorMainLineBreaks"
+text="eg: Setting a source of" />
+	<StaticText y="204" style="StaticTextColorMainLineBreaks"
+text="CC7 to [Voice Amplitude] will" />
+	<StaticText y="216" style="StaticTextColorMainLineBreaks"
+text="make it so that MIDI CH4 will" />
+	<StaticText y="228" style="StaticTextColorMainLineBreaks"
+text="affect SNES Channel 4." />
+
+	<StaticText y="252" style="StaticTextColorMainLineBreaksHeader"
+text="Voice Modulators" />
+	<StaticText y="264" style="StaticTextColorMainLineBreaks"
+text="For modulators that are not" />
+	<StaticText y="276" style="StaticTextColorMainLineBreaks"
+text="in the voice sub-menu, you" />
+	<StaticText y="288" style="StaticTextColorMainLineBreaks"
+text="will need to set it up on a" />
+	<StaticText y="300" style="StaticTextColorMainLineBreaks"
+text="per-channel basis." />
+
+	<StaticText y="324" style="StaticTextColorMainLineBreaks"
+text="When I created Presets for" />
+	<StaticText y="336" style="StaticTextColorMainLineBreaks"
+text="chipsynth SFC, it came with a" />
+	<StaticText y="348" style="StaticTextColorMainLineBreaks"
+text="bunch of Poly-Timbral presets" />
+	<StaticText y="360" style="StaticTextColorMainLineBreaks"
+text="that you can use to not have" />
+	<StaticText y="372" style="StaticTextColorMainLineBreaks"
+text="to spend a lot of time setting" />
+	<StaticText y="384" style="StaticTextColorMainLineBreaks"
+text="general MIDI controllers up." />
+	<StaticText y="396" style="StaticTextColorMainLineBreaks"
+text="Feel free to use them! :)" />
+
+	<StaticText y="420" style="StaticTextColorMainLineBreaksHeader"
+text="Echo/Delay Modulators" />
+	<StaticText y="432" style="StaticTextColorMainLineBreaks"
+text="Due to the needed compatibility" />
+	<StaticText y="444" style="StaticTextColorMainLineBreaks"
+text="with chipcrusher v2, it is not" />
+	<StaticText y="456" style="StaticTextColorMainLineBreaks"
+text="currently possible to modulate" />
+	<StaticText y="468" style="StaticTextColorMainLineBreaks"
+text="most of the Echo/Delay settings" />
+	<StaticText y="480" style="StaticTextColorMainLineBreaks"
+text="at this time." />
+
+	<StaticText y="504" style="StaticTextColorMainLineBreaksHeader"
+text="Amp Modulators" />
+	<StaticText y="516" style="StaticTextColorMainLineBreaks"
+text="It's best to use the Scaled"/>
+	<StaticText y="528" style="StaticTextColorMainLineBreaks"
+text="math setting for volume" />
+	<StaticText y="540" style="StaticTextColorMainLineBreaks"
+text="commands so that they scale" />
+	<StaticText y="552" style="StaticTextColorMainLineBreaks"
+text="in proportion to other volume" />
+	<StaticText y="564" style="StaticTextColorMainLineBreaks"
+text="commands." />
+
+	<StaticText y="588" style="StaticTextColorMainLineBreaks"
+text="For more information about how" />
+	<StaticText y="600" style="StaticTextColorMainLineBreaks"
+text="to use the Mod Matrix, check" />
+	<StaticText y="612" style="StaticTextColorMainLineBreaks"
+text="out my SNES Music YouTube" />
+	<StaticText y="624" style="StaticTextColorMainLineBreaks"
+text="series on" />
+	<StaticText x="55" y="624" style="StaticTextColorMainLineBreaks"
+ text="youtube.com/tssf" url="https://www.youtube.com/watch?v=ZhWsz4heXNw&amp;list=PLNRafIhbJER2W5m-JD5-4zRy1D2zcnlfE&amp;index=10" color_text="#AAAAFFD0"/>
+	
+	</ScrollView>
+
+	<ScrollView x="400" y="0" w="172" h="340" scrollbarwidth="10" internalwidth="156" internalheight="1096" showScrollbars="1" name="MatrixTips2">	
+	<Rect x="7" y="0" h="340" w="165" drawMode="filled" fill_color="#00000020"/>
+
+	<StaticText y="0" style="StaticTextColorMainLineBreaksHeader"
+text="GLOSSARY OF COLUMNS" />
+
+	<StaticText y="24" style="StaticTextColorMainLineBreaksHeader"
+text="Source" />
+	<StaticText y="36" style="StaticTextColorMainLineBreaks"
+text="Sets the source of the effect." />
+	<StaticText y="48" style="StaticTextColorMainLineBreaks"	
+text="This can be MIDI Continuous" />
+	<StaticText y="60" style="StaticTextColorMainLineBreaks"	
+text="Controllers, or things such as"/>
+	<StaticText y="72" style="StaticTextColorMainLineBreaks"
+text="Step Modulators, the Pitch"/>
+	<StaticText y="84" style="StaticTextColorMainLineBreaks"
+text="Bend Wheel, key tracking, etc."/>
+
+	<StaticText y="108" style="StaticTextColorMainLineBreaksHeader"
+text="Function" />
+	<StaticText y="120" style="StaticTextColorMainLineBreaks"
+text="Allows you to select the" />
+	<StaticText y="132" style="StaticTextColorMainLineBreaks"
+text="mathematical steepness of the" />
+	<StaticText y="144" style="StaticTextColorMainLineBreaks"
+text="curve, or even invert it."/>
+
+	<StaticText y="168" style="StaticTextColorMainLineBreaks"
+text="example:" />
+	<StaticText y="180" style="StaticTextColorMainLineBreaks"
+text="If you want to control the note" />
+	<StaticText y="192" style="StaticTextColorMainLineBreaks"
+text="velocity's volume steepness,"/>
+	<StaticText y="204" style="StaticTextColorMainLineBreaks"
+text="you would set the source to" />
+	<StaticText y="216" style="StaticTextColorMainLineBreaks"
+text="MIDI - Velocity (Poly) and the" />
+	<StaticText y="228" style="StaticTextColorMainLineBreaks"
+text="Destination to a volume of your" />
+	<StaticText y="240" style="StaticTextColorMainLineBreaks"
+text="choice. The function would then" />
+	<StaticText y="252" style="StaticTextColorMainLineBreaks"
+text="give you more options for" />
+	<StaticText y="264" style="StaticTextColorMainLineBreaks"
+text="changing how sensitive the" />
+	<StaticText y="276" style="StaticTextColorMainLineBreaks"
+text="note velocity curve. (This is" />
+	<StaticText y="288" style="StaticTextColorMainLineBreaks"
+text="just an example, but it's easier" />
+	<StaticText y="300" style="StaticTextColorMainLineBreaks"
+text="to achieve this by modifying the" />
+	<StaticText y="312" style="StaticTextColorMainLineBreaks"
+text="option in the Settings button at" />
+	<StaticText y="324" style="StaticTextColorMainLineBreaks"
+text="the top of chipsynth SFC. This" />
+	<StaticText y="336" style="StaticTextColorMainLineBreaks"
+text="does give you more control for" />
+	<StaticText y="348" style="StaticTextColorMainLineBreaks"
+text="other effects, though.)" />
+
+	<StaticText y="372" style="StaticTextColorMainLineBreaksHeader"
+text="Control" />
+	<StaticText y="384" style="StaticTextColorMainLineBreaks"
+text="Allows you to assign an alternate" />
+	<StaticText y="396" style="StaticTextColorMainLineBreaks"
+text="control mechanism to a source" />
+	<StaticText y="408" style="StaticTextColorMainLineBreaks"
+text="that is constant."/>
+
+	<StaticText y="432" style="StaticTextColorMainLineBreaks"
+text="example:" />
+	<StaticText y="444" style="StaticTextColorMainLineBreaks"
+text="Using on a step modulator to" />
+	<StaticText y="456" style="StaticTextColorMainLineBreaks"
+text="modulate pitch for vibrato will" />
+	<StaticText y="468" style="StaticTextColorMainLineBreaks"
+text="allow you to control its depth" />
+	<StaticText y="480" style="StaticTextColorMainLineBreaks"
+text="dynamically by assigning a" />
+	<StaticText y="492" style="StaticTextColorMainLineBreaks"
+text="control to CC 1. This is a default" />
+	<StaticText y="504" style="StaticTextColorMainLineBreaks"
+text="setting in chipsynth SFC)" />
+
+	<StaticText y="528" style="StaticTextColorMainLineBreaksHeader"
+text="Function" />
+	<StaticText y="540" style="StaticTextColorMainLineBreaks"
+text="Similar to the function in" />
+	<StaticText y="552" style="StaticTextColorMainLineBreaks"
+text="source, but controls Source." />
+
+	<StaticText y="576" style="StaticTextColorMainLineBreaksHeader"
+text="Destination" />
+	<StaticText y="588" style="StaticTextColorMainLineBreaks"
+text="Allows you to set the effect you" />
+	<StaticText y="600" style="StaticTextColorMainLineBreaks"
+text="want to control." />
+
+	<StaticText y="624" style="StaticTextColorMainLineBreaksHeader"
+text="Range" />
+	<StaticText y="636" style="StaticTextColorMainLineBreaks"
+text="Lets you set the depth range of" />
+	<StaticText y="648" style="StaticTextColorMainLineBreaks"
+text="an effect." />
+
+	<StaticText y="672" style="StaticTextColorMainLineBreaks"
+text="example:" />
+	<StaticText y="684" style="StaticTextColorMainLineBreaks"
+text="If you want to set up a pan effect," />
+	<StaticText y="696" style="StaticTextColorMainLineBreaks"
+text="you could set the source to CC10," />
+	<StaticText y="708" style="StaticTextColorMainLineBreaks"
+text="the function to Linear, leave" />
+	<StaticText y="720" style="StaticTextColorMainLineBreaks"
+text="Control/Function blank, set the" />
+	<StaticText y="732" style="StaticTextColorMainLineBreaks"
+text="Destination to the desired" />
+	<StaticText y="744" style="StaticTextColorMainLineBreaks"
+text="channel pan you want to set, and" />
+	<StaticText y="756" style="StaticTextColorMainLineBreaks"
+text="then set the range -100% to" />
+	<StaticText y="768" style="StaticTextColorMainLineBreaks"
+text="100%." />
+
+	<StaticText y="792" style="StaticTextColorMainLineBreaksHeader"
+text="Inv" />
+	<StaticText y="804" style="StaticTextColorMainLineBreaks"
+text="Inverts the depth of the range." />
+
+	<StaticText y="828" style="StaticTextColorMainLineBreaksHeader"
+text="Math" />
+	<StaticText y="840" style="StaticTextColorMainLineBreaks"
+text="Replace - Replaces the chosen" />
+	<StaticText y="852" style="StaticTextColorMainLineBreaks"
+text="effect parameter in the" />
+	<StaticText y="864" style="StaticTextColorMainLineBreaks"
+text="channel/layer" />
+
+	<StaticText y="888" style="StaticTextColorMainLineBreaks"
+text="Offset - Changes parameter in" />
+	<StaticText y="900" style="StaticTextColorMainLineBreaks"
+text="relation to the setting in the" />
+	<StaticText y="912" style="StaticTextColorMainLineBreaks"
+text="channels tab" />
+
+	<StaticText y="936" style="StaticTextColorMainLineBreaks"
+text="Accum - Accumulates to the" />
+	<StaticText y="948" style="StaticTextColorMainLineBreaks"
+text="current setting in the channels" />
+	<StaticText y="960" style="StaticTextColorMainLineBreaks"
+text="tab" />
+
+	<StaticText y="984" style="StaticTextColorMainLineBreaks"
+text="Scale - Use this when wanting to" />
+	<StaticText y="996" style="StaticTextColorMainLineBreaks"
+text="set up something like CC7 and" />
+	<StaticText y="1008" style="StaticTextColorMainLineBreaks"
+text="CC11 volumes so they scale in" />
+	<StaticText y="1020" style="StaticTextColorMainLineBreaks"
+text="proportion to each other." /> 
+
+	<StaticText y="1044" style="StaticTextColorMainLineBreaks"
+text="For more information about how" />
+	<StaticText y="1056" style="StaticTextColorMainLineBreaks"
+text="to use the Mod Matrix, check" />
+	<StaticText y="1068" style="StaticTextColorMainLineBreaks"
+text="out my SNES Music YouTube" />
+	<StaticText y="1080" style="StaticTextColorMainLineBreaks"
+text="series on" />
+	<StaticText x="55" y="1080" style="StaticTextColorMainLineBreaks"
+ text="youtube.com/tssf" url="https://www.youtube.com/watch?v=ZhWsz4heXNw&amp;list=PLNRafIhbJER2W5m-JD5-4zRy1D2zcnlfE&amp;index=10" color_text="#AAAAFFD0"/>
+	
+	</ScrollView>
+</ScrollView>
+	
+	<CS01ScrollViewPageController x="885" y="23" w="157" h="20" type="0" style="ScrollViewPageController" frameColor="#FFFFFF00" 
+			frameDraw="0" scrollViewName="MatrixTips" image_1="SVEmpty.svg" image_2="SVEmpty.svg" image_1HL="SVEmpty.svg" image_2HL="SVEmpty.svg" disabledLuminanceChange="0" name="MatrixTipsController" showPageName="1" showPageNameType="2" font="SFCHEADING_12" 
+			circleEdit="0" circleEditColor="#00000000" showPageNameCheckCurrentValue="1">
+		<PageName idx="0" name="Show Tips"/>
+		<PageName idx="1" name="Mod Matrix"/>
+		<PageName idx="2" name="Glossary"/>
+		
+
+	</CS01ScrollViewPageController>
+
 </GUI>
+
 
 
 

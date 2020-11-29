@@ -33,7 +33,7 @@
 	
 </VisibilityContainer>
 	<!--Time-->	
-	<CS03Knob style="SPCKnob3" param="898" x="48" y="20" showValueTextOnHL="0" label_fontColor="#000000d0" xvmin="0" vdefault="5" vmax="15" stepped="1" labelText="ms" factor="15" mouseIncrement="0.08" />
+	<CS03Knob style="SPCKnob3" param="898" x="48" y="20" showValueTextOnHL="0" label_fontColor="#000000d0" xvmin="0" vdefault="5" vmax="15" stepped="1" labelText="ms" factor="1" mouseIncrement="0.08" />
 
 	<StaticText text="0" y="18"  style="EchoStripText" />  <StaticText text="128" x="25" y="18" style="EchoStripText" />
 	<StaticText text="16" y="28" style="EchoStripText" />  <StaticText text="144" x="25" y="28"  style="EchoStripText" />

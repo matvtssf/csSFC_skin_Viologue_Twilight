@@ -59,12 +59,12 @@
 		
 		<!-- Steps Bar Amount -->
 
-		<CS01RadioButtons role="gridScale" param="5" x="874" y="110" w="125" h="15" vmin="4" vmax="64" vdefault="0" enabledByOnOff="1" checkCurrentValue="1" preventIdle="1"  >
+		<CS01RadioButtons role="gridScale" param="5" x="874" y="110" w="125" h="15" vmin="4" vmax="64" vdefault="0" enabledByOnOff="1" checkCurrentValue="1" preventIdle="1" >
 		<OptionItem x="0"   y="0"  value="4" w="25" h="15" label_on="4" label_off="4" font="SFC_12" />
 		<OptionItem x="25"  y="0"  value="8" w="25" h="15" label_on="8" label_off="8" font="SFC_12" />
 		<OptionItem x="50" y="0"  value="16" w="25" h="15" label_on="16" label_off="16" font="SFC_12" />
 		<OptionItem x="75" y="0"  value="32" w="25" h="15" label_on="32" label_off="32" font="SFC_12" />
-		<OptionItem x="100" y="0"  value="64" w="25" h="15" label_on="64" label_off="64" font="SFC_12" />
+		<OptionItem x="100" y="0"  value="64" w="25" h="15" label_on="64" label_off="64" font="SFC_12"  />
 		</CS01RadioButtons>
 		<StaticText x="875" y="120" w="118" h="16" style="StaticTextStep" alignment="center" text="Number of Step Bars" font="SFC_9"/>
 

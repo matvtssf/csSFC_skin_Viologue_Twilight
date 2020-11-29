@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUI x="850" y="90" w="158" h="340" backgroundColor="#00000000">
+	
+	<StaticText x="0" y="0" h="970" w="200" alignment="left" font="SFC_10" style="StaticTextColorMain"
+
+text="The Mod Matrix is where you
+would set up modulation for
+mono and poly MIDI modes.
+
+MONO MODE:
+-Setting things using the
+Voice modulator will affect
+all channels/layers
+
+POLY MODE:
+-Setting things using the
+Voice modulator will affect
+all incoming MIDI channels
+and their directed targets.
+
+eg: Setting a source of
+CC7 to [Voice Amplitude] will
+make it so that MIDI CH4 will
+affect SNES Channel 4.
+
+VOICE MODULATORS:
+For modulators that are not
+in the voice sub-menu, you
+will need to set it up on a
+per-channel basis.
+
+When I created Presets for
+chipsynth SFC, it came with a
+bunch of Poly-Timbral presets
+that you can use to not have
+to spend a lot of time setting
+general MIDI controllers up.
+
+Feel free to use them! :)
+
+DELAY MODULATORS:
+Due to the needed compatibility
+with chipcrusher v2, it is not
+currently possible to modulate
+most of the Echo/Delay settings
+at this time.
+
+VOLUME MODULATORS:
+It's best to use the Scaled
+math setting for volume
+commands so that they scale
+in proportion to other volume
+commands.
+
+For more information about how
+to use the Mod Matrix, check
+out my SNES Music YouTube
+series on youtube.com/tssf" />
+
+</GUI>

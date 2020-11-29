@@ -22,7 +22,7 @@
 			style="Browser" scrollbarSize="8" entries_font="SFC_11"
 			entries_indent="12" entries_height="13" entries_heightSpacing="4"
 			image_opened="containerOpened.svg" image_closed="containerClosed.svg"
-			doubleClickSelection="0" hovering="1" rootName="Files" target="load:file|com.Plogue.Emulator.SFC" hovered_fontColor="#FFFFFFAA" 			dragEnabled="0" dropEnabled="0" dragType="browser-VGM" allowMultipleItemsDrag="0" allowMultipleItemsSelection="0" dropType="" drag_fontColor="#430000DE" drag_font_size="small" />
+			doubleClickSelection="0" hovering="1" rootName="Files" target="load:file|com.Plogue.Emulator.SFC" dragEnabled="0" dropEnabled="0" dragType="browser-VGM" allowMultipleItemsDrag="0" allowMultipleItemsSelection="0" dropType="" drag_fontColor="#430000DE" drag_font_size="small" />
 		
 			<CS01TextButton x="10" y="360" role="setBaseDirSource" prefs="1;1;SFCBaseDir" w="150" h="15" text="📁    Select Folder" style="ExpandViewButtons" />
 
@@ -56,9 +56,10 @@
 		<VisibilityContainer x="0" y="0" w="488" h="415">
 			<RoundedRect x="0" y="0" w="487" h="414" style="VGMLCDFrame"/>
 			<StaticImage x="14" y="392" image="PlogueSPCLogo.svg"/>
+			<RoundedRect x="452" y="403" w="25" h="10" style="VGMRightPanelHighlights"/>
 		</VisibilityContainer>
 		<Picture8Data x="4" y="4" w="480" h="384" target="com.Plogue.Emulator.SFC|0|8B17|0" param="DID_CUSTOM_DATA"/>
-
+		
 	<!-- Small -->
 
 		<!-- Let's Try to Draw a TV using the internal shapes :) -->
@@ -81,6 +82,11 @@
 			<RoundedRect x="85" y="350" w="318" h="10" style="VGMLCDFrame" />
 			<RoundedRect x="65" y="380" w="358" h="10" style="VGMLCDFrame" />
 			<RoundedRect x="370" y="365" w="20" h="10" style="VGMLCDFrame" />
+			<Ellipse x="395" y="368" w="5" h="5" drawMode="filled" fill_color="#FF000080" />
+
+			<Rect x="82" y="62" w="324" h="261" drawMode="stroked" frameWidth="6" border_color="#00000060"/>
+
+			<RoundedRect x="427" y="403" w="17" h="10" style="VGMRightPanelHighlights"/>
 		</VisibilityContainer>
 		<Picture8Data x="572" y="64" w="320" h="256" target="com.Plogue.Emulator.SFC|0|8B17|0" param="DID_CUSTOM_DATA"/>			
 

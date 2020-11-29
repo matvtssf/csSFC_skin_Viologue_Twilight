@@ -1,30 +1,689 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GUI w="1024" h="471" backgroundColor="#00000000">
-<Line x="70" y="70" w="40" h="40" drawMode="filled" frameWidth="7" border_color="#AA425CFF" fill_color="#AA425CFF" />
- <!-- kSyncDraw -->
-	<OnOffButton eslot="" param="6" x="2" y="4" w="16" h="16" image="toggle.png" inverse="1"  />
+
+<VisibilityContainer x="800" y="0" w="100" h="200">
+<CS01Knob x="0" y="0" style="VisCustom" param="512" format="CH%5.5f" stepped="0">
+</CS01Knob>
+<CS01Knob x="0" y="10" style="VisCustom" param="501" format=" %5.5f">
+</CS01Knob>
+<CS01Knob x="0" y="20" style="VisCustom" param="502" format=" %5.5f">
+</CS01Knob>
+<CS01Knob x="0" y="30" style="VisCustom" param="503" format=" %5.5f">
+</CS01Knob>
+<CS01Knob x="0" y="40" style="VisCustom" param="504" format=" %5.5f">
+</CS01Knob>
+<CS01Knob x="0" y="50" style="VisCustom" param="505" format=" %5.5f">
+</CS01Knob>
+<CS01Knob x="0" y="60" style="VisCustom" param="506" format=" %5.5f">
+</CS01Knob>
+<CS01Knob x="0" y="70" style="VisCustom" param="507" format=" %5.5f">
+</CS01Knob>
+<CS01Knob x="0" y="80" style="VisCustom" param="508" format=" %5.5f">
+</CS01Knob>
+<CS01Knob x="0" y="90" style="VisCustom" param="509" format=" %5.5f">
+</CS01Knob>
+<CS01Knob x="0" y="100" style="VisCustom" param="510" format=" %5.5f">
+</CS01Knob>
+<CS01Knob x="0" y="110" style="VisCustom" param="511" format=" %5.5f">
+</CS01Knob>
+
+</VisibilityContainer>
+<XMLMacroText name="ValueHex">
+	<![CDATA[
+		<OptionItem value="000" name="00 (000)"/>
+		<OptionItem value="001" name="01 (001)"/>
+		<OptionItem value="002" name="02 (002)"/>
+		<OptionItem value="003" name="03 (003)"/>
+		<OptionItem value="004" name="04 (004)"/>
+		<OptionItem value="005" name="05 (005)"/>
+		<OptionItem value="006" name="06 (006)"/>
+		<OptionItem value="007" name="07 (007)"/>
+		<OptionItem value="008" name="08 (008)"/>
+		<OptionItem value="009" name="09 (009)"/>
+		<OptionItem value="010" name="0A (010)"/>
+		<OptionItem value="011" name="0B (011)"/>
+		<OptionItem value="012" name="0C (012)"/>
+		<OptionItem value="013" name="0D (013)"/>
+		<OptionItem value="014" name="0E (014)"/>
+		<OptionItem value="015" name="0F (015)"/>
+		<OptionItem value="016" name="10 (016)"/>
+		<OptionItem value="017" name="11 (017)"/>
+		<OptionItem value="018" name="12 (018)"/>
+		<OptionItem value="019" name="13 (019)"/>
+		<OptionItem value="020" name="14 (020)"/>
+		<OptionItem value="021" name="15 (021)"/>
+		<OptionItem value="022" name="16 (022)"/>
+		<OptionItem value="023" name="17 (023)"/>
+		<OptionItem value="024" name="18 (024)"/>
+		<OptionItem value="025" name="19 (025)"/>
+		<OptionItem value="026" name="1A (026)"/>
+		<OptionItem value="027" name="1B (027)"/>
+		<OptionItem value="028" name="1C (028)"/>
+		<OptionItem value="029" name="1D (029)"/>
+		<OptionItem value="030" name="1E (030)"/>
+		<OptionItem value="031" name="1F (031)"/>
+		<OptionItem value="032" name="20 (032)"/>
+		<OptionItem value="033" name="21 (033)"/>
+		<OptionItem value="034" name="22 (034)"/>
+		<OptionItem value="035" name="23 (035)"/>
+		<OptionItem value="036" name="24 (036)"/>
+		<OptionItem value="037" name="25 (037)"/>
+		<OptionItem value="038" name="26 (038)"/>
+		<OptionItem value="039" name="27 (039)"/>
+		<OptionItem value="040" name="28 (040)"/>
+		<OptionItem value="041" name="29 (041)"/>
+		<OptionItem value="042" name="2A (042)"/>
+		<OptionItem value="043" name="2B (043)"/>
+		<OptionItem value="044" name="2C (044)"/>
+		<OptionItem value="045" name="2D (045)"/>
+		<OptionItem value="046" name="2E (046)"/>
+		<OptionItem value="047" name="2F (047)"/>
+		<OptionItem value="048" name="30 (048)"/>
+		<OptionItem value="049" name="31 (049)"/>
+		<OptionItem value="050" name="32 (050)"/>
+		<OptionItem value="051" name="33 (051)"/>
+		<OptionItem value="052" name="34 (052)"/>
+		<OptionItem value="053" name="35 (053)"/>
+		<OptionItem value="054" name="36 (054)"/>
+		<OptionItem value="055" name="37 (055)"/>
+		<OptionItem value="056" name="38 (056)"/>
+		<OptionItem value="057" name="39 (057)"/>
+		<OptionItem value="058" name="3A (058)"/>
+		<OptionItem value="059" name="3B (059)"/>
+		<OptionItem value="060" name="3C (060)"/>
+		<OptionItem value="061" name="3D (061)"/>
+		<OptionItem value="062" name="3E (062)"/>
+		<OptionItem value="063" name="3F (063)"/>
+		<OptionItem value="064" name="40 (064)"/>
+		<OptionItem value="065" name="41 (065)"/>
+		<OptionItem value="066" name="42 (066)"/>
+		<OptionItem value="067" name="43 (067)"/>
+		<OptionItem value="068" name="44 (068)"/>
+		<OptionItem value="069" name="45 (069)"/>
+		<OptionItem value="070" name="46 (070)"/>
+		<OptionItem value="071" name="47 (071)"/>
+		<OptionItem value="072" name="48 (072)"/>
+		<OptionItem value="073" name="49 (073)"/>
+		<OptionItem value="074" name="4A (074)"/>
+		<OptionItem value="075" name="4B (075)"/>
+		<OptionItem value="076" name="4C (076)"/>
+		<OptionItem value="077" name="4D (077)"/>
+		<OptionItem value="078" name="4E (078)"/>
+		<OptionItem value="079" name="4F (079)"/>
+		<OptionItem value="080" name="50 (080)"/>
+		<OptionItem value="081" name="51 (081)"/>
+		<OptionItem value="082" name="52 (082)"/>
+		<OptionItem value="083" name="53 (083)"/>
+		<OptionItem value="084" name="54 (084)"/>
+		<OptionItem value="085" name="55 (085)"/>
+		<OptionItem value="086" name="56 (086)"/>
+		<OptionItem value="087" name="57 (087)"/>
+		<OptionItem value="088" name="58 (088)"/>
+		<OptionItem value="089" name="59 (089)"/>
+		<OptionItem value="090" name="5A (090)"/>
+		<OptionItem value="091" name="5B (091)"/>
+		<OptionItem value="092" name="5C (092)"/>
+		<OptionItem value="093" name="5D (093)"/>
+		<OptionItem value="094" name="5E (094)"/>
+		<OptionItem value="095" name="6F (095)"/>
+		<OptionItem value="096" name="60 (096)"/>
+		<OptionItem value="097" name="61 (097)"/>
+		<OptionItem value="098" name="62 (098)"/>
+		<OptionItem value="099" name="63 (099)"/>
+		<OptionItem value="100" name="64 (100)"/>
+		<OptionItem value="101" name="65 (101)"/>
+		<OptionItem value="102" name="66 (102)"/>
+		<OptionItem value="103" name="67 (103)"/>
+		<OptionItem value="104" name="68 (104)"/>
+		<OptionItem value="105" name="69 (105)"/>
+		<OptionItem value="106" name="6A (106)"/>
+		<OptionItem value="107" name="6B (107)"/>
+		<OptionItem value="108" name="6C (108)"/>
+		<OptionItem value="109" name="6D (109)"/>
+		<OptionItem value="110" name="6E (110)"/>
+		<OptionItem value="111" name="6F (111)"/>
+		<OptionItem value="112" name="70 (112)"/>
+		<OptionItem value="113" name="71 (113)"/>
+		<OptionItem value="114" name="72 (114)"/>
+		<OptionItem value="115" name="73 (115)"/>
+		<OptionItem value="116" name="74 (116)"/>
+		<OptionItem value="117" name="75 (117)"/>
+		<OptionItem value="118" name="76 (118)"/>
+		<OptionItem value="119" name="77 (119)"/>
+		<OptionItem value="120" name="78 (120)"/>
+		<OptionItem value="121" name="79 (121)"/>
+		<OptionItem value="122" name="7A (122)"/>
+		<OptionItem value="123" name="7B (123)"/>
+		<OptionItem value="124" name="7C (124)"/>
+		<OptionItem value="125" name="7D (125)"/>
+		<OptionItem value="126" name="7E (126)"/>
+		<OptionItem value="127" name="7F (127)"/>	
 		
-	<!-- kTimeWindow -->
-	<DragLabel   eslot="" param="4" x="62" y="3"  w="50" h="18" format="%3.f%%"  transparent="1" offset="0" factor="100" />
+	]]>
+	</XMLMacroText>
 
-	<!-- kAmpWindow-->
-	<DragLabel   eslot="" param="5" x="152" y="3" w="50" h="18" format="%3.f%%" transparent="1"   offset="0" factor="200" />
+<XMLMacroText name="VisValues">
+	<![CDATA[
+		
+		<OptionItem value="0" name="   0"/>
+		<OptionItem value="1" name="   1"/>
+		<OptionItem value="2" name="   2"/>
+		<OptionItem value="3" name="   3"/>
+		<OptionItem value="4" name="   4"/>
+		<OptionItem value="5" name="   5"/>
+		<OptionItem value="6" name="   6"/>
+		<OptionItem value="7" name="   7"/>
+		<OptionItem value="8" name="   8"/>
+		<OptionItem value="9" name="   9"/>
+		<OptionItem value="10" name="  10"/>
+		<OptionItem value="11" name="  11"/>
+		<OptionItem value="12" name="  12"/>
+		<OptionItem value="13" name="  13"/>
+		<OptionItem value="14" name="  14"/>
+		<OptionItem value="15" name="  15"/>
+		<OptionItem value="16" name="  16"/>
+		<OptionItem value="17" name="  17"/>
+		<OptionItem value="18" name="  18"/>
+		<OptionItem value="19" name="  19"/>
+		<OptionItem value="20" name="  20"/>
+		<OptionItem value="21" name="  21"/>
+		<OptionItem value="22" name="  22"/>
+		<OptionItem value="23" name="  23"/>
+		<OptionItem value="24" name="  24"/>
+		<OptionItem value="25" name="  25"/>
+		<OptionItem value="26" name="  26"/>
+		<OptionItem value="27" name="  27"/>
+		<OptionItem value="28" name="  28"/>
+		<OptionItem value="29" name="  29"/>
+		<OptionItem value="30" name="  30"/>
+		<OptionItem value="31" name="  31"/>
+		<OptionItem value="32" name="  32"/>
+		<OptionItem value="33" name="  33"/>
+		<OptionItem value="34" name="  34"/>
+		<OptionItem value="35" name="  35"/>
+		<OptionItem value="36" name="  36"/>
+		<OptionItem value="37" name="  37"/>
+		<OptionItem value="38" name="  38"/>
+		<OptionItem value="39" name="  39"/>
+		<OptionItem value="40" name="  40"/>
+		<OptionItem value="41" name="  41"/>
+		<OptionItem value="42" name="  42"/>
+		<OptionItem value="43" name="  43"/>
+		<OptionItem value="44" name="  44"/>
+		<OptionItem value="45" name="  45"/>
+		<OptionItem value="46" name="  46"/>
+		<OptionItem value="47" name="  47"/>
+		<OptionItem value="48" name="  48"/>
+		<OptionItem value="49" name="  49"/>
+		<OptionItem value="50" name="  50"/>
+		<OptionItem value="51" name="  51"/>
+		<OptionItem value="52" name="  52"/>
+		<OptionItem value="53" name="  53"/>
+		<OptionItem value="54" name="  54"/>
+		<OptionItem value="55" name="  55"/>
+		<OptionItem value="56" name="  56"/>
+		<OptionItem value="57" name="  57"/>
+		<OptionItem value="58" name="  58"/>
+		<OptionItem value="59" name="  59"/>
+		<OptionItem value="60" name="  60"/>
+		<OptionItem value="61" name="  61"/>
+		<OptionItem value="62" name="  62"/>
+		<OptionItem value="63" name="  63"/>
+		<OptionItem value="64" name="  64"/>
+		<OptionItem value="65" name="  65"/>
+		<OptionItem value="66" name="  66"/>
+		<OptionItem value="67" name="  67"/>
+		<OptionItem value="68" name="  68"/>
+		<OptionItem value="69" name="  69"/>
+		<OptionItem value="70" name="  70"/>
+		<OptionItem value="71" name="  71"/>
+		<OptionItem value="72" name="  72"/>
+		<OptionItem value="73" name="  73"/>
+		<OptionItem value="74" name="  74"/>
+		<OptionItem value="75" name="  75"/>
+		<OptionItem value="76" name="  76"/>
+		<OptionItem value="77" name="  77"/>
+		<OptionItem value="78" name="  78"/>
+		<OptionItem value="79" name="  79"/>
+		<OptionItem value="80" name="  80"/>
+		<OptionItem value="81" name="  81"/>
+		<OptionItem value="82" name="  82"/>
+		<OptionItem value="83" name="  83"/>
+		<OptionItem value="84" name="  84"/>
+		<OptionItem value="85" name="  85"/>
+		<OptionItem value="86" name="  86"/>
+		<OptionItem value="87" name="  87"/>
+		<OptionItem value="88" name="  88"/>
+		<OptionItem value="89" name="  89"/>
+		<OptionItem value="90" name="  90"/>
+		<OptionItem value="91" name="  91"/>
+		<OptionItem value="92" name="  92"/>
+		<OptionItem value="93" name="  93"/>
+		<OptionItem value="94" name="  94"/>
+		<OptionItem value="95" name="  95"/>
+		<OptionItem value="96" name="  96"/>
+		<OptionItem value="97" name="  97"/>
+		<OptionItem value="98" name="  98"/>
+		<OptionItem value="99" name="  99"/>
+		<OptionItem value="100" name=" 100"/>
+		<OptionItem value="101" name=" 101"/>
+		<OptionItem value="102" name=" 102"/>
+		<OptionItem value="103" name=" 103"/>
+		<OptionItem value="104" name=" 104"/>
+		<OptionItem value="105" name=" 105"/>
+		<OptionItem value="106" name=" 106"/>
+		<OptionItem value="107" name=" 107"/>
+		<OptionItem value="108" name=" 108"/>
+		<OptionItem value="109" name=" 109"/>
+		<OptionItem value="110" name=" 110"/>
+		<OptionItem value="111" name=" 111"/>
+		<OptionItem value="112" name=" 112"/>
+		<OptionItem value="113" name=" 113"/>
+		<OptionItem value="114" name=" 114"/>
+		<OptionItem value="115" name=" 115"/>
+		<OptionItem value="116" name=" 116"/>
+		<OptionItem value="117" name=" 117"/>
+		<OptionItem value="118" name=" 118"/>
+		<OptionItem value="119" name=" 119"/>
+		<OptionItem value="120" name=" 120"/>
+		<OptionItem value="121" name=" 121"/>
+		<OptionItem value="122" name=" 122"/>
+		<OptionItem value="123" name=" 123"/>
+		<OptionItem value="124" name=" 124"/>
+		<OptionItem value="125" name=" 125"/>
+		<OptionItem value="126" name=" 126"/>
+		<OptionItem value="127" name=" 127"/>	
+		<OptionItem value="128" name=" 128"/>
+		<OptionItem value="-1" name="  -1"/>
+		<OptionItem value="-2" name="  -2"/>
+		<OptionItem value="-3" name="  -3"/>
+		<OptionItem value="-4" name="  -4"/>
+		<OptionItem value="-5" name="  -5"/>
+		<OptionItem value="-6" name="  -6"/>
+		<OptionItem value="-7" name="  -7"/>
+		<OptionItem value="-8" name="  -8"/>
+		<OptionItem value="-9" name="  -9"/>
+		<OptionItem value="-10" name=" -10"/>
+		<OptionItem value="-11" name=" -11"/>
+		<OptionItem value="-12" name=" -12"/>
+		<OptionItem value="-13" name=" -13"/>
+		<OptionItem value="-14" name=" -14"/>
+		<OptionItem value="-15" name=" -15"/>
+		<OptionItem value="-16" name=" -16"/>
+		<OptionItem value="-17" name=" -17"/>
+		<OptionItem value="-18" name=" -18"/>
+		<OptionItem value="-19" name=" -19"/>
+		<OptionItem value="-20" name=" -20"/>
+		<OptionItem value="-21" name=" -21"/>
+		<OptionItem value="-22" name=" -22"/>
+		<OptionItem value="-23" name=" -23"/>
+		<OptionItem value="-24" name=" -24"/>
+		<OptionItem value="-25" name=" -25"/>
+		<OptionItem value="-26" name=" -26"/>
+		<OptionItem value="-27" name=" -27"/>
+		<OptionItem value="-28" name=" -28"/>
+		<OptionItem value="-29" name=" -29"/>
+		<OptionItem value="-30" name=" -30"/>
+		<OptionItem value="-31" name=" -31"/>
+		<OptionItem value="-32" name=" -32"/>
+		<OptionItem value="-33" name=" -33"/>
+		<OptionItem value="-34" name=" -34"/>
+		<OptionItem value="-35" name=" -35"/>
+		<OptionItem value="-36" name=" -36"/>
+		<OptionItem value="-37" name=" -37"/>
+		<OptionItem value="-38" name=" -38"/>
+		<OptionItem value="-39" name=" -39"/>
+		<OptionItem value="-40" name=" -40"/>
+		<OptionItem value="-41" name=" -41"/>
+		<OptionItem value="-42" name=" -42"/>
+		<OptionItem value="-43" name=" -43"/>
+		<OptionItem value="-44" name=" -44"/>
+		<OptionItem value="-45" name=" -45"/>
+		<OptionItem value="-46" name=" -46"/>
+		<OptionItem value="-47" name=" -47"/>
+		<OptionItem value="-48" name=" -48"/>
+		<OptionItem value="-49" name=" -49"/>
+		<OptionItem value="-50" name=" -50"/>
+		<OptionItem value="-51" name=" -51"/>
+		<OptionItem value="-52" name=" -52"/>
+		<OptionItem value="-53" name=" -53"/>
+		<OptionItem value="-54" name=" -54"/>
+		<OptionItem value="-55" name=" -55"/>
+		<OptionItem value="-56" name=" -56"/>
+		<OptionItem value="-57" name=" -57"/>
+		<OptionItem value="-58" name=" -58"/>
+		<OptionItem value="-59" name=" -59"/>
+		<OptionItem value="-60" name=" -60"/>
+		<OptionItem value="-61" name=" -61"/>
+		<OptionItem value="-62" name=" -62"/>
+		<OptionItem value="-63" name=" -63"/>
+		<OptionItem value="-64" name=" -64"/>
+		<OptionItem value="-65" name=" -65"/>
+		<OptionItem value="-66" name=" -66"/>
+		<OptionItem value="-67" name=" -67"/>
+		<OptionItem value="-68" name=" -68"/>
+		<OptionItem value="-69" name=" -69"/>
+		<OptionItem value="-70" name=" -70"/>
+		<OptionItem value="-71" name=" -71"/>
+		<OptionItem value="-72" name=" -72"/>
+		<OptionItem value="-73" name=" -73"/>
+		<OptionItem value="-74" name=" -74"/>
+		<OptionItem value="-75" name=" -75"/>
+		<OptionItem value="-76" name=" -76"/>
+		<OptionItem value="-77" name=" -77"/>
+		<OptionItem value="-78" name=" -78"/>
+		<OptionItem value="-79" name=" -79"/>
+		<OptionItem value="-80" name=" -80"/>
+		<OptionItem value="-81" name=" -81"/>
+		<OptionItem value="-82" name=" -82"/>
+		<OptionItem value="-83" name=" -83"/>
+		<OptionItem value="-84" name=" -84"/>
+		<OptionItem value="-85" name=" -85"/>
+		<OptionItem value="-86" name=" -86"/>
+		<OptionItem value="-87" name=" -87"/>
+		<OptionItem value="-88" name=" -88"/>
+		<OptionItem value="-89" name=" -89"/>
+		<OptionItem value="-90" name=" -90"/>
+		<OptionItem value="-91" name=" -91"/>
+		<OptionItem value="-92" name=" -92"/>
+		<OptionItem value="-93" name=" -93"/>
+		<OptionItem value="-94" name=" -94"/>
+		<OptionItem value="-95" name=" -95"/>
+		<OptionItem value="-96" name=" -96"/>
+		<OptionItem value="-97" name=" -97"/>
+		<OptionItem value="-98" name=" -98"/>
+		<OptionItem value="-99" name=" -99"/>
+		<OptionItem value="-100" name="-100"/>
+		<OptionItem value="-101" name="-101"/>
+		<OptionItem value="-102" name="-102"/>
+		<OptionItem value="-103" name="-103"/>
+		<OptionItem value="-104" name="-104"/>
+		<OptionItem value="-105" name="-105"/>
+		<OptionItem value="-106" name="-106"/>
+		<OptionItem value="-107" name="-107"/>
+		<OptionItem value="-108" name="-108"/>
+		<OptionItem value="-109" name="-109"/>
+		<OptionItem value="-110" name="-110"/>
+		<OptionItem value="-111" name="-111"/>
+		<OptionItem value="-112" name="-112"/>
+		<OptionItem value="-113" name="-113"/>
+		<OptionItem value="-114" name="-114"/>
+		<OptionItem value="-115" name="-115"/>
+		<OptionItem value="-116" name="-116"/>
+		<OptionItem value="-117" name="-117"/>
+		<OptionItem value="-118" name="-118"/>
+		<OptionItem value="-119" name="-119"/>
+		<OptionItem value="-120" name="-120"/>
+		<OptionItem value="-121" name="-121"/>
+		<OptionItem value="-122" name="-122"/>
+		<OptionItem value="-123" name="-123"/>
+		<OptionItem value="-124" name="-124"/>
+		<OptionItem value="-125" name="-125"/>
+		<OptionItem value="-126" name="-126"/>
+		<OptionItem value="-127" name="-127"/>	
+		<OptionItem value="-128" name="-128"/>
+		
+	]]>
+	</XMLMacroText>
 
-	<OptionMenu eslot="" param="1" x="236" y="2" w="68" h="18"  transparent="1"  alignment="center" >	
-		<OptionItem name="free"		value="0" />
-		<OptionItem name="rising"	value="0.25" />
-		<OptionItem name="falling"	value="0.50" />
-		<OptionItem name="internal"	value="0.75" />
-	</OptionMenu>
-<CS01Keyboard param="DID_KEYBOARDGUI" x="50" y="2" w="878" h="88" start_key="24" end_key="96"
+	<XMLMacroText name="ValueVolume">
+	<![CDATA[
+		<OptionItem value="000" name="0.00"/>
+		<OptionItem value="0.01" name="0.01"/>
+		<OptionItem value="0.02" name="0.02"/>
+		<OptionItem value="0.03" name="0.03"/>
+		<OptionItem value="0.04" name="0.04"/>
+		<OptionItem value="0.05" name="0.05"/>
+		<OptionItem value="0.06" name="0.06"/>
+		<OptionItem value="0.07" name="0.07"/>
+		<OptionItem value="0.08" name="0.08"/>
+		<OptionItem value="0.09" name="0.09"/>
+		<OptionItem value="0.10" name="0.10"/>
+		<OptionItem value="0.11" name="0.11"/>
+		<OptionItem value="0.12" name="0.12"/>
+		<OptionItem value="0.13" name="0.13"/>
+		<OptionItem value="0.14" name="0.14"/>
+		<OptionItem value="0.15" name="0.15"/>
+		<OptionItem value="0.16" name="0.16"/>
+		<OptionItem value="0.17" name="0.17"/>
+		<OptionItem value="0.18" name="0.18"/>
+		<OptionItem value="0.19" name="0.19"/>
+		<OptionItem value="0.20" name="0.20"/>
+		<OptionItem value="0.21" name="0.21"/>
+		<OptionItem value="0.22" name="0.22"/>
+		<OptionItem value="0.23" name="0.23"/>
+		<OptionItem value="0.24" name="0.24"/>
+		<OptionItem value="0.25" name="0.25"/>
+		<OptionItem value="0.26" name="0.26"/>
+		<OptionItem value="0.27" name="0.27"/>
+		<OptionItem value="0.28" name="0.28"/>
+		<OptionItem value="0.29" name="0.29"/>
+		<OptionItem value="0.30" name="0.30"/>
+		<OptionItem value="0.31" name="0.31"/>
+		<OptionItem value="0.32" name="0.32"/>
+		<OptionItem value="0.33" name="0.33"/>
+		<OptionItem value="0.34" name="0.34"/>
+		<OptionItem value="0.35" name="0.35"/>
+		<OptionItem value="0.36" name="0.36"/>
+		<OptionItem value="0.37" name="0.37"/>
+		<OptionItem value="0.38" name="0.38"/>
+		<OptionItem value="0.39" name="0.39"/>
+		<OptionItem value="0.40" name="0.40"/>
+		<OptionItem value="0.41" name="0.41"/>
+		<OptionItem value="0.42" name="0.42"/>
+		<OptionItem value="0.43" name="0.43"/>
+		<OptionItem value="0.44" name="0.44"/>
+		<OptionItem value="0.45" name="0.45"/>
+		<OptionItem value="0.46" name="0.46"/>
+		<OptionItem value="0.47" name="0.47"/>
+		<OptionItem value="0.48" name="0.48"/>
+		<OptionItem value="0.49" name="0.49"/>
+		<OptionItem value="0.50" name="0.50"/>
+		<OptionItem value="0.51" name="0.51"/>
+		<OptionItem value="0.52" name="0.52"/>
+		<OptionItem value="0.53" name="0.53"/>
+		<OptionItem value="0.54" name="0.54"/>
+		<OptionItem value="0.55" name="0.55"/>
+		<OptionItem value="0.56" name="0.56"/>
+		<OptionItem value="0.57" name="0.57"/>
+		<OptionItem value="0.58" name="0.58"/>
+		<OptionItem value="0.59" name="0.59"/>
+		<OptionItem value="0.60" name="0.60"/>
+		<OptionItem value="0.61" name="0.61"/>
+		<OptionItem value="0.62" name="0.62"/>
+		<OptionItem value="0.63" name="0.63"/>
+		<OptionItem value="0.64" name="0.64"/>
+		<OptionItem value="0.65" name="0.65"/>
+		<OptionItem value="0.66" name="0.66"/>
+		<OptionItem value="0.67" name="0.67"/>
+		<OptionItem value="0.68" name="0.68"/>
+		<OptionItem value="0.69" name="0.69"/>
+		<OptionItem value="0.70" name="0.70"/>
+		<OptionItem value="0.71" name="0.71"/>
+		<OptionItem value="0.72" name="0.72"/>
+		<OptionItem value="0.73" name="0.73"/>
+		<OptionItem value="0.74" name="0.74"/>
+		<OptionItem value="0.75" name="0.75"/>
+		<OptionItem value="0.76" name="0.76"/>
+		<OptionItem value="0.77" name="0.77"/>
+		<OptionItem value="0.78" name="0.78"/>
+		<OptionItem value="0.79" name="0.79"/>
+		<OptionItem value="0.80" name="0.80"/>
+		<OptionItem value="0.81" name="0.81"/>
+		<OptionItem value="0.82" name="0.82"/>
+		<OptionItem value="0.83" name="0.83"/>
+		<OptionItem value="0.84" name="0.84"/>
+		<OptionItem value="0.85" name="0.85"/>
+		<OptionItem value="0.86" name="0.86"/>
+		<OptionItem value="0.87" name="0.87"/>
+		<OptionItem value="0.88" name="0.88"/>
+		<OptionItem value="0.89" name="0.89"/>
+		<OptionItem value="0.90" name="0.90"/>
+		<OptionItem value="0.91" name="0.91"/>
+		<OptionItem value="0.92" name="0.92"/>
+		<OptionItem value="0.93" name="0.93"/>
+		<OptionItem value="0.94" name="0.94"/>
+		<OptionItem value="0.95" name="0.95"/>
+		<OptionItem value="0.96" name="0.96"/>
+		<OptionItem value="0.97" name="0.97"/>
+		<OptionItem value="0.98" name="0.98"/>
+		<OptionItem value="0.99" name="0.99"/>
+		<OptionItem value="1" name="1.00"/>
+		
+	]]>
+	</XMLMacroText>
+	
+
+	<XMLMacroText name="Binary">
+	<![CDATA[
+		<OptionItem value="000" name=" ∙ "/>
+		<OptionItem value="001" name=" √ "/>
+	]]>
+	</XMLMacroText>
+
+	<XMLMacroText name="VisEcho">
+	<![CDATA[
+		<OptionItem value="000" name="00 (000)"/>
+		<OptionItem value="001" name="01 (016)"/>
+		<OptionItem value="002" name="02 (032)"/>
+		<OptionItem value="003" name="03 (048)"/>
+		<OptionItem value="004" name="04 (064)"/>
+		<OptionItem value="005" name="05 (080)"/>
+		<OptionItem value="006" name="06 (096)"/>
+		<OptionItem value="007" name="07 (112)"/>
+		<OptionItem value="008" name="08 (128)"/>
+		<OptionItem value="009" name="09 (144)"/>
+		<OptionItem value="010" name="0A (160)"/>
+		<OptionItem value="011" name="0B (176)"/>
+		<OptionItem value="012" name="0C (192)"/>
+		<OptionItem value="013" name="0D (208)"/>
+		<OptionItem value="014" name="0E (224)"/>
+		<OptionItem value="015" name="0F (240)"/>
+	]]>
+	</XMLMacroText>
+
+	<XMLMacroText name="VisPatch">
+	<![CDATA[
+		<OptionItem value="16" name="-- (-)"/>
+		<OptionItem value="000" name="00 (A)"/>
+		<OptionItem value="001" name="01 (B)"/>
+		<OptionItem value="002" name="02 (C)"/>
+		<OptionItem value="003" name="03 (D)"/>
+		<OptionItem value="004" name="04 (E)"/>
+		<OptionItem value="005" name="05 (F)"/>
+		<OptionItem value="006" name="06 (G)"/>
+		<OptionItem value="007" name="07 (H)"/>
+		<OptionItem value="008" name="08 (I)"/>
+		<OptionItem value="009" name="09 (J)"/>
+		<OptionItem value="010" name="10 (K)"/>
+		<OptionItem value="011" name="11 (L)"/>
+		<OptionItem value="012" name="12 (M)"/>
+		<OptionItem value="013" name="13 (N)"/>
+		<OptionItem value="014" name="14 (O)"/>
+		<OptionItem value="015" name="15 (P)"/>
+	]]>
+	</XMLMacroText>
+
+ <!-- test -->
+<!--
+<CS01Keyboard param="DID_KEYBOARDGUI" x="0" y="50" w="1024" h="88" start_key="0" end_key="127"
 			offset0="13" offset1="53" offset2="73" offset3="113" offset4="133" offset5="153"
-			white_key_on="keyboard/white_key_on.svg" white_key_off="keyboard/white_key_off.svg" black_key_on="keyboard/black_key_on_3D.svg" black_key_off="keyboard/black_key_off_3D.svg"
-			inactiveColor="#11111199" ksActiveColor="#0000AADD" ksInactiveColor="#000044DD"/>
+			white_key_on="keyboard/notedot_on_w.svg" white_key_off="keyboard/notedot_off_w.svg" black_key_on="keyboard/notedot_on_b.svg" black_key_off="kkeyboard/notedot_off_b.svg"
+			inactiveColor="#00000000" ksActiveColor="#00000000" ksInactiveColor="#00000000"/> -->
 
-<Oscilloscope x="2" y="26" w="300" h="150" image="scope.png" zero_color="#38ab55ff" wave_color="#38ab55ff" wave2_color="#38ab55ff" />
+echo param is 898
 
-<Ellipse x="200" y="200" h="100" w="100" drawMode="stroked" frameWidth="2" border_color="#FFFFFFFF"/>
+<!-- I'm getting pretty good at drawing monitors in XML -->
 
 
-		/>
+<RoundedRect x="200" y="400" w="255" h="20" drawMode="strokedFilled" fill_color="#7E7D7AFF" roundedRectRatio="0.01" frameWidth="2" border_color="#00000010" />
+
+<RoundedRect x="15" y="00" w="655" h="400" drawMode="strokedFilled" fill_color="#AEADAAFF" roundedRectRatio="0.01" frameWidth="2" border_color="#00000010" />
+
+<RoundedRect x="90" y="418" w="475" h="15" drawMode="strokedFilled" fill_color="#AEADAAFF" roundedRectRatio="0.01" frameWidth="2" border_color="#00000010" />
+
+<RoundedRect x="40" y="20" w="603" h="357" drawMode="strokedFilled" fill_color="#31384aFF" roundedRectRatio="0.01" frameWidth="8" border_color="#00000060" />
+
+<Rect x="45" y="33" w="593" h="13" drawMode="filled" fill_color="#AAAAAAFF"/>
+<Rect x="58" y="270" w="39" h="13" drawMode="filled" fill_color="#AAAAAAFF"/>
+
+<StaticText x="75" y="25" w="603" text="SMP(L)     A  D SL  SR  R       N  FM E ØL ØR RT       DL FI  CORS  TUNE   VOL   PAN  GLI " style="VisTerminalText" alignment="left" color_text="#FFFFFFFF"/>
+
+<StaticText x="40" y="50" text="CH1" style="VisTerminalText" />
+<GUIMacro path="sub_debug.xml" param_offset="0" xoffset="40" yoffset="45">
+	<Define name="$MOD_X_POS" value="-40"/>
+	<Define name="$MOD_Y_POS" value="-20"/>
+</GUIMacro>
+
+<StaticText x="40" y="75" text="CH2" style="VisTerminalText" />
+<GUIMacro path="sub_debug.xml" param_offset="16" xoffset="40" yoffset="70">
+	<Define name="$MOD_X_POS" value="-40"/>
+	<Define name="$MOD_Y_POS" value="-45"/>
+</GUIMacro>
+
+<StaticText x="40" y="100" text="CH3" style="VisTerminalText"  />
+<GUIMacro path="sub_debug.xml" param_offset="32" xoffset="40" yoffset="95">
+	<Define name="$MOD_X_POS" value="-40"/>
+	<Define name="$MOD_Y_POS" value="-70"/>
+</GUIMacro>
+
+<StaticText x="40" y="125" text="CH4" style="VisTerminalText"  />
+<GUIMacro path="sub_debug.xml" param_offset="48" xoffset="40" yoffset="120">
+	<Define name="$MOD_X_POS" value="-40"/>
+	<Define name="$MOD_Y_POS" value="-95"/>
+</GUIMacro>
+
+<StaticText x="40" y="150" text="CH5" style="VisTerminalText"  />
+<GUIMacro path="sub_debug.xml" param_offset="64" xoffset="40" yoffset="145">
+	<Define name="$MOD_X_POS" value="-40"/>
+	<Define name="$MOD_Y_POS" value="-120"/>
+</GUIMacro>
+
+<StaticText x="40" y="175" text="CH6" style="VisTerminalText"  />
+<GUIMacro path="sub_debug.xml" param_offset="80" xoffset="40" yoffset="170">
+	<Define name="$MOD_X_POS" value="-40"/>
+	<Define name="$MOD_Y_POS" value="-145"/>
+</GUIMacro>
+
+<StaticText x="40" y="200" text="CH7" style="VisTerminalText"  />
+<GUIMacro path="sub_debug.xml" param_offset="96" xoffset="40" yoffset="195">
+	<Define name="$MOD_X_POS" value="-40"/>
+	<Define name="$MOD_Y_POS" value="-170"/>
+</GUIMacro>
+
+<StaticText x="40" y="225" text="CH8" style="VisTerminalText"  />
+<GUIMacro path="sub_debug.xml" param_offset="112" xoffset="40" yoffset="220">
+	<Define name="$MOD_X_POS" value="-40"/>
+	<Define name="$MOD_Y_POS" value="-195"/>
+</GUIMacro>
+
+<StaticText x="45" y="262" w="603" text="╔═      ══════════════════════════════════════════════════════════════════════════════════════╗" style="VisTerminalText" alignment="left" color_text="#AAAAAAFF"/>
+<StaticText x="57" y="268" w="39" h="15" text="ECHO" style="VisTerminalText" alignment="center" color_text="#FFFFFFFF"/>
+<StaticText x="45" y="274" w="20" text="║" style="VisTerminalText" alignment="left" color_text="#AAAAAAFF"/>
+<StaticText x="45" y="286" w="20" text="║" style="VisTerminalText" alignment="left" color_text="#AAAAAAFF"/>
+<StaticText x="45" y="298" w="20" text="║" style="VisTerminalText" alignment="left" color_text="#AAAAAAFF"/>
+<StaticText x="45" y="310" w="20" text="║" style="VisTerminalText" alignment="left" color_text="#AAAAAAFF"/>
+<StaticText x="45" y="322" w="20" text="║" style="VisTerminalText" alignment="left" color_text="#AAAAAAFF"/>
+<StaticText x="624" y="274" w="25" text="║" style="VisTerminalText" alignment="center" color_text="#AAAAAAFF"/>
+<StaticText x="624" y="286" w="25" text="║" style="VisTerminalText" alignment="center" color_text="#AAAAAAFF"/>
+<StaticText x="624" y="298" w="25" text="║" style="VisTerminalText" alignment="center" color_text="#AAAAAAFF"/>
+<StaticText x="624" y="310" w="25" text="║" style="VisTerminalText" alignment="center" color_text="#AAAAAAFF"/>
+<StaticText x="624" y="322" w="25" text="║" style="VisTerminalText" alignment="center" color_text="#AAAAAAFF"/>
+<StaticText x="45" y="334" w="603" text="╚═════════════════════════════════════════════════════════════════════════════════════════════╝" style="VisTerminalText" alignment="left" color_text="#AAAAAAFF"/>
+
+<Rect x="45" y="352" w="593" h="13" drawMode="filled" fill_color="#FFFFFFFF"/>
+<Label          x="60" y="348" w="150" param="DID_PRODUCTVERSION" text="temp" style="SettingsLabel10" font="TERMINAL" color_text="#000000FF"/>
+
+<!-- OS detector. This part utilizes carriage return bugs in Fermata. If it's ever fixed, this will break. -->
+
+<StaticText x="193" y="308" w="60" h="60" text="&#13;&#13;&#13;Windows" style="VisTerminalText" alignment="left" color_text="#000000FF"/>
+<StaticText x="-50" y="327" w="300" h="60" text="&#13;&#13;&#13;&#13;&#13;&#13;                                       Mac" style="VisTerminalText" alignment="left" color_text="#000000FF"/>
+<StaticImage x="193" y="325" image="texthider.svg" />
+
+
+<StaticImage x="40" y="20" image="visualizer_screenglare.svg"/>
+
+
+
+
 </GUI>

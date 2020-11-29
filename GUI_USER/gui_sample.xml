@@ -6,6 +6,7 @@
 <RoundedRect 			  x="635" y="-12" w="374" h="427" roundedRectRatio="0.015" style="SampleListBackground" /> 	
 <RoundedRect 			  x="635" y="25" w="145" h="390" roundedRectRatio="0.04" fill_color="#FFFFFF20" drawMode="filled"/>
 
+
 	<!-- Sample List Rows -->
 		<RoundedRect 			   y="24" style="SampleListHighlight1" />
 			<RoundedRect 		 	  y="47" style="SampleListHighlight2" />
@@ -129,6 +130,10 @@
 		<OptionItem name="Channel 7"  value="6"/>
 		<OptionItem name="Channel 8"  value="7"/>
 	</OptionMenu>
+
+<VisibilityContainer x="780" y="0" w="229" h="388">
+	<RoundedRect x="0" y="0" w="229" h="395" roundedRectRatio="0.04" fill_color="#FFFFFF08" drawMode="filled"/>
+</VisibilityContainer>
 
 	<CS01BrowserContainer x="780" y="0" w="229" h="437" sourceType="fileLister03" browserName="audioAssets" style="BrowserContainer" 
 		sourceSubType="1" sourceTypePrefs="1;0;1;data_dir|1;1;1;user_data_dir" sourceTypeExtra="*.brr;*.wav;*.aiff|*.*" rootNames="Factory|User">

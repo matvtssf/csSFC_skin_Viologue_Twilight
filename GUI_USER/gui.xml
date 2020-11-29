@@ -33,6 +33,7 @@
 	<Font alias="SFCHEADING_16" filename="AuberCFSemiBold-SemiBold.ttf" name_windows="Auber CF" name_osx="Auber CF SemiBold SemiBold" size_windows="16" style_windows="italic" size_osx="16" style_osx="italic"/>
 	<Font alias="SFCHEADING_36" filename="AuberCFSemiBold-SemiBold.ttf" name_windows="Auber CF" name_osx="Auber CF SemiBold SemiBold" size_windows="36" style_windows="normal" size_osx="36" style_osx="normal"/>
 	<Font alias="SFC_36"  filename="Changa-ExtraLight.ttf" name_windows="Changa" name_osx="Changa" size_windows="36"  style_windows="normal" size_osx="36"  style_osx="normal"/>
+	<Font alias="TERMINAL" filename="clacon.ttf" name_windows="Classic Console" name_osx="Classic Console" size_windows="16"  style_windows="normal" size_osx="16"  style_osx="normal"/>
 	
 	<Styles path="styles.xml"/>
 
@@ -146,14 +147,13 @@
 		</OptionMenu>
 	</VisibilityContainer>
 
-	<CS03Knob param="1812" x="981" y="1" w="26" h="45" vmin="0" vmax="2" vdefault="0.5" stepped="0" knob_x="3" knob_y="22" knob_w="20" knob_h="20" style="VolKnob" valueTrackWidth="2" valueTrackOrder="0" 
-		   valueIndicatorType="3" valueIndicatorMargin="1" valueIndicator_x="4" valueIndicator_y="4" valueIndicator_w="3" valueIndicator_h="3" 		   showValueTextOnHL="1" value_font="SFC_11" label_font="SFC_11" label_w="26" label_h="15" label_x="0" label_y="2" labelText="Vol"/>
+	<CS03Knob param="1812" x="974" y="1" w="40" h="45"  style="VolKnob"  labelText="Vol"/>
 
 	<TabView id="patch" x="0" y="50" w="1024" h="474" image="btn_tab.svg" imageHL="btn_tab_hl.svg" position="bottom" alignment="center" font="SFCHEADING_16" style="TabViewColor"   >
 
 		<Pane name="" >
 			<CS01ViewContainer x="0" y="0" w="1024" h="474" >
-				<GUIMacro path="gui_visualizer.xml"/>
+				<GUIMacro path="gui_visualizer.xml" param_offset="0"/>
 			</CS01ViewContainer>
 		</Pane>
 
@@ -221,8 +221,11 @@
 
 <!--Zoom-->
 		<!-- No Unicode, drawing the magnifying glass by hand :) -->
-		<Ellipse x="948" y="5" h="10" w="10" style="MagnifyingGlassAndKeyboardIconColours"/>
+		<Ellipse x="948" y="5" h="10" w="10" style="MagnifyingGlassAndKeyboardIconColours" frameWidth="2"/>
+		<Line x="953" y="7" h="6" w="0" style="MagnifyingGlassAndKeyboardIconColours" />
+		<Line x="950" y="10" h="0" w="6" style="MagnifyingGlassAndKeyboardIconColours" />	
 		<Line x="957" y="14" h="6" w="6" style="MagnifyingGlassAndKeyboardIconColours" />
+		<Line x="958" y="15" h="5" w="5" style="MagnifyingGlassAndKeyboardIconColours" frameWidth="3" />
 	
 			<OptionMenu command="ui_zoomRatio" x="940" y="0" w="65" style="GUIOptionMenuBottomRight" vdefault="1">
 			<OptionItem name="25%"  value="0.25"/>

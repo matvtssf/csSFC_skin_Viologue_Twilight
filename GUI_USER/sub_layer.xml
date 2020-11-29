@@ -124,8 +124,8 @@
 
 		<!-- Volume Fader -->
 		
-		<VisibilityContainer x="78" y="274" w="16" h="100" enabledByOnOff="1">
-			<RoundedRect x="4" y="4" w="8" h="96" style="MIDIRect"  />
+		<VisibilityContainer x="78" y="270" w="16" h="104" enabledByOnOff="1">
+			<RoundedRect x="4" y="4" w="8" h="100" style="MIDIRect"  />
 		</VisibilityContainer>
 		<StaticText text="100" x="96" y="280" w="12" style="SmallTextChannelsTab" />
 		<StaticText text="50" x="96" y="315" w="12" style="SmallTextChannelsTab" />
