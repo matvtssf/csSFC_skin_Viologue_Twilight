@@ -1,5 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" version="1.1">
-	<g transform="scale(4)">
-		<path d="m 5.922154,1.047573 c -0.659932,-0.660519 -1.537367,-1.024291 -2.470621,-1.024291 -0.841207,0 -1.641535,0.297922 -2.274895,0.842859 l -0.677596,-0.665802 -0.135751,2.301946 2.340101,-0.173054 -0.664044,-0.615107 c 0.401926,-0.315586 0.895738,-0.487253 1.412185,-0.487253 1.263511,0 2.291483,1.02888 2.291483,2.293569 0,1.264689 -1.027972,2.293622 -2.291483,2.293622 -0.580106,0 -1.133526,-0.217452 -1.558401,-0.612227 -0.422573,-0.392747 -0.680263,-0.924665 -0.725513,-1.497829 l -0.01494,-0.188742 h -1.201506 l 0.01298,0.217131 c 0.110194,1.842176 1.64201,3.285202 3.487395,3.285202 0.933253,0 1.810689,-0.363771 2.470621,-1.024292 0.659878,-0.660519 1.023331,-1.538757 1.023331,-2.472865 0,-0.934108 -0.363453,-1.812347 -1.023331,-2.472867 z m 0,0" style="stroke-width:0.01366078" fill="#325ECC"  />
-	</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 21.308 18.353" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <filter id="filter4903" x="-1.0567e-21" y="-9.4783e-22" width="1" height="1" style="color-interpolation-filters:sRGB">
+   <feGaussianBlur stdDeviation="1.898151e-20"/>
+  </filter>
+  <filter id="filter4907" x="-9.6824e-22" y="-8.6845e-22" width="1" height="1" style="color-interpolation-filters:sRGB">
+   <feGaussianBlur stdDeviation="1.7391792e-20"/>
+  </filter>
+  <filter id="filter4911" x="-1.0567e-21" y="-9.4783e-22" width="1" height="1" style="color-interpolation-filters:sRGB">
+   <feGaussianBlur stdDeviation="1.898151e-20"/>
+  </filter>
+  <filter id="filter4915" x="-2.6606e-22" y="-3.3669e-22" width="1" height="1" style="color-interpolation-filters:sRGB">
+   <feGaussianBlur stdDeviation="2.0109117e-21"/>
+  </filter>
+  <filter id="filter4919" x="-1.0111e-21" y="-9.0688e-22" width="1" height="1" style="color-interpolation-filters:sRGB">
+   <feGaussianBlur stdDeviation="1.8161401e-20"/>
+  </filter>
+  <filter id="filter4923" x="-2.6606e-22" y="-3.4128e-22" width="1" height="1" style="color-interpolation-filters:sRGB">
+   <feGaussianBlur stdDeviation="2.0109117e-21"/>
+  </filter>
+  <filter style="color-interpolation-filters:sRGB">
+   <feGaussianBlur stdDeviation="1.3669006e-21"/>
+  </filter>
+  <filter style="color-interpolation-filters:sRGB">
+   <feGaussianBlur stdDeviation="1.3669006e-21"/>
+  </filter>
+ </defs>
+ <path d="m2.9708 2.1739c-.76795 0-1.3867.67661-1.3867 1.5164v11.11c0 .83974.61877 1.5148 1.3867 1.5148h8.9912v-1.3445h-7.5301c-.62191 0-1.1228-.54623-1.1228-1.2263v-8.9983c0-.68005.50094-1.2278 1.1228-1.2278h1.7994v-1.3445zm6.6571 0v1.3445h7.248c.62191 0 1.1228.54777 1.1228 1.2278v8.9983c0 .68005-.50094 1.2263-1.1228 1.2263h-1.5186v1.3445h2.9798c.76795 0 1.3867-.67508 1.3867-1.5148v-11.11c0-.83974-.61877-1.5164-1.3867-1.5164z" style="fill-opacity:.68628;fill:#000000;filter:url(#filter4923);font-variation-settings:normal;paint-order:markers stroke fill;stop-color:#000000;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:.25098;stroke-width:3.1682;stroke:#4d5055"/>
+ <path transform="matrix(.12477 0 0 .098262 7.3537 2.4139)" d="m4.2626 16.236c-26.105 15.072-23.455 16.602-23.455-13.542 1e-6-30.144-2.6504-28.614 23.455-13.542 26.105 15.072 26.105 12.012-1.4e-6 27.084z" style="fill-opacity:.68628;fill:#000000;filter:url(#filter4919);paint-order:markers stroke fill;stop-color:#000000;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:.25098;stroke-width:4.9895;stroke:#4d5055"/>
+ <path d="m2.9708.95922c-.76795 0-1.3867.642-1.3867 1.4406v11.452c0 .79859.61877 1.442 1.3867 1.442h8.9715v-1.731h-7.116c-.58246 0-1.0513-.48752-1.0513-1.0932v-8.6858c0-.6057.46881-1.0932 1.0513-1.0932h1.405v-1.731zm6.6571 0v1.731h6.8536c.58246 0 1.0513.48751 1.0513 1.0932v8.6858c0 .6057-.46881 1.0932-1.0513 1.0932h-1.1425v1.731h2.998c.76795 0 1.3867-.64346 1.3867-1.442v-11.452c0-.79859-.61877-1.4406-1.3867-1.4406z" style="fill:#4d5055;filter:url(#filter4915);font-variation-settings:normal;paint-order:markers stroke fill;stop-color:#000000"/>
+ <path transform="matrix(.13009 0 0 .086272 7.4202 1.8408)" d="m4.2626 16.236c-26.105 15.072-23.455 16.602-23.455-13.542 1e-6-30.144-2.6504-28.614 23.455-13.542 26.105 15.072 26.105 12.012-1.4e-6 27.084z" style="fill:#4d5055;filter:url(#filter4911);paint-order:markers stroke fill;stop-color:#000000"/>
+ <path transform="matrix(-.12477 0 0 -.10715 14.745 15.799)" d="m4.2626 16.236c-26.105 15.072-23.455 16.602-23.455-13.542 1e-6-30.144-2.6504-28.614 23.455-13.542 26.105 15.072 26.105 12.012-1.4e-6 27.084z" style="fill-opacity:.68628;fill:#000000;filter:url(#filter4907);paint-order:markers stroke fill;stop-color:#000000;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-opacity:.25098;stroke-width:4.9895;stroke:#4d5055"/>
+ <path transform="matrix(-.13009 0 0 -.086272 14.656 14.988)" d="m4.2626 16.236c-26.105 15.072-23.455 16.602-23.455-13.542 1e-6-30.144-2.6504-28.614 23.455-13.542 26.105 15.072 26.105 12.012-1.4e-6 27.084z" style="fill:#4d5055;filter:url(#filter4903);paint-order:markers stroke fill;stop-color:#000000"/>
 </svg>
