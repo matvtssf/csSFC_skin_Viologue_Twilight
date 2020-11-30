@@ -1,33 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GUI w="1024" h="471" backgroundColor="#00000000">
 
-<VisibilityContainer x="800" y="0" w="100" h="200">
-<CS01Knob x="0" y="0" style="VisCustom" param="512" format="CH%5.5f" stepped="0">
-</CS01Knob>
-<CS01Knob x="0" y="10" style="VisCustom" param="501" format=" %5.5f">
-</CS01Knob>
-<CS01Knob x="0" y="20" style="VisCustom" param="502" format=" %5.5f">
-</CS01Knob>
-<CS01Knob x="0" y="30" style="VisCustom" param="503" format=" %5.5f">
-</CS01Knob>
-<CS01Knob x="0" y="40" style="VisCustom" param="504" format=" %5.5f">
-</CS01Knob>
-<CS01Knob x="0" y="50" style="VisCustom" param="505" format=" %5.5f">
-</CS01Knob>
-<CS01Knob x="0" y="60" style="VisCustom" param="506" format=" %5.5f">
-</CS01Knob>
-<CS01Knob x="0" y="70" style="VisCustom" param="507" format=" %5.5f">
-</CS01Knob>
-<CS01Knob x="0" y="80" style="VisCustom" param="508" format=" %5.5f">
-</CS01Knob>
-<CS01Knob x="0" y="90" style="VisCustom" param="509" format=" %5.5f">
-</CS01Knob>
-<CS01Knob x="0" y="100" style="VisCustom" param="510" format=" %5.5f">
-</CS01Knob>
-<CS01Knob x="0" y="110" style="VisCustom" param="511" format=" %5.5f">
-</CS01Knob>
-
-</VisibilityContainer>
 <XMLMacroText name="ValueHex">
 	<![CDATA[
 		<OptionItem value="000" name="00 (000)"/>
@@ -533,7 +506,6 @@
 	]]>
 	</XMLMacroText>
 	
-
 	<XMLMacroText name="Binary">
 	<![CDATA[
 		<OptionItem value="000" name=" ∙ "/>
@@ -543,22 +515,128 @@
 
 	<XMLMacroText name="VisEcho">
 	<![CDATA[
-		<OptionItem value="000" name="00 (000)"/>
-		<OptionItem value="001" name="01 (016)"/>
-		<OptionItem value="002" name="02 (032)"/>
-		<OptionItem value="003" name="03 (048)"/>
-		<OptionItem value="004" name="04 (064)"/>
-		<OptionItem value="005" name="05 (080)"/>
-		<OptionItem value="006" name="06 (096)"/>
-		<OptionItem value="007" name="07 (112)"/>
-		<OptionItem value="008" name="08 (128)"/>
-		<OptionItem value="009" name="09 (144)"/>
-		<OptionItem value="010" name="0A (160)"/>
-		<OptionItem value="011" name="0B (176)"/>
-		<OptionItem value="012" name="0C (192)"/>
-		<OptionItem value="013" name="0D (208)"/>
-		<OptionItem value="014" name="0E (224)"/>
-		<OptionItem value="015" name="0F (240)"/>
+		<OptionItem value="0" name="00 (000ms)"/>
+		<OptionItem value="1" name="01 (016ms)"/>
+		<OptionItem value="2" name="02 (032ms)"/>
+		<OptionItem value="3" name="03 (048ms)"/>
+		<OptionItem value="4" name="04 (064ms)"/>
+		<OptionItem value="5" name="05 (080ms)"/>
+		<OptionItem value="6" name="06 (096ms)"/>
+		<OptionItem value="7" name="07 (112ms)"/>
+		<OptionItem value="8" name="08 (128ms)"/>
+		<OptionItem value="9" name="09 (144ms)"/>
+		<OptionItem value="10" name="0A (160ms)"/>
+		<OptionItem value="11" name="0B (176ms)"/>
+		<OptionItem value="12" name="0C (192ms)"/>
+		<OptionItem value="13" name="0D (208ms)"/>
+		<OptionItem value="14" name="0E (224ms)"/>
+		<OptionItem value="15" name="0F (240ms)"/>
+	]]>
+	</XMLMacroText>
+
+	<XMLMacroText name="ValueHexEFB">
+	<![CDATA[
+		<OptionItem value="0" name="00 (   0%)"/>
+		<OptionItem value="0.01" name="01 (   1%)"/>
+		<OptionItem value="0.02" name="02 (   2%)"/>
+		<OptionItem value="0.03" name="03 (   3%)"/>
+		<OptionItem value="0.04" name="05 (   4%)"/>
+		<OptionItem value="0.05" name="06 (   5%)"/>
+		<OptionItem value="0.06" name="07 (   6%)"/>
+		<OptionItem value="0.07" name="08 (   7%)"/>
+		<OptionItem value="0.08" name="0A (   8%)"/>
+		<OptionItem value="0.09" name="0B (   9%)"/>
+		<OptionItem value="0.1" name="0C (  10%)"/>
+		<OptionItem value="0.11" name="0D (  11%)"/>
+		<OptionItem value="0.12" name="0F (  12%)"/>
+		<OptionItem value="0.13" name="10 (  13%)"/>
+		<OptionItem value="0.14" name="11 (  14%)"/>
+		<OptionItem value="0.15" name="13 (  15%)"/>
+		<OptionItem value="0.16" name="14 (  16%)"/>
+		<OptionItem value="0.17" name="15 (  17%)"/>
+		<OptionItem value="0.18" name="16 (  18%)"/>
+		<OptionItem value="0.19" name="18 ( 19%)"/>
+		<OptionItem value="0.2" name="19 (  20%)"/>
+		<OptionItem value="0.21" name="1A (  21%)"/>
+		<OptionItem value="0.22" name="1B (  22%)"/>
+		<OptionItem value="0.23" name="1D (  23%)"/>
+		<OptionItem value="0.24" name="1E (  24%)"/>
+		<OptionItem value="0.25" name="1F (  25%)"/>
+		<OptionItem value="0.26" name="21 (  26%)"/>
+		<OptionItem value="0.27" name="22 (  27%)"/>
+		<OptionItem value="0.28" name="23 (  28%)"/>
+		<OptionItem value="0.29" name="24 ( 29%)"/>
+		<OptionItem value="0.3" name="26 (  30%)"/>
+		<OptionItem value="0.31" name="27 (  31%)"/>
+		<OptionItem value="0.32" name="28 (  32%)"/>
+		<OptionItem value="0.33" name="29 (  33%)"/>
+		<OptionItem value="0.34" name="2B (  34%)"/>
+		<OptionItem value="0.35" name="2C (  35%)"/>
+		<OptionItem value="0.36" name="2D (  36%)"/>
+		<OptionItem value="0.37" name="2E (  37%)"/>
+		<OptionItem value="0.38" name="30 (  38%)"/>
+		<OptionItem value="0.39" name="31 ( 39%)"/>
+		<OptionItem value="0.4" name="32 (  40%)"/>
+		<OptionItem value="0.41" name="34 (  41%)"/>
+		<OptionItem value="0.42" name="35 (  42%)"/>
+		<OptionItem value="0.43" name="36 (  43%)"/>
+		<OptionItem value="0.44" name="37 (  44%)"/>
+		<OptionItem value="0.45" name="39 (  45%)"/>
+		<OptionItem value="0.46" name="3A (  46%)"/>
+		<OptionItem value="0.47" name="3B (  47%)"/>
+		<OptionItem value="0.48" name="3C (  48%)"/>
+		<OptionItem value="0.49" name="3E ( 49%)"/>
+		<OptionItem value="0.5" name="3F (  50%)"/>
+		<OptionItem value="0.51" name="40 (  51%)"/>
+		<OptionItem value="0.52" name="42 (  52%)"/>
+		<OptionItem value="0.53" name="43 (  53%)"/>
+		<OptionItem value="0.54" name="44 (  54%)"/>
+		<OptionItem value="0.55" name="45 (  55%)"/>
+		<OptionItem value="0.56" name="47 (  56%)"/>
+		<OptionItem value="0.57" name="48 (  57%)"/>
+		<OptionItem value="0.58" name="49 (  58%)"/>
+		<OptionItem value="0.59" name="4A ( 59%)"/>
+		<OptionItem value="0.6" name="4C (  60%)"/>
+		<OptionItem value="0.61" name="4D (  61%)"/>
+		<OptionItem value="0.62" name="4E (  62%)"/>
+		<OptionItem value="0.63" name="50 (  63%)"/>
+		<OptionItem value="0.64" name="51 (  64%)"/>
+		<OptionItem value="0.65" name="52 (  65%)"/>
+		<OptionItem value="0.66" name="53 (  66%)"/>
+		<OptionItem value="0.67" name="55 (  67%)"/>
+		<OptionItem value="0.68" name="56 (  68%)"/>
+		<OptionItem value="0.69" name="57 ( 69%)"/>
+		<OptionItem value="0.7" name="58 (  70%)"/>
+		<OptionItem value="0.71" name="5A (  71%)"/>
+		<OptionItem value="0.72" name="5B (  72%)"/>
+		<OptionItem value="0.73" name="5C (  73%)"/>
+		<OptionItem value="0.74" name="5D (  74%)"/>
+		<OptionItem value="0.75" name="5F (  75%)"/>
+		<OptionItem value="0.76" name="60 (  76%)"/>
+		<OptionItem value="0.77" name="61 (  77%)"/>
+		<OptionItem value="0.78" name="63 (  78%)"/>
+		<OptionItem value="0.79" name="64 ( 79%)"/>
+		<OptionItem value="0.8" name="65 (  80%)"/>
+		<OptionItem value="0.81" name="66 (  81%)"/>
+		<OptionItem value="0.82" name="68 (  82%)"/>
+		<OptionItem value="0.83" name="69 (  83%)"/>
+		<OptionItem value="0.84" name="6A (  84%)"/>
+		<OptionItem value="0.85" name="6B (  85%)"/>
+		<OptionItem value="0.86" name="6D (  86%)"/>
+		<OptionItem value="0.87" name="6E (  87%)"/>
+		<OptionItem value="0.88" name="6F (  88%)"/>
+		<OptionItem value="0.89" name="71 ( 89%)"/>
+		<OptionItem value="0.9" name="72 (  90%)"/>
+		<OptionItem value="0.91" name="73 (  91%)"/>
+		<OptionItem value="0.92" name="74 (  92%)"/>
+		<OptionItem value="0.93" name="76 (  93%)"/>
+		<OptionItem value="0.94" name="77 (  94%)"/>
+		<OptionItem value="0.95" name="78 (  95%)"/>
+		<OptionItem value="0.96" name="79 (  96%)"/>
+		<OptionItem value="0.97" name="7B (  97%)"/>
+		<OptionItem value="0.98" name="7C (  98%)"/>
+		<OptionItem value="0.99" name="7D (  99%)"/>
+		<OptionItem value="1" name="7F ( 100%)"/>
 	]]>
 	</XMLMacroText>
 
@@ -584,21 +662,12 @@
 	]]>
 	</XMLMacroText>
 
- <!-- test -->
-<!--
-<CS01Keyboard param="DID_KEYBOARDGUI" x="0" y="50" w="1024" h="88" start_key="0" end_key="127"
-			offset0="13" offset1="53" offset2="73" offset3="113" offset4="133" offset5="153"
-			white_key_on="keyboard/notedot_on_w.svg" white_key_off="keyboard/notedot_off_w.svg" black_key_on="keyboard/notedot_on_b.svg" black_key_off="kkeyboard/notedot_off_b.svg"
-			inactiveColor="#00000000" ksActiveColor="#00000000" ksInactiveColor="#00000000"/> -->
-
-echo param is 898
 
 <!-- I'm getting pretty good at drawing monitors in XML -->
 
-
 <RoundedRect x="200" y="400" w="255" h="20" drawMode="strokedFilled" fill_color="#7E7D7AFF" roundedRectRatio="0.01" frameWidth="2" border_color="#00000010" />
 
-<RoundedRect x="15" y="00" w="655" h="400" drawMode="strokedFilled" fill_color="#AEADAAFF" roundedRectRatio="0.01" frameWidth="2" border_color="#00000010" />
+<RoundedRect x="15" y="0" w="655" h="400" drawMode="strokedFilled" fill_color="#AEADAAFF" roundedRectRatio="0.01" frameWidth="2" border_color="#00000010" />
 
 <RoundedRect x="90" y="418" w="475" h="15" drawMode="strokedFilled" fill_color="#AEADAAFF" roundedRectRatio="0.01" frameWidth="2" border_color="#00000010" />
 
@@ -607,7 +676,7 @@ echo param is 898
 <Rect x="45" y="33" w="593" h="13" drawMode="filled" fill_color="#AAAAAAFF"/>
 <Rect x="58" y="270" w="39" h="13" drawMode="filled" fill_color="#AAAAAAFF"/>
 
-<StaticText x="75" y="25" w="603" text="SMP(L)     A  D SL  SR  R       N  FM E ØL ØR RT       DL FI  CORS  TUNE   VOL   PAN  GLI " style="VisTerminalText" alignment="left" color_text="#FFFFFFFF"/>
+<StaticText x="75" y="25" w="603" text="SMP(L)     A  D SL  SR  R       N FM  E ØL ØR RT       DL FI  CORS  TUNE   VOL   PAN  GLI " style="VisTerminalText" alignment="left" color_text="#FFFFFFFF"/>
 
 <StaticText x="40" y="50" text="CH1" style="VisTerminalText" />
 <GUIMacro path="sub_debug.xml" param_offset="0" xoffset="40" yoffset="45">
@@ -657,20 +726,90 @@ echo param is 898
 	<Define name="$MOD_Y_POS" value="-195"/>
 </GUIMacro>
 
-<StaticText x="45" y="262" w="603" text="╔═      ══════════════════════════════════════════════════════════════════════════════════════╗" style="VisTerminalText" alignment="left" color_text="#AAAAAAFF"/>
+<!-- Echo Panel -->
+
+<StaticText x="45" y="262" w="603" text="╔═      ════════════════════════════════════════════════════════╗" style="VisTerminalText" alignment="left" color_text="#AAAAAAFF"/>
 <StaticText x="57" y="268" w="39" h="15" text="ECHO" style="VisTerminalText" alignment="center" color_text="#FFFFFFFF"/>
 <StaticText x="45" y="274" w="20" text="║" style="VisTerminalText" alignment="left" color_text="#AAAAAAFF"/>
 <StaticText x="45" y="286" w="20" text="║" style="VisTerminalText" alignment="left" color_text="#AAAAAAFF"/>
 <StaticText x="45" y="298" w="20" text="║" style="VisTerminalText" alignment="left" color_text="#AAAAAAFF"/>
 <StaticText x="45" y="310" w="20" text="║" style="VisTerminalText" alignment="left" color_text="#AAAAAAFF"/>
 <StaticText x="45" y="322" w="20" text="║" style="VisTerminalText" alignment="left" color_text="#AAAAAAFF"/>
-<StaticText x="624" y="274" w="25" text="║" style="VisTerminalText" alignment="center" color_text="#AAAAAAFF"/>
-<StaticText x="624" y="286" w="25" text="║" style="VisTerminalText" alignment="center" color_text="#AAAAAAFF"/>
-<StaticText x="624" y="298" w="25" text="║" style="VisTerminalText" alignment="center" color_text="#AAAAAAFF"/>
-<StaticText x="624" y="310" w="25" text="║" style="VisTerminalText" alignment="center" color_text="#AAAAAAFF"/>
-<StaticText x="624" y="322" w="25" text="║" style="VisTerminalText" alignment="center" color_text="#AAAAAAFF"/>
-<StaticText x="45" y="334" w="603" text="╚═════════════════════════════════════════════════════════════════════════════════════════════╝" style="VisTerminalText" alignment="left" color_text="#AAAAAAFF"/>
+<StaticText x="430" y="274" w="38" text="║" style="VisTerminalText" alignment="center" color_text="#AAAAAAFF"/>
+<StaticText x="430" y="286" w="38" text="║" style="VisTerminalText" alignment="center" color_text="#AAAAAAFF"/>
+<StaticText x="430" y="298" w="38" text="║" style="VisTerminalText" alignment="center" color_text="#AAAAAAFF"/>
+<StaticText x="430" y="310" w="38" text="║" style="VisTerminalText" alignment="center" color_text="#AAAAAAFF"/>
+<StaticText x="430" y="322" w="38" text="║" style="VisTerminalText" alignment="center" color_text="#AAAAAAFF"/>
+<StaticText x="45" y="334" w="603" text="╚═══════════════════════════════════════════════════════════════╝" style="VisTerminalText" alignment="left" color_text="#AAAAAAFF"/>
 
+<StaticText x="69" y="290" w="60" h="24" text="EDL" style="VisTerminalText" alignment="left" color_text="#FFFFFFFF"/>
+<OptionMenu param="898" x="92" y="284" w="65" style="VisOptionWithMod" supportsMod="1" mod_w="65" mod_y="24">
+	<XMLMacroTextUse name="VisEcho"/>
+</OptionMenu>
+
+<StaticText x="69" y="314" w="60" h="24" text="EFB" style="VisTerminalText" alignment="left" color_text="#FFFFFFFF"/>
+<OptionMenu param="899" x="92" y="308" w="65" style="VisOptionWithMod" format="%.f%%" supportsMod="0">
+	<XMLMacroTextUse name="ValueHexEFB"/>
+</OptionMenu>
+
+<StaticText x="201" y="290" w="60" h="24" text="MVOL" style="VisTerminalText" alignment="left" color_text="#FFFFFFFF"/>
+<OptionMenu param="896" x="231" y="284" w="65" style="VisOptionWithMod" format="%.f%%" supportsMod="0">
+	<XMLMacroTextUse name="ValueHexEFB"/>
+</OptionMenu>
+
+<StaticText x="201" y="314" w="60" h="24" text="MPAN" style="VisTerminalText" alignment="left" color_text="#FFFFFFFF"/>
+<CS01Knob x="218" y="313" h="24" style="VisCustom" param="910" format="FORMAT_STEREOPAN" unipolar="0" />
+
+<StaticText x="333" y="290" w="60" h="24" text="EVOL" style="VisTerminalText" alignment="left" color_text="#FFFFFFFF"/>
+<OptionMenu param="897" x="364" y="284" w="65" style="VisOptionWithMod" format="%.f%%" supportsMod="0">
+	<XMLMacroTextUse name="ValueHexEFB"/>
+</OptionMenu>
+
+<StaticText x="333" y="314" w="60" h="24" text="EPAN" style="VisTerminalText" alignment="left" color_text="#FFFFFFFF"/>
+<CS01Knob x="351" y="313" h="24" style="VisCustom" param="911" format="FORMAT_STEREOPAN" unipolar="0" />
+
+<!-- Main Parameters -->
+
+<StaticText x="465" y="268" w="39" h="24" text="M.MODE" style="VisTerminalText" alignment="center" color_text="#FFFFFFFF"/>
+<OptionMenu param="DID_SLOTMIDIMODE" x="511" y="262" w="90" style="VisOptionWithMod" alignment="left">
+		<OptionItem name="MONO-TIMBRAL"  value="1"/>
+		<OptionItem name="POLY-TIMBRAL"  value="3"/>
+		<OptionItem name="MPE"           value="5"/>
+	</OptionMenu>
+
+<StaticText x="465" y="290" w="39" h="24" text="VOICES" style="VisTerminalText" alignment="center" color_text="#FFFFFFFF"/>
+<OptionMenu param="DID_SLOTPOLY" x="511" y="284" w="60" style="VisOptionWithMod" alignment="left">
+			<OptionItem name="1/LEGATO" value="1"/>
+			<OptionItem name="02" value="2"/>
+			<OptionItem name="03" value="3"/>
+			<OptionItem name="04" value="4"/>
+			<OptionItem name="05" value="5"/>
+			<OptionItem name="06" value="6"/>
+			<OptionItem name="07" value="7"/>
+			<OptionItem name="08" value="8"/>
+		</OptionMenu>
+
+<StaticText x="465" y="314" w="39" h="24" text="P.BEND" style="VisTerminalText" alignment="center" color_text="#FFFFFFFF"/>
+<OptionMenu param="DID_SLOTPBSEMI" x="511" y="308" w="60" style="VisOptionWithMod" alignment="left">
+			<OptionItem name="DEFAULT" value="-1"/>
+			<OptionItem name="OFF" value="0"/>
+			<OptionItem name="01"   value="100"/>
+			<OptionItem name="02"   value="200"/>
+			<OptionItem name="03"   value="300"/>
+			<OptionItem name="04"   value="400"/>
+			<OptionItem name="05"   value="500"/>
+			<OptionItem name="06"   value="600"/>
+			<OptionItem name="07"   value="700"/>
+			<OptionItem name="08"   value="800"/>
+			<OptionItem name="12"  value="1200"/>
+			<OptionItem name="24"  value="2400"/>
+			<OptionItem name="36"  value="3600"/>
+			<OptionItem name="48"  value="4800"/>
+			<OptionItem name="96"  value="9600"/>
+		</OptionMenu>
+
+
+<!-- Status Bar -->
 <Rect x="45" y="352" w="593" h="13" drawMode="filled" fill_color="#FFFFFFFF"/>
 <Label          x="60" y="348" w="150" param="DID_PRODUCTVERSION" text="temp" style="SettingsLabel10" font="TERMINAL" color_text="#000000FF"/>
 
@@ -678,12 +817,25 @@ echo param is 898
 
 <StaticText x="193" y="308" w="60" h="60" text="&#13;&#13;&#13;Windows" style="VisTerminalText" alignment="left" color_text="#000000FF"/>
 <StaticText x="-50" y="327" w="300" h="60" text="&#13;&#13;&#13;&#13;&#13;&#13;                                       Mac" style="VisTerminalText" alignment="left" color_text="#000000FF"/>
-<StaticImage x="193" y="325" image="texthider.svg" />
+<StaticImage x="193" y="333" image="texthider.svg" />
 
+<Label x="420" y="348" w="100" param="DID_NOTES" font="TERMINAL" color_text="#000000FF" style="SettingsLabel10" format="Note Ons: %3.0f"/>
+
+<TextEditor param="DID_CUSTOM_DATA" x="550" y="344" w="80" h="18"
+		text_x="0" text_y="0" text_h="25" text_w="233"
+		transparent="1"
+		alignment="left"
+		target="com.Plogue.Emulator.SFC|0|7E87|0"
+		tdefault="ohhi"
+		editable="0"
+		style="VisARAMText"
+		font="TERMINAL">
+</TextEditor>
 
 <StaticImage x="40" y="20" image="visualizer_screenglare.svg"/>
 
-
-
+<StaticImage x="680" y="0" image="visualizer_infoscreen.svg"/>
+<StaticText x="697" y="40" w="251" h="15" text="Version 1.023" style="VisTerminalText" alignment="left" color_text="#FFFFFFFF" font="SFC_9" />
+<StaticText x="15" y="410" w="990" h="15" text="Skin may run incorrectly if it doesn't match csSFC verison." style="VisTerminalText" alignment="right" color_text="#FFFFFFFF" font="SFC_9" />
 
 </GUI>

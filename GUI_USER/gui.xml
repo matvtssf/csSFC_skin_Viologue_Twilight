@@ -44,6 +44,7 @@
 
 <!-- Logo -->
 
+	<StaticImage image="PlogueVSTLogo.svg" x="20"  y="3"/>
  	<StaticImage image="logo.svg"        x="20"  y="16"/>
 	<StaticImage image="logo_flower.svg" x="312" y="3"/>
 	<StaticImage image="logo_SFC.svg"    x="294" y="13"/>
@@ -132,6 +133,7 @@
 			<OptionItem name="24"  value="2400"/>
 			<OptionItem name="36"  value="3600"/>
 			<OptionItem name="48"  value="4800"/>
+			<OptionItem name="96"  value="9600"/>
 		</OptionMenu>
 		
 	</VisibilityContainer>
@@ -151,7 +153,7 @@
 
 	<TabView id="patch" x="0" y="50" w="1024" h="474" image="btn_tab.svg" imageHL="btn_tab_hl.svg" position="bottom" alignment="center" font="SFCHEADING_16" style="TabViewColor"   >
 
-		<Pane name="" >
+		<Pane name="" imageb="btn_icon_info.svg" imagebHL="btn_icon_info_hl.svg">
 			<CS01ViewContainer x="0" y="0" w="1024" h="474" >
 				<GUIMacro path="gui_visualizer.xml" param_offset="0"/>
 			</CS01ViewContainer>

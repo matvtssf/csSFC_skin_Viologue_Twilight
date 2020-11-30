@@ -1682,7 +1682,7 @@
 		w="50"
 		h="36"
 		font="TERMINAL"
-		alignment="center"
+		alignment="right"
 		transparent="1"
 		color_text="#55FFFFFF"
 		color_back="#00000000"
@@ -1699,4 +1699,7 @@
 		h="25"
 		color_text="#FFFFFFFF"
 		font="TERMINAL" />
+
+		<Style name="VisARAMText"
+		color_text="#000000FF" />
 </Styles>

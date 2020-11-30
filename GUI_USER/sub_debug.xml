@@ -10,43 +10,43 @@
 </OptionMenu>
 
 <!--Attack-->
-<OptionMenu param="768" x="73" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
+<OptionMenu param="768" x="61" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
 		mod_y="$MOD_Y_POS">
 	<XMLMacroTextUse name="VisValues"/>
 </OptionMenu>
 <!--Decay-->
-<OptionMenu param="769" x="91" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
+<OptionMenu param="769" x="79" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
 		mod_y="$MOD_Y_POS">
 	<XMLMacroTextUse name="VisValues"/>
 </OptionMenu>
 <!--SusLevel-->
-<OptionMenu param="770" x="109" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
+<OptionMenu param="770" x="97" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
 		mod_y="$MOD_Y_POS">
 	<XMLMacroTextUse name="VisValues"/>
 </OptionMenu>
 <!--SusRelease-->
-<OptionMenu param="771" x="135" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
+<OptionMenu param="771" x="123" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
 		mod_y="$MOD_Y_POS">
 	<XMLMacroTextUse name="VisValues"/>
 </OptionMenu>
 <!--R-->
-<OptionMenu param="772" x="154" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
+<OptionMenu param="772" x="142" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
 		mod_y="$MOD_Y_POS">
 	<XMLMacroTextUse name="VisValues"/>
 </OptionMenu>
 
 <!--Noise Toggle-->
-<OptionMenu param="774" x="210" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
+<OptionMenu param="774" x="192" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
 		mod_y="$MOD_Y_POS">
 	<XMLMacroTextUse name="Binary"/>
 </OptionMenu>
 <!--FM Toggle-->
-<OptionMenu param="775" x="229" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
+<OptionMenu param="775" x="209" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
 		mod_y="$MOD_Y_POS">
 	<XMLMacroTextUse name="Binary"/>
 </OptionMenu>
 <!--Echo Toggle-->
-<OptionMenu param="777" x="247" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
+<OptionMenu param="777" x="229" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
 		mod_y="$MOD_Y_POS">
 	<XMLMacroTextUse name="Binary"/>
 </OptionMenu>
@@ -70,43 +70,43 @@
 	<XMLMacroTextUse name="Binary"/>
 </CS01Knob>
 <!--Coarse-->
-<OptionMenu param="517" x="410" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
+<OptionMenu param="517" x="398" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
 		mod_y="$MOD_Y_POS" supportsMod="0">
 	<XMLMacroTextUse name="VisValues" />
 </OptionMenu>
 	<!--Coarse Modulation because XMLMAcroTextUse doesn't work for OptionMenu modulation with negative values for some reason-->
-	<OptionMenu param="517" x="410" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
+	<OptionMenu param="517" x="398" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
 		mod_y="$MOD_Y_POS" color_text="#FFFFFF00"/>
 
 <!--Fine Tune-->
-<OptionMenu param="518" x="447" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
+<OptionMenu param="518" x="435" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
 		mod_y="$MOD_Y_POS" supportsMod="0">
 	<XMLMacroTextUse name="VisValues"/>
 </OptionMenu>
 
 	<!--Fine Tune Modulation because XMLMAcroTextUse doesn't work for OptionMenu modulation with negative values for some reason-->
 
-	<OptionMenu param="518" x="447" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
+	<OptionMenu param="518" x="435" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
 		mod_y="$MOD_Y_POS" color_text="#FFFFFF00" />
 
 <!--Amp-->
-<OptionMenu param="519" x="484" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
+<OptionMenu param="519" x="472" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
 		mod_y="$MOD_Y_POS">
 	<XMLMacroTextUse name="ValueVolume"/>
 </OptionMenu>
 <!--Pan-->
-<OptionMenu param="776" x="522" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
+<OptionMenu param="776" x="510" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
 		mod_y="$MOD_Y_POS" supportsMod="0">
 	<XMLMacroTextUse name="VisValues"/>
 </OptionMenu>
 
 	<!--Fine Tune Modulation because XMLMAcroTextUse doesn't work for OptionMenu modulation with negative values for some reason-->
 
-	<OptionMenu param="776" x="522" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
+	<OptionMenu param="776" x="510" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
 		mod_y="$MOD_Y_POS" color_text="#FFFFFF00" />
 
 <!--Glide-->
-<OptionMenu param="523" x="554" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
+<OptionMenu param="523" x="542" y="0" style="VisOptionWithMod" mod_x="$MOD_X_POS"
 		mod_y="$MOD_Y_POS">
 	<XMLMacroTextUse name="VisValues"/>
 </OptionMenu>
@@ -122,36 +122,36 @@
 </OptionMenu>
 
 <!--Attack-->
-<OptionMenu param="768" x="73" y="0" style="VisOptionWithMod" supportsMod="0">
+<OptionMenu param="768" x="61" y="0" style="VisOptionWithMod" supportsMod="0">
 	<XMLMacroTextUse name="VisValues"/>
 </OptionMenu>
 <!--Decay-->
-<OptionMenu param="769" x="91" y="0" style="VisOptionWithMod" supportsMod="0">
+<OptionMenu param="769" x="79" y="0" style="VisOptionWithMod" supportsMod="0">
 	<XMLMacroTextUse name="VisValues"/>
 </OptionMenu>
 <!--SusLevel-->
-<OptionMenu param="770" x="109" y="0" style="VisOptionWithMod" supportsMod="0">
+<OptionMenu param="770" x="97" y="0" style="VisOptionWithMod" supportsMod="0">
 	<XMLMacroTextUse name="VisValues"/>
 </OptionMenu>
 <!--SusRelease-->
-<OptionMenu param="771" x="135" y="0" style="VisOptionWithMod" supportsMod="0">
+<OptionMenu param="771" x="123" y="0" style="VisOptionWithMod" supportsMod="0">
 	<XMLMacroTextUse name="VisValues"/>
 </OptionMenu>
 <!--R-->
-<OptionMenu param="772" x="154" y="0" style="VisOptionWithMod" supportsMod="0">
+<OptionMenu param="772" x="142" y="0" style="VisOptionWithMod" supportsMod="0">
 	<XMLMacroTextUse name="VisValues"/>
 </OptionMenu>
 
 <!--Noise Toggle-->
-<OptionMenu param="774" x="210" y="0" style="VisOptionWithMod" supportsMod="0">
+<OptionMenu param="774" x="192" y="0" style="VisOptionWithMod" supportsMod="0">
 	<XMLMacroTextUse name="Binary"/>
 </OptionMenu>
 <!--FM Toggle-->
-<OptionMenu param="775" x="229" y="0" style="VisOptionWithMod" supportsMod="0">
+<OptionMenu param="775" x="209" y="0" style="VisOptionWithMod" supportsMod="0">
 	<XMLMacroTextUse name="Binary"/>
 </OptionMenu>
 <!--Echo Toggle-->
-<OptionMenu param="777" x="247" y="0" style="VisOptionWithMod" supportsMod="0">
+<OptionMenu param="777" x="229" y="0" style="VisOptionWithMod" supportsMod="0">
 	<XMLMacroTextUse name="Binary"/>
 </OptionMenu>
 <!--Inv L-->
@@ -174,23 +174,23 @@
 	<XMLMacroTextUse name="Binary"/>
 </CS01Knob>
 <!--Coarse-->
-<OptionMenu param="517" x="410" y="0" style="VisOptionWithMod" supportsMod="0">
-	<XMLMacroTextUse name="VisValues"/ >
+<OptionMenu param="517" x="398" y="0" style="VisOptionWithMod" supportsMod="0">
+	<XMLMacroTextUse name="VisValues"/>
 </OptionMenu>
 <!--Fine Tune-->
-<OptionMenu param="518" x="447" y="0" style="VisOptionWithMod" supportsMod="0">
+<OptionMenu param="518" x="435" y="0" style="VisOptionWithMod" supportsMod="0">
 	<XMLMacroTextUse name="VisValues" />
 </OptionMenu>
 <!--Amp-->
-<OptionMenu param="519" x="484" y="0" style="VisOptionWithMod" supportsMod="0">
+<OptionMenu param="519" x="472" y="0" style="VisOptionWithMod" supportsMod="0">
 	<XMLMacroTextUse name="ValueVolume"/>
 </OptionMenu>
 <!--Pan-->
-<OptionMenu param="776" x="522" y="0" style="VisOptionWithMod" supportsMod="0">
+<OptionMenu param="776" x="510" y="0" style="VisOptionWithMod" supportsMod="0">
 	<XMLMacroTextUse name="VisValues"/>
 </OptionMenu>
 <!--Glide-->
-<OptionMenu param="523" x="554" y="0" style="VisOptionWithMod" supportsMod="0">
+<OptionMenu param="523" x="542" y="0" style="VisOptionWithMod" supportsMod="0">
 	<XMLMacroTextUse name="VisValues"/>
 </OptionMenu>
 
