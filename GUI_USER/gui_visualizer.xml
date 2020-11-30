@@ -821,7 +821,7 @@
 
 <Label x="420" y="348" w="100" param="DID_NOTES" font="TERMINAL" color_text="#000000FF" style="SettingsLabel10" format="Note Ons: %3.0f"/>
 
-<TextEditor param="DID_CUSTOM_DATA" x="550" y="344" w="80" h="18"
+<TextEditor param="DID_CUSTOM_DATA" x="550" y="344" w="80" h="25"
 		text_x="0" text_y="0" text_h="25" text_w="233"
 		transparent="1"
 		alignment="left"
