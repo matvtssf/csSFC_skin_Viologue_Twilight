@@ -15,4 +15,25 @@ Extract <b>GUI_USER</b> folder and all its contents into the chipsynth SFC folde
 <b>Step 2</b> - Change the skin in csSFC<br><br>
 Go into the VST's settings, and select the USER skin. This should initialize the skin.<br>
 <br>
-That's it! Enjoy :)
+<b>Features</b><br>
+<br>
+![image](https://user-images.githubusercontent.com/40436054/100702891-58ce0480-3357-11eb-8a65-0e8ba718d5af.png)
+<b>Samples Tab</b> - Featuring the same layout as the original, but with a sleaker background, a more contemporary and sleak backgrounds
+<br><br>
+![image](https://user-images.githubusercontent.com/40436054/100702846-43f17100-3357-11eb-9451-851e97274bb9.png)
+<b>Channels Tab</b> - Completely redesigned analogue style channels tab view, inspired by the great SSL consoles of the past!
+<br><br>
+![image](https://user-images.githubusercontent.com/40436054/100702687-fffe6c00-3356-11eb-865b-566e56965865.png)
+<b>Mod Matrix</b> - The powerful modulation matrix from the original returns with a sleaker look and a tips section for information on how to use it!
+<br><br>
+![image](https://user-images.githubusercontent.com/40436054/100702767-26bca280-3357-11eb-8f97-06c9f713a542.png)
+<b>Steps Tab</b> - Completely redesigned to give you a more zoomed in representation of your envelope!
+<br><br>
+![image](https://user-images.githubusercontent.com/40436054/100702969-80bd6800-3357-11eb-85d9-52a9aad973a6.png)
+![image](https://user-images.githubusercontent.com/40436054/100703002-8ca92a00-3357-11eb-8f4b-46baf78a584d.png)
+<b>SPC Player tab</b> - Redesigned to retain that analogue console look with a new zoom feature! I also removed a few limitations off of a couple speed knobs there that really push and test Plogue's playback emulation/speed. ;) It was mostly for novelty.
+<br><br>
+![image](https://user-images.githubusercontent.com/40436054/100702928-6d120180-3357-11eb-92a6-334500ba317b.png)
+<b>New Info Screen!</b> - With an inspired old-style text based display that shows you all your channels' values. This screen is either nostalgic for you, or PTSD-inducing, depending on your level of experience with SNES music. :)
+<br><br>
+That's it! This skin took me 2.5 months to complete. I hope you enjoy :)
