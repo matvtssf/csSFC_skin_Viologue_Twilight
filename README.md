@@ -18,13 +18,13 @@ Go into the VST's settings, and select the USER skin. This should initialize the
 <b>Features</b><br>
 <br>
 ![image](https://user-images.githubusercontent.com/40436054/100702891-58ce0480-3357-11eb-8a65-0e8ba718d5af.png)
-<b>Samples Tab</b> - Featuring the same layout as the original, but with a sleaker background, a more contemporary and sleak backgrounds
+<b>Samples Tab</b> - Featuring the same layout as the original, but with a sleeker background, a more contemporary and sleek backgrounds
 <br><br>
 ![image](https://user-images.githubusercontent.com/40436054/100702846-43f17100-3357-11eb-9451-851e97274bb9.png)
 <b>Channels Tab</b> - Completely redesigned analogue style channels tab view, inspired by the great SSL consoles of the past!
 <br><br>
 ![image](https://user-images.githubusercontent.com/40436054/100702687-fffe6c00-3356-11eb-865b-566e56965865.png)
-<b>Mod Matrix</b> - The powerful modulation matrix from the original returns with a sleaker look and a tips section for information on how to use it!
+<b>Mod Matrix</b> - The powerful modulation matrix from the original returns with a sleeker look and a tips section for information on how to use it!
 <br><br>
 ![image](https://user-images.githubusercontent.com/40436054/100702767-26bca280-3357-11eb-8f97-06c9f713a542.png)
 <b>Steps Tab</b> - Completely redesigned to give you a more zoomed in representation of your envelope!
