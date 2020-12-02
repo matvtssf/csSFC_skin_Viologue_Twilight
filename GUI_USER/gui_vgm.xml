@@ -219,8 +219,8 @@
 	<RoundedRect x="930" y="270" w="30" h="20" style="VGMOnOffButtonBorder"/>
 	<CS01Button style="PatchGrab" x="930" y="270" param="920" fireValueChanged0="1" roundedRatio="0.1" />
 	
-	<CS03Knob style="SPCKnob3VGM" param="259" x="885" y="315" vdefault="0" vmin="-4800" vmax="4800" stepped="16" unipolar="0" labelText="Detune" />
-	<CS03Knob style="SPCKnob3VGM" param="389" x="940" y="315" vmin="0" vmax="100" vdefault="1" stepped="0" font="SFC_11" labelText="Speed"/>-->
+	<CS03Knob style="SPCKnob3VGM" param="259" x="885" y="315" vdefault="0" vmin="-1200" vmax="1200" stepped="16" unipolar="0" labelText="Detune" />
+	<CS03Knob style="SPCKnob3VGM" param="389" x="940" y="315" vmin="0" vmax="2" vdefault="1" stepped="0" font="SFC_11" labelText="Speed"/>
 	
 	
 </GUI>	
