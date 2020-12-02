@@ -31,7 +31,7 @@ Go into the VST's settings, and select the USER skin. This should initialize the
 <br><br>
 ![image](https://user-images.githubusercontent.com/40436054/100702969-80bd6800-3357-11eb-85d9-52a9aad973a6.png)
 ![image](https://user-images.githubusercontent.com/40436054/100703002-8ca92a00-3357-11eb-8f4b-46baf78a584d.png)
-<b>SPC Player tab</b> - Redesigned to retain that analogue console look with a new zoom feature! I also removed a few limitations off of a couple speed knobs there that really push and test Plogue's playback emulation/speed. ;) It was mostly for novelty.
+<b>SPC Player tab</b> - Redesigned to retain that analogue console look with a new zoom feature!
 <br><br>
 ![image](https://user-images.githubusercontent.com/40436054/100702928-6d120180-3357-11eb-92a6-334500ba317b.png)
 <b>New Info Screen!</b> - With an inspired old-style text based display that shows you all your channels' values. This screen is either nostalgic for you, or PTSD-inducing, depending on your level of experience with SNES music. :)
