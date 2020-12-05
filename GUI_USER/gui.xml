@@ -39,8 +39,32 @@
 
  <!-- Background SVG -->
  
- 	<Rect x="0" y="0" w="1024" h="630" style="MainColour"/>
-	<StaticImage image="tssf_background.svg" x="0"  y="0"/>
+ 	<ScrollView x="0" y="0" w="1024" h="630" scrollbarwidth="0" internalwidth="6144" internalheight="630" showScrollbars="0" name="BGColourTop">	
+
+ 		<!--Top Colour -->
+ 		<VisibilityContainer x="0" y="0" w="6144" h="630">
+ 			<Rect x="0" y="0" w="1024" h="630" style="MainColour"/>
+			<Rect x="1024" y="0" w="1024" h="630" style="MainColour2"/>
+			<Rect x="2048" y="0" w="1024" h="630" style="MainColour3"/>
+			<Rect x="3072" y="0" w="1024" h="630" style="MainColour4"/>
+			<Rect x="4096" y="0" w="1024" h="630" style="MainColour5"/>
+			<Rect x="5120" y="0" w="1024" h="630" style="MainColour6"/>
+		</VisibilityContainer>
+	</ScrollView>
+
+	<ScrollView x="0" y="0" w="1024" h="630" scrollbarwidth="0" internalwidth="6144" internalheight="630" showScrollbars="0" name="BGColourBottom">	
+
+ 		<!--Top Colour -->
+ 		<VisibilityContainer x="0" y="0" w="6144" h="630">
+ 			<StaticImage image="tssf_background.svg" x="0"  y="0"/>		
+ 			<StaticImage image="tssf_background1.svg" x="1024"  y="0"/>		
+ 			<StaticImage image="tssf_background2.svg" x="2048"  y="0"/>	
+ 			<StaticImage image="tssf_background3.svg" x="3072"  y="0"/>	
+ 			<StaticImage image="tssf_background4.svg" x="4096"  y="0"/>	
+		</VisibilityContainer>
+	</ScrollView>
+	
+
 
 <!-- Logo -->
 

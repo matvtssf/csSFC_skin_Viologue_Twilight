@@ -46,14 +46,15 @@
 			<OptionItem name="Americas"      value="1" />
 			<OptionItem name="Americas(OLD)" value="2" />
 			<OptionItem name="日本語"         value="3" /> 			
-			<OptionItem name="USER"          value="4" />         
+			<OptionItem name="Viologue Twilight"          value="4" />         
 		</OptionMenu>
 
-		<StaticText      x="90" y="190" w="80" style="SettingsStaticText" text="Show keyboard"/>
-		<CS01OnOffButton x="259" y="196" style="SettingsOnOffButton" w="20" h="8" roundedRatio="0.5" command="visibilityChangingView|KeyboardSection" vdefault="1.0" on_value="1.0" off_value="0.0" enable_mousewheel="0"/>
+		<RoundedRect x="240" y="155" w="120" h="50" drawMode="filled" fill_color="#383838FF" roundedRectRatio="0.1"/>
+		<RoundedRect x="85" y="185" w="275" h="24" drawMode="filled" fill_color="#383838FF" roundedRectRatio="0.2"/>
 
-
-
+		<StaticText w="60" h="14" x="90" y="190" text="Top Colour" style="SettingsStaticText"/>
+		<StaticText w="80" h="14" x="243" y="190" text="Bottom" style="SettingsStaticText"/>
+		
 		<StaticText text="Tuning" x="389" y="26" w="85" style="SettingsStaticTextHeaders"/>
 
 		<StaticText     x="408" y="60" w="150" text="Scala File" style="SettingsStaticText"/>
@@ -118,6 +119,9 @@
 		<StaticText      x="408" y="190" w="125" text="No Pitch Wraps" style="SettingsStaticText" />
 		<CS01OnOffButton x="505" y="195" w="20" h="8"  param="919"  style="SettingsOnOffButton" roundedRatio="0.5" vdefault="0.0" on_value="1.0" off_value="0.0" enable_mousewheel="0"/>
 
+		<StaticText      x="635" y="190" w="80" style="SettingsStaticText" text="Keyboard"/>
+		<CS01OnOffButton x="710" y="196" style="SettingsOnOffButton" w="20" h="8" roundedRatio="0.5" command="visibilityChangingView|KeyboardSection" vdefault="1.0" on_value="1.0" off_value="0.0" enable_mousewheel="0"/>
+
 
 
 		<!-- Bottom -->
@@ -153,6 +157,27 @@
 		<StaticText     x="408" y="355" w="400" text="(c) 2005-2020 Plogue Art et Technologie, Inc." style="SettingsLabel10"  />
 		<CS01TextButton x="635" y="355" w="100" command="license" style="SettingsViewButtons" text="ⓘ   Show License"/>
 
-
 	</CS01ViewContainer1>
+	
+		<CS01ScrollViewPageController x="255" y="286" w="82" h="16" type="0" style="BGScrollController" frameColor="#FFFFFF00" 
+			frameDraw="0" scrollViewName="BGColourTop" image_1="SVLeft.svg" image_2="SVRight.svg" image_1HL="SVLeftHL.svg" image_2HL="SVRightHL.svg" disabledLuminanceChange="0" name="BGColourTop" showPageName="1" showPageNameType="2" font="SFCHEADING_11" 
+			circleEdit="0" circleEditColor="#00000000" showPageNameCheckCurrentValue="1">
+		<PageName idx="0" name="Blue"/>
+		<PageName idx="1" name="Dark Blue"/>
+		<PageName idx="2" name="Purple"/>
+		<PageName idx="3" name="Pink"/>
+		<PageName idx="4" name="Red"/>
+		<PageName idx="5" name="Green"/>
+		</CS01ScrollViewPageController>
+
+		<CS01ScrollViewPageController x="394" y="286" w="60" h="16" type="0" style="BGScrollController" frameColor="#FFFFFF00" 
+			frameDraw="0" scrollViewName="BGColourBottom" image_1="SVLeft.svg" image_2="SVRight.svg" image_1HL="SVLeftHL.svg" image_2HL="SVRightHL.svg" disabledLuminanceChange="0" name="BGColourBottom" showPageName="1" showPageNameType="2" font="SFCHEADING_11" 
+			circleEdit="0" circleEditColor="#00000000" showPageNameCheckCurrentValue="1">
+		<PageName idx="0" name="Dark"/>
+		<PageName idx="1" name="Violet"/>
+		<PageName idx="2" name="Teal"/>
+		<PageName idx="3" name="Hot Pink"/>
+		<PageName idx="4" name="Peach"/>
+		<PageName idx="5" name="None"/>
+		</CS01ScrollViewPageController>
 </GUI>
