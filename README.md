@@ -1,4 +1,4 @@
-# csSFC "Viologue Twilight" User Skin v1.023<br>
+# csSFC "Viologue Twilight" User Skin v1.023 Rev2<br>
 An <i><u>unofficial</i></u> Violet/Twilight colourscheme for chipsynth SFC 1.023<br>
 <br>
 DO NOT CONTACT PLOGUE IF YOU HAVE PROBLEMS WITH THIS SKIN. They will not support it.<br>
