@@ -36,4 +36,7 @@ Go into the VST's settings, and select the USER skin. This should initialize the
 ![image](https://user-images.githubusercontent.com/40436054/100702928-6d120180-3357-11eb-92a6-334500ba317b.png)
 <b>New Info Screen!</b> - With an inspired old-style text based display that shows you all your channels' values. This screen is either nostalgic for you, or PTSD-inducing, depending on your level of experience with SNES music. :)
 <br><br>
+![image](https://user-images.githubusercontent.com/40436054/101266405-5c6cdd00-3703-11eb-9481-4acaddc1b627.png)
+<b>New Colour Schemes!</b> - Choose your top and bottom colours to customize your experience. :) Save by saving a default preset in the Preset menu. What will your favourite combonation be?
+<br><br>
 That's it! This skin took me 2.5 months to complete. I hope you enjoy :)
