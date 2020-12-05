@@ -1,0 +1,10 @@
+Rev2 - 12/05/2020
+-Added new bg colour changing options in the settings menu. You can now choose the top and bottom colours with a gradient fade.
+ Try your favourite combination! If you want to save your results, click "Save as default" under the Preset menu. Presets with this skin will not break the default
+ skins that come with chipsynth SFC.
+-Changed the gradient background fade to be a linear straight line fade instead of a radial one as Fermata renders it differently on Mac and Windows.
+-fixed a typo in the info screen visualizer SVG
+-removed Windows/Mac detector for now until I test another method. Old one relied on a function from the Fermata engine that could change and would break this.
+-removed the ability to push the SPC playback speed way past its original limits, as it can crash your DAW's audio pipeline. It works in standalone but who uses chipsynth SFC in standalone?
+
+Rev1 - Initial Release
