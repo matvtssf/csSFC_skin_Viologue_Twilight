@@ -3,7 +3,27 @@
 	
 	<Style name="MainColour"
 		drawMode="filled"
-		fill_color="#414A7DFF" />
+		fill_color="#575E83FF" />
+	
+	<Style name="MainColour2"
+		drawMode="filled"
+		fill_color="#242B8CFF" />
+	
+	<Style name="MainColour3"
+		drawMode="filled"
+		fill_color="#4B266CFF" />
+	
+	<Style name="MainColour4"
+		drawMode="filled"
+		fill_color="#D598C1FF" />
+	
+	<Style name="MainColour5"
+		drawMode="filled"
+		fill_color="#B71B2FFF" />
+
+		<Style name="MainColour6"
+		drawMode="filled"
+		fill_color="#8AC883FF" />
 
 	<Style name="StaticImage" useImageSize="1"/>
 	
@@ -1117,6 +1137,11 @@
 	<Style name="ScrollViewPageController"
 		backgroundColor="#00000000"
 		fontColor="#FFFFFFD0"
+		fontColorHL="#ffffffff"/>
+
+	<Style name="BGScrollController"
+		backgroundColor="#4d5055ff"
+		fontColor="#cbcbd8ff"
 		fontColorHL="#ffffffff"/>
 
 	<Style name="EchoViewPageController"
