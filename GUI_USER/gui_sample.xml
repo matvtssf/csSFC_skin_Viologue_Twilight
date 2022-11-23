@@ -112,6 +112,7 @@
 			dropTypes="browser-preset|assignmentmap-assign" drag_fontColor="#430000DE" drag_font="SFC_11" deleteIcon_font_size="large"/>
 
 			<StaticText x="0" y="0" w="85" h="20" text="Sample List" style="StaticTextColor" font="SFCHEADING_16" alignment="left"/>
+			<CS01TextButton param="DID_SLOTCOMMAND" x="88" y="3" w="50" h="16" text="⬇️   Export" command="save:genericfile|com.Plogue.Emulator.SFC|0" style="ExpandViewButtons"/>
 			<CS01TextButton x="4" y="395" role="clearAll" w="63" h="16" text="⚠   Clear" roundedRatio="0.2" style="ExpandViewButtons"/>
 	
 	</CS01AssignmentMapContainer>

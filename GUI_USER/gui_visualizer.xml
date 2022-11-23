@@ -665,7 +665,7 @@
 
 <!-- I'm getting pretty good at drawing monitors in XML -->
 
-<RoundedRect x="200" y="400" w="255" h="20" drawMode="strokedFilled" fill_color="#7E7D7AFF" roundedRectRatio="0.01" frameWidth="2" border_color="#00000010" />
+<RoundedRect x="200" y="400" w="255" h="20" drawMode="strokedFilled" fill_color="#7E7DAAFF" roundedRectRatio="0.01" frameWidth="2" border_color="#00000010" />
 
 <RoundedRect x="15" y="0" w="655" h="400" drawMode="strokedFilled" fill_color="#AEADAAFF" roundedRectRatio="0.01" frameWidth="2" border_color="#00000010" />
 
@@ -835,7 +835,7 @@
 <StaticImage x="40" y="20" image="visualizer_screenglare.svg"/>
 
 <StaticImage x="680" y="0" image="visualizer_infoscreen.svg"/>
-<StaticText x="697" y="40" w="251" h="15" text="Version 1.023 Rev2" style="VisTerminalText" alignment="left" color_text="#FFFFFFFF" font="SFC_9" />
+<StaticText x="697" y="40" w="251" h="15" text="Version 1.05" style="VisTerminalText" alignment="left" color_text="#FFFFFFFF" font="SFC_9" />
 <StaticText x="15" y="410" w="990" h="15" text="Skin may run incorrectly if it doesn't match csSFC verison." style="VisTerminalText" alignment="right" color_text="#FFFFFFFF" font="SFC_9" />
 
 </GUI>
