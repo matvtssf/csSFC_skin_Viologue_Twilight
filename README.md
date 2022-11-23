@@ -1,4 +1,7 @@
 # csSFC "Viologue Twilight" User Skin v1.05<br>
+
+<b>11/22/2022</b> - Updated version to match 1.05 release. Nothing new, changed a colour for the SNES line art in the Info screen SVG, and added the "Export All BRR" to the sample screen.<br>
+<br>
 An <i><u>unofficial</i></u> Violet/Twilight colourscheme for chipsynth SFC 1.05<br>
 <br>
 DO NOT CONTACT PLOGUE IF YOU HAVE PROBLEMS WITH THIS SKIN. They will not support it.<br>
